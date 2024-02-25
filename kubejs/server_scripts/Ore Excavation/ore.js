@@ -8,6 +8,7 @@ ServerEvents.recipes(event => {
         .fluid("minecraft:lava 1000")
         .stress(1024)
 })
+
 // biometags添加
 ServerEvents.tags("minecraft:worldgen/biome", e => {
     e.add("kjs:has_oil", ["deeperdarker:overcast_columns", "deeperdarker:deeplands", "deeperdarker:echoing_forest"])
