@@ -20,23 +20,23 @@ ItemEvents.armorTierRegistry(e => {
 
 // 太空合金套装及工具等级
 ItemEvents.toolTierRegistry(e => {
-    e.add("createdelight:space_alloy", tier => {
+    e.add("space_alloy", tier => {
         tier.uses = 6000
         tier.attackDamageBonus = 16
         tier.level = 4
         tier.enchantmentValue = 0
-        tier.repairIngredient = "#createdelight:bleak_space_alloy_ingot"
+        tier.repairIngredient = "#forge:ingots/bleak_space_alloy"
         tier.speed = 25
     })
 })
 ItemEvents.armorTierRegistry(e => {
-    e.add("createdelight:space_alloy", tier => {
+    e.add("space_alloy", tier => {
         tier.durabilityMultiplier = 300
         tier.slotProtections = [10, 15, 13, 10]
         tier.toughness = 10
         tier.knockbackResistance = 0.22
         tier.enchantmentValue = 0
-        tier.repairIngredient = "#kjs:bleak_space_alloy_ingot"
+        tier.repairIngredient = "#forge:ingots/bleak_space_alloy"
         tier.equipSound = "minecraft:item.armor.equip_diamond"
     })
 })
@@ -72,7 +72,7 @@ StartupEvents.registry("item", e => {
 
 // 奇迹物品工具等级
 ItemEvents.toolTierRegistry(e => {
-    e.add("createdelight:miracle_ingot", tier => {
+    e.add("miracle", tier => {
         tier.uses = 1561;
         tier.repairIngredient = "#createdelight:miracle_item";
         tier.level = 3
@@ -86,7 +86,7 @@ StartupEvents.registry("item", e => {
     e.create("createdelight:miracle_pickaxe", "pickaxe")
         .translationKey("item.createdelight.miracle_pickaxe")
         .rarity("epic")
-        .tier("miracle_ingot")
+        .tier("miracle")
     e.create("createdelight:miracle_shear", "shears")
         .translationKey("item.createdelight.miracle_shear")
         .maxDamage(520)
