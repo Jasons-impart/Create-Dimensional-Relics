@@ -1,15 +1,19 @@
 ServerEvents.recipes(e => {
     // 原本配方移除
-    e.remove({ output: "alloyedguns:musket" })
-    e.remove({ output: "alloyedguns:flintlock" })
-    e.remove({ input: "alloyedguns:small_iron_pipe" })
-    e.remove({ output: "alloyedguns:small_iron_pipe" })
-    e.remove({ output: "cgm:workbench" })
-    e.remove({ input: "cgm:workbench" })
-    e.remove({ id: "cgm:crude_shot" })
-    e.remove({ type: "cgm:workbench" })
-    e.remove({ output: "alloyedguns:complex_bullet_casing" })
-    e.remove({ input: "alloyedguns:complex_bullet_casing" })
+    remove_recipes_output(e, [
+        "alloyedguns:musket",
+        "alloyedguns:flintlock",
+        "alloyedguns:small_iron_pipe",
+        "cgm:workbench",
+        "alloyedguns:complex_bullet_casing",
+    ])
+    remove_recipes_id(e, [
+        "cgm:crude_shot",
+    ])
+    remove_recipes_type(e, [
+        "cgm:workbench",
+    ])
+
     // 短距瞄准镜
     e.recipes.create.sequenced_assembly([
         Item.of("cgm:short_scope").withChance(80.0),

@@ -1,117 +1,48 @@
 ServerEvents.recipes(e => {
-    //移除配方：锤子
-    e.remove({
-        output: Item.of("ad_astra:hammer")
-    })
-    e.remove({
-        input: Item.of("ad_astra:hammer")
-    })
-    //移除配方：ad_astra重叠物品
-    e.remove({
-        output: "ad_astra:compressor"
-    })
-    e.remove({
-        input: "ad_astra:compressor"
-    })
-    e.remove({
-        output: "ad_astra:coal_generator"
-    })
-    e.remove({
-        input: "ad_astra:coal_generator"
-    })
-    e.remove({
-        output: "ad_astra:cable_duct"
-    })
-    e.remove({
-        input: "ad_astra:cable_duct"
-    })
-    e.remove({
-        output: "ad_astra:ostrum_fluid_pipe"
-    })
-    e.remove({
-        input: "ad_astra:ostrum_fluid_pipe"
-    })
-    e.remove({
-        output: "ad_astra:desh_cable"
-    })
-    e.remove({
-        input: "ad_astra:desh_cable"
-    })
-    e.remove({
-        output: "ad_astra:steel_cable"
-    })
-    e.remove({
-        input: "ad_astra:steel_cable"
-    })
-    e.remove({
-        output: "ad_astra:desh_fluid_pipe"
-    })
-    e.remove({
-        input: "ad_astra:desh_fluid_pipe"
-    })
-    e.remove({
-        output: "ad_astra:fluid_pipe_duct"
-    })
-    e.remove({
-        input: "ad_astra:fluid_pipe_duct"
-    })
-    e.remove({
-        output: "ad_astra:water_pump"
-    })
-    e.remove({
-        input: "ad_astra:water_pump"
-    })
-    e.remove({
-        output: "ad_astra:nasa_workbench"
-    })
-    e.remove({
-        id: "ad_astra:nasa_workbench/tier_1_rocket"
-    })
-    e.remove({
-        id: "ad_astra:nasa_workbench/tier_2_rocket"
-    })
-    e.remove({
-        id: "ad_astra:nasa_workbench/tier_3_rocket"
-    })
-    e.remove({
-        id: "ad_astra:nasa_workbench/tier_4_rocket"
-    })
-    e.remove({
-        output: "ad_astra:wrench"
-    })
-    //移除配方：钢锭
-    e.remove({
-        id: "alloyed:mixing/steel_ingot"
-    })
-    e.remove({
-        id: "ad_astra:recipes/steel_ingot_from_blasting_iron_ingot"
-    })
-    e.remove({
-        id: "ad_astra:recipes/steel_ingot_from_nuggets"
-    })
-    e.remove({
-        id: "ad_astra:recipes/steel_block"
-    })
-    e.remove({
-        id: "ad_astra:recipes/steel_ingot"
-    })
-    //新增配方：银河系漫游指南
+    // 移除配方：ad_astra
+    remove_recipes_output(e, [
+        "ad_astra:hammer",
+        "ad_astra:compressor",
+        "ad_astra:coal_generator",
+        "ad_astra:cable_duct",
+        "ad_astra:ostrum_fluid_pipe",
+        "ad_astra:desh_cable",
+        "ad_astra:steel_cable",
+        "ad_astra:desh_fluid_pipe",
+        "ad_astra:fluid_pipe_duct",
+        "ad_astra:water_pump",
+        "ad_astra:nasa_workbench",
+        "ad_astra:wrench",
+    ])
+    remove_recipes_id(e, [
+        "ad_astra:nasa_workbench/tier_1_rocket",
+        "ad_astra:nasa_workbench/tier_2_rocket",
+        "ad_astra:nasa_workbench/tier_3_rocket",
+        "ad_astra:nasa_workbench/tier_4_rocket",
+        "alloyed:mixing/steel_ingot",
+        "ad_astra:recipes/steel_ingot_from_blasting_iron_ingot",
+        "ad_astra:recipes/steel_ingot_from_nuggets",
+        "ad_astra:recipes/steel_block",
+        "ad_astra:recipes/steel_ingot",
+    ])
+
+    // 新增配方：银河系漫游指南
     e.shapeless("ad_astra:astrodux", [
         "alloyed:steel_ingot",
         "minecraft:book"
     ])
         .id("ad_astra:recipes/astrodux")
-    //新增配方：霜原木
+    // 新增配方：霜原木
     e.shapeless("ad_astra:glacian_log", [
         "#minecraft:logs",
         "ad_astra:ice_shard"
     ])
-    //新增配方：霜原树叶
+    // 新增配方：霜原树叶
     e.shapeless("ad_astra:glacian_leaves", [
         "#minecraft:leaves",
         "ad_astra:ice_shard"
     ])
-    //替换配方：氧气罐
+    // 替换配方：氧气罐
     e.shaped("ad_astra:oxygen_tank", [
         "ABA",
         "ACA",
@@ -122,7 +53,7 @@ ServerEvents.recipes(e => {
         C: "create:fluid_tank"
     })
         .id("ad_astra:recipes/oxygen_tank")
-    //替换配方：引擎框架
+    // 替换配方：引擎框架
     e.shaped("ad_astra:engine_frame", [
         "AAA",
         "ABA",
@@ -132,7 +63,7 @@ ServerEvents.recipes(e => {
         B: "create:precision_mechanism"
     })
         .id("ad_astra:recipes/engine_frame")
-    //替换配方：引擎风扇
+    // 替换配方：引擎风扇
     e.shaped("ad_astra:engine_fan", [
         " A ",
         "ABA",
@@ -142,7 +73,7 @@ ServerEvents.recipes(e => {
         B: "create:propeller"
     })
         .id("ad_astra:recipes/engine_fan")
-    //替换配方：钢燃料储罐
+    // 替换配方：钢燃料储罐
     e.shaped("ad_astra:steel_tank", [
         "AA ",
         "ABC",
@@ -153,7 +84,7 @@ ServerEvents.recipes(e => {
         C: "#forge:rods/iron"
     })
         .id("ad_astra:recipes/steel_tank")
-    //替换配方：戴斯燃料储罐
+    // 替换配方：戴斯燃料储罐
     e.shaped("ad_astra:desh_tank", [
         "AA ",
         "ABC",
@@ -164,7 +95,7 @@ ServerEvents.recipes(e => {
         C: "#forge:rods/iron"
     })
         .id("ad_astra:recipes/desh_tank")
-    //替换配方：紫金燃料储罐
+    // 替换配方：紫金燃料储罐
     e.shaped("ad_astra:ostrum_tank", [
         "AA ",
         "ABC",
@@ -175,7 +106,7 @@ ServerEvents.recipes(e => {
         C: "#forge:rods/iron"
     })
         .id("ad_astra:recipes/ostrum_tank")
-    //替换配方：耐热燃料储罐
+    // 替换配方：耐热燃料储罐
     e.shaped("ad_astra:calorite_tank", [
         "AA ",
         "ABC",
@@ -186,7 +117,7 @@ ServerEvents.recipes(e => {
         C: "#forge:rods/iron"
     })
         .id("ad_astra:recipes/calorite_tank")
-    //替换配方：喷气式航天服
+    // 替换配方：喷气式航天服
     e.shaped("ad_astra:jet_suit", [
         "ABA",
         "CDC",
@@ -212,7 +143,7 @@ ServerEvents.recipes(e => {
         D: "createaddition:modular_accumulator"
     })
         .id("ad_astra:recipes/energizer")
-    //替换配方：凛冰冻结装置
+    // 替换配方：凛冰冻结装置
     e.shaped("ad_astra:cryo_freezer", [
         "ABA",
         "BCB",
@@ -224,7 +155,7 @@ ServerEvents.recipes(e => {
         D: "createaddition:modular_accumulator"
     })
         .id("ad_astra:recipes/cryo_freezer")
-    //替换配方：氧气装载机
+    // 替换配方：氧气装载机
     e.shaped("ad_astra:oxygen_loader", [
         "ABA",
         "CDC",
@@ -237,7 +168,7 @@ ServerEvents.recipes(e => {
         E: "createaddition:modular_accumulator"
     })
         .id("ad_astra:recipes/oxygen_loader")
-    //替换配方：燃油精炼机
+    // 替换配方：燃油精炼机
     e.shaped("ad_astra:fuel_refinery", [
         "AAA",
         "BCB",
@@ -248,7 +179,7 @@ ServerEvents.recipes(e => {
         C: "minecraft:furnace"
     })
         .id("ad_astra:recipes/fuel_refinery")
-    //替换配方：太阳能板
+    // 替换配方：太阳能板
     e.shaped("ad_astra:solar_panel", [
         "AAA",
         "BCB",
@@ -260,7 +191,7 @@ ServerEvents.recipes(e => {
         D: "createaddition:modular_accumulator"
     })
         .id("ad_astra:recipes/solar_panel")
-    //替换配方：紫金引擎
+    // 替换配方：紫金引擎
     e.shaped("ad_astra:ostrum_engine", [
         "ABA",
         " C ",
@@ -272,7 +203,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:engine_fan"
     })
         .id("ad_astra:recipes/ostrum_engine")
-    //替换配方：耐热金属引擎
+    // 替换配方：耐热金属引擎
     e.shaped("ad_astra:calorite_engine", [
         "ABA",
         " C ",
@@ -284,7 +215,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:engine_fan"
     })
         .id("ad_astra:recipes/calorite_engine")
-    //动力合成器添加：一级火箭
+    // 动力合成器添加：一级火箭
     e.recipes.create.mechanical_crafting("ad_astra:tier_1_rocket", [
         "  A  ",
         " BBB ",
@@ -300,7 +231,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:steel_tank",
         E: "ad_astra:steel_engine"
     })
-    //动力合成器添加：二级火箭
+    // 动力合成器添加：二级火箭
     e.recipes.create.mechanical_crafting("ad_astra:tier_2_rocket", [
         "  A  ",
         " BBB ",
@@ -316,7 +247,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:desh_tank",
         E: "ad_astra:desh_engine"
     })
-    //动力合成器添加：三级火箭
+    // 动力合成器添加：三级火箭
     e.recipes.create.mechanical_crafting("ad_astra:tier_3_rocket", [
         "  A  ",
         " BBB ",
@@ -332,7 +263,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:ostrum_tank",
         E: "ad_astra:ostrum_engine"
     })
-    //动力合成器添加：四级火箭
+    // 动力合成器添加：四级火箭
     e.recipes.create.mechanical_crafting("ad_astra:tier_4_rocket", [
         "  A  ",
         " BBB ",
@@ -348,7 +279,7 @@ ServerEvents.recipes(e => {
         D: "ad_astra:calorite_tank",
         E: "ad_astra:calorite_engine"
     })
-    //动力合成器添加：喷气式宇航服一套
+    // 动力合成器添加：喷气式宇航服一套
     e.recipes.create.mechanical_crafting("ad_astra:jet_suit_helmet", [
         "AAA",
         "ABA"

@@ -1,35 +1,18 @@
 ServerEvents.recipes(e => {
     // 移除配方：沉浸式飞机原本配方
-    e.remove({
-        id: "immersive_aircraft:airship"
-    })
-    e.remove({
-        id: "immersive_aircraft:quadrocopter"
-    })
-    e.remove({
-        id: "immersive_aircraft:gyrodyne"
-    })
-    e.remove({
-        id: "immersive_aircraft:biplane"
-    })
-    e.remove({
-        id: "immersive_aircraft:boiler"
-    })
-    e.remove({
-        id: "immersive_aircraft:steel_boiler"
-    })
-    e.remove({
-        id: "immersive_aircraft:engine"
-    })
-    e.remove({
-        id: "immersive_aircraft:propeller"
-    })
-    e.remove({
-        id: "immersive_aircraft:industrial_gears"
-    })
-    e.remove({
-        id: "immersive_aircraft:improved_landing_gear"
-    })
+    remove_recipes_id(e, [
+        "immersive_aircraft:airship",
+        "immersive_aircraft:quadrocopter",
+        "immersive_aircraft:gyrodyne",
+        "immersive_aircraft:biplane",
+        "immersive_aircraft:boiler",
+        "immersive_aircraft:steel_boiler",
+        "immersive_aircraft:engine",
+        "immersive_aircraft:propeller",
+        "immersive_aircraft:industrial_gears",
+        "immersive_aircraft:improved_landing_gear",
+    ])
+    
     // 动力合成器添加：四轴飞行器
     e.recipes.create.mechanical_crafting("immersive_aircraft:quadrocopter", [
         "ABA",

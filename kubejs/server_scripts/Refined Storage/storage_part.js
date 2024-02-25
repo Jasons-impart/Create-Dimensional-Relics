@@ -1,30 +1,17 @@
 ServerEvents.recipes(e => {
-    //存储磁盘合成配方删除
-    e.remove({
-        id: "refinedstorage:1k_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:4k_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:16k_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:64k_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:64k_fluid_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:256k_fluid_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:1024k_fluid_storage_disk"
-    })
-    e.remove({
-        id: "refinedstorage:4096k_fluid_storage_disk"
-    })
-    //存储外壳合成
+    // 存储磁盘合成配方删除
+    remove_recipes_id(e, [
+        "refinedstorage:1k_storage_disk",
+        "refinedstorage:4k_storage_disk",
+        "refinedstorage:16k_storage_disk",
+        "refinedstorage:64k_storage_disk",
+        "refinedstorage:64k_fluid_storage_disk",
+        "refinedstorage:256k_fluid_storage_disk",
+        "refinedstorage:1024k_fluid_storage_disk",
+        "refinedstorage:4096k_fluid_storage_disk",
+    ])
+
+    // 存储外壳合成
     e.recipes.create.sequenced_assembly("refinedstorage:storage_housing", "#forge:glass", [
         e.recipes.create.deploying("refinedstorage:storage_housing", ["refinedstorage:storage_housing", "#forge:dusts/redstone"]),
         e.recipes.create.deploying("refinedstorage:storage_housing", ["refinedstorage:storage_housing", "refinedstorage:quartz_enriched_iron"]),
@@ -33,7 +20,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("refinedstorage:storage_housing")
         .loops(3)
         .id("refinedstorage:storage_housing")
-    //序列合成：1K存储元件
+    // 序列合成：1K存储元件
     e.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
@@ -107,7 +94,7 @@ ServerEvents.recipes(e => {
         }
     })
         .id("refinedstorage:1k_storage_part")
-    //4K存储元件合成
+    // 4K存储元件合成
     e.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
@@ -181,7 +168,7 @@ ServerEvents.recipes(e => {
         }
     })
         .id("refinedstorage:4k_storage_part")
-    //16K存储元件合成
+    // 16K存储元件合成
     e.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
@@ -255,7 +242,7 @@ ServerEvents.recipes(e => {
         }
     })
         .id("refinedstorage:16k_storage_part")
-    //64K存储元件合成
+    // 64K存储元件合成
     e.custom({
         "type": "create:sequenced_assembly",
         "ingredient": {
@@ -329,7 +316,7 @@ ServerEvents.recipes(e => {
         }
     })
         .id("refinedstorage:64k_storage_part")
-    //64K流体存储元件合成
+    // 64K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:64k_fluid_storage_part", "create_new_age:overcharged_iron", [
         e.recipes.create.deploying("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", "refinedstorage:silicon"]),
         e.recipes.create.deploying("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", "create:fluid_tank"]),
@@ -340,7 +327,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("createdelight:incompleted_64k_fluid_storage_part")
         .id("refinedstorage:64k_fluid_storage_part")
         .loops(3)
-    //256K流体存储元件合成
+    // 256K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:256k_fluid_storage_part", "create_new_age:overcharged_iron", [
         e.recipes.create.deploying("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", "refinedstorage:basic_processor"]),
         e.recipes.create.deploying("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", "create:fluid_tank"]),
@@ -351,7 +338,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("createdelight:incompleted_256k_fluid_storage_part")
         .id("refinedstorage:256k_fluid_storage_part")
         .loops(3)
-    //1024K流体存储元件合成
+    // 1024K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:1024k_fluid_storage_part", "create_new_age:overcharged_iron", [
         e.recipes.create.deploying("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", "refinedstorage:improved_processor"]),
         e.recipes.create.deploying("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", "create:fluid_tank"]),
@@ -362,7 +349,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("createdelight:incompleted_1024k_fluid_storage_part")
         .id("refinedstorage:1024k_fluid_storage_part")
         .loops(3)
-    //4096K流体存储元件合成
+    // 4096K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:4096k_fluid_storage_part", "create_new_age:overcharged_iron", [
         e.recipes.create.deploying("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", "refinedstorage:advanced_processor"]),
         e.recipes.create.deploying("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", "create:fluid_tank"]),
