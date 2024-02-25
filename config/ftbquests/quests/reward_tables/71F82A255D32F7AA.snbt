@@ -1,0 +1,11 @@
+{
+	id: "71F82A255D32F7AA"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "respiteful:green_tea_ice_cream" }
+		{ item: "respiteful:yellow_tea_ice_cream" }
+		{ item: "respiteful:black_tea_ice_cream" }
+	]
+	title: "冰淇淋"
+}

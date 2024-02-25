@@ -1,0 +1,26 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "771AF9716A950812"
+	group: ""
+	icon: "minecraft:oak_log"
+	id: "771AF9716A950812"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		id: "55C42BCE0E399B3D"
+		subtitle: "原来你也玩机械动力悠然乐事！"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			disable_toast: true
+			icon: "minecraft:grass_block"
+			id: "2664A2E2CC659A77"
+			title: "原来你也玩机械动力悠然乐事！"
+			type: "dimension"
+		}]
+		title: "异世相遇，尽享乐事~"
+		x: 9.5d
+		y: -2.5d
+	}]
+	title: "介绍"
+}

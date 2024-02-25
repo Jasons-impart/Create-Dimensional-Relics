@@ -1,0 +1,480 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2A806E6249A1DCA7"
+	group: "7D0A1432AAAD0EBA"
+	icon: "fruitsdelight:pineapple"
+	id: "2A806E6249A1DCA7"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["34D9D292CE6F683E"]
+			id: "08FD4AD67AD3D19E"
+			tasks: [{
+				id: "024FD0EC5D519DB8"
+				title: "果栈丰盈"
+				type: "checkmark"
+			}]
+			title: "超多水果）"
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏苹果树叶有几率获得。苹果树自然生成于森林与繁花森林群系。"
+				""
+				"装有静谧四季/季节Mod时，固定在秋季收获。"
+			]
+			id: "43D20AFE4D13389F"
+			tasks: [{
+				id: "7F92331C061AFCFC"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"食用后恢复饥饿值3点（）和饱和度1点（）。"
+				""
+				"是烹饪冰糖雪梨、梨汁、梨子果酱和烤梨的原料之一。"
+			]
+			id: "60A76054159A37F7"
+			tasks: [{
+				id: "53A69FA2DB5CF273"
+				item: "fruitsdelight:pear"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏山楂树叶有几率获得。山楂树自然生成于针叶林、原始云杉针叶林和原始松木针叶林群系。"
+				"装有静谧四季/季节Mod时，固定在冬季收获。"
+			]
+			id: "0063494FD35EF1DE"
+			tasks: [{
+				id: "6768F71743BA80F1"
+				item: "fruitsdelight:hawberry"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏芒果树叶有几率获得。芒果树自然生成于丛林和竹林群系。"
+				"装有静谧四季/季节Mod时，固定在夏季收获。"
+			]
+			id: "1F65F7E3A19CA174"
+			tasks: [{
+				id: "753AA597E2E60D62"
+				item: "fruitsdelight:mango"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏柿子树叶有几率获得。柿子树自然生成于积雪的针叶林和雪林群系。"
+				"装有静谧四季/季节Mod时，固定在冬季收获。"
+			]
+			id: "3848C15C02538184"
+			tasks: [{
+				id: "3C4D413AFF543E18"
+				item: "fruitsdelight:persimmon"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏水蜜桃树叶有几率获得。水蜜桃树自然生成于稀疏的丛林群系。"
+				""
+				"装有静谧四季/季节Mod时，固定在春季收获。"
+			]
+			id: "07886F18ABB7C8D1"
+			tasks: [{
+				id: "72564063541AAF49"
+				item: "fruitsdelight:peach"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏橘子树叶有几率获得。橘子树自然生成于森林和繁花森林群系。"
+				"装有静谧四季/季节Mod时，固定在秋季收获。"
+			]
+			id: "7EE6074FA3805A00"
+			tasks: [{
+				id: "358377D636EA4E59"
+				item: "fruitsdelight:orange"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏山竹树叶有几率获得。山竹树自然生成于丛林、沼泽和红树林沼泽群系。"
+				"装有静谧四季/季节Mod时，固定在夏季收获。"
+			]
+			id: "1CD404F45F375D7E"
+			tasks: [{
+				id: "0C0BF2464140BE06"
+				item: "fruitsdelight:mangosteen"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			id: "25C77A4F65494D2A"
+			tasks: [{
+				id: "43FDEB3499F228C4"
+				item: "fruitsdelight:cranberry"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"自然生成于针叶林、原始云杉针叶林、原始松木针叶林、积雪的针叶林、雪林、沼泽、红树林沼泽、风袭丘陵、风袭森林群系。"
+				""
+				"可用骨粉催熟结果。结果后右击获得若干蓝莓。"
+				""
+				"附有精准采集的工具可采集本体。"
+				""
+				"也可用蓝莓直接在地面或耕地种植，有三个生长阶段。"
+				""
+				"装有静谧四季/季节Mod时，固定在春季收获。"
+			]
+			id: "0127B9E281D268BF"
+			tasks: [{
+				id: "28DFB858D2E0617D"
+				item: "fruitsdelight:blueberry"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: ["自然生成于沙漠群系，破坏后获得若干哈密瓜片。"]
+			id: "2532FCB37BA9E159"
+			tasks: [{
+				id: "59F56E1A2A4A486F"
+				item: "fruitsdelight:hamimelon_slice"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			id: "326F31C128FA35F7"
+			tasks: [{
+				id: "491F6CC83D8A0BA8"
+				item: "minecraft:melon_slice"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"自然生成于沙滩群系，破坏后获得一个菠萝。"
+				""
+				"不可直接食用。别想了，不能喂狼"
+				""
+				"是烹饪菠萝饭的原料之一。"
+			]
+			id: "59A6B34D8607FD6A"
+			tasks: [{
+				id: "6136E372191F2637"
+				item: "fruitsdelight:pineapple"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"自然生成于平原群系，可用骨粉对其催熟结果。结果后右击获得若干黄柠檬。"
+				""
+				"破坏后无掉落物。附有精准采集的工具可采集本体。"
+				""
+				"装有静谧四季/季节Mod时，固定在夏季收获。"
+			]
+			id: "0D00E629D80816CF"
+			tasks: [{
+				id: "6C28EBAFF66B91FC"
+				item: "fruitsdelight:lemon"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"破坏荔枝树叶有几率获得。荔枝树自然生成于丛林和竹林群系。"
+				"装有静谧四季/季节Mod时，固定在夏季收获。"
+			]
+			id: "6CB6E1848E1C721A"
+			tasks: [{
+				id: "5A0D0FCBD4D6CF9B"
+				item: "fruitsdelight:lychee"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["43D20AFE4D13389F"]
+			id: "049762F3767F3305"
+			tasks: [{
+				id: "1B046C0FF6CA11C7"
+				item: "fruitsdelight:apple_jello"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["60A76054159A37F7"]
+			id: "67F2F14850D0B51D"
+			tasks: [{
+				id: "2DF97E9044DF16EE"
+				item: "fruitsdelight:pear_jelly"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1F65F7E3A19CA174"]
+			id: "3AE9EB2616F48118"
+			tasks: [{
+				id: "2997B223A1428F9E"
+				item: "fruitsdelight:mango_jelly"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["59A6B34D8607FD6A"]
+			id: "1C23A5069740836D"
+			tasks: [{
+				id: "0FD8B12536823228"
+				item: "fruitsdelight:pineapple_jelly"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6CB6E1848E1C721A"]
+			id: "656B69890D6BDDAB"
+			tasks: [{
+				id: "6BE6A916BC199E98"
+				item: "fruitsdelight:lychee_jelly"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2532FCB37BA9E159"]
+			id: "05614418D57FC736"
+			tasks: [{
+				id: "3C60F1A76E8BF9D0"
+				item: "fruitsdelight:hamimelon_jelly"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["07886F18ABB7C8D1"]
+			id: "56E38252E1F8C9E2"
+			tasks: [{
+				id: "52ED0B97F63C77C1"
+				item: "fruitsdelight:peach_jelly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3848C15C02538184"]
+			id: "2D51B6B9CAE75392"
+			tasks: [{
+				id: "39E344BBA00362BC"
+				item: "fruitsdelight:persimmon_jelly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["326F31C128FA35F7"]
+			id: "2E4EBBC408E20A5B"
+			tasks: [{
+				id: "66352598E02A8FEB"
+				item: "fruitsdelight:melon_jelly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7EE6074FA3805A00"]
+			id: "505BF1F07EF58FE8"
+			tasks: [{
+				id: "11AE857E6E8BDAE2"
+				item: "fruitsdelight:orange_jelly"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1CD404F45F375D7E"]
+			id: "3DCC42A273951C3C"
+			tasks: [{
+				id: "4E054420A6356839"
+				item: "fruitsdelight:mangosteen"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0063494FD35EF1DE"]
+			id: "29BC35ACBB4A6C5B"
+			tasks: [{
+				id: "6782F98B8DA052AB"
+				item: "fruitsdelight:hawberry_jelly"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D00E629D80816CF"]
+			id: "584164104B3BDE20"
+			tasks: [{
+				id: "45883394B9525AB0"
+				item: "fruitsdelight:lemon_jelly"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["25C77A4F65494D2A"]
+			id: "156CAAF02D06DC97"
+			tasks: [{
+				id: "03060B25B2FB6939"
+				item: "fruitsdelight:cranberry_jelly"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["550FA243BA7B736F"]
+			id: "1EF1799AF5745142"
+			tasks: [{
+				id: "33ADF77541F73119"
+				item: "fruitsdelight:sweetberry_jelly"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			id: "550FA243BA7B736F"
+			tasks: [{
+				id: "4AD04521009A25BE"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0127B9E281D268BF"]
+			id: "6BCD0E14D1B71AEE"
+			tasks: [{
+				id: "60745B2618B24D08"
+				item: "fruitsdelight:blueberry_jelly"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08FD4AD67AD3D19E"]
+			description: [
+				"利用糖、黄柠檬片和若干对应水果，在厨锅中进行烹煮获得。"
+				""
+				"食用后恢复饥饿值6点和饱和度3点，并获得对应Buff效果。"
+				""
+				"任何果酱均可与面包、果丹皮、芒果合成果酱面包、果丹卷和生拌芒果，同时保留原材料果酱的Buff效果。"
+			]
+			id: "58B030E19968924C"
+			tasks: [{
+				id: "331CBBF109AB2D20"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "fruitsdelight:jelly"
+					}
+				}
+				title: "Any #fruitsdelight:jelly"
+				type: "item"
+			}]
+			title: "果酱"
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["58B030E19968924C"]
+			description: ["将果酱放在加热的炼药锅（下面放热源方块）内，用粘液球点击将其转化为对应的果冻"]
+			id: "077CC191544E19C9"
+			tasks: [{
+				id: "6C5A37E28D472BBD"
+				title: "果冻"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+	]
+	title: "&e水果大亨"
+}

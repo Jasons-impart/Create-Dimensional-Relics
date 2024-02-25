@@ -1,0 +1,6 @@
+
+#Recipe book
+[recipe_book]
+	#(Broken!) Should the Oven have a Recipe Book available on its interface?
+	enableRecipeBookOven = false
+

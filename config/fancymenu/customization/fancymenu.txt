@@ -1,0 +1,125 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.PauseScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_feedback_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=374306%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_advancements_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_disconnect_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 34
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_lan_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_return_to_game_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -62
+}
+
+customization {
+  identifier = %id=398354%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = 10
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_report_bugs_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_options_button%
+  orientation = mid-centered
+  x = -102
+  action = movebutton
+  y = -14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_pausescreen_stats_button%
+  orientation = mid-centered
+  x = 4
+  action = movebutton
+  y = -38
+}
+
+customization {
+  identifier = %id=374330%
+  orientation = mid-centered
+  x = -126
+  action = movebutton
+  y = -14
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = f9d5061c-d9eb-49d7-b7ee-393940a92d541702564548142
+  playername = hk11238981
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = mid-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/ba18579cbf58e2bd25bb92c12fa770a6561c6536ce918edf3fb438cb2a2a9c32
+  crouching = false
+  x = -160
+  width = 18
+  parrot_left_shoulder = false
+  y = -1
+  parrot = false
+}
+

@@ -1,0 +1,125 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = create_delight(slow)
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=346948%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -25
+}
+
+customization {
+  identifier = %id=346948%
+  width = 150
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=450948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=554948%
+  orientation = bottom-centered
+  x = 4
+  action = movebutton
+  y = -26
+}
+
+customization {
+  identifier = %id=554948%
+  width = 152
+  action = resizebutton
+  height = 19
+}
+
+customization {
+  identifier = %id=658948%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=658972%
+  action = hidebutton
+}
+
+customization {
+  slim = false
+  auto_skin = false
+  scale = 30
+  showname = true
+  follow_mouse = true
+  capeurl = http://textures.minecraft.net/texture/f9a76537647989f9a0b6d001e320dac591c359e9e61a31f4ce11c88f207f0ad4
+  action = custom_layout_element:fancymenu_customization_player_entity
+  actionid = 3b263139-bb0f-41fd-b796-4b90b7299f9a1702353481337
+  playername = hk11238981
+  bodyrotationx = 0.0
+  bodyrotationy = 0.0
+  auto_cape = false
+  is_baby = false
+  height = 54
+  orientation = bottom-centered
+  copy_client_player = true
+  headrotationy = 0.0
+  headrotationx = 0.0
+  skinurl = http://textures.minecraft.net/texture/ba18579cbf58e2bd25bb92c12fa770a6561c6536ce918edf3fb438cb2a2a9c32
+  crouching = false
+  x = -178
+  width = 18
+  parrot_left_shoulder = false
+  y = -123
+  parrot = false
+}
+
+customization {
+  identifier = %id=580972%
+  orientation = bottom-centered
+  x = 81
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=504972%
+  orientation = bottom-centered
+  x = 4
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=346972%
+  orientation = bottom-centered
+  x = -154
+  action = movebutton
+  y = -52
+}
+
+customization {
+  identifier = %id=426972%
+  orientation = bottom-centered
+  x = -74
+  action = movebutton
+  y = -52
+}
+

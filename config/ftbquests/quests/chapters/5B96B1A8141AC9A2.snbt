@@ -1,0 +1,1528 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5B96B1A8141AC9A2"
+	group: "00DB2E3721B0CC58"
+	icon: "minecraft:diamond"
+	id: "5B96B1A8141AC9A2"
+	images: [{
+		alpha: 100
+		click: ""
+		corner: false
+		dev: false
+		height: 9.0d
+		hover: [ ]
+		image: "create:item/andesite_alloy"
+		rotation: 0.0d
+		width: 9.0d
+		x: -15.999999999999993d
+		y: -1.047619047619044d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4144F362E5458112"]
+			id: "3063D93E51ECAFA7"
+			rewards: [{
+				id: "76847546E3621FC9"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "新玩家看了狂喜，老玩家看了无感"
+			tasks: [{
+				id: "77A87928540A30B5"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "布灵布灵"
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "154B8A10723BCCDD"
+			subtitle: "这是你去往地狱的一个前置条件~"
+			tasks: [{
+				id: "4A1935D35B48C3FF"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "钻！石！镐！"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["154B8A10723BCCDD"]
+			id: "397E326073046811"
+			subtitle: "我一直搞不清为什么要叫这个名字（BUGJUMP就硬蹭）"
+			tasks: [{
+				count: 10L
+				id: "43FC106B59BB72F2"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "冰桶挑战！"
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"397E326073046811"
+				"181E2BB5C3BC31A9"
+				"3063D93E51ECAFA7"
+			]
+			id: "2273B81FC4DA0A36"
+			subtitle: "哇，金色传说！"
+			tasks: [{
+				id: "225DFEBD3CFE9612"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "附魔大师"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77ECF5D5E59B874F"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "181E2BB5C3BC31A9"
+			rewards: [{
+				count: 10
+				id: "7DCA52938E990101"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			subtitle: "书籍是人类进步的阶梯——高尔基如是说    书籍是你通向MC大师的必经之路——作者如是说"
+			tasks: [{
+				id: "2920B4B4B42306C2"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "知识~就是力量!"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2273B81FC4DA0A36"]
+			id: "3EA9CF1178202BF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D7C091CE6F81FFA"
+					table_id: 5347970608351672481L
+					type: "random"
+				}
+				{
+					id: "2223BC3A8634A488"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "嗡~这是魔法的声音！"
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "10F188883262650B"
+				type: "advancement"
+			}]
+			title: "神奇的魔法！"
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["65C204DFA418FD56"]
+			id: "26710B63F426D6DF"
+			rewards: [{
+				id: "0F45B682C9E43EB4"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "哇哦，看看我用煤炭和铁做出来了什么东西"
+			tasks: [{
+				id: "21C397BFBD55D824"
+				item: "kubejs:raw_steel"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["26710B63F426D6DF"]
+			id: "54E9D8443D877CB9"
+			subtitle: "这玩意可是现代工业的基础！"
+			tasks: [{
+				id: "0D470F995052EBA6"
+				item: "alloyed:steel_ingot"
+				type: "item"
+			}]
+			title: "反复捶打！"
+			x: -10.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54E9D8443D877CB9"]
+			id: "1F84419F388C13F9"
+			rewards: [{
+				id: "57BBC93FB2768A15"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "现在&e打火石&r真难做，唉，&4钢铁&r；唉，&4燧石&r"
+			tasks: [{
+				id: "79E1FEDC48CA8639"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "打火石怎么变成钢做的了？"
+			x: -8.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "5BC2F94739601579"
+			invisible: true
+			rewards: [{
+				id: "221D63610AFC64D3"
+				item: "minecraft:cat_spawn_egg"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "原来你也看黑猫（）"
+			tasks: [{
+				id: "258060ABC2C218C0"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "钻石铲铲~"
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"397E326073046811"
+				"1F84419F388C13F9"
+			]
+			description: ["一个下界传送门由黑曜石框架构成（最小4×5，最大23×23，至少需要10个黑曜石，最多需要84个黑曜石）。边角上的四个黑曜石不是必须的。使用打火石激活。"]
+			id: "77C3D5F03FE29E44"
+			subtitle: "猪人：“&e我家还蛮大的，欢迎你来我家玩，玩累了就睡觉，没问题的&r”"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				id: "79FBA048A982318A"
+				type: "dimension"
+			}]
+			title: "终于可以去地狱啦！"
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			id: "74F81A8C4757CD08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "16CBA4704C808CE7"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "按住w可以进行俺寻思"
+			tasks: [{
+				advancement: "create:andesite_alloy"
+				criterion: ""
+				id: "376021945E1E8795"
+				type: "advancement"
+			}]
+			title: "欢迎正式进入机械动力大家庭！"
+			x: -16.0d
+			y: -1.0d
+		}
+		{
+			id: "7875DBAC9239178C"
+			rewards: [{
+				count: 32
+				id: "07340B2387BBE7D8"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			subtitle: "记得做一个海带农场哦"
+			tasks: [{
+				id: "60E51618C16ED655"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			title: "能吃但不好吃，能用而且很好用"
+			x: -22.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7875DBAC9239178C"]
+			id: "39A0AFE68657BF95"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "228F36919D7B7E28"
+				table_id: 7772018159856264947L
+				type: "random"
+			}]
+			subtitle: "非常不建议作为日常食物来吃（如果你非要吃我还是送你点吃的吧）"
+			tasks: [{
+				id: "7B0ED04E12E007E6"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			title: "难吃的像TOM的鞋底一样"
+			x: -22.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["39A0AFE68657BF95"]
+			id: "4FC2EF8B356057F9"
+			rewards: [{
+				id: "7994B7BD927D3A74"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "最好穿上潜水靴，除非你想被传送带直接带走（）"
+			tasks: [{
+				id: "4EC1813F2EF91FE0"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"39A0AFE68657BF95"
+				"2A26C7B07E432B8C"
+				"063D5D66280B8B80"
+			]
+			hide_dependent_lines: true
+			id: "143DABFEB7C56227"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "223B9724C59CE952"
+				table_id: 2218915723137103147L
+				type: "random"
+			}]
+			subtitle: "滋滋滋"
+			tasks: [{
+				id: "2B93F40FFAFBC08D"
+				item: "create:spout"
+				type: "item"
+			}]
+			title: "哔哔注射"
+			x: -21.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["539AFA4827EBD85F"]
+			id: "063D5D66280B8B80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "033D70AF14EACB7D"
+				table_id: 2218915723137103147L
+				type: "random"
+			}]
+			subtitle: "可以说是最浪漫的管道之一了"
+			tasks: [
+				{
+					id: "2F997B2E546D3D4C"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "4473248E93948BDB"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"20C4C2D755156AF4"
+				"7251087920E97B89"
+			]
+			id: "43FFF43336ED6505"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37403E62DCE57920"
+					table_id: 2218915723137103147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BA4F4BC67EA7241"
+					table_id: 6730734086547045908L
+					type: "random"
+				}
+			]
+			subtitle: "终于不缺动力啦，哈哈哈哈！"
+			tasks: [{
+				id: "297BB8D7090CD947"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "Watt！感谢你！"
+			x: -21.0d
+			y: 0.5d
+		}
+		{
+			id: "20C4C2D755156AF4"
+			rewards: [{
+				id: "4964ABFE4BD61BF5"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "09581996F4FCCA37"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: -22.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2A26C7B07E432B8C"]
+			id: "7251087920E97B89"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "073C60ECAE1D89A7"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2FF5AB4AACFCC385"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7251087920E97B89"]
+			id: "2053C8AC43D015A0"
+			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
+			tasks: [{
+				id: "427E8221A84132DA"
+				item: {
+					Count: 1b
+					id: "create_sa:small_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -21.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2053C8AC43D015A0"]
+			id: "7B0F4836728F6D5D"
+			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
+			tasks: [{
+				id: "3D704E7BD0461AC5"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -22.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7B0F4836728F6D5D"]
+			description: ["非常非常建议你做一个大型的便携流体储罐，这玩意带在身上可以直接让你的喷气背包多出&42倍的续航时间"]
+			hide_dependent_lines: true
+			id: "074C76DFE4961F74"
+			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
+			tasks: [{
+				id: "336BD3B045C62DBE"
+				item: {
+					Count: 1b
+					id: "create_sa:large_filling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -24.0d
+			y: 2.0d
+		}
+		{
+			id: "539AFA4827EBD85F"
+			rewards: [{
+				id: "4BE4183525EC7EB9"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "现在铜越来越有用了！"
+			tasks: [{
+				id: "562130DACCE4BBDB"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"74F81A8C4757CD08"
+				"539AFA4827EBD85F"
+			]
+			id: "2A26C7B07E432B8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "072824B5E38DB217"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "开启流体科技！！！"
+			tasks: [{
+				id: "25A6E7EC7902C6EF"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"539AFA4827EBD85F"
+				"74F81A8C4757CD08"
+			]
+			id: "664A7BCA64EF8857"
+			rewards: [{
+				id: "082812D6BFE92EE1"
+				item: "create:copper_sheet"
+				random_bonus: 9
+				type: "item"
+			}]
+			subtitle: "谁发现的液压？一定要给他颁诺贝尔奖！"
+			tasks: [{
+				id: "432CD8441A6694B0"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			title: " &1p＝ρgh"
+			x: -18.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"664A7BCA64EF8857"
+				"7251087920E97B89"
+			]
+			description: [
+				"这是你获得的第一个喷气背包，它通过喷出储存的水让你起飞，时刻注意剩余的水以免&4高空坠物"
+				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜喷气背包中的水，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水）"
+				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
+				"在水中按空格时可以启动潜水模式让你&e游得更快"
+			]
+			id: "3CCD7E34B8DDB3D2"
+			subtitle: "啊？这就可以飞了？"
+			tasks: [{
+				id: "7DBB0F0669D2EDBA"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "起飞~"
+			x: -19.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"664A7BCA64EF8857"
+				"7251087920E97B89"
+			]
+			description: [
+				"这是你获得的第一个机械外骨骼，它通过储存的水增强你的攻击力，时刻注意剩余的水以免&4被爆金币"
+				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水）"
+			]
+			id: "4AD353EACDE6DD71"
+			subtitle: "这玩意可以给你&e力量II&r但同时也会给你&4挖掘疲劳&r，话说这玩意&4真的有用吗？"
+			tasks: [{
+				id: "0282053DDEEB7B60"
+				item: {
+					Count: 1b
+					id: "create_sa:copper_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "机械飞升？"
+			x: -18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["74F81A8C4757CD08"]
+			id: "475F9FA9B392F47A"
+			rewards: [{
+				id: "00BC9D1E815A7381"
+				item: "create:andesite_alloy"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "它有神奇的力量！"
+			tasks: [{
+				id: "22C2BBC6EDFC766D"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"475F9FA9B392F47A"
+				"1BAD95070E6A4ABB"
+			]
+			id: "43C81C8429FB9B3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5594F6442C6C5D1F"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "Work Area~！"
+			tasks: [
+				{
+					id: "249483842BD0609B"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "33092CDE1E53333C"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "仍然是必需品！"
+			x: -14.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["475F9FA9B392F47A"]
+			id: "1BAD95070E6A4ABB"
+			rewards: [{
+				count: 3
+				id: "71E9537907973BF2"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			subtitle: "必需品！"
+			tasks: [{
+				id: "04DD441FD5D5D6F6"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -14.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"173EAEC8869A01CC"
+				"1BAD95070E6A4ABB"
+			]
+			id: "65C204DFA418FD56"
+			rewards: [
+				{
+					id: "3D040BA42081B213"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3BB0E492E2FAFCA8"
+					item: "minecraft:coal"
+					type: "item"
+				}
+			]
+			subtitle: "它动起来了！它在搅拌！"
+			tasks: [{
+				id: "52D1311428FBC5B5"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "咕噜咕噜咕噜"
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["475F9FA9B392F47A"]
+			id: "7C63D27693E2270D"
+			rewards: [
+				{
+					id: "3A0DC4DDD57450DD"
+					item: "create:shaft"
+					random_bonus: 7
+					type: "item"
+				}
+				{
+					id: "7F255C09E9DB10B2"
+					item: "create:cogwheel"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "6488CFCD3C5B5636"
+					item: "create:large_cogwheel"
+					random_bonus: 15
+					type: "item"
+				}
+			]
+			subtitle: "他们可以传输动力！"
+			tasks: [
+				{
+					id: "237F784E4AE172F7"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "337F1BCFAD46BBCF"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "102423DDEFB59432"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "浪漫的齿轮！"
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7C63D27693E2270D"]
+			id: "10ED7057FFC842E1"
+			rewards: [{
+				count: 2
+				id: "6404792CD410138E"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			subtitle: "越..越...摇越累o(╥﹏╥)o（会掉饱食度）"
+			tasks: [{
+				id: "0B34505E007083F3"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "产生应力的第一步！"
+			x: -16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"10ED7057FFC842E1"
+				"1BAD95070E6A4ABB"
+			]
+			id: "555F0D85A1B151CC"
+			rewards: [{
+				id: "76E572A11E421ECB"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			subtitle: "铛（ji）~~~铛（ji）~~~铛（ji）~~~"
+			tasks: [{
+				id: "7FB6A8861E8B3E1A"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "动力醌压鸡"
+			x: -14.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["555F0D85A1B151CC"]
+			id: "173EAEC8869A01CC"
+			rewards: [{
+				id: "430DFDC88D3CD32F"
+				item: "create:iron_sheet"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "砰！"
+			tasks: [{
+				id: "6DA3AC4BE1F1782E"
+				item: "create:iron_sheet"
+				type: "item"
+			}]
+			title: "他扁了"
+			x: -13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3F65F915ADAED3B7"]
+			id: "4DD9A57294AFA2F1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "560A233EE5A5E8B0"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "呼呼呼~~~"
+			tasks: [{
+				advancement: "create:windmill_maxed"
+				criterion: ""
+				id: "26347299D6F121E3"
+				type: "advancement"
+			}]
+			x: -17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10ED7057FFC842E1"]
+			id: "3F65F915ADAED3B7"
+			rewards: [{
+				count: 32
+				id: "61474D73F6F6410E"
+				item: "create:white_sail"
+				type: "item"
+			}]
+			subtitle: "童年的纸飞机~又飞回我的梦里~↑↓"
+			tasks: [{
+				id: "4F5C918F9D0799F3"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "大风车吱呀吱悠悠地转"
+			x: -16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["10ED7057FFC842E1"]
+			id: "248F77F545E5E3BD"
+			rewards: [
+				{
+					count: 5
+					id: "5AEA13FF56EED7E0"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "0F41A6F1256353AF"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			subtitle: "前期的经济实惠动力源！"
+			tasks: [
+				{
+					id: "7F4126566F286F37"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "606F35B608EAB6D0"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "水车嘎吱嘎吱是我的童年"
+			x: -17.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "4550526FDF6E6F8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C34FA5FE0159E21"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "既然你都有去钻石套了，也不需要我给你钻石了吧？（）"
+			tasks: [
+				{
+					id: "56E3EAAF4B249D20"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF95EB35EB2D3BE"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246E98DB732EC323"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619C5DCE7251C4ED"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "你好富有啊（羡慕）"
+			x: -10.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "561E61D8E9FDE3ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450DF294CDEBB425"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "很棒！很闪耀！"
+			tasks: [{
+				id: "3B65F1C34D6D5594"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "29DAE739DB7E9CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719DA6761B18A38C"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "很快！很锋利！"
+			tasks: [{
+				id: "30DED35F0C21D31F"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "6C0D61A95B6C2687"
+			rewards: [{
+				id: "24C3A00E87050D8D"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			subtitle: "额...很好，能耕地！"
+			tasks: [{
+				id: "3D6187D745E8B338"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["539AFA4827EBD85F"]
+			id: "5D9EA34B011BBE65"
+			rewards: [{
+				id: "0D01400A314BAC15"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_water_breathing"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "用来给你的潜水头盔和未来的机械手供气的家伙，但是它会占用你的胸部装甲（差评）"
+			tasks: [{
+				id: "0A8458B4B312F070"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "氧气罐？？？"
+			x: -19.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5D9EA34B011BBE65"]
+			id: "2D946C0299C486BC"
+			rewards: [{
+				id: "0762B97EA5C7E394"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			subtitle: "女巫！我用不到你的魔法也可以水下呼吸啦！"
+			tasks: [{
+				id: "5B76EEDACC558365"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "科技水下呼吸"
+			x: -21.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["74F81A8C4757CD08"]
+			id: "3956BF6CE5009F66"
+			rewards: [{
+				id: "77FC11C2EB85F290"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			subtitle: "将空白蓝图放入蓝图桌以打印出可以放置结构虚影的蓝图"
+			tasks: [{
+				id: "46BB39AD997856F2"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			x: -17.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["74F81A8C4757CD08"]
+			id: "651AE0D14323B352"
+			rewards: [{
+				id: "152ADFB165E5A2E2"
+				item: "create:empty_schematic"
+				type: "item"
+			}]
+			subtitle: "类似投影的好东西"
+			tasks: [{
+				id: "680F40F6F113FD16"
+				item: "create:schematic_table"
+				type: "item"
+			}]
+			title: "把蓝图写入游戏中！"
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"77ECF5D5E59B874F"
+				"651AE0D14323B352"
+				"3956BF6CE5009F66"
+			]
+			description: ["蓝图大炮左上角放入火药（一个火药大概能打几百个方块别放多了），右上角可以放入书或者剪贴板（可以统计需要的材料），将蓝图结构放置完成后放入蓝图大炮左侧就可以准备打印结构了，紧贴蓝图大炮摆放容器并放置所需材料，调整蓝图大炮设置后即可点击△开始打印&4（注意：蓝图大炮打印流体储罐，保险库以及蓄电池会有问题，需要打印完后拆掉一个角后重新放置）"]
+			id: "68C809838E2F09A8"
+			rewards: [{
+				count: 32
+				id: "538F7DDFB245FD6A"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			subtitle: "如标题所示，这就是机械动力的神，浪漫而又实用"
+			tasks: [{
+				id: "562475D62C420631"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "论机械动力为什么能称之为神"
+			x: -16.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7C63D27693E2270D"]
+			id: "2BC23C199544A1DB"
+			rewards: [{
+				count: 10
+				id: "77C8D2938635C3B0"
+				item: "create:wooden_bracket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F035147C47AFFC1"
+				item: "create:wooden_bracket"
+				type: "item"
+			}]
+			title: "简单装饰一下我的齿轮组们~"
+			x: -17.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C63D27693E2270D"]
+			id: "2051934C4F660BB1"
+			rewards: [{
+				count: 10
+				id: "75AA12606FE7F1C0"
+				item: "create:metal_bracket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65D9BE0883567089"
+				item: "create:metal_bracket"
+				type: "item"
+			}]
+			title: "超有工业风的齿轮组！"
+			x: -17.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			id: "39DA0269D50B216B"
+			rewards: [{
+				id: "28A7E7D15198EE7D"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "鼓风机的核心部件！"
+			tasks: [{
+				id: "039B5438FA4C1ECF"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39DA0269D50B216B"]
+			dependency_requirement: "one_completed"
+			id: "1693FFC834A77F70"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E1940FEE0D2D360"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "熔炼，烟熏，水洗，缠魂样样在行！"
+			tasks: [{
+				id: "009863FACEFFFD07"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			id: "726F1B6486F2049C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "64D18ECA183A4DF4"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "这是什么？这是树厂之神！"
+			tasks: [{
+				id: "15ED9E278F38B3BC"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "带有连锁的动力斧头！"
+			x: -13.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BAD95070E6A4ABB"]
+			id: "45BB6B09229ABA24"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25F269E3DF1CB4A4"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "在MC的世界里挖呀挖呀挖，用小小的钻头挖大大的矿"
+			tasks: [{
+				id: "4F7F17D6BFF39C62"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			title: "挖呀挖"
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			id: "6E5C2F799D0DF787"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A42D1F468485FA2"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "芜湖~自动种田啦"
+			tasks: [{
+				id: "684CD61D0A5AC523"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			id: "1C505A82EF35DFD9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "030B6B0B786F600D"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "快速破坏农业方块和锄地！"
+			tasks: [{
+				id: "3043A85F92B9ADE2"
+				item: "create:mechanical_plough"
+				type: "item"
+			}]
+			title: "动力锄头！"
+			x: -14.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1BAD95070E6A4ABB"]
+			id: "5D9B248C6F678D85"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70B2FD47C9421712"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "小麦粉，砂砾，燧石，甚至黏土，他都可以磨！"
+			tasks: [{
+				id: "5DE7666D876E30B9"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "咯吱咯吱"
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1693FFC834A77F70"]
+			id: "18C6258AD0CDAA94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75B4A9CCD23DE469"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "从上下对着吹让风扩散开来！"
+			tasks: [{
+				id: "630FD9DD318CD3C7"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			title: "这是个什么东西？"
+			x: -10.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			id: "291D2F1C97A4F958"
+			subtitle: "无法吸取但是可以直接传输上面一格空间里面的物品，一次16个！"
+			tasks: [{
+				id: "2688522C243D8402"
+				item: "create:chute"
+				type: "item"
+			}]
+			title: "简易漏斗！"
+			x: -14.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["1BAD95070E6A4ABB"]
+			id: "2D40A565D3DA2349"
+			rewards: [{
+				id: "32E07923E6437FA5"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			subtitle: "数值是给吊书袋看的！我们直接&4加爆动力&r就好！"
+			tasks: [{
+				id: "10901F7011ACBBCE"
+				item: "create:stressometer"
+				type: "item"
+			}]
+			title: "万用表？"
+			x: -14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			description: ["只能通过机械动力漏斗进行交互（取出放入），或者使用tom的简易存储的存储面板以及合成面板&4直接访问库存！"]
+			id: "69AE9B77F09A200A"
+			subtitle: "本模组最大存储量的东西出现了！（虽然但是这玩意也不保险啊）"
+			tasks: [{
+				id: "30A9B26208C8FE9D"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			title: "很能装！"
+			x: -12.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56E058538C0C00ED"]
+			id: "19BDE08C0BD15F9B"
+			rewards: [{
+				count: 32
+				id: "00E88A8C1E3986E6"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "连接存储驱动器和存储线缆连接器！"
+			tasks: [{
+				id: "7E490462338F100E"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 6.0d
+		}
+		{
+			id: "56E058538C0C00ED"
+			rewards: [{
+				id: "499800C2685CFC4A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "122E98BCAF05910E"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["56E058538C0C00ED"]
+			id: "1FD78552C20A175A"
+			rewards: [{
+				count: 4
+				id: "7FFD232B6D8B4692"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4B11C884D2DBFBF1"
+				item: "toms_storage:ts.inventory_cable_connector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["7E8E6E639AB8B47E"]
+			id: "2D6B3F6C250CB036"
+			tasks: [{
+				id: "0AB834F26071628D"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"56E058538C0C00ED"
+				"69AE9B77F09A200A"
+			]
+			dependency_requirement: "one_completed"
+			id: "7E8E6E639AB8B47E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "619CAB50E185FA13"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03ABD0C6D4F067D2"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"7E8E6E639AB8B47E"
+				"69AE9B77F09A200A"
+			]
+			dependency_requirement: "one_completed"
+			id: "1043BF2D44232401"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A43CFF1E7153E54"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7E02D09FA2E431EF"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["2D6B3F6C250CB036"]
+			description: [
+				"在绑定终端的8格球形范围内放置等级为1级的信标可以让下界合金终端在&4同维度访问，"
+				"在绑定终端的8格球形范围内放置等级为4级的信标可以让下界合金终端在&4任何维度访问。"
+			]
+			id: "52C65FDED0CD9B8C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "30734D2BB8042897"
+					table_id: 6485826240718891201L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E573297FDE978BC"
+					table_id: 7772018159856264947L
+					type: "choice"
+				}
+			]
+			subtitle: "下界合金升级后的无线终端！"
+			tasks: [{
+				id: "5AF3980D9CF404DA"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "跨越维度的能力！"
+			x: -9.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1BAD95070E6A4ABB"]
+			id: "7E05A27248576CB3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F9C2AB38F8E00CD"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "专业轧电线户！"
+			tasks: [{
+				id: "39E449AFB8491DDF"
+				item: "createaddition:rolling_mill"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1BAD95070E6A4ABB"]
+			id: "619BA7937E2A018C"
+			tasks: [{
+				id: "421F85D4273E1F4C"
+				item: "sliceanddice:slicer"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["063D5D66280B8B80"]
+			id: "129D2B5AB1C17669"
+			rewards: [{
+				id: "7833E2A14F3F22CC"
+				item: "sliceanddice:fertilizer_bucket"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "登登！从此工业化生产摆脱水源！"
+			tasks: [{
+				id: "4816CCAE3E6B0C0E"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			x: -22.5d
+			y: -4.0d
+		}
+	]
+	title: "&2日渐熟稔"
+}

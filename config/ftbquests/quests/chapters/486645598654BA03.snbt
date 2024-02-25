@@ -1,0 +1,2870 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "486645598654BA03"
+	group: "10ABEF1452A4D413"
+	icon: "minecraft:wither_skeleton_skull"
+	id: "486645598654BA03"
+	images: [{
+		alpha: 100
+		click: ""
+		corner: false
+		dev: false
+		height: 9.0d
+		hover: [ ]
+		image: "endrem:items/nether_eye"
+		rotation: 0.0d
+		width: 9.0d
+		x: 4.285714285714285d
+		y: 1.75d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7233C240743D38AA"
+				"19ED27078EFC9A69"
+			]
+			id: "11F69FF73C38D5D7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7705478FA4D8535F"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "体液喷射（&1真的很脏！&r）"
+			tasks: [{
+				id: "245562B2323EDF0E"
+				item: {
+					Count: 1b
+					id: "alexsmobs:hemolymph_blaster"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["49E8339C5ADFCD3F"]
+			id: "7233C240743D38AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "394743300CB1E110"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "这块肌肉闪烁着诡异的光芒"
+			tasks: [
+				{
+					id: "1D5B97B082235FE7"
+					item: "alexsmobs:hemolymph_sac"
+					type: "item"
+				}
+				{
+					id: "00100F5013692809"
+					item: "alexsmobs:warped_muscle"
+					type: "item"
+				}
+			]
+			title: "这东西好恶心"
+			x: 3.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5A5B90E769E59135"]
+			id: "19ED27078EFC9A69"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0861DDA72D1BFA35"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "生物身体中最脏的液体之一"
+			tasks: [{
+				id: "1ACFDCAEC6037F0A"
+				item: {
+					Count: 1b
+					id: "alexsmobs:blood_sprayer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "你怎么还往外喷血啊"
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5621A50A0F895F4C"]
+			id: "5A5B90E769E59135"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29A550338B96A3E2"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "让你再吸我血！"
+			tasks: [{
+				id: "25F8E3E929CC787E"
+				item: "alexsmobs:mosquito_proboscis"
+				type: "item"
+			}]
+			title: "拔下来！"
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1D3002399A5DCB18"]
+			id: "49E8339C5ADFCD3F"
+			rewards: [{
+				count: 10
+				id: "505D20A52C14D794"
+				item: "nethersdelight:warped_moldy_meat"
+				type: "item"
+			}]
+			subtitle: "受死吧，&4可恶的人类！！！"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+				id: "688BDA7EB605B5DA"
+				type: "advancement"
+			}]
+			title: "&e高质量男性！"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"3C70EB8AF67D1DAD"
+				"45ADF7CA2DAD69B5"
+			]
+			description: ["玩家需要前往蘑菇岛找到一个&4没有蘑菇&r的蘑菇君，然后用诡异菌插满它的身体（&45个即可&r），让绯红蚊子吸它的血（蹲下右键可以&4抱起生物&r），然后绯红蚊子会变成蓝色并慢慢变大，最后突变成&1诡异蚊鬼&r（&e守护诡异森林的高质量男性&r）"]
+			id: "1D3002399A5DCB18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FDF35F9F11AEEC9"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "快跑！蘑菇君要变异了！"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
+				criterion: ""
+				id: "1AA008CA928D3513"
+				type: "advancement"
+			}]
+			title: "&4重病缠身！"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C70EB8AF67D1DAD"]
+			id: "5621A50A0F895F4C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22175B8E354E4DE7"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "&1我要拍死你！！！&r（什么蚊子居然&4冬天都能活着&r）"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
+				criterion: ""
+				id: "397333391975BBA8"
+				type: "advancement"
+			}]
+			title: "害得我睡不着觉的虫子！"
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5A5B90E769E59135"]
+			id: "02B0E545695B7C21"
+			subtitle: "把口器扎到蛆身上真有&e够恶心的"
+			tasks: [{
+				id: "0BA307C2E889A685"
+				item: "alexsmobs:mosquito_larva"
+				type: "item"
+			}]
+			title: "幼虫！"
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1449D881D54C27EA"
+				"02B0E545695B7C21"
+			]
+			id: "48160C0FD18F7073"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AAD79526ECC6E51"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "用绯红幼虫驯服一只诡异蟾蜍"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
+				criterion: ""
+				id: "72CD81D6AE1D40AE"
+				type: "advancement"
+			}]
+			title: "&e今天是周三！~"
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "1449D881D54C27EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E63DF58C763A990"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "&1蓝灿灿"
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				icon: "minecraft:warped_fungus"
+				id: "07359EF504D37F19"
+				type: "biome"
+			}]
+			title: "诡异森林"
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "3C70EB8AF67D1DAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1FF29F6FEFDDAF3C"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "&4红彤彤"
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				icon: "minecraft:crimson_fungus"
+				id: "05B8C4F9ABCD749A"
+				type: "biome"
+			}]
+			title: "绯红森林"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "4482AF6BE68C8D1D"
+			rewards: [{
+				id: "6F5BA06FA8651105"
+				item: "minecraft:quartz"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "石英顾名思义就是石头中的英雄（好伐我编不下去了）"
+			tasks: [{
+				id: "52F55A07414D763B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "白白的"
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "03863109E200AF66"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B685387169A6D4D"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1A658F2E93C83C80"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			title: "&e闪闪亮！"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "302DE38002ACC065"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10A3B11B9133690E"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "找到下界要塞"
+			tasks: [{
+				advancement: "minecraft:nether/find_fortress"
+				criterion: ""
+				id: "30F0A6D15D9DB096"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			description: ["地狱目前已经提高至&4256&r格，不再有地狱上层空间"]
+			hide_dependent_lines: true
+			id: "5AD01D1C54DE1993"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CD26AB89DD5490A"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "这地狱真的好大！"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				disable_toast: true
+				id: "716101BFA91A6E23"
+				type: "dimension"
+			}]
+			title: "我下地狱啦！"
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "70A228B8AA9BFE0E"
+			rewards: [{
+				id: "4BD36A8FC572D75C"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "什么？难道你没觉得猪灵两个鼻孔特别像大眼萌妹的眼睛吗？"
+			tasks: [{
+				advancement: "minecraft:nether/distract_piglin"
+				criterion: ""
+				id: "7A448D3E464FCE2D"
+				type: "advancement"
+			}]
+			title: "猪灵妹子我来啦~"
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			description: [
+				"自然生成于下界 Y 坐标&4 8~119 的空间"
+				"生成时连锁数量最大为3，但相当罕见，以连锁为2居多，但同样少见，&4多为单矿&r且&4不会裸露生成&r"
+				"每个区块最多生成两个矿脉，最多生成&e5个远古残骸"
+			]
+			id: "3C94D314BC3D0DE8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4084C4A312053E20"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "这东西真的好少好难找（哭）"
+			tasks: [{
+				id: "07C5B2DF687B585D"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			title: "这是...&e超远古坚硬遗留沉积物？"
+			x: 1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3C94D314BC3D0DE8"]
+			id: "6E8099EE95B29FC1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "17316BA4FB9CBFFC"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B55B1BA625C8404"
+				item: "minecraft:netherite_scrap"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E8099EE95B29FC1"]
+			id: "24BE09160DC6BE45"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5A9396FA4CBDF7DC"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "602BED257250717C"
+				item: "minecraft:netherite_ingot"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			id: "6460F97709785CDA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6A6C1251B7CD8CEB"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "找到猪灵堡垒"
+			tasks: [{
+				advancement: "minecraft:nether/find_bastion"
+				criterion: ""
+				icon: "minecraft:gilded_blackstone"
+				id: "2D503DC55A57E5A9"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["302DE38002ACC065"]
+			id: "7B5DD3DF2E03F832"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "663C3E182E60CA57"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "314DC1329FCE5877"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["302DE38002ACC065"]
+			id: "299811388A624472"
+			rewards: [{
+				id: "7087DC7889ADC335"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			subtitle: "嘿嘿嘿小烈焰人&4我来啦&r！"
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "2ED438CA35BD29F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&3可算是找到你啦！！！"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"302DE38002ACC065"
+				"5AD01D1C54DE1993"
+			]
+			id: "0FDBCBC0020ED4F1"
+			rewards: [{
+				id: "00DEE66469EBA0AC"
+				item: {
+					Count: 1b
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "minecraft:looting"
+							lvl: 3s
+						}]
+					}
+				}
+				title: "还是给你本&e抢夺III&r吧...."
+				type: "item"
+			}]
+			subtitle: "好！就这么&3阴死他"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				id: "2B51C9014C5523DE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&2卑鄙&r的两格高人类！"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FDBCBC0020ED4F1"]
+			id: "0FA33E07B6274219"
+			rewards: [
+				{
+					count: 5
+					id: "5372565A50934F21"
+					item: "minecraft:paper"
+					type: "item"
+				}
+				{
+					description: ""
+					icon: "minecraft:paper"
+					id: "2741EA2446B93F8D"
+					title: "来~擦一擦"
+					type: "toast"
+				}
+			]
+			subtitle: "呼~终于&e打出来了&r~"
+			tasks: [{
+				count: 3L
+				id: "7E05EDB37A9F2282"
+				item: "minecraft:wither_skeleton_skull"
+				type: "item"
+			}]
+			title: "最&e难爆&r的一集"
+			x: 4.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0FA33E07B6274219"]
+			description: ["先用灵魂沙或灵魂土摆成T形，下面的灵魂沙两侧必须是空气，然后在3块灵魂沙上方各放置一个凋灵骷髅头颅即可召唤出凋灵（备注：最后放置的方块必须是&4凋灵骷髅头颅&r），也可侧放或倒放，不影响凋灵的生成。"]
+			id: "40E0C96F55C7A737"
+			rewards: [{
+				id: "5A248A5DB347B7DB"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_regeneration"
+					}
+				}
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "骗你的，它只是&2普通凋零&r啦~"
+			tasks: [{
+				icon: {
+					Count: 1b
+					id: "endrem:wither_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5A892FEEE77D7138"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:wither"
+				type: "observation"
+			}]
+			title: "&4哦不！&r它吃掉了我的&4命令方块！！！"
+			x: 2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["40E0C96F55C7A737"]
+			id: "78A8BC66CF808C55"
+			rewards: [{
+				id: "647913F4BA5EDDF0"
+				item: "minecraft:wither_skeleton_skull"
+				random_bonus: 2
+				title: "抽个奖再来打一次？"
+				type: "item"
+			}]
+			subtitle: "我大方吧~"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: "minecraft:wither_skeleton_skull"
+				id: "79D4FFC5888F2E73"
+				type: "kill"
+				value: 1L
+			}]
+			title: "这不&e轻轻松松&r~"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["78A8BC66CF808C55"]
+			id: "7485B99EF2CF80D3"
+			rewards: [{
+				id: "041982505A5681C0"
+				item: "minecraft:wither_rose"
+				type: "item"
+			}]
+			subtitle: "&e真好看啊！！！"
+			tasks: [{
+				id: "264CD639B102DABB"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "下界里最&e闪亮&r的星星！"
+			x: -0.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["299811388A624472"]
+			id: "6CAC228A727B16A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15BF3EC809D913D7"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5498352663ACCD98"
+				item: "minecraft:blaze_rod"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6CAC228A727B16A6"]
+			id: "520A75622AD44E7F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "031E7C187049DE29"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5A78863AFF80D387"
+				item: "minecraft:brewing_stand"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["173EAEC8869A01CC"]
+			description: ["手持烈焰人燃烧室&4直接右键&r烈焰人即可抓捕烈焰人，或直接&4右键烈焰人刷怪笼&r同样可以“&1竭泽而渔&r”"]
+			id: "77DF8BCBCE422BA9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C71CC70073AD801"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "就你叫农场主是吧！"
+			tasks: [{
+				id: "1FF8766588A18B75"
+				item: "create:empty_blaze_burner"
+				type: "item"
+			}]
+			title: "去抓&e“金”&r奴吧"
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"77DF8BCBCE422BA9"
+				"5AD01D1C54DE1993"
+			]
+			id: "241BAFA577B60069"
+			rewards: [{
+				id: "6C62C272183BCE15"
+				item: "create:empty_blaze_burner"
+				random_bonus: 7
+				type: "item"
+			}]
+			subtitle: "&4抓到你了！"
+			tasks: [{
+				advancement: "create:burner"
+				criterion: ""
+				id: "2E8BC55A8A53FE10"
+				type: "advancement"
+			}]
+			title: "无限苦力！"
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F61255897AD730B"]
+			id: "5BC1AFE07AF12B55"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E11ECB01E4E6AB7"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6EC1D499A10A062F"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["241BAFA577B60069"]
+			id: "4F61255897AD730B"
+			rewards: [{
+				id: "143CC7D3D9C3DA65"
+				item: "create:brass_ingot"
+				random_bonus: 15
+				title: "来！看人品的时候到了！"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5D4271B75E30DEC1"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "&e最最最&r重要的锭！"
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F61255897AD730B"]
+			id: "740A0B1E042F6C74"
+			tasks: [{
+				id: "434DCD553D18F6FD"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"740A0B1E042F6C74"
+				"531B6253250A670C"
+			]
+			id: "71A8E174426C7A6F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "00F5337F511FBE52"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2B053A659BFDDA35"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6603024447F23F40"]
+			id: "531B6253250A670C"
+			rewards: [{
+				id: "51EACD395808659E"
+				item: "create:electron_tube"
+				random_bonus: 15
+				type: "item"
+			}]
+			tasks: [{
+				id: "3452140E7F35E132"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71A8E174426C7A6F"]
+			id: "5E7D248B3C15ADFD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "54583EDC315C45F4"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "232E0C5C246B1812"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71A8E174426C7A6F"]
+			id: "58A94F4B434B31CD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5E5EE80CE47D9ED9"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1362E4F2860F2E07"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["71A8E174426C7A6F"]
+			id: "7D7800A179158577"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3716D912CE4E5835"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1DABCBD6022A45A0"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D7800A179158577"]
+			id: "2AA821D7195A4CFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "547CD772D3072D00"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "33D3F865113DE5D1"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D7800A179158577"]
+			id: "374725327D8843AE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "053098A2C0B219C1"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0231234E231B8B8C"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7B5DD3DF2E03F832"
+				"520A75622AD44E7F"
+			]
+			id: "74674D3025D5DFAA"
+			rewards: [{
+				auto: "enabled"
+				id: "321752C12DC6F8B6"
+				table_id: 7548246410364648339L
+				type: "random"
+			}]
+			subtitle: "你的第一瓶药水！"
+			tasks: [{
+				block: "minecraft:brewing_stand"
+				block_type: 0
+				checkItem: false
+				icon: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:mundane"
+					}
+				}
+				id: "0860CE78339221E7"
+				isItemInteraction: false
+				type: "questsadditions:use"
+				value: 1L
+			}]
+			title: "女巫科技！"
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			id: "075B94F4CA10DA3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F67329E5FCB93F"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "说实话，打磨的动画真的很像...."
+			tasks: [{
+				id: "081508E9AF2E7728"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			title: "刺啦刺啦刺啦"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4482AF6BE68C8D1D"]
+			id: "3A674F0BEAB8179F"
+			rewards: [{
+				id: "3EFE7E9C47C1F9F0"
+				item: "create:rose_quartz"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D37DA6E8A79653"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"075B94F4CA10DA3D"
+				"3A674F0BEAB8179F"
+			]
+			hide_dependent_lines: true
+			id: "6603024447F23F40"
+			rewards: [{
+				id: "45858978E7CE8717"
+				item: "create:polished_rose_quartz"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "我给玫瑰石英增加了新合成方式！来，狠狠的自动化玫瑰石英！"
+			tasks: [{
+				id: "1FD42C9663500671"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6603024447F23F40"]
+			id: "1C9C0CB38E4C7851"
+			invisible: true
+			rewards: [{
+				id: "4827EE03BCF9D37E"
+				item: "create:polished_rose_quartz"
+				random_bonus: 15
+				type: "item"
+			}]
+			shape: "heart"
+			subtitle: "它真的好漂亮啊&4(♥∀♥)&r"
+			tasks: [{
+				id: "16BCE32BA9DFF786"
+				item: {
+					Count: 1b
+					id: "create_sa:rose_quartz_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "崭新的物品，玫瑰石英镐"
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"70A228B8AA9BFE0E"
+				"75E6927E3D539C00"
+			]
+			hide_dependent_lines: true
+			id: "206855F86F4DE3C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63519DE91D885F79"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "已经没用啦~，甚至连要塞都找不到的东西（"
+			tasks: [{
+				id: "30760B5269229805"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			title: "&e无用之物"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["03863109E200AF66"]
+			id: "163E057B8D71A528"
+			subtitle: "走走走我们去&e天堂&r玩一玩"
+			tasks: [{
+				id: "6855BC78C405B064"
+				item: "minecraft:glowstone"
+				type: "item"
+			}]
+			title: "亮的我眼睛发慌"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6460F97709785CDA"]
+			id: "13D36F91435DB7D4"
+			rewards: [{
+				id: "164AC7C4FB6D1AE9"
+				item: "minecraft:raw_gold_block"
+				type: "item"
+			}]
+			subtitle: "嚯嚯嚯嚯嚯"
+			tasks: [{
+				id: "32C8580768307263"
+				item: "minecraft:gold_block"
+				type: "item"
+			}]
+			title: "&e古堡里面的金子！！！"
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4A19D3EB3E47BFDF"
+				"24BE09160DC6BE45"
+			]
+			id: "6DF59E3FBC34C19E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BA9AB220D63828A"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			subtitle: "这不是送你转生的泥头车，这是通往&4异界的钥匙"
+			tasks: [{
+				id: "4C5CA986104C9859"
+				item: {
+					Count: 1b
+					id: "ulterlands:ulterlands_dimension"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&4这是什么？？？"
+			x: -3.5d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"206855F86F4DE3C8"
+				"4A19D3EB3E47BFDF"
+			]
+			description: ["由于未知力量&e（异界）&r入侵主世界，末影之眼失去了原来的效果，为了能够去往末地，你需要搜刮原版建筑中被异界能量影响的&1宝箱&r以及&1各种怪物&r，找齐&e12种末影之眼&r，你可以选择使用这些被&4异界&r能量影响的末影之眼定位传送门，找到传送门之后放置12中新末影之眼并取下原有的末影之眼，并进入末地最终与末影龙&4决一死战&r，解放这个世界"]
+			id: "5945C08FD140F8D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5223F8EF56429919"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			subtitle: "没错就是水字数！"
+			tasks: [{
+				id: "0A7B105B8A7E2136"
+				title: "要塞寻找方法"
+				type: "checkmark"
+			}]
+			title: "&4如何去末地"
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6CAC228A727B16A6"]
+			id: "75E6927E3D539C00"
+			rewards: [{
+				id: "05CDF228EBDA18BE"
+				item: "farmersrespite:blazing_chili"
+				random_bonus: 4
+				type: "item"
+			}]
+			subtitle: "来一碗美味的&4烈焰辣椒酱&r如何？"
+			tasks: [{
+				id: "476FCC7244116898"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5AD01D1C54DE1993"]
+			icon: "minecraft:fire_charge"
+			id: "0BD6626359766789"
+			invisible: true
+			rewards: [{
+				count: 10
+				id: "050605F6B137AF0B"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			size: 3.0d
+			subtitle: "哇哦！你做到了！"
+			tasks: [{
+				advancement: "minecraft:nether/return_to_sender"
+				criterion: ""
+				id: "6C40FA9785480E44"
+				type: "advancement"
+			}]
+			title: "&e见鬼去吧！"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7D7800A179158577"]
+			id: "7B0AB0AA7EB2D5BD"
+			subtitle: "芜湖~可以准备开启&e星际之旅&r啦"
+			tasks: [{
+				id: "32340EE267AB629E"
+				item: "ad_astra:engine_frame"
+				type: "item"
+			}]
+			title: "星际航行的必备物品！"
+			x: 13.5d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7B5DD3DF2E03F832"
+				"75E6927E3D539C00"
+			]
+			id: "58AD4A069629F806"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "77294913802C3121"
+				table_id: 7548246410364648339L
+				type: "loot"
+			}]
+			subtitle: "&4辣不怕不怕辣"
+			tasks: [{
+				id: "2E02AA9D040B2B21"
+				item: "farmersrespite:blazing_chili"
+				type: "item"
+			}]
+			title: "&4好辣！！！"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"56B16C088C2D8BF7"
+				"7E05A27248576CB3"
+			]
+			id: "227C03A1AE0DC656"
+			subtitle: "电力时代！"
+			tasks: [{
+				id: "693678457B432A3B"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["227C03A1AE0DC656"]
+			id: "0398213BE89BD712"
+			subtitle: "电产生动力"
+			tasks: [{
+				id: "09375B24700AACED"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["227C03A1AE0DC656"]
+			id: "17323F34E01C4313"
+			subtitle: "多亏了特斯拉才有了现在的美丽世界"
+			tasks: [{
+				id: "301D4D51D79E7B81"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["56B16C088C2D8BF7"]
+			id: "15192C0501E39792"
+			rewards: [{
+				id: "05494AC7B0302CF9"
+				item: "minecraft:golden_carrot"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "快去试试&e加农炮&r的&4巨大伤害&r吧！"
+			tasks: [{
+				id: "4A886A93E0722856"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&e土豆神教！"
+			x: 7.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"5BC1AFE07AF12B55"
+				"531B6253250A670C"
+			]
+			hide_dependent_lines: true
+			id: "56B16C088C2D8BF7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "432DC1C46F86FBC8"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "54B6EED946DE25DD"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["58A94F4B434B31CD"]
+			description: [
+				"这是你获得的最强的喷气背包，它通过储存的燃料和水让你起飞，时刻注意剩余以免&4高空坠物"
+				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶或燃料&r以补充铜喷气背包，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水和燃料）"
+				"在空气中按空格以起飞&e（最大高度&r&a27&r&e格）&r"
+				"在水中按空格时可以启动潜水模式让你&e游得更快"
+			]
+			id: "3622034AE0FD46AA"
+			rewards: [
+				{
+					count: 2
+					id: "734B0CBC515EA4D9"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "029A1C877FF37BC6"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "黄铜背包！我的神！"
+			tasks: [{
+				id: "6B724B9CA33802F1"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "让我们飞的更快一些！"
+			x: 10.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56B16C088C2D8BF7"]
+			id: "532B2FC7E0826D5E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "73B5C58429A16249"
+					table_id: 6485826240718891201L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2595808D88237BD6"
+					table_id: 7772018159856264947L
+					type: "choice"
+				}
+			]
+			subtitle: "现在还没啥用....未来一定有用的！(&4坚信&r)"
+			tasks: [{
+				id: "674772936F202FE0"
+				item: "createoreexcavation:extractor"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["56B16C088C2D8BF7"]
+			id: "0FB761C59E1A5A81"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2973B97CBA9647D9"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1D44DF0C8E133144"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["58A94F4B434B31CD"]
+			description: [
+				"这是你获得的最强大的机械外骨骼，它通过储存的水和燃料增强你的攻击力，时刻注意以免&4被爆金币"
+				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶或燃料&r以补充外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水和燃料）"
+			]
+			id: "1953677BFA82BE78"
+			rewards: [
+				{
+					count: 2
+					id: "542A021738784E6C"
+					item: "minecraft:coal_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "1CCF41BDB3638AFC"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+			]
+			subtitle: "可以给你&e急迫&r和&e力量&r的效果，算是&e有点用处&r了"
+			tasks: [{
+				id: "6C1E4FAAD921C97B"
+				item: {
+					Count: 1b
+					id: "create_sa:brass_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "又快又强！"
+			x: 11.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["56B16C088C2D8BF7"]
+			id: "130011EAAAB3FA06"
+			rewards: [{
+				id: "574129DA3AA8DD71"
+				item: "candlelight:broccoli_beef"
+				type: "item"
+			}]
+			subtitle: "每公里油耗仅为1块&e牛又"
+			tasks: [{
+				id: "0FDC15B013EEFC92"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "第一架最简单的小飞机！"
+			x: 7.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"143DABFEB7C56227"
+				"56B16C088C2D8BF7"
+				"7DC98E34AECFBB5C"
+			]
+			id: "13761553F15A2C1A"
+			rewards: [{
+				id: "2C4B6AFD7A8E6B04"
+				item: "createoreexcavation:drill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06BEEC5B7EA482E4"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			title: "虚空挖矿机！"
+			x: 7.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0FB761C59E1A5A81"]
+			id: "17CB252D70813275"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "218263240D14533B"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "033F8673CBDCF84F"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			title: "这是...&4烈焰人的最爱&r！"
+			x: 10.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["0FB761C59E1A5A81"]
+			id: "388C12605ABFBD1D"
+			rewards: [{
+				id: "0E60DCAB3FB9B358"
+				item: "minecraft:obsidian"
+				random_bonus: 7
+				title: "那你还是来&4抽个奖&r吧"
+				type: "item"
+			}]
+			subtitle: "不会有人一次就把黑曜石磨碎了吧？"
+			tasks: [{
+				id: "1A9295477BA91136"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["17CB252D70813275"]
+			id: "7B0EFD9867CB20AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29A05D8221FDEE80"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3C339D8D6431A7BF"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			title: "马上就能&e吃到啦！"
+			x: 10.5d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"143DABFEB7C56227"
+				"388C12605ABFBD1D"
+			]
+			hide_dependent_lines: true
+			id: "1DAD17F55E0D4B85"
+			rewards: [{
+				count: 10
+				id: "355A736DF9A30CB3"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			tasks: [{
+				id: "526E95872BBA363C"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"7B0EFD9867CB20AD"
+				"143DABFEB7C56227"
+			]
+			id: "222BEFF13D194889"
+			rewards: [{
+				id: "1A19A11B07B7AA69"
+				item: "create:blaze_cake"
+				random_bonus: 5
+				type: "item"
+			}]
+			subtitle: "烈焰人：“&e奥利给&r，一口干了xdm！”"
+			tasks: [{
+				id: "51771C6A79CAB624"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "&eDelicious！"
+			x: 10.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "1DE10E0714BFF778"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "28891894AB2CAB20"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5C83585D863F36A4"
+				item: {
+					Count: 1b
+					id: "create_sa:small_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DE10E0714BFF778"]
+			id: "1624CCC544DD8288"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3B91273177E02E32"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C99C42057DF87D6"
+				item: {
+					Count: 1b
+					id: "create_sa:medium_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1624CCC544DD8288"]
+			id: "15B6FD274AFFE0CA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1687B3EF74FE4FC2"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "02B5B77F52AD24D4"
+				item: {
+					Count: 1b
+					id: "create_sa:large_fueling_tank"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["4F61255897AD730B"]
+			id: "2ADBDC5D79B67613"
+			tasks: [{
+				id: "7F4FE92AB33EC2A2"
+				item: "create:brass_funnel"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"7D7800A179158577"
+				"4F61255897AD730B"
+				"740A0B1E042F6C74"
+			]
+			id: "46F3F0B5A507B3B5"
+			tasks: [{
+				id: "5ACA4A0E13570813"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["46F3F0B5A507B3B5"]
+			id: "621260771FF90D36"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2A215CFE146173C9"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			size: 3.0d
+			subtitle: "&4超超超超超&r级远！"
+			tasks: [{
+				advancement: "create:extendo_grip_dual"
+				criterion: ""
+				id: "38AE8D28BDD7B1FD"
+				type: "advancement"
+			}]
+			title: "哇！&e这么远&r的触及距离！"
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4A19D3EB3E47BFDF"]
+			id: "7DC98E34AECFBB5C"
+			tasks: [{
+				id: "2F2832039C2FE873"
+				item: "createoreexcavation:vein_finder"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5E7D248B3C15ADFD"]
+			description: ["这是你获得另一个的机械外骨骼，它通过储存的燃料增强你的挖掘速度，时刻注意燃料储备以免&4挖不动东西&r把外骨骼放在副手，&4按Q或者直接扔出手中的燃料&r以补充外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的燃料）"]
+			id: "1C146812ECEF35E0"
+			rewards: [{
+				count: 2
+				id: "6B28930F2CEFB90B"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "这玩意可以给你&e急迫II&r但同时也会给你&4虚弱&r，算是&e挖矿神器"
+			tasks: [{
+				id: "4D75DE983D0917D3"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_exoskeleton_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "很快但是很弱！"
+			x: 13.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5E7D248B3C15ADFD"]
+			description: [
+				"这是你获得的第二个喷气背包，它通过喷出储存的燃料让你起飞，时刻注意剩余的燃料以免&4高空坠物"
+				"把喷气背包放在副手，&4按Q或者直接扔出手中的燃料&r以补充喷气背包中的燃料，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的燃料）"
+				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
+				"在水中按空格时可以启动潜水模式让你&e游得更快"
+			]
+			id: "6B880C8734FE8D0C"
+			rewards: [{
+				count: 2
+				id: "43005D9026B04874"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "让&2环保之母&r非常非常的不开心"
+			tasks: [{
+				id: "7CC7D7A885A81C7A"
+				item: {
+					Count: 1b
+					id: "create_sa:andesite_jetpack_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&0水洗煤&r上天！"
+			x: 12.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7D7800A179158577"
+				"1B593B8AC90CEE1F"
+			]
+			id: "029436B2313D06B2"
+			invisible: true
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1EFD0494B7E5FCF0"
+				table_id: 6485826240718891201L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FB26B81C1EDF4A5"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			title: "&e换种视角看世界！"
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7D7800A179158577"]
+			id: "1B593B8AC90CEE1F"
+			rewards: [{
+				id: "4F2316DBC5EFF077"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "我靠！&4他他他他他活了&r！"
+			tasks: [{
+				id: "799D06720683A49A"
+				item: "railways:white_conductor_cap"
+				type: "item"
+			}]
+			title: "这是...&3机械生命&r？"
+			x: 12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["5E7D248B3C15ADFD"]
+			description: ["对准远处方块右键即可立体机动（&4心脏撒撒给哟&r）！强烈建议配合黄铜喷气背包体验飞一般的感觉（&e这玩意甚至比鞘翅还要好用&r）"]
+			id: "00C0C609FD96A90D"
+			rewards: [{
+				count: 2
+				id: "1CF63D40028E380C"
+				item: "minecraft:coal_block"
+				type: "item"
+			}]
+			subtitle: "哎嘿，&e走位~走位~"
+			tasks: [{
+				id: "47F375F3B49B541E"
+				item: {
+					Count: 1b
+					id: "create_sa:grapplin_whisk"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "我愿称之为&e赶路的神！！！"
+			x: 14.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"17323F34E01C4313"
+				"1AB992034B618D32"
+			]
+			dependency_requirement: "one_completed"
+			id: "1FADE23D87FAC9B1"
+			invisible: true
+			invisible_until_tasks: 2
+			tasks: [
+				{
+					id: "3E593F965157ADC5"
+					item: "ad_astra:energizer"
+					type: "item"
+				}
+				{
+					id: "496BE974FE02CF95"
+					item: "createaddition:tesla_coil"
+					type: "item"
+				}
+				{
+					id: "2282CF8AAA852E6E"
+					item: "ad_astra:ostrum_plate"
+					type: "item"
+				}
+			]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["17CB252D70813275"]
+			id: "50DE8314E2D59DD7"
+			rewards: [{
+				id: "5E643BBF54178F4B"
+				item: "quark:raw_copper_bricks"
+				type: "item"
+			}]
+			subtitle: "虽然也是真的&4超级没用&r啦"
+			tasks: [{
+				id: "59440DEB3B04DA7E"
+				item: "alloyed:bronze_ingot"
+				type: "item"
+			}]
+			title: "这是！&e青铜&r！"
+			x: 12.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["17CB252D70813275"]
+			id: "70142C905B9698D3"
+			tasks: [{
+				id: "4FA39224E64F1404"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["17CB252D70813275"]
+			id: "797FFC958859123B"
+			tasks: [{
+				id: "2915070F308F67A0"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["17CB252D70813275"]
+			id: "083DCF35AD1D65DE"
+			tasks: [{
+				id: "50CD9B1F51F77C78"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "21A255A324AD3CE0"
+			rewards: [
+				{
+					id: "364FD71BCF11B261"
+					item: "create:experience_nugget"
+					random_bonus: 15
+					type: "item"
+				}
+				{
+					id: "1C210A6284FFBBA7"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "14BD4ED9660B173F"
+					table_id: 2218915723137103147L
+					type: "random"
+				}
+			]
+			subtitle: "什么叫做机械飞升啊（&e后仰&r）"
+			tasks: [{
+				id: "121589E89F15DAA9"
+				item: "create_enchantment_industry:enchanting_guide"
+				type: "item"
+			}]
+			title: "&1附魔工业！！！"
+			x: 7.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["21A255A324AD3CE0"]
+			id: "6D3E4BC39109B85C"
+			rewards: [{
+				id: "494E20D0F78106AF"
+				item: "create:experience_nugget"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "我知道了！&4蠹虫经验机&r！"
+			tasks: [{
+				icon: "minecraft:silverfish_spawn_egg"
+				id: "798983C0DDEEA44D"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:silverfish"
+				type: "observation"
+			}]
+			title: "这是...&e蠹虫&r？"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["21A255A324AD3CE0"]
+			id: "27F30A468AFE992E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D102022DCB5D896"
+				table_id: 2218915723137103147L
+				type: "random"
+			}]
+			subtitle: "你的第一次烈焰人附魔"
+			tasks: [{
+				advancement: "create_enchantment_industry:first_order"
+				criterion: ""
+				icon: "create:experience_nugget"
+				id: "2A9A2957E4D3D674"
+				type: "advancement"
+			}]
+			title: "芜湖！成功附魔！"
+			x: 6.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"27F30A468AFE992E"
+				"6D3E4BC39109B85C"
+			]
+			id: "12DF597B6B5CD4A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "76AC30CF49DBC678"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "你成功了！&e无限附魔工业&r向你敞开了大门"
+			tasks: [{
+				advancement: "create_enchantment_industry:additional_order"
+				criterion: ""
+				icon: "create_sa:heap_of_experience"
+				id: "5DADDEB866CA0624"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["12DF597B6B5CD4A3"]
+			id: "3914C78F40176BB3"
+			rewards: [{
+				count: 10
+				id: "7D6F65F3091D49B7"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			subtitle: "烈焰人使用超越经验可增加一级附魔，&e突破极限！"
+			tasks: [{
+				id: "360698F9348E1A09"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "这是...&1超越附魔？"
+			x: 3.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "40DE31F53D2C424C"
+			rewards: [{
+				count: 32
+				id: "42D469F5C492457F"
+				item: "railways:track_dark_oak"
+				type: "item"
+			}]
+			subtitle: "真的，列车系统是整个机械动力里面&e最美最浪漫&r的系统了&e(✧◡✧)"
+			tasks: [{
+				id: "37D58CAA456CDA8F"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "火车一响，&e黄金万两&r！"
+			x: 7.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "270B0ACA8FAB5482"
+			rewards: [{
+				id: "445CD44A48430382"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "放置烈焰人于列车并使用列车时刻表以&4自动控制列车&r！"
+			tasks: [{
+				id: "2541BFE96AAC9309"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "&e准时！准点！"
+			x: 9.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"1DAD17F55E0D4B85"
+				"40DE31F53D2C424C"
+			]
+			id: "524FC60B4E4AEBAA"
+			rewards: [{
+				id: "7B1739ADD7739928"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "右键轨道后放置列车站！"
+			tasks: [{
+				id: "142D90837EFF3B98"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "创建列车第一步！"
+			x: 6.0d
+			y: 11.0d
+		}
+		{
+			dependencies: ["40DE31F53D2C424C"]
+			id: "5A52BEB442B35A32"
+			rewards: [{
+				id: "58022D38130733AB"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "采用列车信号机吧，从此以后&e不再撞车~"
+			tasks: [{
+				id: "5A0EFD809F015721"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "哦不，他们撞车了！"
+			x: 6.0d
+			y: 14.0d
+		}
+		{
+			dependencies: [
+				"1DAD17F55E0D4B85"
+				"40DE31F53D2C424C"
+			]
+			id: "0C08D93D8F1DAD66"
+			rewards: [{
+				id: "7B61BBE195CB356E"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "用它检测列车！"
+			tasks: [{
+				id: "62326848FB146F1F"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "哦？车来了！"
+			x: 7.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"1DAD17F55E0D4B85"
+				"40DE31F53D2C424C"
+			]
+			id: "49DDEA93CFD2BAA5"
+			rewards: [{
+				id: "3CE885FD7BC2BE91"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "手动操作列车（记得切&4第三人称视角&r）"
+			tasks: [{
+				id: "351C4CF3527C87D1"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "体验一把列车长的快乐！"
+			x: 9.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "394328A77D6D76F9"
+			rewards: [{
+				id: "2FDCE609C4DA91AD"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "最最最最经典的列车轨道，是我童年的记忆！"
+			tasks: [{
+				id: "06922F817A561FC9"
+				item: "create:track"
+				type: "item"
+			}]
+			title: "经典而又优雅"
+			x: 7.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "07E7B444252495D2"
+			rewards: [{
+				id: "54990EB0092A053A"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "倒悬于天上的美景"
+			tasks: [{
+				id: "0345F07E8DFEC64D"
+				item: "railways:track_monorail"
+				type: "item"
+			}]
+			title: "轻轨！"
+			x: 9.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "4C7E83A05D71AA7F"
+			rewards: [{
+				id: "04D6D1843E0BA744"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "干净！清洁！速度快！"
+			tasks: [{
+				id: "0FF68185BA04F306"
+				item: "railways:track_tieless"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "1345DCE0565A2379"
+			rewards: [{
+				id: "7505A423EB8C0735"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "560328506D6B2A07"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			title: "这...&e空中飞车&r？！"
+			x: 10.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["40DE31F53D2C424C"]
+			id: "22A9E5C7F32FC75E"
+			rewards: [{
+				id: "3677D917A7902B4A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "356BDED2C6868DED"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			title: "詹氏钩！"
+			x: 6.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5A52BEB442B35A32"]
+			id: "38A5599253FBD7D1"
+			rewards: [{
+				id: "1B44268D2C1C551D"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "6A0B33A1D09E3927"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			title: "栏杆放下来啦就别过火车道口啦！"
+			x: 4.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["5A52BEB442B35A32"]
+			id: "4E983AEA77A60D2D"
+			tasks: [{
+				id: "72DCDD0E3D8A50A5"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			title: "从此出现了列车难题！"
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["5A52BEB442B35A32"]
+			id: "3DA57778E17ADD42"
+			tasks: [{
+				id: "771307E1A38C0A17"
+				item: "railways:track_switch_brass"
+				type: "item"
+			}]
+			title: "从此出现了列车难题！（的二次方）"
+			x: 4.5d
+			y: 11.0d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "4AE542689C31B49A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F190C9965C8AA2C"
+				table_id: 6485826240718891201L
+				type: "choice"
+			}]
+			subtitle: "内燃机动力烟筒！"
+			tasks: [
+				{
+					id: "2EEA47D17106FDAD"
+					item: "railways:smokestack_oilburner"
+					type: "item"
+				}
+				{
+					id: "38E744C9BD92DC5D"
+					item: "railways:smokestack_streamlined"
+					type: "item"
+				}
+				{
+					id: "2D1F01A9017CB024"
+					item: "railways:smokestack_coalburner"
+					type: "item"
+				}
+				{
+					id: "211EBA72F4C15C56"
+					item: "railways:smokestack_long"
+					type: "item"
+				}
+				{
+					id: "763158206850C56B"
+					item: "railways:smokestack_caboosestyle"
+					type: "item"
+				}
+				{
+					id: "52D52AB97818AD13"
+					item: "railways:smokestack_woodburner"
+					type: "item"
+				}
+				{
+					id: "77EF0DE7A3134E21"
+					item: "railways:smokestack_diesel"
+					type: "item"
+				}
+			]
+			title: "工业风~"
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			dependencies: [
+				"5E7D248B3C15ADFD"
+				"15B6FD274AFFE0CA"
+			]
+			id: "1E1AD72AF2E8C254"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "590F444CAA73AEAA"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7537CB3054B1ACAA"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1E1AD72AF2E8C254"]
+			id: "39AD415EC4A78C0C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "363B1FAD64CC85F5"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C890E7F19BB1B3C"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39AD415EC4A78C0C"]
+			id: "3E52E051490819D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "739394D6EDCB510A"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "26E4D73211447E09"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["39AD415EC4A78C0C"]
+			id: "45FA4CD875807C3C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7F18E8E91026370F"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6885E943D683E604"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["39AD415EC4A78C0C"]
+			id: "372FB6DF1B0EF6F2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "55D5721A7998464A"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1322A85CB519792C"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["3E52E051490819D0"]
+			id: "521B422C1BC9EB2A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7DDFCE37AA0D06DD"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "40D26CAD9398C731"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"1E1AD72AF2E8C254"
+				"2BD079F13B42814F"
+			]
+			id: "73BB120B52863A51"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B076ACE5502C546"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "34135D56C95501D2"
+				item: "immersive_aircraft:steel_boiler"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "26780D7DD8148475"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "224C8401798AAAB3"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0AAB5D43B422A2E6"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "4C5E2B1679AE4ABA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "365FA83B10757424"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F5EF0BB956BD389"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "61A64DA22EAC1E25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B4FD453F34B5641"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0CEF48770EAE4BB5"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "28E0A0C13EDB61C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "21721E6DE214ECAC"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2A2E11F0FAFA1E5E"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "42DB983A7D07A743"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "46AB04B9C43FEA56"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5452F183BD45F18A"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "1C3CF5926342F349"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73F71DF945BC6BA1"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76432D7204F527D7"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "564B9989DE4190F8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "68D1B539026C65A7"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "11DC2B0814BD1EC2"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["2BD079F13B42814F"]
+			id: "07599F5D924D5F5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "678D3D537C1C4E0F"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				id: "61867F9A16B8D79A"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1E1AD72AF2E8C254"]
+			id: "2BD079F13B42814F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A2E3666B986BA68"
+				table_id: 5347970608351672481L
+				type: "random"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "immersive_aircraft:engine"
+				id: "2318B47F940EA014"
+				type: "dimension"
+			}]
+			title: "更好的飞机配件！"
+			x: 16.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1DAD17F55E0D4B85"]
+			id: "5293378CC12640FC"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6362A8BEF48F68B3"
+					table_id: 6485826240718891201L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1D224BC92CB5D57C"
+					table_id: 5347970608351672481L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "21BC203A65ED188F"
+					table_id: 7772018159856264947L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "3AAB3D26EA969A78"
+					item: "minecraft:diamond_block"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7ADBF6041864E48A"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "1A298914FDC552F0"
+					item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
+					random_bonus: 3
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7C53E3F467A6D668"
+					item: "sophisticatedbackpacks:netherite_backpack"
+					type: "item"
+				}
+				{
+					id: "6EABA31C89220D6D"
+					item: "sophisticatedbackpacks:everlasting_upgrade"
+					type: "item"
+				}
+				{
+					id: "3183610D4B2E8811"
+					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
+					type: "item"
+				}
+				{
+					id: "41E7B9277650440B"
+					item: "sophisticatedbackpacks:inception_upgrade"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7E4D46518EFF084D"
+					table_id: 7548246410364648339L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C4784DB2C7D2C9E"
+					table_id: 6730734086547045908L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2784604A6152FC01"
+					table_id: 2218915723137103147L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "76698D1106BD10BF"
+					table_id: 8595933012744775382L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "365C9F06E19F3DEC"
+					table_id: 7772018159856264947L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "54342799F8B52329"
+					table_id: 6485826240718891201L
+					type: "random"
+				}
+				{
+					id: "48AEC3AB300C9EDB"
+					item: "create_enchantment_industry:hyper_experience_bottle"
+					random_bonus: 31
+					type: "item"
+				}
+			]
+			subtitle: "什么叫做星际仓鼠！"
+			tasks: [
+				{
+					count: 16L
+					id: "06916599BB53827E"
+					item: "railways:track_oak"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5EA7475A790A76C4"
+					item: "railways:track_jungle"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "36288EFC9E98B156"
+					item: "railways:track_dark_oak"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "528C414F04FF2A0F"
+					item: "railways:track_crimson"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "4F5D099F76183607"
+					item: "railways:track_birch"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "022021395830D096"
+					item: "railways:track_acacia"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6FD11440D8851681"
+					item: "railways:track_mangrove"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "470AB7165251B3DE"
+					item: "railways:track_phantom"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "09A605CB7604531B"
+					item: "railways:track_tieless"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "78B70F177D30301A"
+					item: "railways:track_ender"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6679076F099251CA"
+					item: "railways:track_blackstone"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "280101AE8314AC08"
+					item: "railways:track_warped"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6437EC3364F95AFA"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "5E45788DEFBDDDEF"
+					item: "railways:track_crimson_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1CE9CF2096E639B0"
+					item: "railways:track_oak_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0A4FBFAFA40D0955"
+					item: "railways:track_warped_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "04830E990B26E988"
+					item: "railways:track_spruce_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "11E4DBE82B0D3BDB"
+					item: "railways:track_blackstone_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "75262181D268575E"
+					item: "railways:track_tieless_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0C2C9F324670F364"
+					item: "railways:track_ender_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1B648A2D29134F88"
+					item: "railways:track_birch_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "49FCA122D65DC533"
+					item: "railways:track_acacia_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "19962C0748DC324C"
+					item: "railways:track_spruce_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "28B0E21612205EE0"
+					item: "railways:track_tieless_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "6A15BC98C7E92D53"
+					item: "railways:track_ender_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "49E3373E9CB8B648"
+					item: "railways:track_birch_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "22968F61CD7DAD97"
+					item: "railways:track_mangrove_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "00B5DE37028DFCA0"
+					item: "railways:track_create_andesite_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "49738B4B53CDC1BA"
+					item: "railways:track_jungle_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0AF0C61B2DD92B9C"
+					item: "railways:track_dark_oak_wide"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "0185F0E0E14E7DDE"
+					item: "railways:track_monorail"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "64BD50E5747F3250"
+					item: "railways:track_mangrove_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "488721C5A6DEF42D"
+					item: "railways:track_create_andesite_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "64BDB1E6B89CB07E"
+					item: "railways:track_dark_oak_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "17E46D947B0AE325"
+					item: "railways:track_jungle_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "1C888E07140D7C10"
+					item: "railways:track_crimson_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "54047CFDBE214DB6"
+					item: "railways:track_oak_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "667FF5030E82F05F"
+					item: "railways:track_warped_narrow"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "59747F540A31285F"
+					item: "railways:track_blackstone_narrow"
+					type: "item"
+				}
+			]
+			title: "&4轨道收集癖！"
+			x: 12.0d
+			y: 12.5d
+		}
+	]
+	title: "&3黑漆漆的地狱"
+}

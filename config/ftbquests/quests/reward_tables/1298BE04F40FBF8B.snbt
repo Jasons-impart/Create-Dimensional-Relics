@@ -1,0 +1,26 @@
+{
+	id: "1298BE04F40FBF8B"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "beachparty:rubber_ring_pelican"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "beachparty:rubber_ring_axolotl"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "超级游泳圈"
+}

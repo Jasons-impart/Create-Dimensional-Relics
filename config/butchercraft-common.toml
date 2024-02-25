@@ -1,0 +1,5 @@
+#Amount to multiply breeding timer by after an animal is bred.
+breedingMultiplier = 4.0
+#Nutrition of wild animals.
+ageMultiplier = 0.3
+
