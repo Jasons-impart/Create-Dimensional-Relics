@@ -29,9 +29,7 @@
 /crash-reports
 /schematics
 /kubejs/README.txt
-Create Delight.jar
 .qmenu_opened.marker
-Create Delight.json
 caxton_impl.dll
 options.txt
 usernamecache.json
@@ -48,4 +46,4 @@ launcher_profiles.json
 /*.jar
 /*.json
 *.zip
-
+log4j2.xml
