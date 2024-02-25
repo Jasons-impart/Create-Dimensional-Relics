@@ -1,4 +1,6 @@
-# 机械动力：悠然乐事 Create Delight
-一款很乐的整合包！
----
-A modpack full of delight!
+# 机械动力：悠然乐事 Create Delight  
+一款很乐的整合包！  
+更多内容即将到来...   
+***
+A modpack full of delight!  
+More things are coming...  
