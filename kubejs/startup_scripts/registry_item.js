@@ -18,7 +18,8 @@ StartupEvents.registry("item", e => {
                 .saturation(0.6)
                 .meat()
                 .eaten(ctx => {
-                    ctx.player.tell(Text.translatable("text.createdelight.eat_potato_stew_beef").red())
+                    if (!ctx.level.isClientSide())
+                        ctx.player.tell(Text.translatable("text.createdelight.eat_potato_stew_beef").red())
                 })
         })
         .translationKey("item.createdelight.potato_stew_beef")

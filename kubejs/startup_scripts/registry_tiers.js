@@ -1,7 +1,7 @@
 // azii的眼罩
 StartupEvents.registry("item", e => {
     e.create("createdelight:aziis_eye_patch", "helmet")
-        .translationKey("")
+        .translationKey("item.createdelight.aziis_eye_patch")
         .tier("aziis_eye_patch")
         .rarity("uncommon")
 })
@@ -25,7 +25,7 @@ ItemEvents.toolTierRegistry(e => {
         tier.attackDamageBonus = 16
         tier.level = 4
         tier.enchantmentValue = 0
-        tier.repairIngredient = "#kjs:bleak_space_alloy_ingot"
+        tier.repairIngredient = "#createdelight:bleak_space_alloy_ingot"
         tier.speed = 25
     })
 })
