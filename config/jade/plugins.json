@@ -54,6 +54,16 @@
   "jadeaddons": {
     "equipment_requirement": ""
   },
+  "mekanism": {
+    "infuse_type": true,
+    "gas": true,
+    "remove_builtin": true,
+    "pigment": true,
+    "fluid": true,
+    "slurry": true,
+    "energy": true,
+    "tooltip_renderer": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,

@@ -64,9 +64,9 @@ ServerEvents.recipes(e => {
         }]
     })
     // 太空构件合成
-    let inter = "createdelight:incompleted_space_precision_mechanism";
+    let inter = "createdelight:incompleted_space_alloy_precision_mechanism";
     e.recipes.create.sequenced_assembly([
-        Item.of("createdelight:space_precision_mechanism")
+        Item.of("createdelight:space_alloy_precision_mechanism")
             .withChance(80),
         Item.of("kuebjs:space_alloy_nugget")
             .withChance(5),
@@ -109,7 +109,7 @@ ServerEvents.recipes(e => {
         B: "create_new_age:overcharged_diamond",
         C: "createdelight:space_alloy_ingot",
         D: "createdelight:bleak_space_alloy_handle",
-        E: "createdelight:space_precision_mechanism"
+        E: "createdelight:space_alloy_precision_mechanism"
     })
     // 太空合金剑合成
     e.recipes.create.mechanical_crafting("createdelight:space_alloy_sword", [
@@ -122,7 +122,7 @@ ServerEvents.recipes(e => {
     ], {
         A: "createdelight:space_alloy_ingot",
         B: "create_new_age:overcharged_diamond",
-        C: "createdelight:space_precision_mechanism",
+        C: "createdelight:space_alloy_precision_mechanism",
         D: "createdelight:bleak_space_alloy_handle"
     })
     // 太空合金头盔合成
@@ -137,7 +137,7 @@ ServerEvents.recipes(e => {
         A: "createdelight:bleak_space_alloy_ingot",
         B: "createdelight:space_alloy_ingot",
         C: "createdelight:miracle_dust",
-        D: "createdelight:space_precision_mechanism"
+        D: "createdelight:space_alloy_precision_mechanism"
     })
     e.recipes.create.mechanical_crafting("createdelight:space_alloy_chestplate", [
         "AB   BA",
@@ -148,7 +148,7 @@ ServerEvents.recipes(e => {
         "  AAA  "
     ], {
         A: "createdelight:bleak_space_alloy_ingot",
-        B: "createdelight:space_precision_mechanism",
+        B: "createdelight:space_alloy_precision_mechanism",
         C: "createdelight:space_alloy_ingot",
         D: "createdelight:miracle_dust"
     })
@@ -165,7 +165,7 @@ ServerEvents.recipes(e => {
         A: "createdelight:bleak_space_alloy_ingot",
         B: "createdelight:space_alloy_ingot",
         C: "createdelight:miracle_dust",
-        D: "createdelight:space_precision_mechanism"
+        D: "createdelight:space_alloy_precision_mechanism"
     })
     // 太空合金靴子合成
     e.recipes.create.mechanical_crafting("createdelight:space_alloy_boots", [
@@ -178,7 +178,7 @@ ServerEvents.recipes(e => {
     ], {
         A: "createdelight:bleak_space_alloy_ingot",
         B: "createdelight:space_alloy_ingot",
-        C: "createdelight:space_precision_mechanism"
+        C: "createdelight:space_alloy_precision_mechanism"
     })
 })
 // 太空合金系列附魔取消

@@ -12,10 +12,6 @@
 		[types.wood_type.deeperdarker]
 			echo = true
 
-		[types.wood_type.upgrade_aquatic]
-			driftwood = true
-			river = true
-
 		[types.wood_type.ulterlands]
 			cedar = true
 
@@ -54,9 +50,6 @@
 			pink_blossom = true
 			yellow_blossom = true
 			red_blossom = true
-
-		[types.leaves_type.upgrade_aquatic]
-			river = true
 
 		[types.leaves_type.ulterlands]
 			souldrained = true
