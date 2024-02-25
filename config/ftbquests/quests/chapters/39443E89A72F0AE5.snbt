@@ -602,7 +602,7 @@
 			subtitle: "凋零掉落"
 			tasks: [{
 				id: "22E897B6D974599E"
-				item: "kubejs:unactivated_wither_eye"
+				item: "createdelight:unactivated_wither_eye"
 				type: "item"
 			}]
 			x: -1.0d
@@ -615,7 +615,7 @@
 				id: "40A6F283C2C214D4"
 				item: {
 					Count: 1b
-					id: "kubejs:dusty_magical_eye"
+					id: "createdelight:dusty_magical_eye"
 					tag: {
 						Damage: 0
 					}

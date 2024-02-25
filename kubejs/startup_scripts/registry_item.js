@@ -1,66 +1,171 @@
-StartupEvents.registry('item', e => {
-  //注册粗钢锭
-  e.create('raw_steel').maxStackSize(64).displayName('粗钢锭').tag('forge:ingots').rarity('common')
-  //注册锤炼中的粗钢锭
-  e.create('incompleted_raw_steel').maxStackSize(64).displayName('锤炼中的粗钢锭').tag('forge:ingots').rarity('common')
-  //注册土豆加牛肉
-  e.create('potato_stew_beef').food(food => {
-    food
-    .hunger(7)
-    .saturation(0.6)
-    .meat()
-    .eaten(ctx => {
-      ctx.player.tell(Text.red('厨子不偷，五谷不收？!'))
-    })
-  }).displayName('土豆夹牛肉')
-  //注册未激活的凋零之眼
-  e.create('unactivated_wither_eye').maxStackSize(16).displayName('未激活的凋零之眼').rarity('epic')
-  e.create('dusty_magical_eye').maxDamage(16).displayName('蒙尘的魔力之眼').rarity('rare')
-  //注册超级饺子
-  e.create('super_dumplings').maxStackSize(16).food(food =>{
-    food.alwaysEdible().effect('regeneration',36000,3,1.0).effect('absorption',36000,3,1.0).effect('strength',36000,3,1.0)
-    .fastToEat()
-    .hunger(200)
-    .saturation(10)
-    .meat()
-    .eaten(ctx =>(
-      ctx.player.tell(Text.gold('大家一起，吃饺子~'))
-    ))
-  }).displayName('超级饺子')
-  //注册充能红石
-  e.create('overcharged_redstone').maxStackSize(64).displayName('充能红石')
-  //注册太空合金
-  e.create('space_ingot').maxStackSize(64).displayName("太空合金").rarity('epic')
-  e.create('space_nugget').maxStackSize(64).displayName('太空合金粒').rarity('rare')
-  e.create('space_sheet').maxStackSize(64).displayName('太空合金板').rarity('rare')
-  //注册暗淡太空合金
-  e.create('bleak_space_ingot').maxStackSize(64).displayName("暗淡太空合金").rarity('rare')
-  e.create('bleak_space_handle').maxStackSize(64).displayName('暗淡太空合金手柄').rarity('rare')
-  //注册太空合金构件
-  e.create('incompleted_space_precision_mechanism').maxStackSize(64).displayName('未完成的太空合金构件').rarity('rare')
-  e.create('space_precision_mechanism').maxStackSize(64).displayName('太空合金构件').rarity('epic')
-  //注册奇迹粉尘
-  e.create('miracle_dust').maxStackSize(16).displayName('奇迹粉尘').tag('forge:dust').rarity('rare')
-  //注册奇迹锭
-  e.create('miracle_ingot').maxStackSize(64).displayName('奇迹锭').tag('forge:ingot').rarity('epic')
-  //注册深渊锭
-  e.create('abyss_ingot').maxStackSize(64).displayName('深渊锭').tag('forge:ingot').rarity('epic')
-  //注册辉影合金
-  e.create('glow_shadow_alloy').maxStackSize(64).displayName('辉影合金').tag('forge:ingot').rarity('epic')
-  //注册最终之眼
-  e.create('final_eye').maxStackSize(16).displayName('最终之眼').rarity('epic')
-  //注册矿藏搬运器
-  e.create('mine_carryon').maxStackSize(1).displayName('矿藏搬运器').rarity('epic')
-  //注册傻逼rs中间产物
-  e.create('incompleted_1k_storage_part').maxStackSize(64).displayName('未完成的1k存储元件').rarity("common")
-  e.create('incompleted_4k_storage_part').maxStackSize(64).displayName('未完成的4k存储元件').rarity("common")
-  e.create('incompleted_16k_storage_part').maxStackSize(64).displayName('未完成的16k存储元件').rarity("common")
-  e.create('incompleted_64k_storage_part').maxStackSize(64).displayName('未完成的64k存储元件').rarity("common")
-  e.create('incompleted_64k_fluid_storage_part').maxStackSize(64).displayName('未完成的64k流体存储元件').rarity("common")
-  e.create('incompleted_256k_fluid_storage_part').maxStackSize(64).displayName('未完成的256k流体存储元件').rarity("common")
-  e.create('incompleted_1024k_fluid_storage_part').maxStackSize(64).displayName('未完成的1024k流体存储元件').rarity("common")
-  e.create('incompleted_4096k_fluid_storage_part').maxStackSize(64).displayName('未完成的4096k流体存储元件').rarity("common")
-  e.create('raw_silicon').maxStackSize(64).displayName('粗硅').rarity("common")
-  //注册李武的纠缠之缘
-  e.create('liwus_intertwined_fate').maxStackSize(16).displayName('李武的纠缠之缘').rarity('uncommon')
-  })
+StartupEvents.registry("item", e => {
+    // 粗钢锭
+    e.create("createdelight:raw_steel_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.raw_steel_ingot")
+        .tag("forge:ingots/raw_steel")
+        .rarity("common")
+    // 锤炼中的粗钢锭
+    e.create("createdelight:hammering_raw_steel_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.hammering_raw_steel_ingot")
+        .tag("forge:ingots/hammering_raw_steel")
+        .rarity("common")
+    // 土豆加牛肉
+    e.create("createdelight:potato_stew_beef")
+        .food(food => {
+            food.hunger(7)
+                .saturation(0.6)
+                .meat()
+                .eaten(ctx => {
+                    if (!ctx.level.isClientSide())
+                        ctx.player.tell(Text.translatable("text.createdelight.eat_potato_stew_beef").red())
+                })
+        })
+        .translationKey("item.createdelight.potato_stew_beef")
+    // 未激活的凋零之眼
+    e.create("createdelight:unactivated_wither_eye")
+        .maxStackSize(16)
+        .translationKey("item.createdelight.unactivated_wither_eye")
+        .rarity("epic")
+    e.create("createdelight:dusty_magical_eye")
+        .maxDamage(16)
+        .translationKey("item.createdelight.dusty_magical_eye")
+        .rarity("rare")
+    // 超级饺子
+    e.create("createdelight:super_dumpling")
+        .maxStackSize(16)
+        .food(food => {
+            food.alwaysEdible()
+                .effect("regeneration", 36000, 3, 1.0)
+                .effect("absorption", 36000, 3, 1.0)
+                .effect("strength", 36000, 3, 1.0)
+                .fastToEat()
+                .hunger(200)
+                .saturation(10)
+                .meat()
+                .eaten(ctx => (
+                    ctx.player.tell(Text.translatable("text.createdelight.eat_super_dumpling").gold())
+                ))
+        })
+        .translationKey("item.createdelight.super_dumpling")
+    // 充能红石
+    e.create("createdelight:overcharged_redstone")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.overcharged_redstone")
+    // 太空合金
+    e.create("createdelight:space_alloy_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.space_alloy_ingot")
+        .tag("forge:ingots/space_alloy")
+        .rarity("epic")
+    e.create("createdelight:space_alloy_nugget")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.space_alloy_nugget")
+        .tag("forge:nuggets/space_alloy")
+        .rarity("rare")
+    e.create("createdelight:space_alloy_sheet")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.space_alloy_sheet")
+        .tag("forge:plates/space_alloy")
+        .rarity("rare")
+    // 暗淡太空合金
+    e.create("createdelight:bleak_space_alloy_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.bleak_space_alloy_ingot")
+        .tag("forge:ingots/bleak_space_alloy")
+        .rarity("rare")
+    e.create("createdelight:bleak_space_alloy_handle")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.bleak_space_alloy_handle")
+        .tag("forge:rods/bleak_space_alloy")
+        .rarity("rare")
+    // 太空合金构件
+    e.create("createdelight:incompleted_space_alloy_precision_mechanism")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_space_alloy_precision_mechanism")
+        .rarity("rare")
+    e.create("createdelight:space_alloy_precision_mechanism")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.space_alloy_precision_mechanism")
+        .rarity("epic")
+    // 奇迹粉尘
+    e.create("createdelight:miracle_dust")
+        .maxStackSize(16)
+        .translationKey("item.createdelight.miracle_dust")
+        .tag("forge:dusts/miracle")
+        .rarity("rare")
+    // 奇迹锭
+    e.create("createdelight:miracle_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.miracle_ingot")
+        .tag("forge:ingots/miracle")
+        .rarity("epic")
+    // 深渊锭
+    e.create("createdelight:abyss_alloy_ingot")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.abyss_alloy_ingot")
+        .tag("forge:ingots/abyss_alloy")
+        .rarity("epic")
+    // 辉影合金
+    e.create("createdelight:glow_shadow_alloy")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.glow_shadow_alloy")
+        .tag("forge:ingots/glow_shadow")
+        .rarity("epic")
+    // 最终之眼
+    e.create("createdelight:final_eye")
+        .maxStackSize(16)
+        .translationKey("item.createdelight.final_eye")
+        .rarity("epic")
+    // 矿藏搬运器
+    e.create("createdelight:mine_carryon")
+        .maxStackSize(1)
+        .translationKey("item.createdelight.mine_carryon")
+        .rarity("epic")
+    // **rs中间产物
+    e.create("createdelight:incompleted_1k_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_1k_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_4k_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_4k_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_16k_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_16k_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_64k_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_64k_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_64k_fluid_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_64k_fluid_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_256k_fluid_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_256k_fluid_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_1024k_fluid_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_1024k_fluid_storage_part")
+        .rarity("common")
+    e.create("createdelight:incompleted_4096k_fluid_storage_part")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.incompleted_4096k_fluid_storage_part")
+        .rarity("common")
+    e.create("createdelight:raw_silicon")
+        .maxStackSize(64)
+        .translationKey("item.createdelight.raw_silicon")
+        .rarity("common")
+
+    // 开发组人员物品
+
+    // 李武的纠缠之缘
+    e.create("createdelight:liwus_intertwined_fate")
+        .maxStackSize(16)
+        .translationKey("item.createdelight.liwus_intertwined_fate")
+        .rarity("uncommon")
+})
