@@ -2,7 +2,7 @@
 [CDTool]
 	#
 	#附魔黑名单
-	enchantmentBlacklist = ["kubejs:space_alloyed_helmet", "kubejs:space_alloyed_boots", "kubejs:space_alloyed_leggings", "kubejs:space_alloyed_chestplate", "kubejs:space_alloyed_axe", "kubejs:space_alloyed_pickaxe", "kubejs:space_alloyed_sword", "kubejs:space_alloyed_shovel", "kubejs:space_alloyed_hoe"]
+	enchantmentBlacklist = ["createdelight:space_alloy_helmet", "createdelight:space_alloy_boots", "createdelight:space_alloy_leggings", "createdelight:space_alloy_chestplate", "createdelight:space_alloy_axe", "createdelight:space_alloy_pickaxe", "createdelight:space_alloy_sword", "createdelight:space_alloy_shovel", "createdelight:space_alloy_hoe"]
 	#
 	#是否启用调试模式(调试模式下将会在控制台与聊天框输出调试信息)
 	debugMode = false

@@ -1,89 +1,94 @@
-//注册azii的眼罩
+// azii的眼罩
+StartupEvents.registry("item", e => {
+    e.create("createdelight:aziis_eye_patch", "helmet")
+        .translationKey("")
+        .tier("aziis_eye_patch")
+        .rarity("uncommon")
+})
+
 ItemEvents.armorTierRegistry(e => {
-    e.add("aziis_eye_patch", tier => {
+    e.add("createdelight:aziis_eye_patch", tier => {
         tier.durabilityMultiplier = 10000
         tier.slotProtections = [0, 0, 0, 0]
         tier.toughness = 0
         tier.knockbackResistance = 0
         tier.enchantmentValue = 0
-        tier.repairIngredient = '*'
-        tier.equipSound = 'minecraft:item.armor.equip_leather'
+        tier.repairIngredient = "*"
+        tier.equipSound = "minecraft:item.armor.equip_leather"
     })
 })
-StartupEvents.registry('item', e => {
-    e.create("aziis_eye_patch", 'helmet')
-        .displayName('老馋二服主的眼罩')
-        .tier("aziis_eye_patch")
-        .rarity('uncommon')
-})
-//注册太空合金套装及工具等级
+
+// 太空合金套装及工具等级
 ItemEvents.toolTierRegistry(e => {
-    e.add('space_alloy', tier => {
+    e.add("createdelight:space_alloy", tier => {
         tier.uses = 6000
         tier.attackDamageBonus = 16
         tier.level = 4
         tier.enchantmentValue = 0
-        tier.repairIngredient = '#kjs:bleak_space_alloy_ingot'
+        tier.repairIngredient = "#kjs:bleak_space_alloy_ingot"
         tier.speed = 25
     })
 })
 ItemEvents.armorTierRegistry(e => {
-    e.add('space_alloy', tier => {
+    e.add("createdelight:space_alloy", tier => {
         tier.durabilityMultiplier = 300
         tier.slotProtections = [10, 15, 13, 10]
         tier.toughness = 10
         tier.knockbackResistance = 0.22
         tier.enchantmentValue = 0
-        tier.repairIngredient = '#kjs:bleak_space_alloy_ingot'
-        tier.equipSound = 'minecraft:item.armor.equip_diamond'
+        tier.repairIngredient = "#kjs:bleak_space_alloy_ingot"
+        tier.equipSound = "minecraft:item.armor.equip_diamond"
     })
 })
-//注册太空合金系列物品
-StartupEvents.registry('item', e => {
-    e.create('space_alloy_helmet', 'helmet')
-        .displayName('太空合金头盔')
-        .tier('space_alloy')
-        .rarity('epic')
-    e.create('space_alloy_boots', 'boots')
-        .displayName('太空合金靴子')
-        .tier('space_alloy')
-        .rarity('epic')
-    e.create('space_alloy_leggings', 'leggings')
-        .displayName('太空合金护腿')
-        .tier('space_alloy')
-        .rarity('epic')
-    e.create('space_alloy_chestplate', 'chestplate')
-        .displayName('太空合金胸甲')
-        .tier('space_alloy')
-        .rarity('epic')
-    e.create('space_alloy_pickaxe', 'pickaxe')
-        .displayName('太空合金稿')
-        .rarity('epic')
-        .tier('space_alloy')
-    e.create('space_alloy_sword', 'sword')
-        .displayName('太空合金剑')
-        .rarity('epic')
-        .tier('space_alloy')
+
+// 太空合金系列物品
+StartupEvents.registry("item", e => {
+    e.create("createdelight:space_alloy_helmet", "helmet")
+        .translationKey("item.createdelight.space_alloy_helmet")
+        .tier("space_alloy")
+        .rarity("epic")
+    e.create("createdelight:space_alloy_chestplate", "chestplate")
+        .translationKey("item.createdelight.space_alloy_chestplate")
+        .tier("space_alloy")
+        .rarity("epic")
+    e.create("createdelight:space_alloy_leggings", "leggings")
+        .translationKey("item.createdelight.space_alloy_leggings")
+        .tier("space_alloy")
+        .rarity("epic")
+    e.create("createdelight:space_alloy_boots", "boots")
+        .translationKey("item.createdelight.space_alloy_boots")
+        .tier("space_alloy")
+        .rarity("epic")
+    e.create("createdelight:space_alloy_pickaxe", "pickaxe")
+        .translationKey("item.createdelight.space_alloy_pickaxe")
+        .rarity("epic")
+        .tier("space_alloy")
+    e.create("createdelight:space_alloy_sword", "sword")
+        .translationKey("item.createdelight.space_alloy_sword")
+        .rarity("epic")
+        .tier("space_alloy")
         .speedBaseline(-2.0)
 })
-//注册奇迹物品工具等级
+
+// 奇迹物品工具等级
 ItemEvents.toolTierRegistry(e => {
-    e.add('miracle_ingot', tier => {
+    e.add("createdelight:miracle_ingot", tier => {
         tier.uses = 1561;
-        tier.repairIngredient = '#kubejs:miracle_item';
+        tier.repairIngredient = "#createdelight:miracle_item";
         tier.level = 3
         tier.enchantmentValue = 20
         tier.speed = 8
     })
 })
-//注册奇迹系列物品
-StartupEvents.registry('item', e => {
-    e.create('miracle_pickaxe', 'pickaxe')
-        .displayName('奇迹稿')
-        .rarity('epic')
-        .tier('miracle_ingot')
-    e.create('miracle_shear', "shears")
+
+// 奇迹系列物品
+StartupEvents.registry("item", e => {
+    e.create("createdelight:miracle_pickaxe", "pickaxe")
+        .translationKey("item.createdelight.miracle_pickaxe")
+        .rarity("epic")
+        .tier("miracle_ingot")
+    e.create("createdelight:miracle_shear", "shears")
+        .translationKey("item.createdelight.miracle_shear")
         .maxDamage(520)
-        .rarity('epic')
-        .displayName('奇迹剪')
+        .rarity("epic")
 })
