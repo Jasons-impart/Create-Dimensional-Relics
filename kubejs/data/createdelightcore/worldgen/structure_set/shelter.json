@@ -1,0 +1,16 @@
+{
+    "structures": [
+        {
+            "structure": "createdelightcore:shelter",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:concentric_rings",
+        "distance": 0,
+        "count": 1,
+        "preferred_biomes": "minecraft:plains",
+        "spread": 1,
+        "salt": 0
+    }
+}
