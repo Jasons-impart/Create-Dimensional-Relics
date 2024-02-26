@@ -159,7 +159,7 @@
 			subtitle: "哇哦，看看我用煤炭和铁做出来了什么东西"
 			tasks: [{
 				id: "21C397BFBD55D824"
-				item: "createdelight:raw_steel_ingot"
+				item: "createdimensionalrelics:raw_steel_ingot"
 				type: "item"
 			}]
 			x: -11.5d

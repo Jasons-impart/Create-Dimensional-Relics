@@ -16,7 +16,7 @@ ServerEvents.recipes(e => {
         "type": "lychee:item_inside",
         "post": [{
             "type": "drop_item",
-            "item": "createdelight:glow_shadow_alloy"
+            "item": "createdimensionalrelics:glow_shadow_alloy"
         }],
         "item_in": [{
             "item": "create:shadow_steel"
@@ -27,7 +27,7 @@ ServerEvents.recipes(e => {
         ],
         "block_in": "*"
     })
-    e.recipes.create.mixing("createdelight:glow_shadow_alloy", [
+    e.recipes.create.mixing("createdimensionalrelics:glow_shadow_alloy", [
         "create:refined_radiance",
         "create:shadow_steel"
     ])

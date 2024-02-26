@@ -284,7 +284,7 @@ ServerEvents.recipes(e => {
         "AAA",
         "ABA"
     ], {
-        A: "createdelight:bleak_space_alloy_ingot",
+        A: "createdimensionalrelics:bleak_space_alloy_ingot",
         B: "create_crystal_clear:train_glass_casing"
     })
     e.recipes.create.mechanical_crafting(Item.of("ad_astra:jet_suit", "{BotariumData:{Energy:1000000L,StoredFluids:[{Amount:4000L,Fluid:\"ad_astra: oxygen\"}]},Damage:0,SpawnParticles:0b}"), [
@@ -292,7 +292,7 @@ ServerEvents.recipes(e => {
         "AAA",
         "ABA"
     ], {
-        A: "createdelight:space_alloy_ingot",
+        A: "createdimensionalrelics:space_alloy_ingot",
         B: "create_sa:brass_jetpack_chestplate"
     })
     e.recipes.create.mechanical_crafting("ad_astra:jet_suit", [
@@ -300,7 +300,7 @@ ServerEvents.recipes(e => {
         "AAA",
         "ABA"
     ], {
-        A: "createdelight:bleak_space_alloy_ingot",
+        A: "createdimensionalrelics:bleak_space_alloy_ingot",
         B: "create_sa:brass_jetpack_chestplate"
     })
     e.recipes.create.mechanical_crafting("ad_astra:jet_suit_pants", [
@@ -308,13 +308,13 @@ ServerEvents.recipes(e => {
         "A A",
         "A A"
     ], {
-        A: "createdelight:bleak_space_alloy_ingot"
+        A: "createdimensionalrelics:bleak_space_alloy_ingot"
     })
     e.recipes.create.mechanical_crafting("ad_astra:jet_suit_boots", [
         "   ",
         "A A",
         "A A"
     ], {
-        A: "createdelight:bleak_space_alloy_ingot"
+        A: "createdimensionalrelics:bleak_space_alloy_ingot"
     })
 })

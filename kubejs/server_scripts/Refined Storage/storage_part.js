@@ -33,64 +33,64 @@ ServerEvents.recipes(e => {
         "sequence": [{
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             },
             [{
                 "item": "refinedstorage:silicon"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             },
             [{
                 "tag": "forge:dusts/redstone"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }]
         },
         {
             "type": "create_new_age:energising",
             "energy_needed": 1000,
             "ingredients": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             },
             [{
                 "tag": "forge:glass"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }]
         },
         {
             "type": "create:pressing",
             "ingredients": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_1k_storage_part"
+                "item": "createdimensionalrelics:incompleted_1k_storage_part"
             }]
         }
         ],
         "transitionalItem": {
-            "item": "createdelight:incompleted_1k_storage_part"
+            "item": "createdimensionalrelics:incompleted_1k_storage_part"
         }
     })
         .id("refinedstorage:1k_storage_part")
@@ -107,64 +107,64 @@ ServerEvents.recipes(e => {
         "sequence": [{
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             },
             [{
                 "item": "refinedstorage:basic_processor"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             },
             [{
                 "tag": "forge:dusts/redstone"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }]
         },
         {
             "type": "create_new_age:energising",
             "energy_needed": 2000,
             "ingredients": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             },
             [{
                 "item": "refinedstorage:1k_storage_part"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }]
         },
         {
             "type": "create:pressing",
             "ingredients": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_4k_storage_part"
+                "item": "createdimensionalrelics:incompleted_4k_storage_part"
             }]
         }
         ],
         "transitionalItem": {
-            "item": "createdelight:incompleted_4k_storage_part"
+            "item": "createdimensionalrelics:incompleted_4k_storage_part"
         }
     })
         .id("refinedstorage:4k_storage_part")
@@ -181,64 +181,64 @@ ServerEvents.recipes(e => {
         "sequence": [{
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             },
             [{
                 "item": "refinedstorage:improved_processor"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             },
             [{
                 "tag": "forge:dusts/redstone"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }]
         },
         {
             "type": "create_new_age:energising",
             "energy_needed": 4000,
             "ingredients": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             },
             [{
                 "item": "refinedstorage:4k_storage_part"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }]
         },
         {
             "type": "create:pressing",
             "ingredients": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_16k_storage_part"
+                "item": "createdimensionalrelics:incompleted_16k_storage_part"
             }]
         }
         ],
         "transitionalItem": {
-            "item": "createdelight:incompleted_16k_storage_part"
+            "item": "createdimensionalrelics:incompleted_16k_storage_part"
         }
     })
         .id("refinedstorage:16k_storage_part")
@@ -255,109 +255,109 @@ ServerEvents.recipes(e => {
         "sequence": [{
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             },
             [{
                 "item": "refinedstorage:advanced_processor"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             },
             [{
                 "tag": "forge:dusts/redstone"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }]
         },
         {
             "type": "create_new_age:energising",
             "energy_needed": 8000,
             "ingredients": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }]
         },
         {
             "type": "create:deploying",
             "ingredients": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             },
             [{
                 "item": "refinedstorage:16k_storage_part"
             }]
             ],
             "results": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }]
         },
         {
             "type": "create:pressing",
             "ingredients": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }],
             "results": [{
-                "item": "createdelight:incompleted_64k_storage_part"
+                "item": "createdimensionalrelics:incompleted_64k_storage_part"
             }]
         }
         ],
         "transitionalItem": {
-            "item": "createdelight:incompleted_64k_storage_part"
+            "item": "createdimensionalrelics:incompleted_64k_storage_part"
         }
     })
         .id("refinedstorage:64k_storage_part")
     // 64K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:64k_fluid_storage_part", "create_new_age:overcharged_iron", [
-        e.recipes.create.deploying("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", "refinedstorage:silicon"]),
-        e.recipes.create.deploying("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", "create:fluid_tank"]),
-        e.recipes.create.filling("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", Fluid.of("water 100")]),
-        e.recipes.create.deploying("createdelight:incompleted_64k_fluid_storage_part", ["createdelight:incompleted_64k_fluid_storage_part", "#forge:glass"]),
-        e.recipes.create.pressing("createdelight:incompleted_64k_fluid_storage_part", "createdelight:incompleted_64k_fluid_storage_part")
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_64k_fluid_storage_part", ["createdimensionalrelics:incompleted_64k_fluid_storage_part", "refinedstorage:silicon"]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_64k_fluid_storage_part", ["createdimensionalrelics:incompleted_64k_fluid_storage_part", "create:fluid_tank"]),
+        e.recipes.create.filling("createdimensionalrelics:incompleted_64k_fluid_storage_part", ["createdimensionalrelics:incompleted_64k_fluid_storage_part", Fluid.of("water 100")]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_64k_fluid_storage_part", ["createdimensionalrelics:incompleted_64k_fluid_storage_part", "#forge:glass"]),
+        e.recipes.create.pressing("createdimensionalrelics:incompleted_64k_fluid_storage_part", "createdimensionalrelics:incompleted_64k_fluid_storage_part")
     ])
-        .transitionalItem("createdelight:incompleted_64k_fluid_storage_part")
+        .transitionalItem("createdimensionalrelics:incompleted_64k_fluid_storage_part")
         .id("refinedstorage:64k_fluid_storage_part")
         .loops(3)
     // 256K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:256k_fluid_storage_part", "create_new_age:overcharged_iron", [
-        e.recipes.create.deploying("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", "refinedstorage:basic_processor"]),
-        e.recipes.create.deploying("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", "create:fluid_tank"]),
-        e.recipes.create.filling("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", Fluid.of("water 200")]),
-        e.recipes.create.deploying("createdelight:incompleted_256k_fluid_storage_part", ["createdelight:incompleted_256k_fluid_storage_part", "refinedstorage:64k_fluid_storage_part"]),
-        e.recipes.create.pressing("createdelight:incompleted_256k_fluid_storage_part", "createdelight:incompleted_256k_fluid_storage_part")
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_256k_fluid_storage_part", ["createdimensionalrelics:incompleted_256k_fluid_storage_part", "refinedstorage:basic_processor"]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_256k_fluid_storage_part", ["createdimensionalrelics:incompleted_256k_fluid_storage_part", "create:fluid_tank"]),
+        e.recipes.create.filling("createdimensionalrelics:incompleted_256k_fluid_storage_part", ["createdimensionalrelics:incompleted_256k_fluid_storage_part", Fluid.of("water 200")]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_256k_fluid_storage_part", ["createdimensionalrelics:incompleted_256k_fluid_storage_part", "refinedstorage:64k_fluid_storage_part"]),
+        e.recipes.create.pressing("createdimensionalrelics:incompleted_256k_fluid_storage_part", "createdimensionalrelics:incompleted_256k_fluid_storage_part")
     ])
-        .transitionalItem("createdelight:incompleted_256k_fluid_storage_part")
+        .transitionalItem("createdimensionalrelics:incompleted_256k_fluid_storage_part")
         .id("refinedstorage:256k_fluid_storage_part")
         .loops(3)
     // 1024K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:1024k_fluid_storage_part", "create_new_age:overcharged_iron", [
-        e.recipes.create.deploying("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", "refinedstorage:improved_processor"]),
-        e.recipes.create.deploying("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", "create:fluid_tank"]),
-        e.recipes.create.filling("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", Fluid.of("water 400")]),
-        e.recipes.create.deploying("createdelight:incompleted_1024k_fluid_storage_part", ["createdelight:incompleted_1024k_fluid_storage_part", "refinedstorage:256k_fluid_storage_part"]),
-        e.recipes.create.pressing("createdelight:incompleted_1024k_fluid_storage_part", "createdelight:incompleted_1024k_fluid_storage_part")
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_1024k_fluid_storage_part", ["createdimensionalrelics:incompleted_1024k_fluid_storage_part", "refinedstorage:improved_processor"]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_1024k_fluid_storage_part", ["createdimensionalrelics:incompleted_1024k_fluid_storage_part", "create:fluid_tank"]),
+        e.recipes.create.filling("createdimensionalrelics:incompleted_1024k_fluid_storage_part", ["createdimensionalrelics:incompleted_1024k_fluid_storage_part", Fluid.of("water 400")]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_1024k_fluid_storage_part", ["createdimensionalrelics:incompleted_1024k_fluid_storage_part", "refinedstorage:256k_fluid_storage_part"]),
+        e.recipes.create.pressing("createdimensionalrelics:incompleted_1024k_fluid_storage_part", "createdimensionalrelics:incompleted_1024k_fluid_storage_part")
     ])
-        .transitionalItem("createdelight:incompleted_1024k_fluid_storage_part")
+        .transitionalItem("createdimensionalrelics:incompleted_1024k_fluid_storage_part")
         .id("refinedstorage:1024k_fluid_storage_part")
         .loops(3)
     // 4096K流体存储元件合成
     e.recipes.create.sequenced_assembly("refinedstorage:4096k_fluid_storage_part", "create_new_age:overcharged_iron", [
-        e.recipes.create.deploying("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", "refinedstorage:advanced_processor"]),
-        e.recipes.create.deploying("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", "create:fluid_tank"]),
-        e.recipes.create.filling("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", Fluid.of("water 800")]),
-        e.recipes.create.deploying("createdelight:incompleted_4096k_fluid_storage_part", ["createdelight:incompleted_4096k_fluid_storage_part", "refinedstorage:1024k_fluid_storage_part"]),
-        e.recipes.create.pressing("createdelight:incompleted_4096k_fluid_storage_part", "createdelight:incompleted_4096k_fluid_storage_part")
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_4096k_fluid_storage_part", ["createdimensionalrelics:incompleted_4096k_fluid_storage_part", "refinedstorage:advanced_processor"]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_4096k_fluid_storage_part", ["createdimensionalrelics:incompleted_4096k_fluid_storage_part", "create:fluid_tank"]),
+        e.recipes.create.filling("createdimensionalrelics:incompleted_4096k_fluid_storage_part", ["createdimensionalrelics:incompleted_4096k_fluid_storage_part", Fluid.of("water 800")]),
+        e.recipes.create.deploying("createdimensionalrelics:incompleted_4096k_fluid_storage_part", ["createdimensionalrelics:incompleted_4096k_fluid_storage_part", "refinedstorage:1024k_fluid_storage_part"]),
+        e.recipes.create.pressing("createdimensionalrelics:incompleted_4096k_fluid_storage_part", "createdimensionalrelics:incompleted_4096k_fluid_storage_part")
     ])
-        .transitionalItem("createdelight:incompleted_4096k_fluid_storage_part")
+        .transitionalItem("createdimensionalrelics:incompleted_4096k_fluid_storage_part")
         .id("refinedstorage:4096k_fluid_storage_part")
         .loops(3)
 })

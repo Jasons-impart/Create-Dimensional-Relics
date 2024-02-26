@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    e.recipes.create.mechanical_crafting("createdelight:final_eye", [
+    e.recipes.create.mechanical_crafting("createdimensionalrelics:final_eye", [
         "ABCDA",
         "EFFFG",
         "HFIFJ",

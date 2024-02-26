@@ -8,8 +8,8 @@ StartupEvents.registry("block", e => {
         Grade,
         RequiresTool
     ) {
-        e.create("createdelight:" + Name)
-            .translationKey("block.createdelight." + Name)
+        e.create("createdimensionalrelics:" + Name)
+            .translationKey("block.createdimensionalrelics." + Name)
             .soundType(SoundType)
             .hardness(Hardness)
             .resistance(Resistance)

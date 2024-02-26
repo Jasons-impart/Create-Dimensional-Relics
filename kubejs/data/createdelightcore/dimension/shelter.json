@@ -4,7 +4,7 @@
         "type": "minecraft:flat",
         "settings": {
             "layers": [],
-            "structure_overrides": "createdelightcore:shelter"
+            "structure_overrides": "createdimensionalrelicscore:shelter"
         }
     }
 }

@@ -4,7 +4,7 @@ ServerEvents.recipes(e => {
         type: "lychee:item_exploding",
         post: [{
             type: "drop_item",
-            item: "createdelight:abyss_alloy_ingot",
+            item: "createdimensionalrelics:abyss_alloy_ingot",
             count: 1
         }],
         item_in: [
@@ -34,7 +34,7 @@ ServerEvents.recipes(e => {
                 "item": "deeperdarker:soul_dust"
             },
             {
-                "item": "createdelight:miracle_dust"
+                "item": "createdimensionalrelics:miracle_dust"
             },
             {
                 "item": "upgradednetherite:echo_upgraded_netherite_ingot"
@@ -43,6 +43,6 @@ ServerEvents.recipes(e => {
         ]
     })
     // 合成深渊合金块
-    e.shapeless("createdelight:abyss_alloy_block", "9x createdelight:abyss_alloy_ingot")
-    e.shapeless("9x createdelight:abyss_alloy_ingot", "createdelight:abyss_alloy_block")
+    e.shapeless("createdimensionalrelics:abyss_alloy_block", "9x createdimensionalrelics:abyss_alloy_ingot")
+    e.shapeless("9x createdimensionalrelics:abyss_alloy_ingot", "createdimensionalrelics:abyss_alloy_block")
 })

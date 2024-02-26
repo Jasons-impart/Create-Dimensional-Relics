@@ -11,13 +11,13 @@ LootJS.modifiers(e => {
         ])
     // 凋零不掉落凋零之眼，增加未激活的凋零之眼掉落
     e.addEntityLootModifier("minecraft:wither")
-        .replaceLoot("endrem:wither_eye", "createdelight:unactivated_wither_eye")
+        .replaceLoot("endrem:wither_eye", "createdimensionalrelics:unactivated_wither_eye")
     // 删除唤魔者掉落的魔力之眼
     e.addEntityLootModifier("minecraft:evoker")
         .removeLoot("endrem:magical_eye")
         // 增加概率掉蒙尘的落魔力之眼
         .addWeightedLoot([1, 2], [
-            Item.of("createdelight:dusty_magical_eye")
+            Item.of("createdimensionalrelics:dusty_magical_eye")
                 .withChance(10),
             Item.of("emerald")
                 .withChance(100)
@@ -27,7 +27,7 @@ LootJS.modifiers(e => {
         .removeLoot("endrem:old_eye")
     // 替换林地府邸里的魔力之眼
     e.addLootTableModifier("minecraft:chests/woodland_mansion")
-        .replaceLoot("endrem:magical_eye", "createdelight:dusty_magical_eye")
+        .replaceLoot("endrem:magical_eye", "createdimensionalrelics:dusty_magical_eye")
     // 删除掠夺者哨站掉落的腐化之眼
     e.addLootTableModifier("minecraft:chests/pillager_outpost")
         .removeLoot("endrem:corrupted_eye")

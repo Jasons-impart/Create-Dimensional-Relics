@@ -1,12 +1,12 @@
 ServerEvents.recipes(e => {
     // 机械手合成：凋零之眼
     e.recipes.create.deploying("endrem:wither_eye", [
-        "createdelight:unactivated_wither_eye",
+        "createdimensionalrelics:unactivated_wither_eye",
         "ulterlands:pentagram"
     ])
     // 机械手合成：魔力之眼
     e.recipes.create.deploying("endrem:magical_eye", [
-        "createdelight:dusty_magical_eye",
+        "createdimensionalrelics:dusty_magical_eye",
         "ulterlands:etherite"
     ])
     // 修改配方：女巫之眼

@@ -6,7 +6,7 @@ ServerEvents.recipes(e => {
         "ABA"
     ], {
         A: "create_new_age:overcharged_iron",
-        B: "createdelight:overcharged_redstone"
+        B: "createdimensionalrelics:overcharged_redstone"
     })
     // 替换配方：锅炉加热器
     e.shaped("create_new_age:heater", [
@@ -28,7 +28,7 @@ ServerEvents.recipes(e => {
             item: "redstone"
         }],
         results: [{
-            item: "createdelight:overcharged_redstone"
+            item: "createdimensionalrelics:overcharged_redstone"
         }]
     })
     // 替换配方：基础电路板

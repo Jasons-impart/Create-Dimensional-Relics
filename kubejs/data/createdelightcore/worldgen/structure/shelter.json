@@ -3,7 +3,7 @@
     "biomes": "minecraft:plains",
     "step": "surface_structures",
     "spawn_overrides": {},
-    "start_pool": "createdelightcore:shelter",
+    "start_pool": "createdimensionalrelicscore:shelter",
     "size": 1,
     "start_height": {
         "absolute": 128

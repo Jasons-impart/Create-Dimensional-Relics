@@ -1,13 +1,13 @@
 // azii的眼罩
 StartupEvents.registry("item", e => {
-    e.create("createdelight:aziis_eye_patch", "helmet")
-        .translationKey("item.createdelight.aziis_eye_patch")
+    e.create("createdimensionalrelics:aziis_eye_patch", "helmet")
+        .translationKey("item.createdimensionalrelics.aziis_eye_patch")
         .tier("aziis_eye_patch")
         .rarity("uncommon")
 })
 
 ItemEvents.armorTierRegistry(e => {
-    e.add("createdelight:aziis_eye_patch", tier => {
+    e.add("createdimensionalrelics:aziis_eye_patch", tier => {
         tier.durabilityMultiplier = 10000
         tier.slotProtections = [0, 0, 0, 0]
         tier.toughness = 0
@@ -43,28 +43,28 @@ ItemEvents.armorTierRegistry(e => {
 
 // 太空合金系列物品
 StartupEvents.registry("item", e => {
-    e.create("createdelight:space_alloy_helmet", "helmet")
-        .translationKey("item.createdelight.space_alloy_helmet")
+    e.create("createdimensionalrelics:space_alloy_helmet", "helmet")
+        .translationKey("item.createdimensionalrelics.space_alloy_helmet")
         .tier("space_alloy")
         .rarity("epic")
-    e.create("createdelight:space_alloy_chestplate", "chestplate")
-        .translationKey("item.createdelight.space_alloy_chestplate")
+    e.create("createdimensionalrelics:space_alloy_chestplate", "chestplate")
+        .translationKey("item.createdimensionalrelics.space_alloy_chestplate")
         .tier("space_alloy")
         .rarity("epic")
-    e.create("createdelight:space_alloy_leggings", "leggings")
-        .translationKey("item.createdelight.space_alloy_leggings")
+    e.create("createdimensionalrelics:space_alloy_leggings", "leggings")
+        .translationKey("item.createdimensionalrelics.space_alloy_leggings")
         .tier("space_alloy")
         .rarity("epic")
-    e.create("createdelight:space_alloy_boots", "boots")
-        .translationKey("item.createdelight.space_alloy_boots")
+    e.create("createdimensionalrelics:space_alloy_boots", "boots")
+        .translationKey("item.createdimensionalrelics.space_alloy_boots")
         .tier("space_alloy")
         .rarity("epic")
-    e.create("createdelight:space_alloy_pickaxe", "pickaxe")
-        .translationKey("item.createdelight.space_alloy_pickaxe")
+    e.create("createdimensionalrelics:space_alloy_pickaxe", "pickaxe")
+        .translationKey("item.createdimensionalrelics.space_alloy_pickaxe")
         .rarity("epic")
         .tier("space_alloy")
-    e.create("createdelight:space_alloy_sword", "sword")
-        .translationKey("item.createdelight.space_alloy_sword")
+    e.create("createdimensionalrelics:space_alloy_sword", "sword")
+        .translationKey("item.createdimensionalrelics.space_alloy_sword")
         .rarity("epic")
         .tier("space_alloy")
         .speedBaseline(-2.0)
@@ -74,7 +74,7 @@ StartupEvents.registry("item", e => {
 ItemEvents.toolTierRegistry(e => {
     e.add("miracle", tier => {
         tier.uses = 1561;
-        tier.repairIngredient = "#createdelight:miracle_item";
+        tier.repairIngredient = "#createdimensionalrelics:miracle_item";
         tier.level = 3
         tier.enchantmentValue = 20
         tier.speed = 8
@@ -83,12 +83,12 @@ ItemEvents.toolTierRegistry(e => {
 
 // 奇迹系列物品
 StartupEvents.registry("item", e => {
-    e.create("createdelight:miracle_pickaxe", "pickaxe")
-        .translationKey("item.createdelight.miracle_pickaxe")
+    e.create("createdimensionalrelics:miracle_pickaxe", "pickaxe")
+        .translationKey("item.createdimensionalrelics.miracle_pickaxe")
         .rarity("epic")
         .tier("miracle")
-    e.create("createdelight:miracle_shear", "shears")
-        .translationKey("item.createdelight.miracle_shear")
+    e.create("createdimensionalrelics:miracle_shear", "shears")
+        .translationKey("item.createdimensionalrelics.miracle_shear")
         .maxDamage(520)
         .rarity("epic")
 })

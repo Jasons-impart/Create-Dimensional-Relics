@@ -1,6 +1,6 @@
 // 矿藏搬运器
 ItemEvents.rightClicked(e => {
-	if (e.player.mainHandItem == "createdelight:mine_carryon") {
+	if (e.player.mainHandItem == "createdimensionalrelics:mine_carryon") {
 		e.player.mainHandItem.count--
 		e.player.swing()
 		let {

@@ -8,13 +8,13 @@ ServerEvents.recipes(e => {
         .heated()
         .id("refinedstorage:processor_binding")
     // 粗硅合成及其烧练
-    e.recipes.create.mixing("4x createdelight:raw_silicon", [
+    e.recipes.create.mixing("4x createdimensionalrelics:raw_silicon", [
         "minecraft:quartz",
         "3x #minecraft:coals"
     ])
         .heated()
         .id("rs_kjs:raw_silicon")
-    e.recipes.minecraft.smelting("refinedstorage:silicon", "createdelight:raw_silicon")
+    e.recipes.minecraft.smelting("refinedstorage:silicon", "createdimensionalrelics:raw_silicon")
     // 序列合成：基础处理器
     e.recipes.create.sequenced_assembly("refinedstorage:basic_processor", "refinedstorage:silicon", [
         e.recipes.create.deploying("refinedstorage:raw_basic_processor", ["refinedstorage:raw_basic_processor", "refinedstorage:processor_binding"]),
