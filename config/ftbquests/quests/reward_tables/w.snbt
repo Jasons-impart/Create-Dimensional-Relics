@@ -5,7 +5,7 @@
 	rewards: [
 		{ item: "minecraft:glistering_melon_slice", random_bonus: 3, weight: 0.01f }
 		{ count: 6, item: "minecraft:iron_ingot", weight: 15.0f }
-		{ count: 6, item: "createdelight:raw_steel", weight: 10.0f }
+		{ count: 6, item: "createdelight:raw_steel_ingot", weight: 10.0f }
 		{ item: "minecraft:diamond", weight: 2.0f }
 		{ item: "createcafe:cassava_seeds", weight: 5.0f }
 		{ item: "farmersdelight:cabbage_seeds" }
