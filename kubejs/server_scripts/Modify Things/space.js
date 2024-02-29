@@ -126,7 +126,7 @@ ServerEvents.recipes(e => {
         D: "createdimensionalrelics:bleak_space_alloy_handle"
     })
     // 太空合金头盔合成
-    e.recipes.create.mechanical_crafting("createdimensionalrelics:space_alloy_helmet", [
+    e.recipes.create.mechanical_crafting("createdimensionalrelicscore:space_alloy_helmet", [
         " AAAAA ",
         "ABBBBBA",
         "A CBC A",
@@ -139,7 +139,7 @@ ServerEvents.recipes(e => {
         C: "createdimensionalrelics:miracle_dust",
         D: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
-    e.recipes.create.mechanical_crafting("createdimensionalrelics:space_alloy_chestplate", [
+    e.recipes.create.mechanical_crafting("createdimensionalrelicscore:space_alloy_chestplate", [
         "AB   BA",
         "AACCCAA",
         " ADCDA ",
@@ -153,7 +153,7 @@ ServerEvents.recipes(e => {
         D: "createdimensionalrelics:miracle_dust"
     })
     // 太空合金护腿合成
-    e.recipes.create.mechanical_crafting("createdimensionalrelics:space_alloy_leggings", [
+    e.recipes.create.mechanical_crafting("createdimensionalrelicscore:space_alloy_leggings", [
         "AAAAAAA",
         "ABBCBBA",
         "ADACADA",
@@ -168,7 +168,7 @@ ServerEvents.recipes(e => {
         D: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
     // 太空合金靴子合成
-    e.recipes.create.mechanical_crafting("createdimensionalrelics:space_alloy_boots", [
+    e.recipes.create.mechanical_crafting("createdimensionalrelicscore:space_alloy_boots", [
         " BA AB ",
         " AB BA ",
         " BA AB ",
