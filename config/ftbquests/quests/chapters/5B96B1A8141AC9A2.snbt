@@ -2,8 +2,8 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "5B96B1A8141AC9A2"
-	group: "00DB2E3721B0CC58"
-	icon: "minecraft:diamond"
+	group: "7B56C96F95F1D773"
+	icon: "create:andesite_alloy"
 	id: "5B96B1A8141AC9A2"
 	images: [{
 		alpha: 100
@@ -18,136 +18,9 @@
 		x: -15.999999999999993d
 		y: -1.047619047619044d
 	}]
-	order_index: 1
+	order_index: 2
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["4144F362E5458112"]
-			id: "3063D93E51ECAFA7"
-			rewards: [{
-				id: "76847546E3621FC9"
-				item: "minecraft:diamond"
-				random_bonus: 3
-				type: "item"
-			}]
-			subtitle: "新玩家看了狂喜，老玩家看了无感"
-			tasks: [{
-				id: "77A87928540A30B5"
-				item: "minecraft:diamond"
-				type: "item"
-			}]
-			title: "布灵布灵"
-			x: -8.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "154B8A10723BCCDD"
-			subtitle: "这是你去往地狱的一个前置条件~"
-			tasks: [{
-				id: "4A1935D35B48C3FF"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "钻！石！镐！"
-			x: -9.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["154B8A10723BCCDD"]
-			id: "397E326073046811"
-			subtitle: "我一直搞不清为什么要叫这个名字（BUGJUMP就硬蹭）"
-			tasks: [{
-				count: 10L
-				id: "43FC106B59BB72F2"
-				item: "minecraft:obsidian"
-				type: "item"
-			}]
-			title: "冰桶挑战！"
-			x: -8.5d
-			y: 0.0d
-		}
-		{
-			dependencies: [
-				"397E326073046811"
-				"181E2BB5C3BC31A9"
-				"3063D93E51ECAFA7"
-			]
-			id: "2273B81FC4DA0A36"
-			subtitle: "哇，金色传说！"
-			tasks: [{
-				id: "225DFEBD3CFE9612"
-				item: "minecraft:enchanting_table"
-				type: "item"
-			}]
-			title: "附魔大师"
-			x: -7.5d
-			y: -1.5d
-		}
-		{
-			dependencies: ["77ECF5D5E59B874F"]
-			dependency_requirement: "one_completed"
-			hide_dependency_lines: true
-			id: "181E2BB5C3BC31A9"
-			rewards: [{
-				count: 10
-				id: "7DCA52938E990101"
-				item: "minecraft:book"
-				type: "item"
-			}]
-			subtitle: "书籍是人类进步的阶梯——高尔基如是说    书籍是你通向MC大师的必经之路——作者如是说"
-			tasks: [{
-				id: "2920B4B4B42306C2"
-				item: "minecraft:book"
-				type: "item"
-			}]
-			title: "知识~就是力量!"
-			x: -6.0d
-			y: -1.5d
-		}
-		{
-			dependencies: ["2273B81FC4DA0A36"]
-			id: "3EA9CF1178202BF0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2D7C091CE6F81FFA"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "2223BC3A8634A488"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:protection"
-								lvl: 4s
-							}]
-						}
-					}
-					random_bonus: 3
-					type: "item"
-				}
-			]
-			subtitle: "嗡~这是魔法的声音！"
-			tasks: [{
-				advancement: "minecraft:story/enchant_item"
-				criterion: ""
-				id: "10F188883262650B"
-				type: "advancement"
-			}]
-			title: "神奇的魔法！"
-			x: -6.5d
-			y: 0.0d
-		}
 		{
 			dependencies: ["65C204DFA418FD56"]
 			id: "26710B63F426D6DF"
@@ -199,54 +72,12 @@
 				type: "item"
 			}]
 			title: "打火石怎么变成钢做的了？"
-			x: -8.5d
-			y: 3.0d
+			x: -10.0d
+			y: 4.0d
 		}
 		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "5BC2F94739601579"
-			invisible: true
-			rewards: [{
-				id: "221D63610AFC64D3"
-				item: "minecraft:cat_spawn_egg"
-				random_bonus: 2
-				type: "item"
-			}]
-			subtitle: "原来你也看黑猫（）"
-			tasks: [{
-				id: "258060ABC2C218C0"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_shovel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "钻石铲铲~"
-			x: -12.0d
-			y: -1.0d
-		}
-		{
-			dependencies: [
-				"397E326073046811"
-				"1F84419F388C13F9"
-			]
-			description: ["一个下界传送门由黑曜石框架构成（最小4×5，最大23×23，至少需要10个黑曜石，最多需要84个黑曜石）。边角上的四个黑曜石不是必须的。使用打火石激活。"]
-			id: "77C3D5F03FE29E44"
-			subtitle: "猪人：“&e我家还蛮大的，欢迎你来我家玩，玩累了就睡觉，没问题的&r”"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				disable_toast: true
-				id: "79FBA048A982318A"
-				type: "dimension"
-			}]
-			title: "终于可以去地狱啦！"
-			x: -8.5d
-			y: 1.5d
-		}
-		{
+			dependencies: ["7EDEA3C57AA0F20A"]
+			description: ["{quest.andesite_alloy.description}"]
 			id: "74F81A8C4757CD08"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -254,18 +85,18 @@
 				table_id: 6730734086547045908L
 				type: "random"
 			}]
-			subtitle: "按住w可以进行俺寻思"
+			subtitle: "{quest.andesite_alloy.subtitle}"
 			tasks: [{
-				advancement: "create:andesite_alloy"
-				criterion: ""
-				id: "376021945E1E8795"
-				type: "advancement"
+				id: "5DF2D955BFFBFAE0"
+				item: "create:andesite_alloy"
+				type: "item"
 			}]
-			title: "欢迎正式进入机械动力大家庭！"
+			title: "{quest.andesite_alloy.title}"
 			x: -16.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["3D7427876018E5D5"]
 			id: "7875DBAC9239178C"
 			rewards: [{
 				count: 32
@@ -405,6 +236,11 @@
 			y: 0.5d
 		}
 		{
+			dependencies: [
+				"555F0D85A1B151CC"
+				"0F9A325B7651DE3D"
+			]
+			hide_dependency_lines: true
 			id: "20C4C2D755156AF4"
 			rewards: [{
 				id: "4964ABFE4BD61BF5"
@@ -487,13 +323,15 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["19C4EC6F3980ED9A"]
+			description: ["{quest.copper_ingot.description}"]
 			id: "539AFA4827EBD85F"
 			rewards: [{
 				id: "4BE4183525EC7EB9"
 				type: "xp"
 				xp: 100
 			}]
-			subtitle: "现在铜越来越有用了！"
+			subtitle: "{quest.copper_ingot.subtitle}"
 			tasks: [{
 				id: "562130DACCE4BBDB"
 				item: "minecraft:copper_ingot"
@@ -507,6 +345,7 @@
 				"74F81A8C4757CD08"
 				"539AFA4827EBD85F"
 			]
+			description: ["{quest.copper_casing.description}"]
 			id: "2A26C7B07E432B8C"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -514,7 +353,7 @@
 				table_id: 6485826240718891201L
 				type: "random"
 			}]
-			subtitle: "开启流体科技！！！"
+			subtitle: "{quest.copper_casing.subtitle}"
 			tasks: [{
 				id: "25A6E7EC7902C6EF"
 				item: "create:copper_casing"
@@ -600,28 +439,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["74F81A8C4757CD08"]
-			id: "475F9FA9B392F47A"
-			rewards: [{
-				id: "00BC9D1E815A7381"
-				item: "create:andesite_alloy"
-				random_bonus: 7
-				type: "item"
-			}]
-			subtitle: "它有神奇的力量！"
-			tasks: [{
-				id: "22C2BBC6EDFC766D"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			x: -16.0d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"475F9FA9B392F47A"
-				"1BAD95070E6A4ABB"
-			]
+			dependencies: ["1BAD95070E6A4ABB"]
 			id: "43C81C8429FB9B3E"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -647,7 +465,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["475F9FA9B392F47A"]
+			dependencies: ["74F81A8C4757CD08"]
+			description: ["{quest.andesite_casing.description}"]
 			id: "1BAD95070E6A4ABB"
 			rewards: [{
 				count: 3
@@ -655,7 +474,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			subtitle: "必需品！"
+			subtitle: "{quest.andesite_casing.subtitle}"
 			tasks: [{
 				id: "04DD441FD5D5D6F6"
 				item: "create:andesite_casing"
@@ -693,7 +512,8 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["475F9FA9B392F47A"]
+			dependencies: ["74F81A8C4757CD08"]
+			description: ["{quest.cog_wheel.description}"]
 			id: "7C63D27693E2270D"
 			rewards: [
 				{
@@ -715,7 +535,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "他们可以传输动力！"
+			subtitle: "{quest.cog_wheel.subtitle}"
 			tasks: [
 				{
 					id: "237F784E4AE172F7"
@@ -733,7 +553,7 @@
 					type: "item"
 				}
 			]
-			title: "浪漫的齿轮！"
+			title: "{quest.cog_wheel.title}"
 			x: -16.0d
 			y: 3.0d
 		}
@@ -760,6 +580,7 @@
 			dependencies: [
 				"10ED7057FFC842E1"
 				"1BAD95070E6A4ABB"
+				"0F9A325B7651DE3D"
 			]
 			id: "555F0D85A1B151CC"
 			rewards: [{
@@ -867,137 +688,6 @@
 			title: "水车嘎吱嘎吱是我的童年"
 			x: -17.5d
 			y: 4.5d
-		}
-		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "4550526FDF6E6F8E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C34FA5FE0159E21"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
-			subtitle: "既然你都有去钻石套了，也不需要我给你钻石了吧？（）"
-			tasks: [
-				{
-					id: "56E3EAAF4B249D20"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0EF95EB35EB2D3BE"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_chestplate"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "246E98DB732EC323"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_leggings"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "619C5DCE7251C4ED"
-					item: {
-						Count: 1b
-						id: "minecraft:diamond_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "你好富有啊（羡慕）"
-			x: -10.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "561E61D8E9FDE3ED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "450DF294CDEBB425"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
-			subtitle: "很棒！很闪耀！"
-			tasks: [{
-				id: "3B65F1C34D6D5594"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_sword"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -7.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "29DAE739DB7E9CEE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "719DA6761B18A38C"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
-			subtitle: "很快！很锋利！"
-			tasks: [{
-				id: "30DED35F0C21D31F"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_axe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -6.5d
-			y: -3.0d
-		}
-		{
-			dependencies: ["3063D93E51ECAFA7"]
-			id: "6C0D61A95B6C2687"
-			rewards: [{
-				id: "24C3A00E87050D8D"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
-			subtitle: "额...很好，能耕地！"
-			tasks: [{
-				id: "3D6187D745E8B338"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_hoe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			x: -9.5d
-			y: -4.5d
 		}
 		{
 			dependencies: ["539AFA4827EBD85F"]
@@ -1294,8 +984,8 @@
 				type: "item"
 			}]
 			title: "这是个什么东西？"
-			x: -10.0d
-			y: 4.0d
+			x: -8.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -1343,7 +1033,7 @@
 			y: 7.5d
 		}
 		{
-			dependencies: ["56E058538C0C00ED"]
+			dependencies: ["15937F137FFAEF83"]
 			id: "19BDE08C0BD15F9B"
 			rewards: [{
 				count: 32
@@ -1361,22 +1051,7 @@
 			y: 6.0d
 		}
 		{
-			id: "56E058538C0C00ED"
-			rewards: [{
-				id: "499800C2685CFC4A"
-				type: "xp"
-				xp: 100
-			}]
-			tasks: [{
-				id: "122E98BCAF05910E"
-				item: "toms_storage:ts.inventory_connector"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["56E058538C0C00ED"]
+			dependencies: ["15937F137FFAEF83"]
 			id: "1FD78552C20A175A"
 			rewards: [{
 				count: 4
@@ -1405,8 +1080,8 @@
 		}
 		{
 			dependencies: [
-				"56E058538C0C00ED"
 				"69AE9B77F09A200A"
+				"15937F137FFAEF83"
 			]
 			dependency_requirement: "one_completed"
 			id: "7E8E6E639AB8B47E"
@@ -1523,6 +1198,33 @@
 			x: -22.5d
 			y: -4.0d
 		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "15937F137FFAEF83"
+			tasks: [{
+				id: "0F6BDEF70A41F5A1"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["54E9D8443D877CB9"]
+			id: "2EF38D620B4E1664"
+			rewards: [{
+				id: "79530BF51DEF604B"
+				item: "ad_astra:earth_globe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36943D18052D9C81"
+				item: "ad_astra:astrodux"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 3.0d
+		}
 	]
-	title: "&2日渐熟稔"
+	title: "{chapter.whitering2.title}"
 }

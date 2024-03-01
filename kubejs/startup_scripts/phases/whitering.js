@@ -1,5 +1,5 @@
 /**
- * overworld.js - Define phase
+ * whitering.js - Define phase
  */
 StartupEvents.postInit(e => {
     

@@ -83,8 +83,8 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["59EB8216D9A91914"]
-			description: [""]
+			dependencies: ["0F04193DFE08130E"]
+			description: ["{quest.stone.description}"]
 			id: "5378B8523968F007"
 			rewards: [{
 				id: "4C3DDFA020FEFA11"
@@ -92,19 +92,19 @@
 				random_bonus: 63
 				type: "item"
 			}]
-			subtitle: "只需要挖8个就可以造熔炉啦！"
+			subtitle: "{quest.stone.subtitle}"
 			tasks: [{
 				count: 8L
 				id: "4D7052DC3DBB8731"
 				item: "minecraft:cobblestone"
 				type: "item"
 			}]
-			title: "这就是！！石粒！！"
+			title: "{quest.stone.title}"
 			x: 8.0d
 			y: -2.0d
 		}
 		{
-			dependencies: ["0F04193DFE08130E"]
+			dependencies: ["77ECF5D5E59B874F"]
 			description: [""]
 			id: "08ECAB95A3D6E981"
 			rewards: [{
@@ -193,6 +193,7 @@
 		}
 		{
 			dependencies: ["59EB8216D9A91914"]
+			description: ["{quest.raw_copper.description}"]
 			id: "19C4EC6F3980ED9A"
 			rewards: [
 				{
@@ -208,7 +209,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "整个MC中最没用的矿物"
+			subtitle: "{quest.raw_copper.subtitle}"
 			tasks: [{
 				id: "5A74B82C41946F89"
 				item: "minecraft:raw_copper"
@@ -218,8 +219,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["0F04193DFE08130E"]
-			description: ["呜呜呜呜呜呜呜呜呜令人感伤的故事（大家可以去查一下这个梗的由来，“哥哥我们家有钱了”）"]
+			dependencies: ["5378B8523968F007"]
+			description: ["{quest.stone_pickaxe.description}"]
 			id: "59EB8216D9A91914"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -227,7 +228,7 @@
 				table_id: 5347970608351672481L
 				type: "random"
 			}]
-			subtitle: "哥哥，我们家有石稿啦！！！"
+			subtitle: "{quest.stone_pickaxe.subtitle}"
 			tasks: [{
 				id: "56848055EF8A035B"
 				item: {
@@ -239,6 +240,7 @@
 				}
 				type: "item"
 			}]
+			title: "{quest.stone_pickaxe.title}"
 			x: 8.0d
 			y: 0.0d
 		}
@@ -287,7 +289,7 @@
 					type: "item"
 				}
 			]
-			subtitle: "葡萄糖酸锌口服液，酸酸甜甜我最爱"
+			subtitle: "{quest.raw_zinc.subtitle}"
 			tasks: [{
 				id: "37E75DB2831DE06B"
 				item: "create:raw_zinc"
@@ -297,12 +299,8 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"59EB8216D9A91914"
-				"7A3709D4B50FDB64"
-				"31FCDE1EB7C614B8"
-			]
-			description: [""]
+			dependencies: ["7A3709D4B50FDB64"]
+			description: ["{quest.iron_pickaxe.description}"]
 			id: "4144F362E5458112"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -310,7 +308,7 @@
 				table_id: 5347970608351672481L
 				type: "random"
 			}]
-			subtitle: "让我们做一把铁镐来收集更多资源吧"
+			subtitle: "{quest.iron_pickaxe.subtitle}"
 			tasks: [{
 				id: "23C4D701E1D75A55"
 				item: {
@@ -322,7 +320,7 @@
 				}
 				type: "item"
 			}]
-			title: "终于可以挖钻石啦"
+			title: "{quest.iron_pickaxe.title}"
 			x: 11.0d
 			y: 0.0d
 		}
@@ -887,32 +885,15 @@
 		}
 		{
 			dependencies: ["59EB8216D9A91914"]
+			description: ["{quest.andesite.description}"]
 			id: "7EDEA3C57AA0F20A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "37D7D57E81FD24A1"
-					table_id: 6730734086547045908L
-					type: "random"
-				}
-				{
-					id: "225DA5C46DC56B32"
-					item: "create:wrench"
-					type: "item"
-				}
-				{
-					id: "06A5D9AECCC79B0D"
-					item: "create:goggles"
-					type: "item"
-				}
-			]
-			subtitle: "机械动力，启动！"
+			subtitle: "{quest.andesite.subtitle}"
 			tasks: [{
 				id: "33A4A7B1ECC5A658"
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			title: "快看我发现了什么！"
+			title: "{quest.andesite.title}"
 			x: 6.0d
 			y: -2.0d
 		}
@@ -1064,7 +1045,7 @@
 		}
 		{
 			dependencies: ["77ECF5D5E59B874F"]
-			description: ["选择3×3的空地，将合成蓝图右键放置，共有九个位置，空手或者机械动力扳手右键设置合成配方（可以JEI拖入或者直接点击小加号，点击小加号可以使用tag进行合成），设置完成后右键直接合成一次，蹲下右键可一次合成一组（没有一组就全都消耗掉），设置完成后千万不要用机械动力扳手右键（会直接消除合成配方）"]
+			description: ["{quest.crafting_blueprint.description}"]
 			id: "60B88C2A6488DC81"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1072,13 +1053,13 @@
 				table_id: 5347970608351672481L
 				type: "random"
 			}]
-			subtitle: "霍！这不是植物魔法的工厂环吗"
+			subtitle: "{quest.crafting_blueprint.subtitle}"
 			tasks: [{
 				id: "64BF60DCF2763E29"
 				item: "create:crafting_blueprint"
 				type: "item"
 			}]
-			title: "另类合成"
+			title: "{quest.crafting_blueprint.title}"
 			x: 4.0d
 			y: -2.0d
 		}
@@ -1228,6 +1209,293 @@
 			x: -3.5d
 			y: 5.0d
 		}
+		{
+			dependencies: ["4144F362E5458112"]
+			description: ["{quest.diamond.description}"]
+			id: "3063D93E51ECAFA7"
+			rewards: [{
+				id: "76847546E3621FC9"
+				item: "minecraft:diamond"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "{quest.diamond.subtitle}"
+			tasks: [{
+				id: "77A87928540A30B5"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{quest.diamond.title}"
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "6C0D61A95B6C2687"
+			rewards: [{
+				id: "24C3A00E87050D8D"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			subtitle: "额...很好，能耕地！"
+			tasks: [{
+				id: "3D6187D745E8B338"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_hoe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "4550526FDF6E6F8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C34FA5FE0159E21"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "既然你都有去钻石套了，也不需要我给你钻石了吧？（）"
+			tasks: [
+				{
+					id: "56E3EAAF4B249D20"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EF95EB35EB2D3BE"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "246E98DB732EC323"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "619C5DCE7251C4ED"
+					item: {
+						Count: 1b
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "你好富有啊（羡慕）"
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "5BC2F94739601579"
+			invisible: true
+			rewards: [{
+				id: "221D63610AFC64D3"
+				item: "minecraft:cat_spawn_egg"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "原来你也看黑猫（）"
+			tasks: [{
+				id: "258060ABC2C218C0"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_shovel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "钻石铲铲~"
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "154B8A10723BCCDD"
+			subtitle: "{quest.diamond_pickaxe.subtitle}"
+			tasks: [{
+				id: "4A1935D35B48C3FF"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "{quest.diamond_pickaxe.title}"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["154B8A10723BCCDD"]
+			description: ["{quest.obsidian.description}"]
+			id: "397E326073046811"
+			tasks: [{
+				count: 10L
+				id: "43FC106B59BB72F2"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "{quest.obsidian.title}"
+			x: 15.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"397E326073046811"
+				"3063D93E51ECAFA7"
+			]
+			id: "2273B81FC4DA0A36"
+			subtitle: "哇，金色传说！"
+			tasks: [{
+				id: "225DFEBD3CFE9612"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "附魔大师"
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2273B81FC4DA0A36"
+				"181E2BB5C3BC31A9"
+			]
+			id: "3EA9CF1178202BF0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2D7C091CE6F81FFA"
+					table_id: 5347970608351672481L
+					type: "random"
+				}
+				{
+					id: "2223BC3A8634A488"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					random_bonus: 3
+					type: "item"
+				}
+			]
+			subtitle: "嗡~这是魔法的声音！"
+			tasks: [{
+				advancement: "minecraft:story/enchant_item"
+				criterion: ""
+				id: "10F188883262650B"
+				type: "advancement"
+			}]
+			title: "神奇的魔法！"
+			x: 17.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77ECF5D5E59B874F"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "181E2BB5C3BC31A9"
+			rewards: [{
+				count: 10
+				id: "7DCA52938E990101"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			subtitle: "书籍是人类进步的阶梯——高尔基如是说    书籍是你通向MC大师的必经之路——作者如是说"
+			tasks: [{
+				id: "2920B4B4B42306C2"
+				item: "minecraft:book"
+				type: "item"
+			}]
+			title: "知识~就是力量!"
+			x: 17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "29DAE739DB7E9CEE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "719DA6761B18A38C"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "很快！很锋利！"
+			tasks: [{
+				id: "30DED35F0C21D31F"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3063D93E51ECAFA7"]
+			id: "561E61D8E9FDE3ED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "450DF294CDEBB425"
+				table_id: 8595933012744775382L
+				type: "random"
+			}]
+			subtitle: "很棒！很闪耀！"
+			tasks: [{
+				id: "3B65F1C34D6D5594"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
 	]
-	title: "{chapter.bailin.title}"
+	title: "{chapter.whitering1.title}"
 }

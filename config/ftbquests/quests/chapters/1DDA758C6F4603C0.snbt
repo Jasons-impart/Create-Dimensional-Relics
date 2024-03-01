@@ -15,21 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "2EF38D620B4E1664"
-			rewards: [{
-				id: "79530BF51DEF604B"
-				item: "ad_astra:earth_globe"
-				type: "item"
-			}]
-			tasks: [{
-				id: "36943D18052D9C81"
-				item: "ad_astra:astrodux"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 9.5d
-		}
-		{
 			dependencies: [
 				"2EF38D620B4E1664"
 				"3705F36A31F3D540"
@@ -51,7 +36,10 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"0F9A325B7651DE3D"
+			]
 			description: ["去外太空一定要多带一个在身上，这玩意可不会跟着你起飞"]
 			hide_dependent_lines: true
 			id: "001E54ADF04996D7"
@@ -968,7 +956,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"0F9A325B7651DE3D"
+			]
 			hide_dependent_lines: true
 			id: "085D1390A9988873"
 			tasks: [{
@@ -980,7 +971,10 @@
 			y: 8.0d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"0F9A325B7651DE3D"
+			]
 			hide_dependent_lines: true
 			id: "7D11F8F55F660980"
 			tasks: [{
@@ -992,7 +986,10 @@
 			y: 11.0d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"0F9A325B7651DE3D"
+			]
 			hide_dependent_lines: true
 			id: "3FC1D0F27D10DCBC"
 			tasks: [{
@@ -1004,7 +1001,10 @@
 			y: 9.5d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
+			dependencies: [
+				"2EF38D620B4E1664"
+				"0F9A325B7651DE3D"
+			]
 			hide_dependent_lines: true
 			id: "69D1277B572D30CC"
 			tasks: [{
