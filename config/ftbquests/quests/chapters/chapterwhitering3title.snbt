@@ -10,7 +10,7 @@
 	quests: [
 		{
 			dependencies: ["173EAEC8869A01CC"]
-			description: ["手持烈焰人燃烧室&4直接右键&r烈焰人即可抓捕烈焰人，或直接&4右键烈焰人刷怪笼&r同样可以“&1竭泽而渔&r”"]
+			description: ["{quest.empty_blaze_burner.description}"]
 			id: "77DF8BCBCE422BA9"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -18,18 +18,22 @@
 				table_id: 8595933012744775382L
 				type: "random"
 			}]
-			subtitle: "就你叫农场主是吧！"
+			subtitle: "{quest.empty_blaze_burner.subtitle}"
 			tasks: [{
 				id: "1FF8766588A18B75"
 				item: "create:empty_blaze_burner"
 				type: "item"
 			}]
-			title: "去抓&e“金”&r奴吧"
+			title: "{quest.empty_blaze_burner.title}"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
-			dependencies: ["77DF8BCBCE422BA9"]
+			dependencies: [
+				"77DF8BCBCE422BA9"
+				"10DC5657C6DD7F79"
+			]
+			description: ["{quest.blaze_burner.description}"]
 			id: "241BAFA577B60069"
 			rewards: [{
 				id: "6C62C272183BCE15"
@@ -37,19 +41,20 @@
 				random_bonus: 7
 				type: "item"
 			}]
-			subtitle: "&4抓到你了！"
+			subtitle: "{quest.blaze_burner.subtitle}"
 			tasks: [{
 				advancement: "create:burner"
 				criterion: ""
 				id: "2E8BC55A8A53FE10"
 				type: "advancement"
 			}]
-			title: "无限苦力！"
+			title: "{quest.blaze_burner.title}"
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["4F61255897AD730B"]
+			description: ["{quest.brass_casing.description}"]
 			id: "5BC1AFE07AF12B55"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -57,6 +62,7 @@
 				table_id: 5347970608351672481L
 				type: "random"
 			}]
+			subtitle: "{quest.brass_casing.subtitle}"
 			tasks: [{
 				id: "6EC1D499A10A062F"
 				item: "create:brass_casing"
@@ -67,6 +73,7 @@
 		}
 		{
 			dependencies: ["241BAFA577B60069"]
+			description: ["{quest.brass_ingot.description}"]
 			id: "4F61255897AD730B"
 			rewards: [{
 				id: "143CC7D3D9C3DA65"
@@ -80,7 +87,7 @@
 				item: "create:brass_ingot"
 				type: "item"
 			}]
-			title: "&e最最最&r重要的锭！"
+			title: "{quest.brass_ingot.title}"
 			x: 1.5d
 			y: 1.5d
 		}
@@ -648,8 +655,8 @@
 		{
 			dependencies: [
 				"7D7800A179158577"
-				"4F61255897AD730B"
 				"740A0B1E042F6C74"
+				"56B16C088C2D8BF7"
 			]
 			id: "46F3F0B5A507B3B5"
 			tasks: [{
@@ -1939,6 +1946,21 @@
 			title: "&4轨道收集癖！"
 			x: 4.5d
 			y: 12.0d
+		}
+		{
+			description: ["{quest.summon_blaze.description}"]
+			id: "10DC5657C6DD7F79"
+			subtitle: "{quest.summon_blaze.subtitle}"
+			tasks: [{
+				id: "354F9E9C08B3E575"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:blaze"
+				type: "observation"
+			}]
+			title: "{quest.summon_blaze.title}"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "{chapter.whitering3.title}"

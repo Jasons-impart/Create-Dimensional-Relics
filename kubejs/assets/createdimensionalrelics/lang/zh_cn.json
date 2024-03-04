@@ -111,5 +111,18 @@
     "quest.copper_ingot.description": "是铜子总会发光",
     "quest.copper_casing.subtitle": "开启流体科技！！！",
     "quest.copper_casing.description": "好东西",
-    "chapter.whitering3.title": "&4火成材料"
+    "chapter.whitering3.title": "&4火成材料",
+    "quest.empty_blaze_burner.title": "去抓&e“金”&r奴吧",
+    "quest.empty_blaze_burner.subtitle": "就你叫农场主是吧！",
+    "quest.empty_blaze_burner.description": "手持烈焰人燃烧室&4直接右键&r烈焰人即可抓捕烈焰人，或直接&4右键烈焰人刷怪笼&r同样可以“&1竭泽而渔&r”",
+    "quest.summon_blaze.title": "召唤烈焰",
+    "quest.summon_blaze.subtitle": "看起来不应该是这个世界的生物",
+    "quest.summon_blaze.description": "但是或许有什么方法让他出现在这里...\n他能帮我做什么呢？",
+    "quest.blaze_burner.title": "无限苦力！",
+    "quest.blaze_burner.subtitle": "&4抓到你了！",
+    "quest.blaze_burner.description": "提醒：他们只能帮你烧燃料，不能烧自己。你需要给他们提供烧东西！",
+    "quest.brass_ingot.title": "&e最最最&r重要的锭！",
+    "quest.brass_ingot.description": "更高级的机器要来了！",
+    "quest.brass_casing.subtitle": "更高级的机器外壳",
+    "quest.brass_casing.description": "材料推动科技！"
 }
