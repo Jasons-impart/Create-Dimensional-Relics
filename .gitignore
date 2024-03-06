@@ -26,6 +26,7 @@
 /XaeroWorldMap
 /modernfix
 /shaderpacks
+/skyblock_exports
 /crash-reports
 /schematics
 /kubejs/probe
@@ -48,3 +49,4 @@ launcher_profiles.json
 /*.json
 *.zip
 log4j2.xml
+.abnormal
