@@ -1,0 +1,16 @@
+{
+  "translation": "gui.ad_astra.text.earth",
+  "galaxy": "ad_astra:milky_way",
+  "solar_system": "ad_astra:solar_system",
+  "world": "createdimensionalrelicscore:whitering",
+  "orbit_world": "ad_astra:earth_orbit",
+  "rocket_tier": 1,
+  "gravity": 9.800,
+  "has_atmosphere": true,
+  "days_in_year": 365,
+  "temperature": 15,
+  "solar_power": 13,
+  "orbit_solar_power": 15,
+  "has_oxygen": true,
+  "button_color": "green"
+}
