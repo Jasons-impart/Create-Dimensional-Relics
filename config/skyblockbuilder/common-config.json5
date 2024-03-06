@@ -1,6 +1,6 @@
 {
   "Dimensions": {
-  W
+  
     "End": {
     
       // Should end generate as in default world type? [default: false]
@@ -27,7 +27,7 @@
   
     // Should all items be reset on first world join? [default: false]
     // This will delete all the items given on spawn from other mods guide books.
-    "clearInv": false,
+    "clearInv": true,
     
     // Should players' items be dropped when leaving a team? [default: true]
     "dropItems": true
@@ -154,19 +154,19 @@
     "Teleports": {
     
       // Should players be able to visit other island? [default: true]
-      "allowVisits": true,
+      "allowVisits": false,
       
       // Should players be able to teleport to another dimension? [default: true]
       "crossDimensionTeleportation": true,
       
       // Should players be able to teleport to their home island? [default: true]
-      "home": true,
+      "home": false,
       
       // Cooldown in ticks for teleporting back home. [default: 3600 = 3min]
       "homeCooldown": 3600,
       
       // Should players be able to teleport to spawn? [default: true]
-      "spawn": true,
+      "spawn": false,
       
       // Cooldown in ticks for teleporting to spawn. [default: 3600 = 3min]
       "spawnCooldown": 3600,
