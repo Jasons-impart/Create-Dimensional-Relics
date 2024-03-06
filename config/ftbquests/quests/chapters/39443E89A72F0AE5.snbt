@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "39443E89A72F0AE5"
-	group: "747C51897F9505BC"
+	group: "7B56C96F95F1D773"
 	icon: "minecraft:dragon_head"
 	id: "39443E89A72F0AE5"
-	order_index: 0
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

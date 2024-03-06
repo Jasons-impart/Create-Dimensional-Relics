@@ -1,6 +1,6 @@
 /**
- * aether.js - Define phase
+ * Aether.js - Define phase
  */
 StartupEvents.postInit(e => {
-    GamePhase.addDimensionRestriction("aether", "aether:the_aether")
+    GamePhase.addDimensionRestriction("Aether", "aether:the_aether")
 })

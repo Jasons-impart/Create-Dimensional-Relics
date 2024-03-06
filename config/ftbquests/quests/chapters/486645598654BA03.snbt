@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "486645598654BA03"
-	group: "10ABEF1452A4D413"
+	group: "7B56C96F95F1D773"
 	icon: "minecraft:wither_skeleton_skull"
 	id: "486645598654BA03"
 	images: [{
@@ -18,7 +18,7 @@
 		x: 4.285714285714285d
 		y: 1.75d
 	}]
-	order_index: 0
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{

@@ -2,7 +2,7 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "62C8E334BC361399"
-	group: "24D3C8C08A74A03F"
+	group: "7B56C96F95F1D773"
 	icon: {
 		Count: 1b
 		id: "ulterlands:ulterlands_dimension"
@@ -11,7 +11,7 @@
 		}
 	}
 	id: "62C8E334BC361399"
-	order_index: 0
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{

@@ -1,6 +1,6 @@
 /**
- * end.js - Define phase
+ * End.js - Define phase
  */
 StartupEvents.postInit(e => {
-    GamePhase.addDimensionRestriction("end", "minecraft:the_end")
+    GamePhase.addDimensionRestriction("End", "minecraft:the_end")
 })
