@@ -1,3 +1,4 @@
+aether_redux:aether_caves
 minecraft:canyon
 minecraft:cave
 minecraft:cave_extra_underground

@@ -3,9 +3,23 @@
 	default_quest_shape: ""
 	filename: "chaptersheltertitle"
 	group: "7B56C96F95F1D773"
+	icon: "minecraft:stone"
 	id: "48A31831A8CDA8B9"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		description: ["{quest.arriveshelter.description}"]
+		id: "7905D6425CA6E272"
+		subtitle: "{quest.arriveshelter.subtitle}"
+		tasks: [{
+			dimension: "minecraft:overworld"
+			icon: "minecraft:stone"
+			id: "29EDA33B576C9D2C"
+			type: "dimension"
+		}]
+		title: "{quest.arriveshelter.title}"
+		x: 0.0d
+		y: 0.0d
+	}]
 	title: "{chapter.shelter.title}"
 }
