@@ -50,3 +50,6 @@ launcher_profiles.json
 *.zip
 log4j2.xml
 .abnormal
+config/oculus.properties
+config/xaerominimap_entities.json
+config/jei/world/local/bookmarks.ini
