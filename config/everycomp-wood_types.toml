@@ -31,12 +31,6 @@
 			strophar = true
 			glacian = true
 
-		[types.wood_type.vinery]
-			cherry = true
-
-		[types.wood_type.beachparty]
-			palm = true
-
 	[types.leaves_type]
 
 		[types.leaves_type.deeperdarker]
@@ -72,14 +66,6 @@
 
 		[types.leaves_type.ad_astra]
 			glacian = true
-
-		[types.leaves_type.vinery]
-			grapevine = true
-			cherry = true
-			apple = true
-
-		[types.leaves_type.beachparty]
-			palm = true
 
 		[types.leaves_type.fruitsdelight]
 			pear = true
