@@ -22,9 +22,9 @@ ServerEvents.recipes(e => {
     ])
     // 太空合金块合成
     e.shapeless("createdimensionalrelics:space_alloy_block", [
-        "9x createdimensionalrelics:space_alloy_ingot"
+        "9x createdimensionalrelicscore:space_alloy_ingot"
     ])
-    e.shapeless("9x createdimensionalrelics:space_alloy_ingot", [
+    e.shapeless("9x createdimensionalrelicscore:space_alloy_ingot", [
         "createdimensionalrelics:space_alloy_block"
     ])
     // 暗淡太空合金充能
@@ -35,7 +35,7 @@ ServerEvents.recipes(e => {
             item: "createdimensionalrelics:bleak_space_alloy_ingot"
         }],
         results: [{
-            item: "createdimensionalrelics:space_alloy_ingot"
+            item: "createdimensionalrelicscore:space_alloy_ingot"
         }]
     })
     // 暗淡太空合金充能
@@ -46,7 +46,7 @@ ServerEvents.recipes(e => {
             "count": 1
         },
         result: {
-            "item": "createdimensionalrelics:space_alloy_ingot",
+            "item": "createdimensionalrelicscore:space_alloy_ingot",
             "count": 1
         },
         "energy": 10000,
@@ -74,20 +74,20 @@ ServerEvents.recipes(e => {
             .withChance(5),
         Item.of("create_new_age:overcharged_diamond")
             .withChance(5),
-        Item.of("createdimensionalrelics:space_alloy_sheet")
+        Item.of("createdimensionalrelicscore:space_alloy_sheet")
             .withChance(5)
-    ], "createdimensionalrelics:space_alloy_sheet", [
-        e.recipes.create.deploying(inter, [inter, "createdimensionalrelics:space_alloy_nugget"]),
+    ], "createdimensionalrelicscore:space_alloy_sheet", [
+        e.recipes.create.deploying(inter, [inter, "createdimensionalrelicscore:space_alloy_nugget"]),
         e.recipes.create.deploying(inter, [inter, "createdimensionalrelics:overcharged_redstone"]),
         e.recipes.create.deploying(inter, [inter, "create_new_age:overcharged_diamond"])
     ])
         .transitionalItem(inter)
         .loops(5)
     // 太空合金板合成
-    e.recipes.create.pressing("createdimensionalrelics:space_alloy_sheet", "createdimensionalrelics:space_alloy_ingot")
+    e.recipes.create.pressing("createdimensionalrelicscorespace_alloy_sheet", "createdimensionalrelicscore:space_alloy_ingot")
     // 太空合金粒合成
-    e.shapeless("9x createdimensionalrelics:space_alloy_nugget", "createdimensionalrelics:space_alloy_ingot")
-    e.shapeless("createdimensionalrelics:space_alloy_ingot", "9x createdimensionalrelics:space_alloy_nugget")
+    e.shapeless("9x createdimensionalrelicscore:space_alloy_nugget", "createdimensionalrelicscore:space_alloy_ingot")
+    e.shapeless("createdimensionalrelicscore:space_alloy_ingot", "9x createdimensionalrelicscore:space_alloy_nugget")
     // 暗淡太空合金工具手柄
     e.shaped("createdimensionalrelics:bleak_space_alloy_handle", [
         " A ",
@@ -105,9 +105,9 @@ ServerEvents.recipes(e => {
         "  D  ",
         "  D  "
     ], {
-        A: "createdimensionalrelics:space_alloy_sheet",
+        A: "createdimensionalrelicscorespace_alloy_sheet",
         B: "create_new_age:overcharged_diamond",
-        C: "createdimensionalrelics:space_alloy_ingot",
+        C: "createdimensionalrelicscore:space_alloy_ingot",
         D: "createdimensionalrelics:bleak_space_alloy_handle",
         E: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
@@ -120,7 +120,7 @@ ServerEvents.recipes(e => {
         " DA  ",
         "D B  ",
     ], {
-        A: "createdimensionalrelics:space_alloy_ingot",
+        A: "createdimensionalrelicscore:space_alloy_ingot",
         B: "create_new_age:overcharged_diamond",
         C: "createdimensionalrelics:space_alloy_precision_mechanism",
         D: "createdimensionalrelics:bleak_space_alloy_handle"
@@ -135,7 +135,7 @@ ServerEvents.recipes(e => {
         "DBDBDBD"
     ], {
         A: "createdimensionalrelics:bleak_space_alloy_ingot",
-        B: "createdimensionalrelics:space_alloy_ingot",
+        B: "createdimensionalrelicscore:space_alloy_ingot",
         C: "createdimensionalrelics:miracle_dust",
         D: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
@@ -149,7 +149,7 @@ ServerEvents.recipes(e => {
     ], {
         A: "createdimensionalrelics:bleak_space_alloy_ingot",
         B: "createdimensionalrelics:space_alloy_precision_mechanism",
-        C: "createdimensionalrelics:space_alloy_ingot",
+        C: "createdimensionalrelicscore:space_alloy_ingot",
         D: "createdimensionalrelics:miracle_dust"
     })
     // 太空合金护腿合成
@@ -163,7 +163,7 @@ ServerEvents.recipes(e => {
         "AAA AAA"
     ], {
         A: "createdimensionalrelics:bleak_space_alloy_ingot",
-        B: "createdimensionalrelics:space_alloy_ingot",
+        B: "createdimensionalrelicscore:space_alloy_ingot",
         C: "createdimensionalrelics:miracle_dust",
         D: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
@@ -177,7 +177,7 @@ ServerEvents.recipes(e => {
         "AAA AAA"
     ], {
         A: "createdimensionalrelics:bleak_space_alloy_ingot",
-        B: "createdimensionalrelics:space_alloy_ingot",
+        B: "createdimensionalrelicscore:space_alloy_ingot",
         C: "createdimensionalrelics:space_alloy_precision_mechanism"
     })
 })
@@ -195,9 +195,9 @@ MoreJSEvents.enchantmentTableIsEnchantable(e => {
 ServerEvents.tags("item", e => {
     // 太空合金锭tag添加（维修）
     e.add("kjs:bleak_space_alloy_ingot", [
-        "createdimensionalrelics:bleak_space_alloy_ingot", "createdimensionalrelics:space_alloy_ingot"
+        "createdimensionalrelics:bleak_space_alloy_ingot", "createdimensionalrelicscore:space_alloy_ingot"
     ])
-    e.add("kjs:space_alloy_ingot", "createdimensionalrelics:space_alloy_ingot")
+    e.add("kjs:space_alloy_ingot", "createdimensionalrelicscore:space_alloy_ingot")
     // 太空合金物品tag添加
     e.add("kjs:space_alloy_tiers/tools", [
         "createdimensionalrelics:space_alloy_helmet",
