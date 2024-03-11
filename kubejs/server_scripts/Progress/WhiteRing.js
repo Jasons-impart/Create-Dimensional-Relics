@@ -9,4 +9,16 @@ ServerEvents.recipes(e => {
             B: "#forge:plates/iron",
             C: "#minecraft:soul_fire_base_blocks",
         })
+
+    BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("blaze")
+        .pattern(" b ", "sms", " l ")
+        .center("l", Blocks.JACK_O_LANTERN)
+        .where("b", Blocks.NETHER_BRICKS)
+        .where("m", Blocks.MAGMA_BLOCK)
+        .whereTag("s", "minecraft:soul_fire_base_blocks")
+        .where(" ", Blocks.AIR)
+        .craftingItem("alexsmobs:lava_bottle")
+        .resultEntity("minecraft:blaze")
+        .build()
+    )
 })
