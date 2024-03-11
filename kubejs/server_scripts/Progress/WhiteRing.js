@@ -19,6 +19,9 @@ ServerEvents.recipes(e => {
         .where(" ", Blocks.AIR)
         .craftingItem("alexsmobs:lava_bottle")
         .resultEntity("minecraft:blaze")
+        .resultAction((level, pos, player) => {
+            player.setMainHandItem("minecraft:glass_bottle")
+        })
         .build()
     )
 })
