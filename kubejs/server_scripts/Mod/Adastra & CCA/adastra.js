@@ -13,6 +13,8 @@ ServerEvents.recipes(e => {
         "ad_astra:water_pump",
         "ad_astra:nasa_workbench",
         "ad_astra:wrench",
+        "ad_astra:rocket_nose_cone",
+        "ad_astra:rocket_fin",
     ])
     remove_recipes_id(e, [
         "ad_astra:nasa_workbench/tier_1_rocket",
@@ -24,6 +26,15 @@ ServerEvents.recipes(e => {
         "ad_astra:recipes/steel_ingot_from_nuggets",
         "ad_astra:recipes/steel_block",
         "ad_astra:recipes/steel_ingot",
+        "ad_astra:recipes/engine_frame",
+        "ad_astra:recipes/steel_tank",
+        "ad_astra:recipes/steel_engine",
+        "ad_astra:recipes/desh_tank",
+        "ad_astra:recipes/desh_engine",
+        "ad_astra:recipes/ostrum_tank",
+        "ad_astra:recipes/ostrum_engine",
+        "ad_astra:recipes/calorite_tank",
+        "ad_astra:recipes/calorite_engine",
     ])
 
     // 新增配方：银河系漫游指南
@@ -53,70 +64,6 @@ ServerEvents.recipes(e => {
         C: "create:fluid_tank"
     })
         .id("ad_astra:recipes/oxygen_tank")
-    // 替换配方：引擎框架
-    e.shaped("ad_astra:engine_frame", [
-        "AAA",
-        "ABA",
-        "AAA"
-    ], {
-        A: "#forge:rods/iron",
-        B: "create:precision_mechanism"
-    })
-        .id("ad_astra:recipes/engine_frame")
-    // 替换配方：引擎风扇
-    e.shaped("ad_astra:engine_fan", [
-        " A ",
-        "ABA",
-        " A "
-    ], {
-        A: "alloyed:steel_sheet",
-        B: "create:propeller"
-    })
-        .id("ad_astra:recipes/engine_fan")
-    // 替换配方：钢燃料储罐
-    e.shaped("ad_astra:steel_tank", [
-        "AA ",
-        "ABC",
-        "AA "
-    ], {
-        A: "alloyed:steel_sheet",
-        B: "create:fluid_tank",
-        C: "#forge:rods/iron"
-    })
-        .id("ad_astra:recipes/steel_tank")
-    // 替换配方：戴斯燃料储罐
-    e.shaped("ad_astra:desh_tank", [
-        "AA ",
-        "ABC",
-        "AA "
-    ], {
-        A: "ad_astra:desh_plate",
-        B: "create:fluid_tank",
-        C: "#forge:rods/iron"
-    })
-        .id("ad_astra:recipes/desh_tank")
-    // 替换配方：紫金燃料储罐
-    e.shaped("ad_astra:ostrum_tank", [
-        "AA ",
-        "ABC",
-        "AA "
-    ], {
-        A: "ad_astra:ostrum_plate",
-        B: "create:fluid_tank",
-        C: "#forge:rods/iron"
-    })
-        .id("ad_astra:recipes/ostrum_tank")
-    // 替换配方：耐热燃料储罐
-    e.shaped("ad_astra:calorite_tank", [
-        "AA ",
-        "ABC",
-        "AA "
-    ], {
-        A: "ad_astra:calorite_plate",
-        B: "create:fluid_tank",
-        C: "#forge:rods/iron"
-    })
-        .id("ad_astra:recipes/calorite_tank")
     // 替换配方：喷气式航天服
     e.shaped("ad_astra:jet_suit", [
         "ABA",
