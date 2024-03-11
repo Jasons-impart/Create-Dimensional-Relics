@@ -9,7 +9,7 @@ ServerEvents.recipes(e => {
             B: "#forge:plates/iron",
             C: "#minecraft:soul_fire_base_blocks",
         })
-
+    // 召唤烈焰人
     BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("blaze")
         .pattern(" b ", "sms", " l ")
         .center("l", Blocks.JACK_O_LANTERN)

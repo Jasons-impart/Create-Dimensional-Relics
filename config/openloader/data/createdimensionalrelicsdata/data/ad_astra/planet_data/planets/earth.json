@@ -2,7 +2,7 @@
   "translation": "gui.ad_astra.text.earth",
   "galaxy": "ad_astra:milky_way",
   "solar_system": "ad_astra:solar_system",
-  "world": "createdimensionalrelicscore:whitering",
+  "world": "minecraft:overworld",
   "orbit_world": "ad_astra:earth_orbit",
   "rocket_tier": 1,
   "gravity": 9.800,

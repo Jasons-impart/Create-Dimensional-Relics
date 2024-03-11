@@ -1947,6 +1947,7 @@
 			y: 12.0d
 		}
 		{
+			dependencies: ["7F0A9E07B45E8942"]
 			description: ["{quest.summon_blaze.description}"]
 			id: "10DC5657C6DD7F79"
 			subtitle: "{quest.summon_blaze.subtitle}"
@@ -1963,58 +1964,7 @@
 			y: 1.5d
 		}
 		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"0F9A325B7651DE3D"
-			]
-			hide_dependent_lines: true
-			id: "69D1277B572D30CC"
-			tasks: [{
-				id: "6C3C044670B70BBC"
-				item: "ad_astra:engine_fan"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 2.5d
-		}
-		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"0F9A325B7651DE3D"
-			]
-			hide_dependent_lines: true
-			id: "3FC1D0F27D10DCBC"
-			tasks: [{
-				id: "02B84A3B91367FEB"
-				item: "ad_astra:steel_engine"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"0F9A325B7651DE3D"
-			]
-			hide_dependent_lines: true
-			id: "7D11F8F55F660980"
-			tasks: [{
-				id: "2917F27239655551"
-				item: "ad_astra:rocket_fin"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 5.5d
-		}
-		{
-			dependencies: [
-				"7D11F8F55F660980"
-				"085D1390A9988873"
-				"69D1277B572D30CC"
-				"3FC1D0F27D10DCBC"
-				"001E54ADF04996D7"
-			]
+			dependencies: ["001E54ADF04996D7"]
 			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
 			id: "234903F798E76C58"
 			rewards: [{
@@ -2038,21 +1988,6 @@
 			title: "发射！"
 			x: -9.0d
 			y: 4.0d
-		}
-		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"0F9A325B7651DE3D"
-			]
-			hide_dependent_lines: true
-			id: "085D1390A9988873"
-			tasks: [{
-				id: "6AC283D6DA15D8D0"
-				item: "ad_astra:rocket_nose_cone"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -2264,6 +2199,24 @@
 			title: "等等我我还没上车啊！！！！"
 			x: -12.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["7B3771D9729E61A2"]
+			id: "7F0A9E07B45E8942"
+			tasks: [
+				{
+					id: "2E56D6B6091C8981"
+					item: "minecraft:nether_bricks"
+					type: "item"
+				}
+				{
+					id: "603373DDDF55C538"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
 		}
 	]
 	title: "{chapter.whitering3.title}"
