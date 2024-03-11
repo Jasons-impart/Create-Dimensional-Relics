@@ -21,6 +21,7 @@ ServerEvents.recipes(e => {
         .resultEntity("minecraft:blaze")
         .resultAction((level, pos, player) => {
             player.setMainHandItem("minecraft:glass_bottle")
+            player.swing()
         })
         .build()
     )

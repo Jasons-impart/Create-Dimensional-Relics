@@ -12,4 +12,7 @@ BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("tier_1_r
     .where("d", 'minecraft:lightning_rod')
     .craftingItem('create:wrench')
     .resultItem('ad_astra:tier_1_rocket')
+    .resultAction((level, pos, player) => {
+        player.swing()
+    })
     .build())
