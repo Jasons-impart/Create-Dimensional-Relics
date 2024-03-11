@@ -49,7 +49,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("mekanism:basic_control_circuit")
         .loops(2)
         .id('mekanism:basic_control_circuit')
-    
+
     // 序列合成：高级控制电路
     e.recipes.create.sequenced_assembly("mekanism:advanced_control_circuit", "mekanism:basic_control_circuit", [
         e.recipes.create.deploying("mekanism:advanced_control_circuit", ["mekanism:advanced_control_circuit", "mekanism:alloy_infused"]),
@@ -76,5 +76,5 @@ ServerEvents.recipes(e => {
         .transitionalItem("mekanism:ultimate_control_circuit")
         .loops(2)
         .id('mekanism:ultimate_control_circuit')
-    
+
 })

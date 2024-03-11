@@ -4,5 +4,5 @@ ServerEvents.recipes(e => {
         "mekanism:ingot_steel",
         "mekanism:ingot_bronze",
     ])
-    
+
 })

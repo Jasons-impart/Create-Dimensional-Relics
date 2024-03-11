@@ -11,171 +11,9 @@
 		}
 	}
 	id: "1DDA758C6F4603C0"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
-		{
-			dependencies: ["49229740420BD8BD"]
-			id: "1AB992034B618D32"
-			rewards: [{
-				id: "099C49E6C7014BC9"
-				item: "ad_astra:mars_globe"
-				type: "item"
-			}]
-			subtitle: "火星上应该没有火...对叭？（）"
-			tasks: [{
-				dimension: "ad_astra:mars"
-				disable_toast: true
-				icon: "ad_astra:mars_globe"
-				id: "5E89A551DDD7CD04"
-				type: "dimension"
-			}]
-			title: "火星"
-			x: 5.0d
-			y: 5.0d
-		}
-		{
-			dependencies: ["1AB992034B618D32"]
-			id: "09ECDB98638FB236"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08D9D5CA55006217"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "火星上金子一样珍贵的矿石！"
-			tasks: [{
-				id: "43FA93F083A3B914"
-				item: "ad_astra:mars_ostrum_ore"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["09ECDB98638FB236"]
-			id: "1AEB5413EB70CBCC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5FA868E0FD8711D0"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "它真的非常紫！"
-			tasks: [{
-				id: "11DCEB76E11F2647"
-				item: "ad_astra:ostrum_ingot"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["1AEB5413EB70CBCC"]
-			id: "347BD4930DE7C347"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4885D49F994CD3A7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "超级冰箱！"
-			tasks: [{
-				id: "57B6FA0F14345FD7"
-				item: "ad_astra:cryo_freezer"
-				type: "item"
-			}]
-			x: 3.5d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1AEB5413EB70CBCC"]
-			id: "6B42BD44B30AD4F7"
-			rewards: [
-				{
-					description: ""
-					icon: "ad_astra:oxygen_bucket"
-					id: "0181DB805895DD8F"
-					title: "要不还是送你一桶氧气吧"
-					type: "toast"
-				}
-				{
-					id: "1707207DFD031B3C"
-					item: "ad_astra:oxygen_bucket"
-					type: "item"
-				}
-			]
-			subtitle: "虽然但是这东西有存在的必要吗？"
-			tasks: [{
-				id: "2E97A02A91E43A3B"
-				item: "ad_astra:oxygen_sensor"
-				type: "item"
-			}]
-			x: 6.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6B42BD44B30AD4F7"]
-			hide_dependent_lines: true
-			id: "16DF1C16CDB5A548"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "416402B6AA8C0BC8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "怎么这么贵啊（"
-			tasks: [
-				{
-					id: "1392BD2C44C38782"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_helmet"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "453B2E3465ACD920"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_suit"
-						tag: {
-							BotariumData: { }
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "563A69A45C2F4008"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_pants"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "43BFD33481757182"
-					item: {
-						Count: 1b
-						id: "ad_astra:netherite_space_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
-			title: "下界合金航天服"
-			x: 8.0d
-			y: 2.0d
-		}
 		{
 			dependencies: [
 				"75AB4CD9558C4EEE"
@@ -505,27 +343,6 @@
 			y: 15.5d
 		}
 		{
-			dependencies: ["1AB992034B618D32"]
-			description: ["   &4别忘了找一下屋顶上的隐藏宝箱和紫金块！"]
-			id: "3DCBD2C73E544555"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3540990D2C0861CA"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
-			subtitle: "哇哦，火星难道真的是生命起源之地？"
-			tasks: [{
-				icon: "ad_astra:ostrum_block"
-				id: "7BFD96B270A1710A"
-				structure: "ad_astra:mars_temple"
-				title: "火星遗迹！！！"
-				type: "structure"
-			}]
-			x: 6.5d
-			y: 5.0d
-		}
-		{
 			dependencies: [
 				"2EF38D620B4E1664"
 				"41F017E692B74F71"
@@ -642,27 +459,6 @@
 			}]
 			x: 10.0d
 			y: 12.0d
-		}
-		{
-			dependencies: ["1AB992034B618D32"]
-			id: "7FEEFF6B255E822E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "011EDBF1F6B5F0CB"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			subtitle: "好丑好丑好丑好丑好丑"
-			tasks: [{
-				entity: "ad_astra:martian_raptor"
-				icon: "ad_astra:martian_raptor_spawn_egg"
-				id: "055286EC137ED612"
-				type: "kill"
-				value: 1L
-			}]
-			title: "丑陋大绿龙！"
-			x: 6.5d
-			y: 3.5d
 		}
 		{
 			dependencies: ["46A219929EEDDC4A"]

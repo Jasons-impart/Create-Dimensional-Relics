@@ -126,5 +126,9 @@
     "quest.brass_casing.description": "材料推动科技！",
     "quest.cinder_flour.title": "这是...&4烈焰人的最爱&r！",
     "quest.blaze_cake_base.title": "马上就能&e吃到啦！",
-    "chapter.luna.title": "&9异星风物"
+    "chapter.luna.title": "&9异星风物",
+    "chapter.desolate.title": "&c荒芜往事",
+    "quest.arrivedesolate.title": "荒芜",
+    "quest.arrivedesolate.subtitle": "在被发现之前，这里应该很荒芜",
+    "quest.arrivedesolate.description": "就像现在一样"
 }

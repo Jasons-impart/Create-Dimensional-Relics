@@ -1678,77 +1678,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["34D9D292CE6F683E"]
-			icon: "vinery:red_grape"
-			id: "2DC53FA04BB0EFF5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E6E7763A901061A"
-				table_id: 3335314192689386285L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "36CCFF63149B1CAA"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "vinery:red_grape"
-					}
-				}
-				title: "Any #vinery:red_grape"
-				type: "item"
-			}]
-			title: "红葡萄"
-			x: -9.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["34D9D292CE6F683E"]
-			id: "7ACDEA9DCED69541"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06D71A10BCB6224E"
-				table_id: 4367154364932444092L
-				type: "choice"
-			}]
-			tasks: [{
-				id: "6C0EDDE43261E39F"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "vinery:white_grape"
-					}
-				}
-				title: "Any #vinery:white_grape"
-				type: "item"
-			}]
-			title: "白葡萄"
-			x: -7.0d
-			y: 4.5d
-		}
-		{
-			dependencies: [
-				"2DC53FA04BB0EFF5"
-				"7ACDEA9DCED69541"
-			]
-			id: "1ABA65D01141CA14"
-			rewards: [{
-				id: "1098CD8F8C4E2B22"
-				item: "vinery:cherry_sapling"
-				type: "item"
-			}]
-			subtitle: "转入酿酒大师"
-			tasks: [{
-				id: "3BD344C372C43CFC"
-				item: "vinery:grapevine_pot"
-				type: "item"
-			}]
-			x: -9.0d
-			y: 6.0d
-		}
-		{
 			dependencies: ["502BE877910FB7D5"]
 			id: "5FAEF19DDA51244F"
 			rewards: [{
@@ -2673,7 +2602,6 @@
 				"4B0786620564E8C0"
 				"5C89C920A90424EB"
 				"0EE8A8266EFEAAF7"
-				"7ACDEA9DCED69541"
 				"4D60541DC7BC99C6"
 				"1EE815FF79CE7E9E"
 				"7AB702E0298F4A91"
@@ -2691,7 +2619,6 @@
 				"7ACB73C0E9FBD4A9"
 				"794C36745728144B"
 				"110EED3EE1EDAA42"
-				"2DC53FA04BB0EFF5"
 				"3DE3B1D469147E41"
 				"45343A38F7B9CD1A"
 				"663D41A82205B3E3"
@@ -2726,18 +2653,6 @@
 			}]
 			x: -1.5d
 			y: -4.5d
-		}
-		{
-			dependencies: ["1ABA65D01141CA14"]
-			id: "18B0500C40E83FD7"
-			subtitle: "时间造就经典！"
-			tasks: [{
-				id: "557A333D242FD149"
-				item: "vinery:fermentation_barrel"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["68D86CEADCEED138"]
