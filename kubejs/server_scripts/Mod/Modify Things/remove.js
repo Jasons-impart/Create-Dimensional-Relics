@@ -37,7 +37,7 @@ ServerEvents.recipes(e => {
     ])
     remove_recipes_id(e, [
         "create:crafting/materials/rose_quartz",
-        "minecraft:flint_and_steel",
+        // "minecraft:flint_and_steel",
         "alexsmobs:flint_n_steel_dropbear_claw",
         "neapolitan:banana/banana_bread",
     ])
