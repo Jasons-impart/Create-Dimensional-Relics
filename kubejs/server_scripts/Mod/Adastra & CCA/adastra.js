@@ -138,6 +138,30 @@ ServerEvents.recipes(e => {
         D: "createaddition:modular_accumulator"
     })
         .id("ad_astra:recipes/solar_panel")
+    // 替换配方：紫金引擎
+    e.shaped("ad_astra:ostrum_engine", [
+        "ABA",
+        " C ",
+        " D "
+    ], {
+        A: "ad_astra:ostrum_plate",
+        B: "ulterlands:etherite",
+        C: "ad_astra:engine_frame",
+        D: "ad_astra:engine_fan"
+    })
+        .id("ad_astra:recipes/ostrum_engine")
+    // 替换配方：耐热金属引擎
+    e.shaped("ad_astra:calorite_engine", [
+        "ABA",
+        " C ",
+        " D "
+    ], {
+        A: "ad_astra:calorite_plate",
+        B: "ulterlands:etherite",
+        C: "ad_astra:engine_frame",
+        D: "ad_astra:engine_fan"
+    })
+        .id("ad_astra:recipes/calorite_engine")
     // 动力合成器添加：喷气式宇航服一套
     e.recipes.create.mechanical_crafting("ad_astra:jet_suit_helmet", [
         "AAA",
