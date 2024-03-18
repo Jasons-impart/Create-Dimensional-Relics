@@ -25,11 +25,13 @@
   },
   "render_settings": {
     "fog_distance": 16,
-    "fog_start": 80,
-    "multi_dimension_fog_control": true,
+    "fog_start": 90,
+    "multi_dimension_fog_control": false,
     "dimensionFogDistance": {
       "minecraft:overworld": 0,
-      "ad_astra:moon": 0
+      "ad_astra:moon": 0,
+      "minecraft:the_nether": 0,
+      "minecraft:the_end": 0
     },
     "use_linear_flat_color_blender": true,
     "light_updates": true,

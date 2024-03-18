@@ -160,23 +160,6 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.raw_silicon")
         .rarity("common")
-    // 火箭核心
-    e.create("createdimensionalrelics:rocket_core_tier1")
-        .unstackable()
-        .translationKey("item.createdimensionalrelics.rocket_core_tier1")
-        .rarity("uncommon")
-    e.create("createdimensionalrelics:rocket_core_tier2")
-        .unstackable()
-        .translationKey("item.createdimensionalrelics.rocket_core_tier2")
-        .rarity("rare")
-    e.create("createdimensionalrelics:rocket_core_tier3")
-        .unstackable()
-        .translationKey("item.createdimensionalrelics.rocket_core_tier3")
-        .rarity("rare")
-    e.create("createdimensionalrelics:rocket_core_tier4")
-        .unstackable()
-        .translationKey("item.createdimensionalrelics.rocket_core_tier4")
-        .rarity("epic")
     // 开发组人员物品
 
     // 李武的纠缠之缘
