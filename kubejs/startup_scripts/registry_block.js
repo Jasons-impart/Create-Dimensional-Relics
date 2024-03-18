@@ -51,5 +51,5 @@ StartupEvents.registry("block", e => {
     // 耐热金属引擎
     registerBlock("calorite_engine", "metal", 12, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 四级火箭核心
-    registerBlock("rocket_core_tier_3", "metal", 15, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
+    registerBlock("rocket_core_tier_4", "metal", 15, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
 })

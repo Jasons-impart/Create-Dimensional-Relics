@@ -64,6 +64,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "pipez": {
+    "pipe": true
+  },
   "jade": {
     "coordinates.rel": false,
     "distance": false,
