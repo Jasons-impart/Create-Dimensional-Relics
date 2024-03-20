@@ -141,40 +141,6 @@
 		}
 		{
 			dependencies: ["71A8E174426C7A6F"]
-			id: "5E7D248B3C15ADFD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54583EDC315C45F4"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "232E0C5C246B1812"
-				item: "create_sa:heat_engine"
-				type: "item"
-			}]
-			x: 6.0d
-			y: 3.0d
-		}
-		{
-			dependencies: ["71A8E174426C7A6F"]
-			id: "58A94F4B434B31CD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5E5EE80CE47D9ED9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "1362E4F2860F2E07"
-				item: "create_sa:steam_engine"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["71A8E174426C7A6F"]
 			id: "7D7800A179158577"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -322,45 +288,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["58A94F4B434B31CD"]
-			description: [
-				"这是你获得的最强的喷气背包，它通过储存的燃料和水让你起飞，时刻注意剩余以免&4高空坠物"
-				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶或燃料&r以补充铜喷气背包，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水和燃料）"
-				"在空气中按空格以起飞&e（最大高度&r&a27&r&e格）&r"
-				"在水中按空格时可以启动潜水模式让你&e游得更快"
-			]
-			id: "3622034AE0FD46AA"
-			rewards: [
-				{
-					count: 2
-					id: "734B0CBC515EA4D9"
-					item: "minecraft:coal_block"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "029A1C877FF37BC6"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-			]
-			subtitle: "黄铜背包！我的神！"
-			tasks: [{
-				id: "6B724B9CA33802F1"
-				item: {
-					Count: 1b
-					id: "create_sa:brass_jetpack_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "让我们飞的更快一些！"
-			x: 3.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "532B2FC7E0826D5E"
 			rewards: [
@@ -402,43 +329,6 @@
 			}]
 			x: 1.5d
 			y: 6.0d
-		}
-		{
-			dependencies: ["58A94F4B434B31CD"]
-			description: [
-				"这是你获得的最强大的机械外骨骼，它通过储存的水和燃料增强你的攻击力，时刻注意以免&4被爆金币"
-				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶或燃料&r以补充外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水和燃料）"
-			]
-			id: "1953677BFA82BE78"
-			rewards: [
-				{
-					count: 2
-					id: "542A021738784E6C"
-					item: "minecraft:coal_block"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "1CCF41BDB3638AFC"
-					item: "minecraft:water_bucket"
-					type: "item"
-				}
-			]
-			subtitle: "可以给你&e急迫&r和&e力量&r的效果，算是&e有点用处&r了"
-			tasks: [{
-				id: "6C1E4FAAD921C97B"
-				item: {
-					Count: 1b
-					id: "create_sa:brass_exoskeleton_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "又快又强！"
-			x: 4.0d
-			y: 4.5d
 		}
 		{
 			dependencies: ["56B16C088C2D8BF7"]
@@ -578,69 +468,6 @@
 			y: 10.5d
 		}
 		{
-			dependencies: ["1DAD17F55E0D4B85"]
-			id: "1DE10E0714BFF778"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "28891894AB2CAB20"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "5C83585D863F36A4"
-				item: {
-					Count: 1b
-					id: "create_sa:small_fueling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 9.0d
-		}
-		{
-			dependencies: ["1DE10E0714BFF778"]
-			id: "1624CCC544DD8288"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3B91273177E02E32"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "4C99C42057DF87D6"
-				item: {
-					Count: 1b
-					id: "create_sa:medium_fueling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 7.5d
-		}
-		{
-			dependencies: ["1624CCC544DD8288"]
-			id: "15B6FD274AFFE0CA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1687B3EF74FE4FC2"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
-			tasks: [{
-				id: "02B5B77F52AD24D4"
-				item: {
-					Count: 1b
-					id: "create_sa:large_fueling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 7.5d
-			y: 6.0d
-		}
-		{
 			dependencies: ["4F61255897AD730B"]
 			id: "2ADBDC5D79B67613"
 			tasks: [{
@@ -706,63 +533,6 @@
 			y: 6.0d
 		}
 		{
-			dependencies: ["5E7D248B3C15ADFD"]
-			description: ["这是你获得另一个的机械外骨骼，它通过储存的燃料增强你的挖掘速度，时刻注意燃料储备以免&4挖不动东西&r把外骨骼放在副手，&4按Q或者直接扔出手中的燃料&r以补充外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的燃料）"]
-			id: "1C146812ECEF35E0"
-			rewards: [{
-				count: 2
-				id: "6B28930F2CEFB90B"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			subtitle: "这玩意可以给你&e急迫II&r但同时也会给你&4虚弱&r，算是&e挖矿神器"
-			tasks: [{
-				id: "4D75DE983D0917D3"
-				item: {
-					Count: 1b
-					id: "create_sa:andesite_exoskeleton_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "很快但是很弱！"
-			x: 6.0d
-			y: 4.5d
-		}
-		{
-			dependencies: ["5E7D248B3C15ADFD"]
-			description: [
-				"这是你获得的第二个喷气背包，它通过喷出储存的燃料让你起飞，时刻注意剩余的燃料以免&4高空坠物"
-				"把喷气背包放在副手，&4按Q或者直接扔出手中的燃料&r以补充喷气背包中的燃料，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的燃料）"
-				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
-				"在水中按空格时可以启动潜水模式让你&e游得更快"
-			]
-			id: "6B880C8734FE8D0C"
-			rewards: [{
-				count: 2
-				id: "43005D9026B04874"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			subtitle: "让&2环保之母&r非常非常的不开心"
-			tasks: [{
-				id: "7CC7D7A885A81C7A"
-				item: {
-					Count: 1b
-					id: "create_sa:andesite_jetpack_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&0水洗煤&r上天！"
-			x: 5.0d
-			y: 4.5d
-		}
-		{
 			dependencies: [
 				"7D7800A179158577"
 				"1B593B8AC90CEE1F"
@@ -801,30 +571,6 @@
 			title: "这是...&3机械生命&r？"
 			x: 4.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["5E7D248B3C15ADFD"]
-			description: ["对准远处方块右键即可立体机动（&4心脏撒撒给哟&r）！强烈建议配合黄铜喷气背包体验飞一般的感觉（&e这玩意甚至比鞘翅还要好用&r）"]
-			id: "00C0C609FD96A90D"
-			rewards: [{
-				count: 2
-				id: "1CF63D40028E380C"
-				item: "minecraft:coal_block"
-				type: "item"
-			}]
-			subtitle: "哎嘿，&e走位~走位~"
-			tasks: [{
-				id: "47F375F3B49B541E"
-				item: {
-					Count: 1b
-					id: "create_sa:grapplin_whisk"
-					tag: { }
-				}
-				type: "item"
-			}]
-			title: "我愿称之为&e赶路的神！！！"
-			x: 7.0d
-			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -997,7 +743,7 @@
 			tasks: [{
 				advancement: "create_enchantment_industry:additional_order"
 				criterion: ""
-				icon: "create_sa:heap_of_experience"
+				icon: "create:experience_nugget"
 				id: "5DADDEB866CA0624"
 				type: "advancement"
 			}]
@@ -1321,10 +1067,7 @@
 			y: 10.5d
 		}
 		{
-			dependencies: [
-				"5E7D248B3C15ADFD"
-				"15B6FD274AFFE0CA"
-			]
+			dependencies: ["56B16C088C2D8BF7"]
 			id: "1E1AD72AF2E8C254"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -1337,8 +1080,8 @@
 				item: "immersive_aircraft:boiler"
 				type: "item"
 			}]
-			x: 7.5d
-			y: 3.0d
+			x: 6.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["1E1AD72AF2E8C254"]

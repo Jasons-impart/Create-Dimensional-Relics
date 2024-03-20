@@ -273,56 +273,6 @@
 			y: 0.5d
 		}
 		{
-			dependencies: ["7251087920E97B89"]
-			id: "2053C8AC43D015A0"
-			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
-			tasks: [{
-				id: "427E8221A84132DA"
-				item: {
-					Count: 1b
-					id: "create_sa:small_filling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -21.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["2053C8AC43D015A0"]
-			id: "7B0F4836728F6D5D"
-			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
-			tasks: [{
-				id: "3D704E7BD0461AC5"
-				item: {
-					Count: 1b
-					id: "create_sa:medium_filling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -22.5d
-			y: 2.0d
-		}
-		{
-			dependencies: ["7B0F4836728F6D5D"]
-			description: ["非常非常建议你做一个大型的便携流体储罐，这玩意带在身上可以直接让你的喷气背包多出&42倍的续航时间"]
-			hide_dependent_lines: true
-			id: "074C76DFE4961F74"
-			subtitle: "对着水右键就可以取水了，但是这玩意是只貔貅（只进不出）..."
-			tasks: [{
-				id: "336BD3B045C62DBE"
-				item: {
-					Count: 1b
-					id: "create_sa:large_filling_tank"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -24.0d
-			y: 2.0d
-		}
-		{
 			dependencies: ["19C4EC6F3980ED9A"]
 			description: ["{quest.copper_ingot.description}"]
 			id: "539AFA4827EBD85F"
@@ -361,82 +311,6 @@
 			}]
 			x: -19.5d
 			y: -1.0d
-		}
-		{
-			dependencies: [
-				"539AFA4827EBD85F"
-				"74F81A8C4757CD08"
-			]
-			id: "664A7BCA64EF8857"
-			rewards: [{
-				id: "082812D6BFE92EE1"
-				item: "create:copper_sheet"
-				random_bonus: 9
-				type: "item"
-			}]
-			subtitle: "谁发现的液压？一定要给他颁诺贝尔奖！"
-			tasks: [{
-				id: "432CD8441A6694B0"
-				item: "create_sa:hydraulic_engine"
-				type: "item"
-			}]
-			title: " &1p＝ρgh"
-			x: -18.0d
-			y: 0.5d
-		}
-		{
-			dependencies: [
-				"664A7BCA64EF8857"
-				"7251087920E97B89"
-			]
-			description: [
-				"这是你获得的第一个喷气背包，它通过喷出储存的水让你起飞，时刻注意剩余的水以免&4高空坠物"
-				"把喷气背包放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜喷气背包中的水，或者使用便携流体储罐（可以&4自动补充&r喷气背包中的水）"
-				"在空气中按空格以起飞&e（最大高度&r&a17&r&e格）&r"
-				"在水中按空格时可以启动潜水模式让你&e游得更快"
-			]
-			id: "3CCD7E34B8DDB3D2"
-			subtitle: "啊？这就可以飞了？"
-			tasks: [{
-				id: "7DBB0F0669D2EDBA"
-				item: {
-					Count: 1b
-					id: "create_sa:copper_jetpack_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "起飞~"
-			x: -19.5d
-			y: 2.0d
-		}
-		{
-			dependencies: [
-				"664A7BCA64EF8857"
-				"7251087920E97B89"
-			]
-			description: [
-				"这是你获得的第一个机械外骨骼，它通过储存的水增强你的攻击力，时刻注意剩余的水以免&4被爆金币"
-				"把外骨骼放在副手，&4按Q或者直接扔出手中的水桶&r以补充铜外骨骼中的水，或者使用便携流体储罐（可以&4自动补充&r外骨骼中的水）"
-			]
-			id: "4AD353EACDE6DD71"
-			subtitle: "这玩意可以给你&e力量II&r但同时也会给你&4挖掘疲劳&r，话说这玩意&4真的有用吗？"
-			tasks: [{
-				id: "0282053DDEEB7B60"
-				item: {
-					Count: 1b
-					id: "create_sa:copper_exoskeleton_chestplate"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "机械飞升？"
-			x: -18.0d
-			y: 2.0d
 		}
 		{
 			dependencies: ["1BAD95070E6A4ABB"]

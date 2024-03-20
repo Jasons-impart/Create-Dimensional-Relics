@@ -2,7 +2,6 @@
 	chapter_groups: [
 		{ id: "7B56C96F95F1D773", title: "{group.main.title}" }
 		{ id: "4EA7FB7A9D338217", title: "超大!超好!超实用存储!" }
-		{ id: "7BA04EC34AC7135F", title: "我要当枪械大师！" }
 		{ id: "3B281A11FC8949CA", title: "我的可爱朋友们!" }
 		{ id: "7D0A1432AAAD0EBA", title: "就爱整点好吃的" }
 	]
