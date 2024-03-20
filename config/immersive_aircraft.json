@@ -11,7 +11,6 @@
   "separateCamera": true,
   "useThirdPersonByDefault": true,
   "enableTrails": true,
-  "enableAnimatedSails": true,
   "renderDistance": 192.0,
   "fuelConsumption": 1.0,
   "windClearWeather": 1.0,
@@ -22,6 +21,8 @@
   "burnFuelInCreative": false,
   "acceptVanillaFuel": true,
   "useCustomKeybindSystem": true,
+  "showHotbarEngineGauge": true,
+  "weaponsAreDestructive": false,
   "fuelList": {
     "minecraft:blaze_powder": 1200
   },

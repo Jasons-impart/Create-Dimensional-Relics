@@ -1,0 +1,37 @@
+{
+  "key.nutritionalbalance.opennutrientgui" : "营养性",
+
+  "nutritionalbalance.nutrients" : "营养物质",
+
+  "nutritionalbalance.nutrient.proteins" : "蛋白质",
+  "nutritionalbalance.nutrient.carbs" : "碳水化合物",
+  "nutritionalbalance.nutrient.dairy" : "乳制品",
+  "nutritionalbalance.nutrient.fruits" : "水果",
+  "nutritionalbalance.nutrient.sugars" : "糖",
+  "nutritionalbalance.nutrient.vegetables" : "蔬菜",
+
+  "nutritionalbalance.nutrientstatus.MALNOURISHED" : "营养不良",
+  "nutritionalbalance.nutrientstatus.SAFE" : "安全",
+  "nutritionalbalance.nutrientstatus.ON_TARGET" : "健康",
+  "nutritionalbalance.nutrientstatus.ENGORGED" : "吃吐辣",
+
+  "nutritionalbalance.nutrientstatus.msg.MALNOURISHED" : "你有点小虚啊",
+  "nutritionalbalance.nutrientstatus.msg.SAFE" :         "吃的不错啊",
+  "nutritionalbalance.nutrientstatus.msg.ON_TARGET" :    "营养挺均衡",
+  "nutritionalbalance.nutrientstatus.msg.ENGORGED" :     "你要把自己塞爆吗",
+
+  "nutritionalbalance.nutrientstatus.details.MALNOURISHED" : "你的身体想要罢工",
+  "nutritionalbalance.nutrientstatus.details.SAFE" :         "你的身体非常一般",
+  "nutritionalbalance.nutrientstatus.details.ON_TARGET" :    "哇哦,好棒的身体,(😍)",
+  "nutritionalbalance.nutrientstatus.details.ENGORGED" :     "看,吃多了吧",
+
+  "effect.nutritionalbalance.engorged_effect": "吃吐辣",
+  "effect.nutritionalbalance.malnourished_effect": "营养不良",
+  "effect.nutritionalbalance.nourished_effect": "健康",
+
+  "nutritionalbalance.close" : "退出",
+
+  "item.nutritionalbalance.lunchbox" : "午餐盒",
+  "nutritionalbalance.tooltip.press_shift" : "--按shift键获得更多信息--",
+  "message.item.lunchbox" : "存储食物并展示营养成分\nshift右键以打开.\n右键吃下选中的食物.\nshift滚轮切换选择的食物或者打开午餐盒并选择食物."
+}

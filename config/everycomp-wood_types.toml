@@ -15,6 +15,11 @@
 		[types.wood_type.ulterlands]
 			cedar = true
 
+		[types.wood_type.ad_astra]
+			aeronos = true
+			strophar = true
+			glacian = true
+
 		[types.wood_type.aether]
 			skyroot = true
 
@@ -25,11 +30,6 @@
 			springshroom = true
 			crystal = true
 			glacia = true
-
-		[types.wood_type.ad_astra]
-			aeronos = true
-			strophar = true
-			glacian = true
 
 	[types.leaves_type]
 
@@ -50,20 +50,6 @@
 			cedar = true
 			frax = true
 
-		[types.leaves_type.aether]
-			skyroot = true
-			golden_oak = true
-			crystal = true
-			crystal_fruit = true
-			holiday = true
-			decorated_holiday = true
-
-		[types.leaves_type.aether_redux]
-			blightwillow = true
-			glacia = true
-			gilded_oak = true
-			blighted_skyroot = true
-
 		[types.leaves_type.ad_astra]
 			glacian = true
 
@@ -81,6 +67,20 @@
 			kiwi = true
 			fig = true
 			durian = true
+
+		[types.leaves_type.aether]
+			skyroot = true
+			golden_oak = true
+			crystal = true
+			crystal_fruit = true
+			holiday = true
+			decorated_holiday = true
+
+		[types.leaves_type.aether_redux]
+			blightwillow = true
+			glacia = true
+			gilded_oak = true
+			blighted_skyroot = true
 
 [entries]
 
