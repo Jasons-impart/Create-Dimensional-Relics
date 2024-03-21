@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["64D137AB423EA1FB"]
 			id: "43DB02373EDB1FA5"
 			subtitle: "地狱也有超多好吃的"
 			tasks: [{
@@ -23,6 +24,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["0373F30B09F3C827"]
 			id: "42E8D4D2C5243B72"
 			tasks: [{
 				dimension: "minecraft:the_end"
