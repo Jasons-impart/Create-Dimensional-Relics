@@ -171,42 +171,6 @@
 			y: 12.5d
 		}
 		{
-			dependencies: ["1629F7F4B01F0189"]
-			id: "387FB6E7ECA3FB46"
-			subtitle: "新家园终于找到了！朵朵，培强，丫丫，你们再也不用牺牲了o(╥﹏╥)o"
-			tasks: [{
-				dimension: "ad_astra:glacio"
-				disable_toast: true
-				icon: "ad_astra:glacio_globe"
-				id: "1AFA27B3FA92B3FD"
-				type: "dimension"
-			}]
-			title: "霜源星"
-			x: 5.0d
-			y: 14.0d
-		}
-		{
-			dependencies: ["387FB6E7ECA3FB46"]
-			description: ["使用任意原木与寒冰碎片即可合成霜原木和霜原树叶&m（单纯装饰用）"]
-			id: "6C38FCD22CB6256B"
-			subtitle: "找不到霜原树？那就对了（因为作者忘添加了）"
-			tasks: [
-				{
-					id: "14BE7F9C48D5BB4F"
-					item: "ad_astra:glacian_log"
-					type: "item"
-				}
-				{
-					id: "7154B1A34901426B"
-					item: "ad_astra:glacian_leaves"
-					type: "item"
-				}
-			]
-			title: "霜原树"
-			x: 5.0d
-			y: 15.5d
-		}
-		{
 			dependencies: [
 				"2EF38D620B4E1664"
 				"41F017E692B74F71"
@@ -239,19 +203,6 @@
 			}]
 			x: 5.0d
 			y: 11.0d
-		}
-		{
-			dependencies: ["387FB6E7ECA3FB46"]
-			id: "59F1874C1C311D96"
-			subtitle: "霜原星的小羊们靠着厚厚的羊毛顽强的生存了下来"
-			tasks: [{
-				id: "33575147D49D561D"
-				item: "ad_astra:glacian_fur"
-				type: "item"
-			}]
-			title: "超级保暖的羊毛"
-			x: 3.5d
-			y: 14.0d
 		}
 		{
 			dependencies: ["46A219929EEDDC4A"]

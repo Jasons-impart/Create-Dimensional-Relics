@@ -41,6 +41,10 @@
     "text.createdimensionalrelics.eat_potato_stew_beef": "厨子不偷，五谷不收？!",
     "text.createdimensionalrelics.eat_super_dumpling": "大家一起，吃饺子~",
     "_commenttask": "tasks",
+    "chapter.introduction.title": "介绍",
+    "quest.introduction.title": "薪尽火传",
+    "quest.introduction.subtitle": "被遗忘者",
+    "quest.introduction.description": "加急制作中...你可以先乐一会",
     "group.main.title": "主线任务",
     "chapter.shelter.title": "艰难的开始",
     "quest.arriveshelter.title": "这是哪里",
@@ -130,5 +134,6 @@
     "chapter.desolate.title": "&c荒芜往事",
     "quest.arrivedesolate.title": "荒芜",
     "quest.arrivedesolate.subtitle": "在被发现之前，这里应该很荒芜",
-    "quest.arrivedesolate.description": "就像现在一样"
+    "quest.arrivedesolate.description": "就像现在一样",
+    "chapter.empyrean.title": "&1星际旅行"
 }

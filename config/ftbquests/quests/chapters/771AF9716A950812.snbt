@@ -3,13 +3,14 @@
 	default_quest_shape: ""
 	filename: "771AF9716A950812"
 	group: ""
-	icon: "minecraft:oak_log"
+	icon: "createdimensionalrelics:glow_shadow_alloy"
 	id: "771AF9716A950812"
 	order_index: 0
 	quest_links: [ ]
 	quests: [{
+		description: ["{quest.introduction.description}"]
 		id: "55C42BCE0E399B3D"
-		subtitle: "原来你也玩机械动力悠然乐事！"
+		subtitle: "{quest.introduction.subtitle}"
 		tasks: [{
 			dimension: "minecraft:overworld"
 			disable_toast: true
@@ -18,9 +19,9 @@
 			title: "原来你也玩机械动力悠然乐事！"
 			type: "dimension"
 		}]
-		title: "异世相遇，尽享乐事~"
+		title: "{quest.introduction.title}"
 		x: 9.5d
 		y: -2.5d
 	}]
-	title: "介绍"
+	title: "{chapter.introduction.title}"
 }
