@@ -1961,6 +1961,88 @@
 			x: -1.5d
 			y: 0.0d
 		}
+		{
+			id: "4482AF6BE68C8D1D"
+			rewards: [{
+				id: "6F5BA06FA8651105"
+				item: "minecraft:quartz"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "石英顾名思义就是石头中的英雄（好伐我编不下去了）"
+			tasks: [{
+				id: "52F55A07414D763B"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			title: "白白的"
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4482AF6BE68C8D1D"]
+			id: "3A674F0BEAB8179F"
+			rewards: [{
+				id: "3EFE7E9C47C1F9F0"
+				item: "create:rose_quartz"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "23D37DA6E8A79653"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"075B94F4CA10DA3D"
+				"3A674F0BEAB8179F"
+			]
+			id: "6603024447F23F40"
+			rewards: [{
+				id: "45858978E7CE8717"
+				item: "create:polished_rose_quartz"
+				random_bonus: 15
+				type: "item"
+			}]
+			subtitle: "我给玫瑰石英增加了新合成方式！来，狠狠的自动化玫瑰石英！"
+			tasks: [{
+				id: "1FD42C9663500671"
+				item: "create:polished_rose_quartz"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["77ECF5D5E59B874F"]
+			id: "075B94F4CA10DA3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44F67329E5FCB93F"
+				table_id: 6730734086547045908L
+				type: "random"
+			}]
+			subtitle: "说实话，打磨的动画真的很像...."
+			tasks: [{
+				id: "081508E9AF2E7728"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "create:sandpaper"
+					}
+				}
+				title: "Any #create:sandpaper"
+				type: "item"
+			}]
+			title: "刺啦刺啦刺啦"
+			x: 4.5d
+			y: 4.5d
+		}
 	]
 	title: "{chapter.whitering3.title}"
 }

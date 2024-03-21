@@ -213,6 +213,24 @@
 			x: 3.0d
 			y: -3.0d
 		}
+		{
+			dependencies: ["3DCBD2C73E544555"]
+			id: "78BA493ABB5DCEF2"
+			tasks: [
+				{
+					id: "04C440574844EBEF"
+					item: "createdimensionalrelicscore:dry_wheat_seeds"
+					type: "item"
+				}
+				{
+					id: "642042CCFE8F569D"
+					item: "createdimensionalrelicscore:dry_wheat"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 0.0d
+		}
 	]
 	title: "{chapter.desolate.title}"
 }
