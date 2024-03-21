@@ -2,5 +2,5 @@
  * nether.js - Define phase
  */
 StartupEvents.postInit(e => {
-    GamePhase.addDimensionRestriction("nether", "minecraft:the_nether")
+    GamePhase.addDimensionRestriction("Nether", "minecraft:the_nether")
 })

@@ -11,12 +11,6 @@
 		{
 			dependencies: ["090D6C3F666BE947"]
 			id: "076611C66B1FEC72"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54D10CA6389E65BD"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "清洁能源！！！（就是产能有点低嗷）"
 			tasks: [{
 				id: "63CBC4CEEB6DBA15"
@@ -29,12 +23,6 @@
 		{
 			dependencies: ["090D6C3F666BE947"]
 			id: "49DCCAD023CF210C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "70B6C21E6CB1A603"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "o(╥﹏╥)o终于可以建造月球基地了！"
 			tasks: [{
 				id: "4683ED6E2DEAD64C"
@@ -47,12 +35,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "59EC7A72325F91C8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "202B1E4526084B72"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "啊啊啊怎么全都是堕落村民！！！！"
 			tasks: [{
 				icon: "ad_astra:moon_cobblestone"
@@ -67,12 +49,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "67B3B3F9B011FEA2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2593BD6936C99CBF"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "还好还好大家都没尸变"
 			tasks: [{
 				icon: "ad_astra:lunarian_spawn_egg"
@@ -87,12 +63,6 @@
 		{
 			dependencies: ["06DAABB40DFF540F"]
 			id: "090D6C3F666BE947"
-			rewards: [{
-				id: "32260ED1B47AEF45"
-				item: "ad_astra:desh_ingot"
-				random_bonus: 31
-				type: "item"
-			}]
 			subtitle: "第一眼我还以为奶酪锭（"
 			tasks: [{
 				id: "731FABBA91B42727"
@@ -105,12 +75,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "6960FF05A64976CC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CD69FC2480BF6E5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "啊？奶酪还能这样获取啊？"
 			tasks: [{
 				id: "0002B159DE410FE6"
@@ -123,12 +87,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "0F1A5241F3DBA26C"
-			rewards: [{
-				id: "1609F8B9174C2672"
-				item: "ad_astra:ice_shard"
-				random_bonus: 7
-				type: "item"
-			}]
 			subtitle: "我靠( ‵o′)凸这么冷的矿石！"
 			tasks: [{
 				id: "17B12DFB986B8B9F"
@@ -153,12 +111,6 @@
 			]
 			description: ["       烈焰人：“好吃爱吃，令我&1超级燃烧”"]
 			id: "1A0996B135058CA3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4BDA24947E662758"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "啊？难道这是低温液氢燃料？"
 			tasks: [{
 				id: "588DE87B15101B21"
@@ -171,18 +123,6 @@
 		{
 			dependencies: ["1A0996B135058CA3"]
 			id: "37516EEF263B0004"
-			rewards: [
-				{
-					id: "0029A602E11322D2"
-					item: "ad_astra:fuel_bucket"
-					type: "item"
-				}
-				{
-					id: "7A4B210297F5CF1F"
-					item: "ad_astra:cryo_fuel_bucket"
-					type: "item"
-				}
-			]
 			subtitle: "两种燃油都可以给烈焰人燃烧室供能 ！（记得插吸管）"
 			tasks: [
 				{
@@ -203,12 +143,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "06DAABB40DFF540F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15076A2BB135349F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "所以这个矿物的desh到底从哪里来的？（"
 			tasks: [{
 				id: "7288EA97D3B07641"
@@ -221,12 +155,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "135611632B62B5CC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "62D52810D101D19B"
-				table_id: 8595933012744775382L
-				type: "choice"
-			}]
 			subtitle: "这东西真的掉san值"
 			tasks: [{
 				entity: "ad_astra:corrupted_lunarian"
@@ -242,12 +170,6 @@
 		{
 			dependencies: ["182095AB6BCF39FB"]
 			id: "016C52A6B8580DA6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "00E738EC678A0E26"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "你说，这玩意村民是怎么建造出来的呢..."
 			tasks: [{
 				icon: "ad_astra:moon_pillar"
@@ -262,11 +184,6 @@
 		{
 			dependencies: ["234903F798E76C58"]
 			id: "182095AB6BCF39FB"
-			rewards: [{
-				id: "373B87C82FBC72B3"
-				item: "ad_astra:moon_globe"
-				type: "item"
-			}]
 			subtitle: "这不是月球吗，太美丽了家人们（）"
 			tasks: [{
 				dimension: "ad_astra:moon"
@@ -297,12 +214,6 @@
 				"001E54ADF04996D7"
 			]
 			id: "49229740420BD8BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "166A1CBDF053FE13"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "首次升级！！！"
 			tasks: [{
 				id: "48900A0937C9BEDE"

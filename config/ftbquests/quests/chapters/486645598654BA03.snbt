@@ -27,12 +27,6 @@
 				"19ED27078EFC9A69"
 			]
 			id: "11F69FF73C38D5D7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7705478FA4D8535F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "体液喷射（&1真的很脏！&r）"
 			tasks: [{
 				id: "245562B2323EDF0E"
@@ -51,12 +45,6 @@
 		{
 			dependencies: ["49E8339C5ADFCD3F"]
 			id: "7233C240743D38AA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "394743300CB1E110"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "这块肌肉闪烁着诡异的光芒"
 			tasks: [
 				{
@@ -77,12 +65,6 @@
 		{
 			dependencies: ["5A5B90E769E59135"]
 			id: "19ED27078EFC9A69"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0861DDA72D1BFA35"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "生物身体中最脏的液体之一"
 			tasks: [{
 				id: "1ACFDCAEC6037F0A"
@@ -102,12 +84,6 @@
 		{
 			dependencies: ["5621A50A0F895F4C"]
 			id: "5A5B90E769E59135"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29A550338B96A3E2"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "让你再吸我血！"
 			tasks: [{
 				id: "25F8E3E929CC787E"
@@ -121,12 +97,6 @@
 		{
 			dependencies: ["1D3002399A5DCB18"]
 			id: "49E8339C5ADFCD3F"
-			rewards: [{
-				count: 10
-				id: "505D20A52C14D794"
-				item: "nethersdelight:warped_moldy_meat"
-				type: "item"
-			}]
 			subtitle: "受死吧，&4可恶的人类！！！"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
@@ -145,12 +115,6 @@
 			]
 			description: ["玩家需要前往蘑菇岛找到一个&4没有蘑菇&r的蘑菇君，然后用诡异菌插满它的身体（&45个即可&r），让绯红蚊子吸它的血（蹲下右键可以&4抱起生物&r），然后绯红蚊子会变成蓝色并慢慢变大，最后突变成&1诡异蚊鬼&r（&e守护诡异森林的高质量男性&r）"]
 			id: "1D3002399A5DCB18"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1FDF35F9F11AEEC9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "快跑！蘑菇君要变异了！"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito_sick"
@@ -165,12 +129,6 @@
 		{
 			dependencies: ["3C70EB8AF67D1DAD"]
 			id: "5621A50A0F895F4C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22175B8E354E4DE7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "&1我要拍死你！！！&r（什么蚊子居然&4冬天都能活着&r）"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/crimson_mosquito"
@@ -201,12 +159,6 @@
 				"02B0E545695B7C21"
 			]
 			id: "48160C0FD18F7073"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0AAD79526ECC6E51"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "用绯红幼虫驯服一只诡异蟾蜍"
 			tasks: [{
 				advancement: "alexsmobs:alexsmobs/tame_warped_toad"
@@ -220,12 +172,6 @@
 		}
 		{
 			id: "1449D881D54C27EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E63DF58C763A990"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "&1蓝灿灿"
 			tasks: [{
 				biome: "minecraft:warped_forest"
@@ -239,12 +185,6 @@
 		}
 		{
 			id: "3C70EB8AF67D1DAD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1FF29F6FEFDDAF3C"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "&4红彤彤"
 			tasks: [{
 				biome: "minecraft:crimson_forest"
@@ -258,12 +198,6 @@
 		}
 		{
 			id: "03863109E200AF66"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B685387169A6D4D"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1A658F2E93C83C80"
 				item: "minecraft:glowstone_dust"
@@ -275,12 +209,6 @@
 		}
 		{
 			id: "302DE38002ACC065"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "10A3B11B9133690E"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "找到下界要塞"
 			tasks: [{
 				advancement: "minecraft:nether/find_fortress"
@@ -293,11 +221,6 @@
 		}
 		{
 			id: "70A228B8AA9BFE0E"
-			rewards: [{
-				id: "4BD36A8FC572D75C"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "什么？难道你没觉得猪灵两个鼻孔特别像大眼萌妹的眼睛吗？"
 			tasks: [{
 				advancement: "minecraft:nether/distract_piglin"
@@ -316,12 +239,6 @@
 				"每个区块最多生成两个矿脉，最多生成&e5个远古残骸"
 			]
 			id: "3C94D314BC3D0DE8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4084C4A312053E20"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "这东西真的好少好难找（哭）"
 			tasks: [{
 				id: "07C5B2DF687B585D"
@@ -335,12 +252,6 @@
 		{
 			dependencies: ["3C94D314BC3D0DE8"]
 			id: "6E8099EE95B29FC1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17316BA4FB9CBFFC"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2B55B1BA625C8404"
 				item: "minecraft:netherite_scrap"
@@ -352,12 +263,6 @@
 		{
 			dependencies: ["6E8099EE95B29FC1"]
 			id: "24BE09160DC6BE45"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A9396FA4CBDF7DC"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "602BED257250717C"
 				item: "minecraft:netherite_ingot"
@@ -368,12 +273,6 @@
 		}
 		{
 			id: "6460F97709785CDA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A6C1251B7CD8CEB"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "找到猪灵堡垒"
 			tasks: [{
 				advancement: "minecraft:nether/find_bastion"
@@ -388,12 +287,6 @@
 		{
 			dependencies: ["302DE38002ACC065"]
 			id: "7B5DD3DF2E03F832"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "663C3E182E60CA57"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "314DC1329FCE5877"
 				item: "minecraft:nether_wart"
@@ -405,11 +298,6 @@
 		{
 			dependencies: ["302DE38002ACC065"]
 			id: "299811388A624472"
-			rewards: [{
-				id: "7087DC7889ADC335"
-				item: "minecraft:blaze_rod"
-				type: "item"
-			}]
 			subtitle: "嘿嘿嘿小烈焰人&4我来啦&r！"
 			tasks: [{
 				entity: "minecraft:blaze"
@@ -424,21 +312,6 @@
 		{
 			dependencies: ["302DE38002ACC065"]
 			id: "0FDBCBC0020ED4F1"
-			rewards: [{
-				id: "00DEE66469EBA0AC"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:looting"
-							lvl: 3s
-						}]
-					}
-				}
-				title: "还是给你本&e抢夺III&r吧...."
-				type: "item"
-			}]
 			subtitle: "好！就这么&3阴死他"
 			tasks: [{
 				entity: "minecraft:wither_skeleton"
@@ -453,21 +326,6 @@
 		{
 			dependencies: ["0FDBCBC0020ED4F1"]
 			id: "0FA33E07B6274219"
-			rewards: [
-				{
-					count: 5
-					id: "5372565A50934F21"
-					item: "minecraft:paper"
-					type: "item"
-				}
-				{
-					description: ""
-					icon: "minecraft:paper"
-					id: "2741EA2446B93F8D"
-					title: "来~擦一擦"
-					type: "toast"
-				}
-			]
 			subtitle: "呼~终于&e打出来了&r~"
 			tasks: [{
 				count: 3L
@@ -483,18 +341,6 @@
 			dependencies: ["0FA33E07B6274219"]
 			description: ["先用灵魂沙或灵魂土摆成T形，下面的灵魂沙两侧必须是空气，然后在3块灵魂沙上方各放置一个凋灵骷髅头颅即可召唤出凋灵（备注：最后放置的方块必须是&4凋灵骷髅头颅&r），也可侧放或倒放，不影响凋灵的生成。"]
 			id: "40E0C96F55C7A737"
-			rewards: [{
-				id: "5A248A5DB347B7DB"
-				item: {
-					Count: 1b
-					id: "minecraft:potion"
-					tag: {
-						Potion: "minecraft:strong_regeneration"
-					}
-				}
-				random_bonus: 4
-				type: "item"
-			}]
 			subtitle: "骗你的，它只是&2普通凋零&r啦~"
 			tasks: [{
 				icon: {
@@ -517,13 +363,6 @@
 		{
 			dependencies: ["40E0C96F55C7A737"]
 			id: "78A8BC66CF808C55"
-			rewards: [{
-				id: "647913F4BA5EDDF0"
-				item: "minecraft:wither_skeleton_skull"
-				random_bonus: 2
-				title: "抽个奖再来打一次？"
-				type: "item"
-			}]
 			subtitle: "我大方吧~"
 			tasks: [{
 				entity: "minecraft:wither"
@@ -539,11 +378,6 @@
 		{
 			dependencies: ["78A8BC66CF808C55"]
 			id: "7485B99EF2CF80D3"
-			rewards: [{
-				id: "041982505A5681C0"
-				item: "minecraft:wither_rose"
-				type: "item"
-			}]
 			subtitle: "&e真好看啊！！！"
 			tasks: [{
 				id: "264CD639B102DABB"
@@ -557,12 +391,6 @@
 		{
 			dependencies: ["299811388A624472"]
 			id: "6CAC228A727B16A6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "15BF3EC809D913D7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "5498352663ACCD98"
 				item: "minecraft:blaze_rod"
@@ -574,12 +402,6 @@
 		{
 			dependencies: ["6CAC228A727B16A6"]
 			id: "520A75622AD44E7F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "031E7C187049DE29"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "5A78863AFF80D387"
 				item: "minecraft:brewing_stand"
@@ -594,12 +416,6 @@
 				"520A75622AD44E7F"
 			]
 			id: "74674D3025D5DFAA"
-			rewards: [{
-				auto: "enabled"
-				id: "321752C12DC6F8B6"
-				table_id: 7548246410364648339L
-				type: "random"
-			}]
 			subtitle: "你的第一瓶药水！"
 			tasks: [{
 				block: "minecraft:brewing_stand"
@@ -628,12 +444,6 @@
 			]
 			hide_dependent_lines: true
 			id: "206855F86F4DE3C8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "63519DE91D885F79"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
 			subtitle: "已经没用啦~，甚至连要塞都找不到的东西（"
 			tasks: [{
 				id: "30760B5269229805"
@@ -660,11 +470,6 @@
 		{
 			dependencies: ["6460F97709785CDA"]
 			id: "13D36F91435DB7D4"
-			rewards: [{
-				id: "164AC7C4FB6D1AE9"
-				item: "minecraft:raw_gold_block"
-				type: "item"
-			}]
 			subtitle: "嚯嚯嚯嚯嚯"
 			tasks: [{
 				id: "32C8580768307263"
@@ -681,12 +486,6 @@
 				"24BE09160DC6BE45"
 			]
 			id: "6DF59E3FBC34C19E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5BA9AB220D63828A"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "这不是送你转生的泥头车，这是通往&4异界的钥匙"
 			tasks: [{
 				id: "4C5CA986104C9859"
@@ -710,12 +509,6 @@
 			]
 			description: ["由于未知力量&e（异界）&r入侵主世界，末影之眼失去了原来的效果，为了能够去往末地，你需要搜刮原版建筑中被异界能量影响的&1宝箱&r以及&1各种怪物&r，找齐&e12种末影之眼&r，你可以选择使用这些被&4异界&r能量影响的末影之眼定位传送门，找到传送门之后放置12中新末影之眼并取下原有的末影之眼，并进入末地最终与末影龙&4决一死战&r，解放这个世界"]
 			id: "5945C08FD140F8D8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5223F8EF56429919"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "没错就是水字数！"
 			tasks: [{
 				id: "0A7B105B8A7E2136"
@@ -729,12 +522,6 @@
 		{
 			dependencies: ["6CAC228A727B16A6"]
 			id: "75E6927E3D539C00"
-			rewards: [{
-				id: "05CDF228EBDA18BE"
-				item: "farmersrespite:blazing_chili"
-				random_bonus: 4
-				type: "item"
-			}]
 			subtitle: "来一碗美味的&4烈焰辣椒酱&r如何？"
 			tasks: [{
 				id: "476FCC7244116898"
@@ -748,12 +535,6 @@
 			icon: "minecraft:fire_charge"
 			id: "0BD6626359766789"
 			invisible: true
-			rewards: [{
-				count: 10
-				id: "050605F6B137AF0B"
-				item: "minecraft:ghast_tear"
-				type: "item"
-			}]
 			size: 3.0d
 			subtitle: "哇哦！你做到了！"
 			tasks: [{
@@ -772,12 +553,6 @@
 				"75E6927E3D539C00"
 			]
 			id: "58AD4A069629F806"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77294913802C3121"
-				table_id: 7548246410364648339L
-				type: "loot"
-			}]
 			subtitle: "&4辣不怕不怕辣"
 			tasks: [{
 				id: "2E02AA9D040B2B21"

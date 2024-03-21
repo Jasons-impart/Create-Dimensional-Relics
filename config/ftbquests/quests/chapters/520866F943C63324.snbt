@@ -50,17 +50,6 @@
 		{
 			dependencies: ["163E057B8D71A528"]
 			id: "702B9C1B1BD9CD72"
-			rewards: [{
-				id: "0381C74F1B29BB5E"
-				item: {
-					Count: 1b
-					id: "aether:golden_parachute"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				dimension: "aether:the_aether"
 				disable_toast: true
@@ -74,12 +63,6 @@
 		{
 			dependencies: ["6FD779A7D1BA7E84"]
 			id: "7B300034D44DC2D6"
-			rewards: [{
-				count: 3
-				id: "75DD2FD850AB3A08"
-				item: "aether:ambrosium_shard"
-				type: "item"
-			}]
 			tasks: [{
 				id: "66DECA23DF191443"
 				item: "aether:ambrosium_shard"
@@ -91,12 +74,6 @@
 		{
 			dependencies: ["6FD779A7D1BA7E84"]
 			id: "6D8E78E185FDB12C"
-			rewards: [{
-				count: 5
-				id: "41EB85DEAFE3E2B6"
-				item: "aether:zanite_gemstone"
-				type: "item"
-			}]
 			subtitle: "紫色的宝石"
 			tasks: [{
 				id: "44E1E87336F6F34E"
@@ -109,12 +86,6 @@
 		{
 			dependencies: ["5655311192A3693A"]
 			id: "698790ED5FF04D2A"
-			rewards: [{
-				count: 2
-				id: "3CCEE924A83FD43D"
-				item: "aether:gravitite_ore"
-				type: "item"
-			}]
 			subtitle: "把他放下来试试看？"
 			tasks: [{
 				id: "35F8231F695E87A4"
@@ -127,26 +98,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "2FF118A8016EF099"
-			rewards: [
-				{
-					count: 10
-					id: "06027C7F09620928"
-					item: "aether:cold_aercloud"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "5B142C4F2FD664EA"
-					item: "aether:blue_aercloud"
-					type: "item"
-				}
-				{
-					count: 10
-					id: "1A79C63EACCFD26D"
-					item: "aether:golden_aercloud"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "5279A1165B847498"
@@ -172,12 +123,6 @@
 			dependencies: ["702B9C1B1BD9CD72"]
 			description: [""]
 			id: "17FAC1DE364801ED"
-			rewards: [{
-				count: 5
-				id: "19AC25026866331A"
-				item: "aether:skyroot_log"
-				type: "item"
-			}]
 			subtitle: "挖点新木头吧"
 			tasks: [{
 				id: "7905FD6165BDE76C"
@@ -190,12 +135,6 @@
 		{
 			dependencies: ["77D9EF00042CB58F"]
 			id: "7E87FAD7C914D210"
-			rewards: [{
-				count: 3
-				id: "0087856AB56A1A61"
-				item: "aether:holystone"
-				type: "item"
-			}]
 			subtitle: "挖挖新石头"
 			tasks: [{
 				id: "66ED7297B00988AA"
@@ -262,12 +201,6 @@
 		{
 			dependencies: ["7B300034D44DC2D6"]
 			id: "2AB9328525516246"
-			rewards: [{
-				count: 3
-				id: "0F18160F4396D6EA"
-				item: "aether:ambrosium_shard"
-				type: "item"
-			}]
 			tasks: [{
 				id: "51D3927DE5924D9D"
 				item: "aether:ambrosium_torch"
@@ -279,12 +212,6 @@
 		{
 			dependencies: ["2AB9328525516246"]
 			id: "4A45C1A5D43830B0"
-			rewards: [{
-				count: 10
-				id: "18888CE8144EA5D7"
-				item: "aether_redux:vanilla_swet_jelly"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7C2342EBE1CECC42"
 				item: "aether:incubator"
@@ -316,12 +243,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "609787701F528814"
-			rewards: [{
-				count: 5
-				id: "7E17BBF0AF0EF1AA"
-				item: "aether:aechor_petal"
-				type: "item"
-			}]
 			subtitle: "击杀箭毒花掉落"
 			tasks: [{
 				id: "321BDF44666E5964"
@@ -353,11 +274,6 @@
 				"3CDAB2FD8036DE4B"
 			]
 			id: "26FA1E6FB15D5196"
-			rewards: [{
-				id: "4031563895326A52"
-				item: "aether:black_moa_egg"
-				type: "item"
-			}]
 			subtitle: "生生生出来了"
 			tasks: [{
 				advancement: "aether:incubate_moa"
@@ -387,11 +303,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "03BA60B6AE091A76"
-			rewards: [{
-				id: "373832C114452B8E"
-				item: "alloyed:bronze_ingot"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:bronze_dungeon_key"
 				id: "09DA3F233B2C005C"
@@ -405,11 +316,6 @@
 		{
 			dependencies: ["702B9C1B1BD9CD72"]
 			id: "081AF443C94BC32D"
-			rewards: [{
-				id: "03EBEA566DEBF139"
-				item: "minecraft:gold_ingot"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:gold_dungeon_key"
 				id: "3E12FFC9130A4EAC"
@@ -424,12 +330,6 @@
 			dependencies: ["702B9C1B1BD9CD72"]
 			icon: "aether:silver_dungeon_key"
 			id: "7D0B8832D2CA2F3E"
-			rewards: [{
-				id: "66D27E6722326F79"
-				item: "quark:white_rune"
-				title: "这就是白银（叉腰）"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "aether:silver_dungeon_key"
 				id: "39C1D6E9AE618800"
@@ -444,11 +344,6 @@
 			dependencies: ["7D0B8832D2CA2F3E"]
 			description: ["武神族神庙有三层构造，每一层内部均由众多小室组成，小室中放置着奖励箱；楼层之间有旋转式楼梯相连接。玩家会在每一层中遇见众多休憩的女武神。在到达顶层后使用另一面楼梯下降到底层，便可来到武神女王的圣殿大厅。玩家需先击败神庙中的女武神拿到十枚胜利奖牌，方可取得挑战武神女王的资格。"]
 			id: "4887FF77C235ECD8"
-			rewards: [{
-				id: "72FE379901E6C677"
-				item: "aether_redux:valkyrie_ring"
-				type: "item"
-			}]
 			tasks: [{
 				count: 10L
 				id: "43845BB9C1A9F676"
@@ -461,17 +356,6 @@
 		{
 			dependencies: ["4887FF77C235ECD8"]
 			id: "05D367B52FA05AB0"
-			rewards: [{
-				id: "5159A703473839BA"
-				item: {
-					Count: 1b
-					id: "aether:valkyrie_gloves"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				entity: "aether:valkyrie_queen"
 				id: "1EAE78DB30292C78"
@@ -494,17 +378,6 @@
 				"滑行魔石被摧毁后，房间会重新开启，且平台下的暗格会显露出来，玩家可以在暗格中找到藏宝箱。"
 			]
 			id: "0727029C7E2775A4"
-			rewards: [{
-				id: "630EEF9257C6082A"
-				item: {
-					Count: 1b
-					id: "minecraft:diamond_pickaxe"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "211129BFA45B01D9"
 				type: "checkmark"
@@ -515,56 +388,6 @@
 		{
 			dependencies: ["0727029C7E2775A4"]
 			id: "7D77128CD013BBD8"
-			rewards: [
-				{
-					count: 16
-					id: "7EACCD95BCEBDFD7"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "0967A890A6E94EF6"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "11B2F26FF0A469ED"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "109854DDE9C7B622"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "2CFA873A8A251CD2"
-					item: "minecraft:lapis_lazuli"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "640B39BBAD8D1CD6"
-					item: "minecraft:coal"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "290FBC53697DA552"
-					item: "minecraft:emerald"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "2763C819272328CE"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-			]
 			tasks: [{
 				entity: "aether:slider"
 				id: "090B16DEBCB63B05"
@@ -583,11 +406,6 @@
 				"烈阳巨灵会发射两种晶体球，它们发射后会在房间内四处弹跳，一段时间后破碎。略显红色的为滚炎球，被命中会造成伤害和爆炸，一定概率点燃玩家，可以被攻击打碎；白色泛蓝者为冰结球，击中玩家会造成小额伤害，受到玩家攻击后会改变轨迹向攻击方向较快地飞出，撞击实体或方块后破碎。在场地内四处漂浮的冰结球是玩家仅有的伤害烈阳巨灵的手段，冰结球被打飞后，如果命中烈阳巨灵，则烈阳巨灵会受到一瞬间的冷冻伤害，血量减少十分之一。"
 			]
 			id: "1D8AF34035A1E374"
-			rewards: [{
-				id: "4CD03C067A20093B"
-				item: "aether:skyroot_water_bucket"
-				type: "item"
-			}]
 			tasks: [{
 				id: "21D2C37D191CB193"
 				type: "checkmark"
@@ -598,12 +416,6 @@
 		{
 			dependencies: ["1D8AF34035A1E374"]
 			id: "4EFE92DB56DB9BC5"
-			rewards: [{
-				count: 5
-				id: "46EE678EAD757272"
-				item: "nethersdelight:magma_gelatin"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "aether:sun_spirit"
 				id: "729F1844F2C8ECDA"
@@ -620,13 +432,6 @@
 				"4EFE92DB56DB9BC5"
 			]
 			id: "58E58FC1CF51777B"
-			rewards: [{
-				count: 5
-				id: "59DDF9DD5EEAC44C"
-				item: "aether:life_shard"
-				random_bonus: 5
-				type: "item"
-			}]
 			tasks: [{
 				id: "62A1B376CCFD88D2"
 				title: "天境毕业证明"
@@ -663,12 +468,6 @@
 		{
 			dependencies: ["77D9EF00042CB58F"]
 			id: "5B534F671BFA9488"
-			rewards: [{
-				count: 10
-				id: "4924590F420E8C06"
-				item: "aether:icestone"
-				type: "item"
-			}]
 			subtitle: "？所以为什么不叫冰碴子？"
 			tasks: [{
 				id: "6FBAD950680F340D"

@@ -37,12 +37,6 @@
 		}
 		{
 			id: "0994DEB70DEBAD86"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "47B32792990F99CA"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "从埋藏的箱子中找到。"
 			tasks: [{
 				id: "46EC59C53919161A"
@@ -60,12 +54,6 @@
 		}
 		{
 			id: "18A964D09D82498B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "66F2EA82A718D1BE"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "在雪屋中找到。"
 			tasks: [{
 				id: "42A9CDC2E84BA79D"
@@ -83,12 +71,6 @@
 		}
 		{
 			id: "19EF00824FE97164"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "257315329A3810BC"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "在下界要塞里找到。"
 			tasks: [{
 				id: "5D0BF62D158D403A"
@@ -106,12 +88,6 @@
 		}
 		{
 			id: "755EC32AE743A83D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "300AF9C0123A27DE"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "在从林神殿中找到"
 			tasks: [{
 				id: "01689CD9A8EF05FB"
@@ -129,12 +105,6 @@
 		}
 		{
 			id: "7BA61F553E25FC07"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6C2D18B3B310201D"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "在堡宝箱中找到。"
 			tasks: [{
 				id: "4D94746074A56494"
@@ -152,12 +122,6 @@
 		}
 		{
 			id: "44AE00BC07D1EEB9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "07A143C6C8488A77"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "从大师级牧师村民手中购买"
 			tasks: [{
 				id: "0B309E0A946D42CB"
@@ -179,12 +143,6 @@
 				"41F017E692B74F71"
 			]
 			id: "15B639BE79C87D11"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74BA501A23E82D18"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "重现焕发新机的魔力之眼会给予你力量"
 			tasks: [{
 				id: "5E2A6AF4453C7262"
@@ -206,12 +164,6 @@
 				"64697394745F589E"
 			]
 			id: "28B933178C34DDC7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "470BF1C4FAD4787D"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "激活后的凋零之眼会见证你的凋亡"
 			tasks: [{
 				id: "09F205258623CC22"
@@ -229,12 +181,6 @@
 		}
 		{
 			id: "491511887828B2AC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2EEEE03ADF602446"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "使用原版未影之眼与巫师之瞳以及以太晶片合成。"
 			tasks: [{
 				id: "6FB3E43727B3802F"
@@ -252,12 +198,6 @@
 		}
 		{
 			id: "7C07CC6B1C3B0A56"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "057746C06876432C"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "使用亡灵物品合成，合成所需的不死灵魂需要击杀骸马获得."
 			tasks: [{
 				id: "460F72CE468ED3A9"
@@ -275,12 +215,6 @@
 		}
 		{
 			id: "6078AD6BEF15BC42"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0EA5C6A2F8080149"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "使用水产物品制作。"
 			tasks: [{
 				id: "7B617A1ADFB61760"
@@ -299,26 +233,6 @@
 		{
 			dependencies: ["0373F30B09F3C827"]
 			id: "5CBF811F55377620"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "3374563D2321EA04"
-					table_id: 6485826240718891201L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "602CD73B8AE698F0"
-					table_id: 7772018159856264947L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "156C4039D4CCD3C5"
-					table_id: 1586327015374942043L
-					type: "random"
-				}
-			]
 			subtitle: "击杀末影龙"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -333,11 +247,6 @@
 		{
 			dependencies: ["5CBF811F55377620"]
 			id: "738BC614D426E271"
-			rewards: [{
-				id: "36DAB458439BE91F"
-				item: "minecraft:dragon_head"
-				type: "item"
-			}]
 			subtitle: "龙鳞可以复制鞘翅！鞘翅可再生！"
 			tasks: [
 				{
@@ -374,12 +283,6 @@
 			dependencies: ["1A993919FD9D953A"]
 			description: ["用剪刀修建紫颂花可以获得紫颂花瓣"]
 			id: "67AD45E7651C6B17"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57018B7FAD54446F"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			subtitle: "传送！传送！不停的传送！"
 			tasks: [
 				{
@@ -409,12 +312,6 @@
 		}
 		{
 			id: "12ED4BBAB4B0503C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "46263EA328B79ECD"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			subtitle: "找到末地要塞"
 			tasks: [{
 				advancement: "minecraft:story/follow_ender_eye"
@@ -428,12 +325,6 @@
 		{
 			dependencies: ["75A42237E8F6E806"]
 			id: "26C8619E020794CD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "53A8DA6E99FCA086"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2BC9B22D2E400E28"
 				item: "minecraft:shulker_shell"
@@ -445,12 +336,6 @@
 		{
 			dependencies: ["26C8619E020794CD"]
 			id: "1FE74F896B65DC77"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6D4689BBE3C79B36"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0DE98D85470F0D58"
 				item: "minecraft:shulker_box"
@@ -462,12 +347,6 @@
 		{
 			dependencies: ["1A993919FD9D953A"]
 			id: "75A42237E8F6E806"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "13B814B974C107F6"
-				table_id: 1586327015374942043L
-				type: "random"
-			}]
 			tasks: [
 				{
 					entity: "minecraft:shulker"
@@ -555,36 +434,6 @@
 			can_repeat: true
 			dependencies: ["5CBF811F55377620"]
 			id: "641E478AABDF36BE"
-			rewards: [
-				{
-					id: "0CCFAB8CB4C4D70E"
-					item: "ends_delight:dragon_tooth"
-					random_bonus: 2
-					type: "item"
-				}
-				{
-					id: "47D701D40082F5D1"
-					item: "ends_delight:dragon_leg"
-					random_bonus: 1
-					type: "item"
-				}
-				{
-					id: "413B179D6C711BE6"
-					item: "ends_delight:raw_dragon_meat"
-					type: "item"
-				}
-				{
-					id: "64413574294A448B"
-					item: "minecraft:dragon_breath"
-					random_bonus: 7
-					type: "item"
-				}
-				{
-					id: "42FDC097290D1D4F"
-					item: "ends_delight:raw_dragon_meat_cuts"
-					type: "item"
-				}
-			]
 			subtitle: "不用农夫乐事的刀也可以获得龙肉啦~"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
@@ -645,12 +494,6 @@
 		{
 			dependencies: ["0373F30B09F3C827"]
 			id: "39A1EB2388A1AA37"
-			rewards: [{
-				count: 3
-				id: "5175B1B8515088BC"
-				item: "ends_delight:end_mixed_salad"
-				type: "item"
-			}]
 			tasks: [{
 				entity: "unusualend:endstone_trapper"
 				id: "129341575D967BC8"
@@ -672,19 +515,6 @@
 				"末地石傀儡会掉落一个免疫漂浮的饰品，在锻造台使用下界之星可为其添加防火效果"
 			]
 			id: "69A2A6DFADC8C4DF"
-			rewards: [
-				{
-					id: "16C980168E9F9892"
-					item: "unusualend:ancient_shard"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0A769B2F8B72A7F2"
-					table_id: 1586327015374942043L
-					type: "random"
-				}
-			]
 			size: 2.0d
 			subtitle: "这家伙有1000滴血？"
 			tasks: [
@@ -853,12 +683,6 @@
 		{
 			dependencies: ["69A2A6DFADC8C4DF"]
 			id: "5FC6CA7BFEFED6E1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "75CA3EE68786EAD4"
-				table_id: 5347970608351672481L
-				type: "choice"
-			}]
 			subtitle: "果然末地还是对眼球情有独钟"
 			tasks: [
 				{
@@ -884,12 +708,6 @@
 			dependencies: ["69A2A6DFADC8C4DF"]
 			description: ["相当于两个箱子的容量-9格（嘿嘿）"]
 			id: "0D765FB23118978D"
-			rewards: [{
-				count: 2
-				id: "02C8A04CE78E88F5"
-				item: "minecraft:chest"
-				type: "item"
-			}]
 			subtitle: "一个更比两个强，火腿我要王中王"
 			tasks: [{
 				id: "21D1BADFA8116FEC"
@@ -991,19 +809,6 @@
 				"重现方块，嗯？"
 			]
 			id: "69421BAA6C3DD677"
-			rewards: [
-				{
-					id: "61821E84BA12E192"
-					item: "unusualend:ancient_shard"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1592BC2E47117DC1"
-					table_id: 5347970608351672481L
-					type: "loot"
-				}
-			]
 			subtitle: "没错你的重生点被设置在了末地"
 			tasks: [
 				{
@@ -1029,12 +834,6 @@
 			dependencies: ["7C310C5E16B8FE47"]
 			description: ["配合合金传送锚使用，下蹲右键绑定合金传送锚，再右键可以传送至传送锚上方,但使用以后会有5分钟冷却，虽然镀金末影珍珠可以堆叠，但是你可以把他分开绑定在不同的传送锚上"]
 			id: "43E70CB13F19E919"
-			rewards: [{
-				count: 5
-				id: "41DDE322D735BDA7"
-				item: "unusualend:wandering_pearl"
-				type: "item"
-			}]
 			subtitle: "金色传说？"
 			tasks: [
 				{
@@ -1255,24 +1054,6 @@
 				"鲌络克可以进行“交易”（它们会消化一些物品，并在过程中转化），玩家可以用它们将任何“可扭曲”的资源转换成其诡异版本（包括末地植物类的东西，像末地石或下界岩、下界疣、等等），并且可以将未经加工的紫珀块转换为片岩块。相反的过程可以通过耀晶的再生特性来实现。只有通过与鲌络克“交易”才能获得扭曲的诡异疣等物品。"
 			]
 			id: "75A0EB4DD2BC63D0"
-			rewards: [
-				{
-					id: "65A331726C445283"
-					item: {
-						Count: 1b
-						id: "unusualend:bolok_scale_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "35F62617FCF961CC"
-					item: "unusualend:warped_potion"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					icon: "unusualend:bolok_bucket"

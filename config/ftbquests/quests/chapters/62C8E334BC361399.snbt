@@ -18,12 +18,6 @@
 			dependencies: ["6D8E78E185FDB12C"]
 			description: ["使用B12黑曜石搭建一个传送门架，并使用裂图腾点燃传送门，进入传送门即可。"]
 			id: "3EAC402034034083"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B59A414D671C895"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "我们&e上天入地&r终于获得了去往异界的力量"
 			tasks: [
 				{
@@ -81,12 +75,6 @@
 			description: ["至高之森：郁郁葱葱的美丽森林，生长着各种植物和危险动物。它长满了根、草、树木和花朵。尔还会见到浮冰或长满苔警的岩石。"]
 			icon: "ulterlands:cedar_log"
 			id: "7E7E27D3DE284D91"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2BD029E8E3231B9B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				biome: "ulterlands:paramount_woods"
 				id: "53E8F4CE92B6970B"
@@ -101,12 +89,6 @@
 			description: ["一望无际的空旷景观，只有一部分紫色的茎作为装饰，漂浮的岩石点缀着天空。"]
 			icon: "ulterlands:edgestone"
 			id: "2693D4371B49C65C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78F7F12D03AC9B4B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				biome: "ulterlands:edge_wastelands"
 				id: "75EFE67C81823EDA"
@@ -121,12 +103,6 @@
 			description: ["异界与我们已知的世界隔着一层极薄的面纱。那里显现了深空的碎片，高维空间中的生物的身形投影在这片区域中，但也只是它们谜团的冰山一角。"]
 			icon: "ulterlands:cosmic_matter"
 			id: "33EFC7A88E54521C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "54C76B5CE78C44AE"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				biome: "ulterlands:cosmic_plane"
 				id: "6A2C483519F9B401"
@@ -144,12 +120,6 @@
 			]
 			icon: "ulterlands:embrack"
 			id: "079C903F09718912"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2CFFD4472A390F65"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				biome: "ulterlands:crimson_cinders"
 				id: "7FC7FA758DB3F2EC"
@@ -164,12 +134,6 @@
 			description: ["由许多矿物和石头组成的土制景观。层层叠叠的岩柱直立在地面上。小灌木生长在干燥表面裂缝之间的肥沃土壤中。"]
 			icon: "ulterlands:quagmic_octorock"
 			id: "6AC5CA1B19F56B0B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "027FE9E2B9F7CE6F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				biome: "ulterlands:quagmic_slopes"
 				id: "7670358184459F0F"
@@ -182,12 +146,6 @@
 		{
 			dependencies: ["32AFDE5409F60C52"]
 			id: "46A2C8D40182458C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "35B2A8F5488D436D"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "击杀至高之森的燃烧者掉落"
 			tasks: [{
 				id: "77226794FD04F191"
@@ -201,12 +159,6 @@
 			dependencies: ["0E856FCFC87CEA57"]
 			description: ["在异界中特有的新材料，与红石具有相似的性质，但效果更加强大"]
 			id: "12B4AB73876724B0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "64EF2919740DE8E0"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "异界矿洞中的红石PLUS"
 			tasks: [{
 				id: "669D42B06B23BAC7"
@@ -219,12 +171,6 @@
 		{
 			dependencies: ["51FB487BB81438C1"]
 			id: "2EF28EEB8B1685AC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "314580DCD08B9BE4"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "击杀至高只森的树精掉落"
 			tasks: [{
 				id: "604B983C760E416C"
@@ -238,12 +184,6 @@
 			dependencies: ["2EF28EEB8B1685AC"]
 			description: ["由铁木树干和浮冰制作，用来制作派克瑞特装备，只不过这些装备性能一般，只能留作纪念"]
 			id: "2C958D1E9F81989D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4F0F97361B295938"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "制作派克瑞特装备的原材料"
 			tasks: [{
 				id: "218E8EEDDD208D7E"
@@ -256,12 +196,6 @@
 		{
 			dependencies: ["7E7E27D3DE284D91"]
 			id: "30872ED7CA61CCB6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57BB4F3B47E406D9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "在至高之森中有一个圣庙，进入会生成奥里亚斯女王，击败她征服这片森林！"
 			tasks: [{
 				entity: "ulterlands:oriath_queen"
@@ -276,12 +210,6 @@
 			dependencies: ["30872ED7CA61CCB6"]
 			description: ["它可以射出和奥利亚斯女王相同的光束，只不过耐久很低"]
 			id: "06BF3FAFF38B5B19"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79C9DA6065EA90DA"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "神庙的角落里藏着伟大的力量"
 			tasks: [{
 				id: "4EBD51956333F462"
@@ -300,12 +228,6 @@
 		{
 			dependencies: ["30872ED7CA61CCB6"]
 			id: "1467A34266B857DE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4E543489B132E086"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "击败女王掉落，可以用来开启天花板上的暗格。"
 			tasks: [{
 				id: "6C94A1397CF01889"
@@ -325,12 +247,6 @@
 				"——是，首相"
 			]
 			id: "2DC768020CE21615"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "78D073A114090472"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "五五开之刃"
 			tasks: [{
 				id: "37BB38369A72D45A"
@@ -350,12 +266,6 @@
 			dependencies: ["1467A34266B857DE"]
 			description: ["以太法杖的终极形态，消耗的经验更少，并且内置了瘴气法术，保持潜行状态使用法杖，可以在你周围制造一片瘴气，只要你拿着法杖，就不会受到瘴气的影响"]
 			id: "7650D1337EF9B105"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "694E41D65CEB08CE"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "以太法杖PlusProMax"
 			tasks: [{
 				id: "7E9F1CB9AEBA6438"
@@ -375,12 +285,6 @@
 			dependencies: ["4A3FD126B633ACE2"]
 			description: ["可以用来制作附带地狱效果的以太宝珠，亦可以制作'伊芙利特'药水"]
 			id: "7A6084E419380DAF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45662F2197C1AB26"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "击败燃藏者掉落"
 			tasks: [{
 				id: "54B56E995E9A9533"
@@ -394,12 +298,6 @@
 			dependencies: ["7A6084E419380DAF"]
 			description: ["永恒的燃烧，直到效果耗尽都不会停止（在水里也是），同时造成的伤害比默认的火焰伤害更多。"]
 			id: "1BFDA5C808D8DDD5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "779AA9572AEBB7DA"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "很强力的药水（）"
 			tasks: [{
 				id: "7F65E403B9C6C32B"
@@ -418,12 +316,6 @@
 		{
 			dependencies: ["0E856FCFC87CEA57"]
 			id: "41F017E692B74F71"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2116C720B610905C"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "在异界的矿洞里可以开采的到"
 			tasks: [{
 				id: "4449C482FBEE2F07"
@@ -436,12 +328,6 @@
 		{
 			dependencies: ["41F017E692B74F71"]
 			id: "6AFAE4F9DAE056FC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "665E35C6E8DC38F4"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "法术在接触实体时回复10点生命值"
 			tasks: [{
 				id: "2766250E5770FB2E"
@@ -454,12 +340,6 @@
 		{
 			dependencies: ["41F017E692B74F71"]
 			id: "6EDE97A0659DD399"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B7C58C1F69D1F67"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "在接触实体时召唤两道闪电"
 			tasks: [{
 				id: "6DA14FA21C791A3A"
@@ -472,12 +352,6 @@
 		{
 			dependencies: ["41F017E692B74F71"]
 			id: "052A27FF61501D0E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "22E369153F02D282"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "召唤两只骨单元保护你"
 			tasks: [{
 				id: "68BCDF144BB9E30A"
@@ -490,12 +364,6 @@
 		{
 			dependencies: ["41F017E692B74F71"]
 			id: "234873D6B67B6065"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0CF3499C517573D1"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "法术在接触实体时使其获得失明，虚弱与缓慢效果"
 			tasks: [{
 				id: "00EFF311CBAA6650"
@@ -508,12 +376,6 @@
 		{
 			dependencies: ["41F017E692B74F71"]
 			id: "02685DACBDFAE447"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3F6B1D183F77B468"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "法术在接触实体时使其获得飘浮与炼狱效果"
 			tasks: [{
 				id: "2972F34EDBD275A6"
@@ -527,12 +389,6 @@
 			dependencies: ["2828998D414B48B7"]
 			description: ["可以用来制作带有召唤特效的以太法球，也是灵魂尖碑的材料之一。"]
 			id: "377F446111874764"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "349EB989D53F1F34"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "击败骨单元掉落"
 			tasks: [{
 				id: "1506E83BDD909417"
@@ -545,12 +401,6 @@
 		{
 			dependencies: ["377F446111874764"]
 			id: "4A77CD1F8815D463"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38E8EDF2DAA6236F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "使用凋零骷髅头右键灵魂尖碑召唤凋亡"
 			tasks: [{
 				id: "1EECCA00EEAC304C"
@@ -564,12 +414,6 @@
 			dependencies: ["4A77CD1F8815D463"]
 			description: ["使用枯骨制作灵魂尖塔，右击尖塔即可召唤凋亡，分为两个阶段，第一阶段会发射投掷物，第二阶段会近战砸击"]
 			id: "5F1A66A1D84FE5F8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "55E1FD68EBFFD2EC"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "真不是凋零，你信我"
 			tasks: [
 				{
@@ -592,12 +436,6 @@
 			dependencies: ["5F1A66A1D84FE5F8"]
 			description: ["击杀凋亡掉落"]
 			id: "64697394745F589E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "59E56A7E85F7589B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "不是下界之星，别想太多"
 			tasks: [{
 				id: "1BBA94D7E5E343BC"
@@ -611,12 +449,6 @@
 			dependencies: ["64697394745F589E"]
 			description: ["以太魔法的基础，初始能力微弱，但可以通过以太法球强化魔法效果，需要将对应的法球放在副手上使用法杖，使用时消耗经验，经验不足时使用生命值（别沉迷法术玩死自己）"]
 			id: "57BA9FEBD75BBAA8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1CE9CEE3B665FE39"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "搭配以太宝珠可以释放魔法（消耗经验）"
 			tasks: [{
 				id: "57903A9C1150DFD3"
@@ -637,12 +469,6 @@
 			description: ["这种不寻常的生物主要由矿物质组成。它大部分时间都在随机方向上高速滚动。然而，回转者极其耐用的外观和敏捷性是它唯一的优点。在攻击力方面，他们的冲击力基本不值一提。"]
 			icon: "ulterlands:gyroc_spawn_egg"
 			id: "18D57168CD19A52C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60B111FBD2289A89"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "这不是风滚草吗"
 			tasks: [{
 				entity: "ulterlands:gyroc"
@@ -658,12 +484,6 @@
 			description: ["虽然看起来像鱼一样，但保护者实际上生活在干燥的沙地上。它们利用肚子下面的小肢体，像在海面上游泳一样在地面上爬行。眼睛放在他们的头部一侧有助于他们在平坦的风景中导航。"]
 			icon: "ulterlands:aegin_spawn_egg"
 			id: "5C926C276CC9D88B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "59B3683CF2B646E5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "旱地游鱼"
 			tasks: [{
 				entity: "ulterlands:aegin"
@@ -678,12 +498,6 @@
 			dependencies: ["7E7E27D3DE284D91"]
 			description: ["粗壮但强大，整个主体由坚固的木材制成，尽管它的力量巨大，但它喜欢在田野里嬉戏并保护弱者。除非被激怒，否则它拒绝攻击它赖以生存的燃烧者。"]
 			id: "51FB487BB81438C1"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7C1CC9AF4BDBC579"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				entity: "ulterlands:rook"
 				icon: "ulterlands:rook_spawn_egg"
@@ -699,12 +513,6 @@
 			description: ["小心，燃烧者会一直保持安静，直到爆炸，别被吓到了"]
 			icon: "ulterlands:combustle_spawn_egg"
 			id: "32AFDE5409F60C52"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "067AFDB47F5E47D8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "才不是苦力怕呢"
 			tasks: [{
 				entity: "ulterlands:combustle"
@@ -719,12 +527,6 @@
 			dependencies: ["079C903F09718912"]
 			description: ["可以悬浮在空中，可以像某个类似的生物一样发射火球，并且除此之外，燃葬者可以旋转其身体的石板部分保护它免受箭矢的伤害"]
 			id: "4A3FD126B633ACE2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "424B762D28481C0C"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你跟烈焰人是什么关系..."
 			tasks: [{
 				entity: "ulterlands:pyre"
@@ -740,12 +542,6 @@
 			dependencies: ["079C903F09718912"]
 			description: ["会主动攻击大多数生物，并附带凋零效果。可以通过以太法球召唤，但由于他们嗜血的天性，他们会攻击任何伤害他们的东西（包括召唤者）。"]
 			id: "2828998D414B48B7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7854B7BF86D42403"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你跟凋零骷髅什么关系..."
 			tasks: [{
 				entity: "ulterlands:osteon"
@@ -760,12 +556,6 @@
 		{
 			dependencies: ["18D57168CD19A52C"]
 			id: "6206C7E1A7E24F57"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "12B71439FA2BF2B9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "从回转者身上掉落（暂时没啥用）"
 			tasks: [{
 				id: "59EF42484C7A2071"
@@ -779,12 +569,6 @@
 			dependencies: ["33EFC7A88E54521C"]
 			description: ["为了进化，触手怪必须摄取由奈布草制成的奈布蛋糕，但奇怪的是，你必须强行喂食（使用蛋糕左键）触手怪，才能使它们进化为裂隙人"]
 			id: "4DE8C0B8A98190E3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E851FC635128B07"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你给我吃！"
 			tasks: [{
 				id: "7C99DD2099A0D8AE"
@@ -801,12 +585,6 @@
 			]
 			description: ["它们生活在时空的缝隙中，从中观察一切，几乎不可能被杀死，因为你只能看见它们在这个世界的投影。想要击杀裂隙人，需要在3秒内彻底杀死它，不然裂隙人会快速回复到3秒前的初始状态（只能受到玩家的直接伤害）"]
 			id: "09149674F460570F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "324B4FB22128C576"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "三秒钟，你能秒我？"
 			tasks: [{
 				entity: "ulterlands:riftborn"
@@ -822,12 +600,6 @@
 			dependencies: ["33EFC7A88E54521C"]
 			description: ["这种不寻常的生物漂浮在远离人们的宇宙中，可以用奈布蛋糕使它们迅速进化"]
 			id: "14560083AA86A871"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "26B631AB0EF0D3B6"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "异界投影"
 			tasks: [{
 				entity: "ulterlands:tentacule"
@@ -842,12 +614,6 @@
 		{
 			dependencies: ["09149674F460570F"]
 			id: "1EE43A0272BF102C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "74102DC5C4DF3CF3"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "由裂隙人掉落（可以将金苹果变成附魔金苹果）"
 			tasks: [{
 				id: "5C6583DBE3822DF2"
@@ -868,12 +634,6 @@
 			description: ["这个生物拥有异界中最坚硬的外壳，甚至可以在打开的时候免疫火、弓箭、闪电、爆炸。可以发射强大的子弹。"]
 			icon: "ulterlands:fortross_spawn_egg"
 			id: "558EA182B5288EF2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A17BEE6BF2C4B24"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "潜影贝ProMax版"
 			tasks: [{
 				entity: "ulterlands:fortross"
@@ -889,12 +649,6 @@
 			description: ["在天空中翱翔，对下面发生的事情视而不见。然而，如果受到攻击，它们会从角中射出以太光束。"]
 			icon: "ulterlands:starshot_spawn_egg"
 			id: "33C3E5B50C69B632"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6556A167A25C7080"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "虚空中的独角兽"
 			tasks: [{
 				entity: "ulterlands:starshot"
@@ -912,12 +666,6 @@
 				"但当边锋骑士的生命值达到零时，它将复活并开始解开施加在其力量上的古老封印。它的生命值部分恢复，而它的力量和速度大大增加。每个与它接触的攻击者都会被星际效应暂时诅咒。"
 			]
 			id: "3BD83F6F6156BBD7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79B14DFF7C4ED6C4"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "在边锋之地上空存在一艘有传送门的船，挖掉上面的星纹耀石可以召唤边锋骑士"
 			tasks: [
 				{
@@ -940,12 +688,6 @@
 			dependencies: ["3BD83F6F6156BBD7"]
 			description: ["可以用来打开飞船上的大门，进入遗忘维度"]
 			id: "582B7AF664B7BB61"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4EFCE999413E8DEE"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "边锋骑士掉落"
 			tasks: [{
 				id: "23C05BF51646B6C1"
@@ -965,12 +707,6 @@
 			dependencies: ["4A628EC00B43EE25"]
 			description: ["这个物品能够释放存储在其中的空气，一旦释放就会形成一个空气块，可以在水下提供换气的场所，或者将它当做一个可以垫脚的方块。"]
 			id: "1B67F20F0F99BFBB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C3AC83CFE094A54"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "放置在地上可以造成减速效果"
 			tasks: [{
 				id: "531D28E3605EE027"
@@ -984,12 +720,6 @@
 			dependencies: ["558EA182B5288EF2"]
 			description: ["并不是，只要获得了炼金工作台，一个堡垒兽硬壳可以转换成两个潜影壳。或者你也可以用它制作空气胶囊（不会真有人觉得这玩意有用吧）"]
 			id: "4A628EC00B43EE25"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B962F25712EDDD7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你不能用它们制作潜影盒，多可惜"
 			tasks: [{
 				id: "3333B014C8C99B1F"
@@ -1003,12 +733,6 @@
 			dependencies: ["33C3E5B50C69B632"]
 			description: ["制作炼金工具台的必要材料"]
 			id: "19E4FEDFE16755EA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7E7A7A9C31646FE2"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "没有买卖就没有杀害"
 			tasks: [{
 				id: "3893EB7A42C97DD4"
@@ -1026,12 +750,6 @@
 				"也可以用足够的异种基因原料制作特殊的罪恶之心。"
 			]
 			id: "1AD5E62C2028723E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5102A89ADE35A6F8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "将异界物品转化为主世界物品和制作罪恶之心"
 			tasks: [{
 				id: "3F96A7EA10033F97"
@@ -1046,12 +764,6 @@
 			description: ["它的身体脆弱而变形，但使用魔法创造了两个强大的手臂。"]
 			icon: "ulterlands:endertaker_spawn_egg"
 			id: "455F78084263E681"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "20571C21EB838829"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "末影人青春mini版"
 			tasks: [{
 				entity: "ulterlands:endertaker"
@@ -1066,12 +778,6 @@
 			dependencies: ["455F78084263E681"]
 			description: ["可以用来制作异界特有的电梯，能够以瞬移的方式切换楼层"]
 			id: "57AD3A546F783DB2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4364BD52C654F84D"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "别试了，扔不出来的"
 			tasks: [{
 				id: "05596525D25A9B27"
@@ -1085,12 +791,6 @@
 			dependencies: ["57AD3A546F783DB2"]
 			description: ["潜行状态时空手右击对应方块时可以将玩家传送到上方/下方6格的位置，需要红石充能，可以制作无缝电梯系统。（比机械动力更快，但不浪漫了）"]
 			id: "4ABE927052184849"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "08146D5F6B5D8515"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "咻！"
 			tasks: [
 				{
@@ -1112,12 +812,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一种失去了飞行能力的不幸鸟类，它的大喙中会发出刺耳的曲调，可以减慢敌人的速度。"]
 			id: "70E915D2E651CB78"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "17A12D1393E1267E"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "多“冻”者"
 			tasks: [{
 				entity: "ulterlands:dodonzo"
@@ -1132,12 +826,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一个由纯粹的肌肉和骨骼组成的庞大生物。它的手臂上有多个扬声器，可以用震耳欲聋的声音吹走对手。然而，它更喜欢用拳头碾碎你。"]
 			id: "3F359E91B03F7B8C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "57952175466BFF6C"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你吼那么大声干嘛辣"
 			tasks: [{
 				entity: "ulterlands:bazzernaut"
@@ -1152,12 +840,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["一种快速的类昆虫生物，会捕食它遇到的弱小玩家。它会以马赫的速度飞向你，并从腹部下方的回音室发射声波脉冲。苍蝇的眼睛使它的视力能够延伸数英里并征服黑暗。"]
 			id: "1A909954090BF742"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "79DFFEB16BD0A1B6"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "翼龙（×）变异大苍蝇（√）"
 			tasks: [{
 				entity: "ulterlands:flyvern"
@@ -1178,12 +860,6 @@
 			dependency_requirement: "one_completed"
 			description: ["持续提供抵抗效果，并在生命小于5时快速回复生命并获得力量。但受到火焰的伤害增加，并且在下界和末地时，被动效果将被替换为缓慢和虚弱。（不会真有人用这个东西吧）"]
 			id: "25878575BF3EE2D5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "426D57AFE0DF35B8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "来自&4罪恶之心&r的力量充斥了我的身体"
 			tasks: [{
 				id: "4D1B4EFB2E6C34F8"
@@ -1197,12 +873,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["只能在遗忘维度中找到的奇怪液体，它流动得很快，像夜空一样黑暗，但除此之外并没有发现其他的特殊之处。"]
 			id: "085743015D78AF18"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0A3A1287D5C9E1B2"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "你显卡没坏，别怕"
 			tasks: [{
 				id: "41FD54109B4869A6"
@@ -1216,12 +886,6 @@
 			dependencies: ["5E9CAABA45B392AD"]
 			description: ["仅能在遗忘维度中找到的可怕物质，以它制作的盔甲可以抵消击退和强大的伤害。"]
 			id: "544955DCEAF8B67A"
-			rewards: [{
-				id: "6ED4F168DF9B5E59"
-				item: "ulterlands:astrumm"
-				random_bonus: 5
-				type: "item"
-			}]
 			subtitle: "制作强大的辉钢装备"
 			tasks: [{
 				id: "11839513F011871B"

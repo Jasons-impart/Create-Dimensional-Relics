@@ -2,5 +2,5 @@
  * ulterlands2.js - Define phase
  */
 StartupEvents.postInit(e => {
-    GamePhase.addDimensionRestriction("ulterlands2", "ulterlands:parapax")
+    GamePhase.addDimensionRestriction("Ulterlands2", "ulterlands:parapax")
 })
