@@ -31,6 +31,9 @@
 			crystal = true
 			glacia = true
 
+		[types.wood_type.createdieselgenerators]
+			chip_wood = true
+
 	[types.leaves_type]
 
 		[types.leaves_type.deeperdarker]
