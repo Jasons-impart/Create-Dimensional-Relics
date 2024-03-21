@@ -12,12 +12,6 @@
 			dependencies: ["3D7427876018E5D5"]
 			description: ["{quest.log.description}"]
 			id: "3CF4C402145AF2B9"
-			rewards: [{
-				count: 16
-				id: "34577CE3B8D49E78"
-				item: "minecraft:oak_log"
-				type: "item"
-			}]
 			subtitle: "{quest.log.subtitle}"
 			tasks: [{
 				count: 4L
@@ -42,11 +36,6 @@
 			description: ["{quest.craftingtable.description}"]
 			icon: "minecraft:crafting_table"
 			id: "77ECF5D5E59B874F"
-			rewards: [{
-				id: "72AAD9875280F282"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "{quest.craftingtable.subtitle}"
 			tasks: [{
 				id: "117AA51246578955"
@@ -61,11 +50,6 @@
 			dependencies: ["77ECF5D5E59B874F"]
 			description: ["{quest.wooden_pickaxe.description}"]
 			id: "0F04193DFE08130E"
-			rewards: [{
-				id: "3BBDB882CC28F727"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "{quest.wooden_pickaxe.subtitle}"
 			tasks: [{
 				id: "010F10BAF70E014D"
@@ -86,12 +70,6 @@
 			dependencies: ["0F04193DFE08130E"]
 			description: ["{quest.stone.description}"]
 			id: "5378B8523968F007"
-			rewards: [{
-				id: "4C3DDFA020FEFA11"
-				item: "minecraft:cobblestone"
-				random_bonus: 63
-				type: "item"
-			}]
 			subtitle: "{quest.stone.subtitle}"
 			tasks: [{
 				count: 8L
@@ -107,12 +85,6 @@
 			dependencies: ["77ECF5D5E59B874F"]
 			description: [""]
 			id: "08ECAB95A3D6E981"
-			rewards: [{
-				count: 8
-				id: "4A32343AAB3A7967"
-				item: "minecraft:apple"
-				type: "item"
-			}]
 			subtitle: "做一把剑来自♂卫♂吧"
 			tasks: [{
 				id: "5BE561E2379D3E65"
@@ -132,12 +104,6 @@
 		{
 			dependencies: ["5378B8523968F007"]
 			id: "7B3771D9729E61A2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "33F80F3654C0C735"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: " 热门话题"
 			tasks: [{
 				id: "24F9C1A71E7F9B40"
@@ -150,12 +116,6 @@
 		{
 			dependencies: ["59EB8216D9A91914"]
 			id: "31FCDE1EB7C614B8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6AA179E68EF84518"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "粗粗的"
 			tasks: [{
 				id: "44474B75599046D1"
@@ -168,20 +128,6 @@
 		{
 			dependencies: ["59EB8216D9A91914"]
 			id: "0532D3A0BE22E925"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1C7A065A899932F8"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "1BDA2292129A2D07"
-					item: "minecraft:coal"
-					random_bonus: 15
-					type: "item"
-				}
-			]
 			subtitle: "来自山西的黑金！"
 			tasks: [{
 				id: "73DCC006A075A3AF"
@@ -195,20 +141,6 @@
 			dependencies: ["59EB8216D9A91914"]
 			description: ["{quest.raw_copper.description}"]
 			id: "19C4EC6F3980ED9A"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "0E1ABD4896A4FB91"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "022D0C3294774770"
-					item: "minecraft:raw_copper"
-					random_bonus: 15
-					type: "item"
-				}
-			]
 			subtitle: "{quest.raw_copper.subtitle}"
 			tasks: [{
 				id: "5A74B82C41946F89"
@@ -222,12 +154,6 @@
 			dependencies: ["5378B8523968F007"]
 			description: ["{quest.stone_pickaxe.description}"]
 			id: "59EB8216D9A91914"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "06EB53FC2EA63362"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "{quest.stone_pickaxe.subtitle}"
 			tasks: [{
 				id: "56848055EF8A035B"
@@ -250,19 +176,6 @@
 				"31FCDE1EB7C614B8"
 			]
 			id: "7A3709D4B50FDB64"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "1617E5C741D25B3B"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "198D9BBAB935F692"
-					item: "minecraft:raw_iron_block"
-					type: "item"
-				}
-			]
 			subtitle: "硬硬的"
 			tasks: [{
 				id: "4291D69533A033CD"
@@ -275,20 +188,6 @@
 		{
 			dependencies: ["59EB8216D9A91914"]
 			id: "0B20E731C8BC4961"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "27B408CA3A3A038A"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "43761EF36E2D4F5E"
-					item: "create:raw_zinc"
-					random_bonus: 15
-					type: "item"
-				}
-			]
 			subtitle: "{quest.raw_zinc.subtitle}"
 			tasks: [{
 				id: "37E75DB2831DE06B"
@@ -302,12 +201,6 @@
 			dependencies: ["7A3709D4B50FDB64"]
 			description: ["{quest.iron_pickaxe.description}"]
 			id: "4144F362E5458112"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7EDD7EC1AF9763D8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "{quest.iron_pickaxe.subtitle}"
 			tasks: [{
 				id: "23C4D701E1D75A55"
@@ -327,20 +220,6 @@
 		{
 			dependencies: ["4144F362E5458112"]
 			id: "6ABD2D5713580576"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "26637479CB3069E7"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "5E5125B09CBFD8F3"
-					item: "minecraft:emerald"
-					random_bonus: 7
-					type: "item"
-				}
-			]
 			subtitle: "别给奸商都霍霍了（）"
 			tasks: [{
 				id: "1E0F63630505E83B"
@@ -353,20 +232,6 @@
 		{
 			dependencies: ["4144F362E5458112"]
 			id: "1B0ADB0243EEAD47"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2C3ED05504519908"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "58320D1C9304652F"
-					item: "minecraft:redstone"
-					random_bonus: 31
-					type: "item"
-				}
-			]
 			subtitle: "生电大佬快来，我找到红石啦"
 			tasks: [{
 				id: "5F3420B17F6687B6"
@@ -379,20 +244,6 @@
 		{
 			dependencies: ["4144F362E5458112"]
 			id: "0FFA12C63E14396C"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "43E99F8CCD86FA9D"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "6AA1977982E07955"
-					item: "minecraft:lapis_lazuli"
-					random_bonus: 7
-					type: "item"
-				}
-			]
 			subtitle: "神奇的魔法力量"
 			tasks: [{
 				id: "0C631867D19F0F83"
@@ -405,20 +256,6 @@
 		{
 			dependencies: ["4144F362E5458112"]
 			id: "0F9A325B7651DE3D"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "474FDD9AEB35B67D"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "4B2D9B08D0964ACD"
-					item: "minecraft:raw_gold"
-					random_bonus: 3
-					type: "item"
-				}
-			]
 			subtitle: "金子！！！请多多多多挖"
 			tasks: [{
 				id: "2E17E8C5AEB879C1"
@@ -431,20 +268,6 @@
 		{
 			dependencies: ["7A3709D4B50FDB64"]
 			id: "2B06C9F73DF923F5"
-			rewards: [
-				{
-					count: 2
-					id: "5FAA2493330A0D96"
-					item: "minecraft:oak_leaves"
-					type: "item"
-				}
-				{
-					count: 4
-					id: "5447E425EE6A462F"
-					item: "minecraft:white_wool"
-					type: "item"
-				}
-			]
 			subtitle: "青青草原的小羊们终于不用被杀羊取毛啦！"
 			tasks: [{
 				id: "277EBFFA4523ECE8"
@@ -463,12 +286,6 @@
 		{
 			dependencies: ["77ECF5D5E59B874F"]
 			id: "25D7CEE93389160E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "49D77021D3BAFAAB"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "永远刻在骨子里的种田的欲望！"
 			tasks: [{
 				id: "6D9B874AD652364D"
@@ -502,11 +319,6 @@
 			description: ["{quest.waystone.description}"]
 			icon: "waystones:waystone"
 			id: "0082C5BEB96B1114"
-			rewards: [{
-				id: "00D3F2F86D28DEE6"
-				item: "waystones:waystone"
-				type: "item"
-			}]
 			subtitle: "{quest.waystone.subtitle}"
 			tasks: [{
 				id: "333F068D4B5273B9"
@@ -521,12 +333,6 @@
 			dependencies: ["03F588EEB89B59F1"]
 			icon: "minecraft:mycelium"
 			id: "2D5042D30F0E685D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "65667C5950DCCBBA"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "它真的灰常稀有！"
 			tasks: [{
 				biome: "minecraft:mushroom_fields"
@@ -550,26 +356,6 @@
 			]
 			icon: "alexsmobs:spawn_egg_mungus"
 			id: "45ADF7CA2DAD69B5"
-			rewards: [
-				{
-					count: 3
-					id: "6B90CADE60D597DC"
-					item: "farmersdelight:mushroom_rice"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "3B52BD5A3F7DF143"
-					item: "minecraft:mushroom_stew"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "2B9144E4A6624C84"
-					item: "nethersdelight:strider_moss_stew"
-					type: "item"
-				}
-			]
 			subtitle: "神奇的真菌生物"
 			tasks: [{
 				icon: "minecraft:red_mushroom"
@@ -586,11 +372,6 @@
 		{
 			dependencies: ["3D7427876018E5D5"]
 			id: "03F588EEB89B59F1"
-			rewards: [{
-				id: "01978038C66371F6"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				disable_toast: true
@@ -612,12 +393,6 @@
 			dependencies: ["08ECAB95A3D6E981"]
 			icon: "minecraft:rotten_flesh"
 			id: "0E531BD70B2A75EE"
-			rewards: [{
-				count: 10
-				id: "7A13239038CB2CC0"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
 			subtitle: "你现在可以杀掉他们了！"
 			tasks: [{
 				entity: "minecraft:zombie"
@@ -632,12 +407,6 @@
 		{
 			dependencies: ["7A3709D4B50FDB64"]
 			id: "211F945EDB8A43BF"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "03F9AAF19DB81140"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			subtitle: "整装上阵！"
 			tasks: [
 				{
@@ -695,17 +464,6 @@
 			hide_text_until_complete: false
 			id: "2011D407A38D2F5C"
 			invisible: true
-			rewards: [{
-				id: "4F1FC0E5F6368427"
-				item: {
-					Count: 1b
-					id: "waystones:warp_stone"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "月球上也有旷野之塔？"
 			tasks: [{
 				icon: "ad_astra:moon_globe"
@@ -721,12 +479,6 @@
 		{
 			dependencies: ["2011D407A38D2F5C"]
 			id: "23693D7EA18689DE"
-			rewards: [{
-				count: 10
-				id: "0EA968A7DD5586BF"
-				item: "waystones:warp_scroll"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "ad_astra:mars_globe"
 				id: "675D9DC1B39BB27E"
@@ -740,12 +492,6 @@
 		{
 			dependencies: ["23693D7EA18689DE"]
 			id: "0456C4B8F4C85AB7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29D104DC6347006D"
-				table_id: 7772018159856264947L
-				type: "random"
-			}]
 			tasks: [{
 				icon: "ad_astra:venus_globe"
 				id: "06FB1B91B84D4239"
@@ -759,12 +505,6 @@
 		{
 			dependencies: ["0456C4B8F4C85AB7"]
 			id: "1566F201ABC5F723"
-			rewards: [{
-				count: 2
-				id: "531816C9E8AEFB03"
-				item: "ad_astra:cheese_block"
-				type: "item"
-			}]
 			tasks: [{
 				icon: "ad_astra:mercury_globe"
 				id: "51634ADAE4F234DA"
@@ -779,31 +519,6 @@
 			dependencies: ["25D7CEE93389160E"]
 			id: "501D225CCE7B711C"
 			invisible: true
-			rewards: [
-				{
-					id: "64E7F70FAA339831"
-					type: "xp_levels"
-					xp_levels: 5
-				}
-				{
-					count: 10
-					id: "07E62658B2F33C17"
-					item: "minecraft:ancient_debris"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7F3700145653909F"
-					table_id: 6485826240718891201L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "09B8F1D5DB14D11A"
-					table_id: 7772018159856264947L
-					type: "choice"
-				}
-			]
 			subtitle: "这也是爱到极致的表现了，奖励你！"
 			tasks: [{
 				id: "33EB6C684D1A130F"
@@ -837,23 +552,6 @@
 		{
 			dependencies: ["3D7427876018E5D5"]
 			id: "05D6B228BA11656D"
-			rewards: [
-				{
-					id: "7D25F82C2EF50879"
-					item: "minecraft:horse_spawn_egg"
-					type: "item"
-				}
-				{
-					id: "20467FDFFDFAF955"
-					item: "minecraft:saddle"
-					type: "item"
-				}
-				{
-					id: "17B4FC8865A84152"
-					item: "minecraft:iron_horse_armor"
-					type: "item"
-				}
-			]
 			subtitle: "顶针的小马珍珠我也想要！"
 			tasks: [{
 				icon: "minecraft:horse_spawn_egg"
@@ -871,12 +569,6 @@
 			dependencies: ["05D6B228BA11656D"]
 			description: ["苹果是喂马的！别偷吃！"]
 			id: "5EC202A45AEF91D4"
-			rewards: [{
-				count: 16
-				id: "77EE3788E193192E"
-				item: "minecraft:apple"
-				type: "item"
-			}]
 			subtitle: "如果你也经常发现你找不到你的马了（雾），那你可以尝试在马背上按下P绑定你的小马，然后使用V进行召唤（请务必保证你周围的安全！！！）"
 			tasks: [{
 				id: "11FBE5FFD38224EE"
@@ -890,12 +582,6 @@
 			dependencies: ["0082C5BEB96B1114"]
 			id: "6505B4F50F20682C"
 			invisible: true
-			rewards: [{
-				count: 10
-				id: "002C920F0CCDA9BA"
-				item: "waystones:warp_scroll"
-				type: "item"
-			}]
 			subtitle: "林克入侵我的世界"
 			tasks: [{
 				icon: "minecraft:netherrack"
@@ -910,26 +596,6 @@
 		{
 			dependencies: ["6505B4F50F20682C"]
 			id: "7BB1BFFB5B368992"
-			rewards: [
-				{
-					count: 5
-					id: "5FE3A857F5D4039E"
-					item: {
-						Count: 1b
-						id: "waystones:warp_stone"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					count: 20
-					id: "2AC5B0AC9C3FB67C"
-					item: "waystones:warp_scroll"
-					type: "item"
-				}
-			]
 			tasks: [{
 				icon: "minecraft:end_stone"
 				id: "213A959BB00EAA0D"
@@ -941,14 +607,10 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["7905D6425CA6E272"]
 			description: ["{quest.arrivewhitering.description}"]
 			icon: "minecraft:grass_block"
 			id: "3D7427876018E5D5"
-			rewards: [{
-				id: "2C0ADEADD3386D58"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "{quest.arrivewhitering.subtitle}"
 			tasks: [{
 				id: "068FD4272C5CB958"
@@ -965,11 +627,6 @@
 			icon: "ftbquests:book"
 			id: "54E5D285A4300964"
 			optional: true
-			rewards: [{
-				id: "7B3B009F64264C00"
-				item: "ftbquests:book"
-				type: "item"
-			}]
 			subtitle: "{quest.questbook.subtitle}"
 			tasks: [{
 				id: "5237AD30A9B874EA"
@@ -984,12 +641,6 @@
 			dependencies: ["77ECF5D5E59B874F"]
 			description: ["{quest.crafting_blueprint.description}"]
 			id: "60B88C2A6488DC81"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "644D089850D4362F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "{quest.crafting_blueprint.subtitle}"
 			tasks: [{
 				id: "64BF60DCF2763E29"
@@ -1003,12 +654,6 @@
 		{
 			dependencies: ["03F588EEB89B59F1"]
 			id: "181933A2A9CDD244"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "45F8F7285222C549"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "&1叮铃叮铃叮铃"
 			tasks: [{
 				icon: "minecraft:amethyst_block"
@@ -1025,12 +670,6 @@
 		{
 			dependencies: ["181933A2A9CDD244"]
 			id: "43D45931BFA12550"
-			rewards: [{
-				count: 3
-				id: "6A88A8930E53772A"
-				item: "minecraft:budding_amethyst"
-				type: "item"
-			}]
 			subtitle: "紫水晶母岩无法挖掘掉落，但是可以通过机械动力移走（矿车大法）"
 			tasks: [{
 				icon: "minecraft:budding_amethyst"
@@ -1047,12 +686,6 @@
 		{
 			dependencies: ["43D45931BFA12550"]
 			id: "4A19D3EB3E47BFDF"
-			rewards: [{
-				id: "6AB8F65AFF3A92E0"
-				item: "minecraft:amethyst_shard"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "很好听的~"
 			tasks: [{
 				id: "57FA53C48C03D1A9"
@@ -1066,12 +699,6 @@
 		{
 			dependencies: ["03F588EEB89B59F1"]
 			id: "2F7D291600E73191"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5553C03AEBCC384A"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "她真的好&1魔幻&r！"
 			tasks: [{
 				biome: "terralith:warped_mesa"
@@ -1087,12 +714,6 @@
 			dependencies: ["2F7D291600E73191"]
 			icon: "supplementaries:enderman_head"
 			id: "37E51401DB374A75"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6069543A6A6F3EBF"
-				table_id: 7772018159856264947L
-				type: "random"
-			}]
 			subtitle: "这里也是那里也是到处都是！"
 			tasks: [{
 				icon: "supplementaries:enderman_head"
@@ -1109,12 +730,6 @@
 		{
 			dependencies: ["03F588EEB89B59F1"]
 			id: "0636C4A3E5DF608B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5A2200240A07539F"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "好酷！但是&eMADE IN HEAVEN&r"
 			tasks: [{
 				icon: "minecraft:stripped_acacia_wood"
@@ -1129,11 +744,6 @@
 		{
 			dependencies: ["0636C4A3E5DF608B"]
 			id: "08D29EF93E2A5308"
-			rewards: [{
-				id: "239F85008D5861DA"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				icon: "minecraft:wither_skeleton_skull"
 				id: "74BA291A9CBC2103"
@@ -1150,12 +760,6 @@
 			dependencies: ["4144F362E5458112"]
 			description: ["{quest.diamond.description}"]
 			id: "3063D93E51ECAFA7"
-			rewards: [{
-				id: "76847546E3621FC9"
-				item: "minecraft:diamond"
-				random_bonus: 3
-				type: "item"
-			}]
 			subtitle: "{quest.diamond.subtitle}"
 			tasks: [{
 				id: "77A87928540A30B5"
@@ -1169,11 +773,6 @@
 		{
 			dependencies: ["3063D93E51ECAFA7"]
 			id: "6C0D61A95B6C2687"
-			rewards: [{
-				id: "24C3A00E87050D8D"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
 			subtitle: "额...很好，能耕地！"
 			tasks: [{
 				id: "3D6187D745E8B338"
@@ -1192,12 +791,6 @@
 		{
 			dependencies: ["3063D93E51ECAFA7"]
 			id: "4550526FDF6E6F8E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4C34FA5FE0159E21"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
 			subtitle: "既然你都有去钻石套了，也不需要我给你钻石了吧？（）"
 			tasks: [
 				{
@@ -1253,12 +846,6 @@
 			dependencies: ["3063D93E51ECAFA7"]
 			id: "5BC2F94739601579"
 			invisible: true
-			rewards: [{
-				id: "221D63610AFC64D3"
-				item: "minecraft:cat_spawn_egg"
-				random_bonus: 2
-				type: "item"
-			}]
 			subtitle: "原来你也看黑猫（）"
 			tasks: [{
 				id: "258060ABC2C218C0"
@@ -1330,29 +917,6 @@
 				"181E2BB5C3BC31A9"
 			]
 			id: "3EA9CF1178202BF0"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "2D7C091CE6F81FFA"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "2223BC3A8634A488"
-					item: {
-						Count: 1b
-						id: "minecraft:enchanted_book"
-						tag: {
-							StoredEnchantments: [{
-								id: "minecraft:protection"
-								lvl: 4s
-							}]
-						}
-					}
-					random_bonus: 3
-					type: "item"
-				}
-			]
 			subtitle: "嗡~这是魔法的声音！"
 			tasks: [{
 				advancement: "minecraft:story/enchant_item"
@@ -1369,12 +933,6 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "181E2BB5C3BC31A9"
-			rewards: [{
-				count: 10
-				id: "7DCA52938E990101"
-				item: "minecraft:book"
-				type: "item"
-			}]
 			subtitle: "书籍是人类进步的阶梯——高尔基如是说    书籍是你通向MC大师的必经之路——作者如是说"
 			tasks: [{
 				id: "2920B4B4B42306C2"
@@ -1388,12 +946,6 @@
 		{
 			dependencies: ["3063D93E51ECAFA7"]
 			id: "29DAE739DB7E9CEE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "719DA6761B18A38C"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
 			subtitle: "很快！很锋利！"
 			tasks: [{
 				id: "30DED35F0C21D31F"
@@ -1412,12 +964,6 @@
 		{
 			dependencies: ["3063D93E51ECAFA7"]
 			id: "561E61D8E9FDE3ED"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "450DF294CDEBB425"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
 			subtitle: "很棒！很闪耀！"
 			tasks: [{
 				id: "3B65F1C34D6D5594"

@@ -22,21 +22,6 @@
 				"剪刀:分解皮革物品。"
 			]
 			id: "7F9674CC778A157C"
-			rewards: [{
-				id: "502F90FD6FDACEAE"
-				item: {
-					Count: 1b
-					id: "farmersdelight:iron_knife"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 3
-						}]
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "来做一把厨师刀吧"
 			tasks: [
 				{
@@ -64,12 +49,6 @@
 		{
 			disable_toast: true
 			id: "34D9D292CE6F683E"
-			rewards: [{
-				auto: "no_toast"
-				id: "0E93C2463A91C13C"
-				table_id: 5077918012354645869L
-				type: "random"
-			}]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				disable_toast: true
@@ -92,18 +71,6 @@
 				"打开即可看到各种食物的烹饪要求。烹好的食物会留在厨锅里。部分食物需要碗来盛装，你可以在厨锅中放入碗。"
 			]
 			id: "236182632D72C634"
-			rewards: [{
-				id: "279C5B5A2E93B439"
-				item: {
-					Count: 1b
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				title: "打起火来！"
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "5553B5232EF96069"
@@ -134,12 +101,6 @@
 		{
 			dependencies: ["7F9674CC778A157C"]
 			id: "0A57106C8D121016"
-			rewards: [{
-				count: 32
-				id: "6AB65203F8397836"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
 			subtitle: "小刀砍草有几率掉落"
 			tasks: [{
 				id: "7EC322B81F4E15A6"
@@ -152,12 +113,6 @@
 		{
 			dependencies: ["0A57106C8D121016"]
 			id: "0EB163D03C1B6B44"
-			rewards: [{
-				count: 32
-				id: "15C1FDF6644E2331"
-				item: "farmersdelight:straw"
-				type: "item"
-			}]
 			subtitle: "用草编的"
 			tasks: [{
 				id: "684086A553C26117"
@@ -170,12 +125,6 @@
 		{
 			dependencies: ["0EB163D03C1B6B44"]
 			id: "6D898BBD0DD8EFF7"
-			rewards: [{
-				count: 32
-				id: "264C60ED93E6CDE5"
-				item: "farmersdelight:tatami"
-				type: "item"
-			}]
 			subtitle: "好看吧"
 			tasks: [{
 				id: "313589827605C526"
@@ -188,12 +137,6 @@
 		{
 			dependencies: ["0A57106C8D121016"]
 			id: "34991C5C2CF97A1E"
-			rewards: [{
-				count: 9
-				id: "1A327F47E16DDA87"
-				item: "minecraft:bone_meal"
-				type: "item"
-			}]
 			subtitle: "看看合成表吧孩子（）"
 			tasks: [{
 				id: "659DB086D943DA11"
@@ -213,11 +156,6 @@
 				"铃铛正下方的绳索将在视觉上连接到它。"
 			]
 			id: "730067CB89A4EA43"
-			rewards: [{
-				id: "2E1F9ABE494E8E59"
-				item: "minecraft:bell"
-				type: "item"
-			}]
 			subtitle: "绳索是一种由草秆制成的可攀爬和可展开的方块"
 			tasks: [{
 				id: "2A0B9AB1AEB93065"
@@ -231,12 +169,6 @@
 			dependencies: ["730067CB89A4EA43"]
 			description: ["&4或许你可以用来落地安全网&r？（）"]
 			id: "5CF2B1B78E640F78"
-			rewards: [{
-				count: 9
-				id: "2E060C95B04428BD"
-				item: "farmersdelight:safety_net"
-				type: "item"
-			}]
 			subtitle: "免疫摔落伤害"
 			tasks: [{
 				id: "6BDABD9F0EFC4C56"
@@ -249,11 +181,6 @@
 		{
 			dependencies: ["7F9674CC778A157C"]
 			id: "0DB5F873297C3601"
-			rewards: [{
-				id: "69233CC6E640A15A"
-				item: "farmersdelight:cooked_rice"
-				type: "item"
-			}]
 			subtitle: "可以用来简易的烹饪一些食物"
 			tasks: [{
 				id: "771F87D6CEDF680B"
@@ -267,21 +194,6 @@
 			dependencies: ["34D9D292CE6F683E"]
 			disable_toast: true
 			id: "3113E45D7D1D9A4E"
-			rewards: [
-				{
-					count: 16
-					id: "4EFDED31CF43A0E6"
-					item: "minecraft:dirt"
-					random_bonus: 48
-					type: "item"
-				}
-				{
-					count: 256
-					id: "068285BC43DF66F6"
-					item: "minecraft:bone_meal"
-					type: "item"
-				}
-			]
 			subtitle: "快去收集吧"
 			tasks: [{
 				dimension: "minecraft:overworld"
@@ -305,12 +217,6 @@
 				"4.南瓜和西瓜也不会使沃土耕地变回沃土:"
 			]
 			id: "7BCF4C9AB08CBB29"
-			rewards: [{
-				count: 9
-				id: "564A594A0CCA4F00"
-				item: "farmersdelight:rich_soil"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5205CDA485DFFA93"
 				item: "farmersdelight:rich_soil"
@@ -323,12 +229,6 @@
 			dependencies: ["3113E45D7D1D9A4E"]
 			description: ["番茄藤葛(种植的番茄)上方可以放置绳子，番茄有概率沿着绳子多层生长，最多额外生长两层"]
 			id: "110EED3EE1EDAA42"
-			rewards: [{
-				count: 3
-				id: "450E848616F65361"
-				item: "farmersdelight:tomato_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "51BA6DA55EF4DA17"
 				item: "farmersdelight:tomato"
@@ -340,12 +240,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "45343A38F7B9CD1A"
-			rewards: [{
-				count: 3
-				id: "253FB95773EFD9F1"
-				item: "farmersdelight:cabbage_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6FAECB027223140C"
 				item: "farmersdelight:cabbage"
@@ -358,12 +252,6 @@
 			dependencies: ["3113E45D7D1D9A4E"]
 			description: ["其本身即为种子，可种植在耕地中。"]
 			id: "2CFB0734FCBA02CF"
-			rewards: [{
-				count: 3
-				id: "701ED350C2ED339A"
-				item: "farmersdelight:onion"
-				type: "item"
-			}]
 			tasks: [{
 				id: "13CB2326B6EF1034"
 				item: "farmersdelight:onion"
@@ -376,12 +264,6 @@
 			dependencies: ["3113E45D7D1D9A4E"]
 			description: ["必须种在静止的水下方的泥土/草方块/沃土上，共有四个生长阶段，但只有上方一格处为空气时才能长成第三/四阶段，成熟后两格高，收割第二格掉落稻米穗。"]
 			id: "794C36745728144B"
-			rewards: [{
-				count: 3
-				id: "3C94486506BED74F"
-				item: "farmersdelight:rice_panicle"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5DBAE17071E4AB13"
 				item: "farmersdelight:rice_panicle"
@@ -393,12 +275,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "50602D5E64D63267"
-			rewards: [{
-				count: 3
-				id: "2CD4F393BA2BB285"
-				item: "minecraft:potato"
-				type: "item"
-			}]
 			subtitle: "土豆神教！"
 			tasks: [{
 				id: "1ACFBDF784643E27"
@@ -411,11 +287,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "485C7A8257263DA0"
-			rewards: [{
-				id: "4CB420C776E2CE9C"
-				item: "farmersdelight:carrot_crate"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6DF71C5DF0ADC925"
 				item: "minecraft:carrot"
@@ -427,12 +298,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "0EE8A8266EFEAAF7"
-			rewards: [{
-				count: 3
-				id: "478A422E4980E366"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7C3B39B536CE8E77"
 				item: "minecraft:wheat"
@@ -445,12 +310,6 @@
 			dependencies: ["3113E45D7D1D9A4E"]
 			description: [""]
 			id: "78E572AC3FBB1F7D"
-			rewards: [{
-				count: 3
-				id: "6A2A9F2EAFA18E16"
-				item: "minecraft:pumpkin_seeds"
-				type: "item"
-			}]
 			subtitle: "可以用来做容器，制作成填馅南瓜"
 			tasks: [{
 				id: "6E0CF28F5F488D98"
@@ -463,12 +322,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "3393778CF1B98A2C"
-			rewards: [{
-				count: 3
-				id: "7168DDCB22B0BC67"
-				item: "minecraft:melon_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "67C25C597CE19459"
 				item: "minecraft:melon_slice"
@@ -480,12 +333,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "5C89C920A90424EB"
-			rewards: [{
-				count: 3
-				id: "34BA5E23499179FB"
-				item: "minecraft:cocoa_beans"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6E1B37EAF1BEEF15"
 				item: "minecraft:cocoa_beans"
@@ -501,20 +348,6 @@
 				"菌落现在可以被骨粉催熟。但是注意一定要等到蘑菇进入菌落阶段才能使用骨粉催熟。(直接催熟未进入菌落阶段的蘑菇则会生成萨菇树)"
 			]
 			id: "0FF64A9D58056F37"
-			rewards: [
-				{
-					count: 3
-					id: "105EF6917B25E3AD"
-					item: "minecraft:brown_mushroom"
-					type: "item"
-				}
-				{
-					count: 3
-					id: "4BC9EA975EAA3A5C"
-					item: "minecraft:red_mushroom"
-					type: "item"
-				}
-			]
 			tasks: [
 				{
 					id: "7999897D2C44D072"
@@ -533,12 +366,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "4B0786620564E8C0"
-			rewards: [{
-				count: 3
-				id: "3B4E61D6FCF3F51B"
-				item: "minecraft:beetroot_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "403B40F58D026A06"
 				item: "minecraft:beetroot"
@@ -550,12 +377,6 @@
 		{
 			dependencies: ["191A371DB8F3E198"]
 			id: "1E766468CDA08B92"
-			rewards: [{
-				count: 3
-				id: "519B25924AD74C95"
-				item: "createcafe:coffee_beans"
-				type: "item"
-			}]
 			subtitle: "咖啡？"
 			tasks: [{
 				id: "3F3E91F60C1FAFC2"
@@ -568,12 +389,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "3E503B85378F1A90"
-			rewards: [{
-				count: 3
-				id: "2AAC0A3545001F28"
-				item: "minecraft:sugar_cane"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1E2A70C58001C36C"
 				item: "minecraft:sugar_cane"
@@ -585,12 +400,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "6E73DDAFB4DFC98C"
-			rewards: [{
-				count: 3
-				id: "05876383E803A41F"
-				item: "corn_delight:corn_seeds"
-				type: "item"
-			}]
 			subtitle: "啃玉米"
 			tasks: [{
 				id: "5F4C5ED8653F50E8"
@@ -603,11 +412,6 @@
 		{
 			dependencies: ["3E503B85378F1A90"]
 			id: "4AAB0FD1FC059B01"
-			rewards: [{
-				id: "7F9E7C4D0CC1552A"
-				item: "extradelight:sugar_sack"
-				type: "item"
-			}]
 			subtitle: "重要的调味料"
 			tasks: [{
 				id: "5FC16E54FA4067B7"
@@ -620,11 +424,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "5E77B30490CE96A9"
-			rewards: [{
-				id: "71DB9C8310665C2F"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
 			subtitle: "小牛是哪来的？"
 			tasks: [{
 				id: "53A81679D7AE4D35"
@@ -637,12 +436,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "663D41A82205B3E3"
-			rewards: [{
-				count: 9
-				id: "4ACD23EB869EB1F9"
-				item: "minecraft:carrot"
-				type: "item"
-			}]
 			subtitle: "小猪是哪来的？"
 			tasks: [{
 				id: "4DF3449904ED3501"
@@ -655,12 +448,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "7ACB73C0E9FBD4A9"
-			rewards: [{
-				count: 9
-				id: "33A59C23424F17EC"
-				item: "minecraft:wheat_seeds"
-				type: "item"
-			}]
 			subtitle: "红烧鸡翅~~我最爱吃~~~"
 			tasks: [{
 				id: "3CB2C2682E49072E"
@@ -673,12 +460,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "40EBFAF6221F7BC2"
-			rewards: [{
-				count: 9
-				id: "3ACE8E226E05CA72"
-				item: "minecraft:carrot"
-				type: "item"
-			}]
 			subtitle: "没有一只兔子能够活着走出四川！"
 			tasks: [{
 				id: "4A6D4A3483073092"
@@ -691,11 +472,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "7AB702E0298F4A91"
-			rewards: [{
-				id: "120BBDABB70351E4"
-				item: "minecraft:hay_block"
-				type: "item"
-			}]
 			subtitle: "小羊是哪来的？"
 			tasks: [{
 				id: "22E0DB07A6173E2C"
@@ -708,13 +484,6 @@
 		{
 			dependencies: ["5E77B30490CE96A9"]
 			id: "2FBFCED864823ACB"
-			rewards: [{
-				count: 3
-				id: "6CABC4070903B7D7"
-				item: "minecraft:cooked_beef"
-				title: "原版风味！"
-				type: "item"
-			}]
 			subtitle: "第一次知道这玩意是生的时候我都没敢下口"
 			tasks: [{
 				id: "32D40344208435F3"
@@ -727,13 +496,6 @@
 		{
 			dependencies: ["5E77B30490CE96A9"]
 			id: "68D86CEADCEED138"
-			rewards: [{
-				count: 3
-				id: "3BF81F50E9F8780E"
-				item: "minecraft:beef"
-				title: "再剁一次！"
-				type: "item"
-			}]
 			subtitle: "何不食肉糜"
 			tasks: [{
 				id: "685ADFB4DCEC69D9"
@@ -746,13 +508,6 @@
 		{
 			dependencies: ["5E77B30490CE96A9"]
 			id: "5D54D3473C603818"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "681A89CEA8C13F16"
-				table_id: 6167605175036859481L
-				title: "好饭配好酒，小朋友要选奶茶哦"
-				type: "choice"
-			}]
 			subtitle: "好吃爱吃！"
 			tasks: [{
 				id: "49EFCF2102EA9614"
@@ -765,12 +520,6 @@
 		{
 			dependencies: ["50602D5E64D63267"]
 			id: "66A39D3E9AE39F85"
-			rewards: [{
-				count: 9
-				id: "030B14CFDACEC9F1"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1C8400B67CCE2E67"
 				item: "minecraft:baked_potato"
@@ -782,11 +531,6 @@
 		{
 			dependencies: ["0EE8A8266EFEAAF7"]
 			id: "55391DFA3A579EB0"
-			rewards: [{
-				id: "0EBCB8A523C7515A"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0272E8F33EF7BC1C"
 				item: "minecraft:bread"
@@ -802,12 +546,6 @@
 			]
 			description: ["小孩子可不能不吃蔬菜哦"]
 			id: "043B1563524A340D"
-			rewards: [{
-				count: 18
-				id: "407682696122EB97"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "39FDC5FED6DC59D2"
 				item: "candlelight:broccoli_tomato"
@@ -819,12 +557,6 @@
 		{
 			dependencies: ["1E766468CDA08B92"]
 			id: "037A91D476687446"
-			rewards: [{
-				count: 3
-				id: "00E4378C876A6288"
-				item: "createcafe:roasted_coffee_beans"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3F8CA6374761F4F0"
 				item: "createcafe:roasted_coffee_beans"
@@ -836,12 +568,6 @@
 		{
 			dependencies: ["037A91D476687446"]
 			id: "326D5BCADED75129"
-			rewards: [{
-				count: 3
-				id: "6B0C265FE0048123"
-				item: "createcafe:coffee_grounds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "50B8900AB9FB27EB"
 				item: "createcafe:coffee_grounds"
@@ -853,11 +579,6 @@
 		{
 			dependencies: ["326D5BCADED75129"]
 			id: "3D0980BDCB8BBB78"
-			rewards: [{
-				id: "1F6DD47CB34C1835"
-				item: "createcafe:iced_coffee"
-				type: "item"
-			}]
 			tasks: [{
 				id: "123BF7F73461C37F"
 				item: "createcafe:coffee_bucket"
@@ -869,11 +590,6 @@
 		{
 			dependencies: ["0FF64A9D58056F37"]
 			id: "010D5750C5738F78"
-			rewards: [{
-				id: "4E47C60AF5C240B6"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "56D8CFB5CE02BD3C"
 				item: "minecraft:mushroom_stew"
@@ -897,11 +613,6 @@
 			dependencies: ["0EE8A8266EFEAAF7"]
 			description: [""]
 			id: "2FDFCAF57DDEAEC8"
-			rewards: [{
-				id: "281D9CF04C78FD0E"
-				item: "minecraft:water_bucket"
-				type: "item"
-			}]
 			subtitle: "开始和面！"
 			tasks: [{
 				id: "6F73693B91CEAF56"
@@ -914,11 +625,6 @@
 		{
 			dependencies: ["2FDFCAF57DDEAEC8"]
 			id: "731029D680D12421"
-			rewards: [{
-				id: "4DEDE4EB7403CF9D"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
 			tasks: [{
 				id: "11918BFEA3A215E5"
 				item: {
@@ -938,24 +644,6 @@
 		{
 			dependencies: ["731029D680D12421"]
 			id: "3CED0AE34CB79037"
-			rewards: [
-				{
-					auto: "no_toast"
-					command: "/summon minecraft:firework_rocket ~ ~1 ~ {FireworksItem:{tag:{Fireworks:{Flight:2,Explosions:[{Trail:1b,Flicker:1b,Type:1,Colors:[I;16715264],FadeColors:[I;16383744]}]}},id:\"minecraft:firework_rocket\",Count:1},Life:0}"
-					icon: "minecraft:firework_rocket"
-					id: "2172F491E7FB4762"
-					player_command: true
-					silent: true
-					title: " 惊喜！"
-					type: "command"
-				}
-				{
-					count: 9
-					id: "67F698F5A21DCBD8"
-					item: "minecraft:diamond"
-					type: "item"
-				}
-			]
 			subtitle: "The cake is a lie ！！！But &eBe happy!&r！！！"
 			tasks: [{
 				id: "572D19AAB14773BB"
@@ -968,11 +656,6 @@
 		{
 			dependencies: ["6E73DDAFB4DFC98C"]
 			id: "3F7843954E17972C"
-			rewards: [{
-				id: "053FAB53A486CA37"
-				item: "minecraft:campfire"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0AAC6EF618805CEF"
 				item: "corn_delight:tortilla_raw"
@@ -984,11 +667,6 @@
 		{
 			dependencies: ["3F7843954E17972C"]
 			id: "026142A9E3B05A2B"
-			rewards: [{
-				id: "773A68652ED068FD"
-				item: "extradelight:oak_spice_rack"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1F17C6F7D9303CF6"
 				item: "corn_delight:tortilla"
@@ -1000,11 +678,6 @@
 		{
 			dependencies: ["026142A9E3B05A2B"]
 			id: "44904C77FF8B5A00"
-			rewards: [{
-				id: "7D2095382CEA06AD"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "10469E9B43A3B0D0"
 				item: "corn_delight:taco"
@@ -1016,11 +689,6 @@
 		{
 			dependencies: ["3393778CF1B98A2C"]
 			id: "4C8CF455D42172D2"
-			rewards: [{
-				id: "7AF1743029C8A440"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			subtitle: "夏天来上一口，清爽得嘞！"
 			tasks: [{
 				id: "0A23CB36BC6BC797"
@@ -1056,11 +724,6 @@
 			dependencies: ["5472505D50D144FD"]
 			description: [""]
 			id: "3D66A6D45F4C858E"
-			rewards: [{
-				id: "4F198BD4A8E5B643"
-				item: "minecraft:milk_bucket"
-				type: "item"
-			}]
 			subtitle: "&m扭一扭，泡一泡，你是我的好玩伴&r"
 			tasks: [{
 				id: "133D02BFB4FAA88A"
@@ -1073,12 +736,6 @@
 		{
 			dependencies: ["794C36745728144B"]
 			id: "668C5A8F44F6E48D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6A6E3131B1763CAB"
-				table_id: 153300296267831246L
-				type: "choice"
-			}]
 			tasks: [{
 				id: "61A2C4549C71E00B"
 				item: "farmersdelight:rice"
@@ -1091,12 +748,6 @@
 			dependencies: ["668C5A8F44F6E48D"]
 			description: ["香喷喷的大米饭"]
 			id: "32EC1F9B28640CE2"
-			rewards: [{
-				count: 3
-				id: "3511BF849C91E98B"
-				item: "extradelight:riceball"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5F13F995C9B79878"
 				item: "farmersdelight:cooked_rice"
@@ -1108,12 +759,6 @@
 		{
 			dependencies: ["7ACB73C0E9FBD4A9"]
 			id: "6F7B5777661962A2"
-			rewards: [{
-				count: 3
-				id: "6693448BCD2A9092"
-				item: "minecraft:cooked_chicken"
-				type: "item"
-			}]
 			tasks: [{
 				id: "514BB0FE1FBB2E88"
 				item: "farmersdelight:chicken_cuts"
@@ -1125,12 +770,6 @@
 		{
 			dependencies: ["6F7B5777661962A2"]
 			id: "0F5AC069BC07FB79"
-			rewards: [{
-				count: 4
-				id: "512D82542FDD6DEA"
-				item: "minecraft:bowl"
-				type: "item"
-			}]
 			subtitle: "右键将碗放在地上后用碗右键可以装起来吃"
 			tasks: [{
 				id: "67DDE2958864795E"
@@ -1143,12 +782,6 @@
 		{
 			dependencies: ["663D41A82205B3E3"]
 			id: "6FC70BA0AED3A137"
-			rewards: [{
-				count: 3
-				id: "6AACF6565791919D"
-				item: "minecraft:cooked_porkchop"
-				type: "item"
-			}]
 			tasks: [{
 				id: "0D54BCC125D9ED0B"
 				item: "farmersdelight:bacon"
@@ -1160,11 +793,6 @@
 		{
 			dependencies: ["6FC70BA0AED3A137"]
 			id: "68D1718BC8EF871E"
-			rewards: [{
-				id: "7EB6F2F003F41859"
-				item: "farmersdelight:milk_bottle"
-				type: "item"
-			}]
 			tasks: [{
 				id: "00D8E7AE254F2D97"
 				item: "farmersdelight:bacon_sandwich"
@@ -1176,12 +804,6 @@
 		{
 			dependencies: ["40EBFAF6221F7BC2"]
 			id: "3E779E8C0E67CA7D"
-			rewards: [{
-				count: 3
-				id: "54DD7F20BC0B9BF1"
-				item: "minecraft:rabbit_foot"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6090A1BE81467BE3"
 				item: "minecraft:rabbit_stew"
@@ -1194,14 +816,6 @@
 			dependencies: ["40EBFAF6221F7BC2"]
 			description: [""]
 			id: "20FEC91633D02663"
-			rewards: [{
-				command: "/summon minecraft:wolf ~ ~1 ~ {Glowing:1b}"
-				icon: "minecraft:wolf_spawn_egg"
-				id: "28997845B7C4A0A5"
-				player_command: true
-				title: "点击领取小可爱"
-				type: "command"
-			}]
 			subtitle: "狗狗最喜欢吃的食物~"
 			tasks: [{
 				id: "05A09AF8475399C7"
@@ -1214,12 +828,6 @@
 		{
 			dependencies: ["7AB702E0298F4A91"]
 			id: "2AE2D9F4E04A1B1F"
-			rewards: [{
-				count: 3
-				id: "1202E772CBF7C8AD"
-				item: "minecraft:cooked_mutton"
-				type: "item"
-			}]
 			tasks: [{
 				id: "209505DFCCF4A642"
 				item: "farmersdelight:mutton_chops"
@@ -1231,12 +839,6 @@
 		{
 			dependencies: ["7AB702E0298F4A91"]
 			id: "05282CE0DCD9BE28"
-			rewards: [{
-				count: 3
-				id: "598A0C0B581DCE23"
-				item: "minecraft:cooked_mutton"
-				type: "item"
-			}]
 			tasks: [{
 				id: "405FE598E3E314B8"
 				item: "neapolitan:mint_chops"
@@ -1251,12 +853,6 @@
 				"05282CE0DCD9BE28"
 			]
 			id: "2A569C5AAE98358B"
-			rewards: [{
-				count: 4
-				id: "3F4350536AC3FF2B"
-				item: "minecraft:bowl"
-				type: "item"
-			}]
 			subtitle: "右键将碗放在地上后用碗右键可以装起来吃"
 			tasks: [{
 				id: "7812112485102CCC"
@@ -1277,12 +873,6 @@
 				"破坏水壶会保留显示槽其中的物品，其他槽中的物品会掉落。"
 			]
 			id: "0AA8A2C1A41EE9D2"
-			rewards: [{
-				count: 9
-				id: "78E74A64194A4F96"
-				item: "farmersrespite:tea_seeds"
-				type: "item"
-			}]
 			subtitle: "喂！三点几嚟，做、做卵工啊做，饮茶先啦！"
 			tasks: [{
 				id: "648CA68714E151BE"
@@ -1299,12 +889,6 @@
 				"06B65355766687C5"
 			]
 			id: "22B1F8EBD3AD8690"
-			rewards: [{
-				count: 32
-				id: "0C360600C6B10CE9"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "1D2C2244D2F5B647"
 				item: "farmersdelight:rice_roll_medley_block"
@@ -1316,18 +900,6 @@
 		{
 			dependencies: ["68D86CEADCEED138"]
 			id: "5BA3148F571B7BD0"
-			rewards: [
-				{
-					id: "1FDEC265B10BCAD9"
-					item: "extradelight:french_fries"
-					type: "item"
-				}
-				{
-					id: "617D166B74E12167"
-					item: "ends_delight:dragon_breath_soda"
-					type: "item"
-				}
-			]
 			subtitle: "麦门1+1套餐一份"
 			tasks: [{
 				id: "194EE832F4FCA81D"
@@ -1340,11 +912,6 @@
 		{
 			dependencies: ["2FBFCED864823ACB"]
 			id: "469370C6FBA4026B"
-			rewards: [{
-				id: "6E0B107C54015739"
-				item: "extradelight:vinegar"
-				type: "item"
-			}]
 			subtitle: "饺子配醋越吃越有"
 			tasks: [{
 				id: "6A475A7DB0BE80D5"
@@ -1357,21 +924,6 @@
 		{
 			dependencies: ["39D73D0E0410E5C9"]
 			id: "1EE815FF79CE7E9E"
-			rewards: [{
-				id: "066B5658EA574E95"
-				item: {
-					Count: 1b
-					id: "farmersdelight:flint_knife"
-					tag: {
-						Damage: 120
-						Enchantments: [{
-							id: "minecraft:looting"
-							lvl: 10
-						}]
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "小刀击杀猪有 50% 的几率掉落火腿，击杀疣猪兽几率则为 100%"
 			tasks: [{
 				id: "5EC7FE2B277E04E1"
@@ -1384,12 +936,6 @@
 		{
 			dependencies: ["1EE815FF79CE7E9E"]
 			id: "71B10AC0C8BECB05"
-			rewards: [{
-				count: 3
-				id: "61EA99807BC4BE45"
-				item: "minecraft:cooked_porkchop"
-				type: "item"
-			}]
 			tasks: [{
 				id: "601C9547ED30AC72"
 				item: "farmersdelight:smoked_ham"
@@ -1405,12 +951,6 @@
 				"带烤盘槽位的 3x3 合成网格。只要下方有火，就可以随时间烹饪菜谱。菜谱需要 8 种烘焙烤盘之一才能完成。"
 			]
 			id: "502BE877910FB7D5"
-			rewards: [{
-				count: 3
-				id: "5C5D9C8D80BD7A8D"
-				item: "waystones:return_scroll"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7E650FC18A2E8A78"
 				item: "extradelight:oven"
@@ -1427,12 +967,6 @@
 				"在耕地上种植时，成熟阶段若根部周围发生方块更新，整株茶树会被破坏。"
 			]
 			id: "601F57B5FFA1BC38"
-			rewards: [{
-				count: 3
-				id: "356ADE20AF6D056C"
-				item: "farmersrespite:tea_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "734EE1C6A1F8E2F7"
 				item: "farmersrespite:tea_seeds"
@@ -1444,12 +978,6 @@
 		{
 			dependencies: ["3113E45D7D1D9A4E"]
 			id: "12FA846BF5278CFC"
-			rewards: [{
-				count: 3
-				id: "3FB1D1D9E2247B18"
-				item: "candlelight:broccoli_seeds"
-				type: "item"
-			}]
 			subtitle: "在国外都快吃吐了"
 			tasks: [{
 				id: "1AFF2A1574C159B8"
@@ -1462,11 +990,6 @@
 		{
 			dependencies: ["12FA846BF5278CFC"]
 			id: "4081A726A7B03BD0"
-			rewards: [{
-				id: "35D5D7480E59ED38"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "23BBA8D5518B83B5"
 				item: "farmersdelight:cabbage_rolls"
@@ -1485,12 +1008,6 @@
 				"褐色：1-3红茶叶。"
 			]
 			id: "191A371DB8F3E198"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B8E707AF6388E12"
-				table_id: 7374527325595499170L
-				type: "random"
-			}]
 			subtitle: "超级健康！"
 			tasks: [{
 				id: "7AC07294A9672A7B"
@@ -1518,11 +1035,6 @@
 				"咖啡树最高可生长到3格（需要4格空间），主干上总共会长出3根可结果的树枝，右键成熟的树枝即可收获1个咖啡浆果。"
 			]
 			id: "2BE1586D9D67F9EA"
-			rewards: [{
-				id: "5FFC75CFCF2742A0"
-				item: "farmersrespite:gamblers_tea"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3690FA565392C09A"
 				item: "farmersrespite:coffee_beans"
@@ -1535,11 +1047,6 @@
 			dependencies: ["2BE1586D9D67F9EA"]
 			description: [""]
 			id: "5AC8741B75B3670A"
-			rewards: [{
-				id: "1AD5B00180F73A3E"
-				item: "farmersrespite:gamblers_tea"
-				type: "item"
-			}]
 			subtitle: "在砧板上用刀切开即可得到咖啡豆，也可以用于合成红色染料"
 			tasks: [{
 				id: "22CFB44941B8BD71"
@@ -1556,12 +1063,6 @@
 			]
 			icon: "farmersrespite:green_tea"
 			id: "7E653A0F03BEE5A2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4913D65C9173D1F5"
-				table_id: 8212360260475877290L
-				type: "choice"
-			}]
 			tasks: [
 				{
 					id: "21ACA8E3EBA22C64"
@@ -1586,11 +1087,6 @@
 		{
 			dependencies: ["7E653A0F03BEE5A2"]
 			id: "4C2EBCDB72D76AC5"
-			rewards: [{
-				id: "529ABABDB7EBE973"
-				item: "respiteful:coffee_ice_cream"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4369217D6C5A2A55"
 				item: "farmersrespite:coffee"
@@ -1602,12 +1098,6 @@
 		{
 			dependencies: ["7E653A0F03BEE5A2"]
 			id: "39C3CE4A60A3E29C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "25989026B5EF2B77"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0C120B51E01B4BE1"
 				item: "respiteful:respiteful_ice_cream"
@@ -1619,18 +1109,6 @@
 		{
 			dependencies: ["7E653A0F03BEE5A2"]
 			id: "23B8EEA755BD67CF"
-			rewards: [{
-				id: "521D380DCA80F9AD"
-				item: {
-					Count: 1b
-					id: "candlelight:chefs_jacket"
-					tag: {
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "1ACA9034A7F5FAF7"
@@ -1661,13 +1139,6 @@
 			dependencies: ["39D73D0E0410E5C9"]
 			description: [""]
 			id: "2F2596CBA5D65075"
-			rewards: [{
-				count: 3
-				id: "5A02C16FBBCC81C2"
-				item: "minecraft:iron_ingot"
-				title: "铁还你"
-				type: "item"
-			}]
 			subtitle: "喝奶奶，长高高"
 			tasks: [{
 				id: "018154FF72144DFC"
@@ -1680,12 +1151,6 @@
 		{
 			dependencies: ["502BE877910FB7D5"]
 			id: "5FAEF19DDA51244F"
-			rewards: [{
-				count: 9
-				id: "3ECA23D2A9B22EF6"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
 			subtitle: "千万别放错了烤盘，不然你都不知道为什么做不出东西来"
 			tasks: [{
 				id: "067A140CEFBE6790"
@@ -1707,12 +1172,6 @@
 			dependencies: ["502BE877910FB7D5"]
 			description: ["需放置在方块上使用，右键可打开界面，将面团放入，即可做出对应数量的千层面面条、通心粉、生意面。"]
 			id: "396DD3A49DACE642"
-			rewards: [{
-				count: 9
-				id: "42B375C63DAC622A"
-				item: "farmersdelight:wheat_dough"
-				type: "item"
-			}]
 			tasks: [{
 				id: "7BFE9E65DD52B24B"
 				item: "extradelight:dough_shaping"
@@ -1726,21 +1185,6 @@
 			description: ["搅拌碗 一 大木碗，可以让用户将物品搅拌成新的东西。 需要和勺子配合使用"]
 			icon: "extradelight:mixing_bowl"
 			id: "6460195C0E8DE5F7"
-			rewards: [{
-				id: "4B6957A25297B7B2"
-				item: {
-					Count: 1b
-					id: "extradelight:iron_spoon"
-					tag: {
-						Damage: 0
-						Enchantments: [{
-							id: "minecraft:unbreaking"
-							lvl: 3
-						}]
-					}
-				}
-				type: "item"
-			}]
 			tasks: [
 				{
 					id: "26A8BD1BFB949CD3"
@@ -1767,20 +1211,6 @@
 			dependencies: ["502BE877910FB7D5"]
 			description: ["研磨碗 ，用于将物品压碎并研磨成新的东西。 需要和研杵一起使用。"]
 			id: "374268CCFFD07879"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "7040D14DAA674139"
-					table_id: 895804223245351078L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "504F213A5C7BAE10"
-					table_id: 5718696665773874281L
-					type: "choice"
-				}
-			]
 			tasks: [
 				{
 					id: "70EBFB1435E30EF1"
@@ -1815,18 +1245,6 @@
 			dependencies: ["502BE877910FB7D5"]
 			description: ["刨丝器 一 与站板一起使用，将食物创成细丝"]
 			id: "30E9CD833C7F8E75"
-			rewards: [
-				{
-					id: "12EE48B867EEC71D"
-					item: "minecraft:bread"
-					type: "item"
-				}
-				{
-					id: "61A16361F938418B"
-					item: "minecraft:potato"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "013760BC4E7FA3A2"
 				item: "extradelight:grater"
@@ -1839,12 +1257,6 @@
 			dependencies: ["502BE877910FB7D5"]
 			description: [""]
 			id: "4779337826B8BEE4"
-			rewards: [{
-				count: 9
-				id: "779BACB57FBBDAA3"
-				item: "extradelight:seaweed_paste"
-				type: "item"
-			}]
 			subtitle: "可以晾干一些食物"
 			tasks: [{
 				id: "56B3157AA78D2CBE"
@@ -1857,11 +1269,6 @@
 		{
 			dependencies: ["396DD3A49DACE642"]
 			id: "5E9DA6574FB1E6B6"
-			rewards: [{
-				id: "696E2E93456681F8"
-				item: "farmersdelight:wheat_dough"
-				type: "item"
-			}]
 			tasks: [{
 				id: "2735CE537E78C3AC"
 				item: "farmersdelight:raw_pasta"
@@ -1873,11 +1280,6 @@
 		{
 			dependencies: ["396DD3A49DACE642"]
 			id: "586FAE4183332DC0"
-			rewards: [{
-				id: "51E00F7FEF03EC9F"
-				item: "farmersdelight:wheat_dough"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6B6C17DCAB4A2FC5"
 				item: "extradelight:macaroni"
@@ -1889,11 +1291,6 @@
 		{
 			dependencies: ["396DD3A49DACE642"]
 			id: "50D66C7DCF84046D"
-			rewards: [{
-				id: "2B1E43C58E50B369"
-				item: "farmersdelight:wheat_dough"
-				type: "item"
-			}]
 			tasks: [{
 				id: "437E3FC0B36F8B9D"
 				item: "extradelight:lasagna_noodles"
@@ -1905,11 +1302,6 @@
 		{
 			dependencies: ["30E9CD833C7F8E75"]
 			id: "6066E45DF45E549B"
-			rewards: [{
-				id: "59E760924C5A4EA5"
-				item: "farmersrespite:gamblers_tea"
-				type: "item"
-			}]
 			tasks: [{
 				id: "28B37E7C79E84438"
 				item: "extradelight:breadcrumbs"
@@ -1921,11 +1313,6 @@
 		{
 			dependencies: ["30E9CD833C7F8E75"]
 			id: "754D960ACCBBBC77"
-			rewards: [{
-				id: "68D20B5A2E76FB9D"
-				item: "farmersrespite:gamblers_tea"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5935AB0C45D17BA1"
 				item: "extradelight:grated_potato"
@@ -1940,18 +1327,6 @@
 				"4BF5D56BF3883EDA"
 			]
 			id: "395E7DB5ED9D326E"
-			rewards: [{
-				id: "3D432A0E3BB5754B"
-				item: {
-					Count: 1b
-					id: "candlelight:cooking_hat"
-					tag: {
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "449087F9F29AA443"
 				item: "extradelight:breading_misanplas"
@@ -1963,12 +1338,6 @@
 		{
 			dependencies: ["374268CCFFD07879"]
 			id: "4BF5D56BF3883EDA"
-			rewards: [{
-				count: 3
-				id: "4FCFE7B92F3567AE"
-				item: "extradelight:cooking_oil"
-				type: "item"
-			}]
 			tasks: [{
 				id: "3A27ED5F968C1390"
 				item: "extradelight:cooking_oil"
@@ -1980,12 +1349,6 @@
 		{
 			dependencies: ["6460195C0E8DE5F7"]
 			id: "1FCE3D33A08F37E9"
-			rewards: [{
-				count: 16
-				id: "3BCEA3ACA0573606"
-				item: "corn_delight:popcorn"
-				type: "item"
-			}]
 			subtitle: "貌似可以加好多东西进去（"
 			tasks: [{
 				id: "15224541521177FE"
@@ -1998,12 +1361,6 @@
 		{
 			dependencies: ["6460195C0E8DE5F7"]
 			id: "17EBC8E9E9A9D04D"
-			rewards: [{
-				count: 16
-				id: "08FCC436B0456BD3"
-				item: "corn_delight:popcorn"
-				type: "item"
-			}]
 			tasks: [{
 				id: "278B2A3744B172DB"
 				item: "extradelight:whipped_cream"
@@ -2015,11 +1372,6 @@
 		{
 			dependencies: ["17EBC8E9E9A9D04D"]
 			id: "532C8FDE301864A5"
-			rewards: [{
-				id: "69372FA1B5B01240"
-				item: "corn_delight:popcorn_box"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5D4AC05141601508"
 				item: "extradelight:butter"
@@ -2031,12 +1383,6 @@
 		{
 			dependencies: ["374268CCFFD07879"]
 			id: "08FD1A2B6D4733AE"
-			rewards: [{
-				count: 9
-				id: "5B594CD6D020E9F1"
-				item: "extradelight:corn_seeds"
-				type: "item"
-			}]
 			tasks: [{
 				id: "17CB74110D3F9A26"
 				item: "extradelight:corn_meal"
@@ -2048,11 +1394,6 @@
 		{
 			dependencies: ["7F9674CC778A157C"]
 			id: "39D73D0E0410E5C9"
-			rewards: [{
-				id: "4B7EACBDBC9398BC"
-				item: "minecraft:smoker"
-				type: "item"
-			}]
 			tasks: [{
 				id: "6BD284F1D502E204"
 				title: "肉食"
@@ -2068,12 +1409,6 @@
 				"5CB83854D678741B"
 			]
 			id: "375F11D3C310F0A3"
-			rewards: [{
-				count: 3
-				id: "79BBADBB27FABA2E"
-				item: "extradelight:agar_agar"
-				type: "item"
-			}]
 			tasks: [{
 				id: "179F6CA6237B7F2F"
 				item: "extradelight:agar_agar"
@@ -2085,18 +1420,6 @@
 		{
 			dependencies: ["375F11D3C310F0A3"]
 			id: "4B1184FD713F8A87"
-			rewards: [{
-				id: "2DDE13B5A085DE61"
-				item: {
-					Count: 1b
-					id: "candlelight:chefs_boots"
-					tag: {
-						Damage: 0
-						Unbreakable: 1b
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "43C7907B030CF829"
 				item: "extradelight:jelly_magenta_block_item"
@@ -2108,11 +1431,6 @@
 		{
 			dependencies: ["502BE877910FB7D5"]
 			id: "0377D98DD11C3C42"
-			rewards: [{
-				id: "4365AB2F345B3207"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
 			subtitle: "将醋壶放在地上，等里面冒泡后用玻璃瓶右键"
 			tasks: [{
 				id: "1B9DCF6E0ADC5560"
@@ -2125,11 +1443,6 @@
 		{
 			dependencies: ["502BE877910FB7D5"]
 			id: "3A9C53F765AB3188"
-			rewards: [{
-				id: "24534C67633F8D1B"
-				item: "minecraft:glass_bottle"
-				type: "item"
-			}]
 			subtitle: "将酵母放在地上，等里面冒泡后用玻璃瓶右键"
 			tasks: [{
 				id: "3658C9C08CD73A02"
@@ -2143,12 +1456,6 @@
 			dependencies: ["0377D98DD11C3C42"]
 			description: [""]
 			id: "23A0D65694502BBE"
-			rewards: [{
-				id: "4C715A57046293C5"
-				item: "extradelight:vinegar_pot"
-				title: "再来一次"
-				type: "item"
-			}]
 			subtitle: "右击冒泡的醋壶获得"
 			tasks: [{
 				id: "3357C86BA7521EAF"
@@ -2162,12 +1469,6 @@
 			dependencies: ["3A9C53F765AB3188"]
 			description: [""]
 			id: "1BB8C84ED17E6175"
-			rewards: [{
-				id: "671AD587818C4F1B"
-				item: "extradelight:yeast_pot"
-				title: "再来一次!"
-				type: "item"
-			}]
 			subtitle: "在酵母罐冒泡时，用瓶子右击酵母罐获得"
 			tasks: [{
 				id: "6A94432CE857EEB9"
@@ -2181,12 +1482,6 @@
 			dependencies: ["4779337826B8BEE4"]
 			hide_dependent_lines: true
 			id: "5CB83854D678741B"
-			rewards: [{
-				count: 9
-				id: "14051FEDAE18D532"
-				item: "extradelight:agar_sheets"
-				type: "item"
-			}]
 			subtitle: "风干果冻！"
 			tasks: [{
 				id: "401933403A1AEE05"
@@ -2199,53 +1494,6 @@
 		{
 			dependencies: ["23A0D65694502BBE"]
 			id: "514E9D2D808C1D88"
-			rewards: [
-				{
-					id: "04C323FF7B31BAA1"
-					item: {
-						Count: 1b
-						id: "candlelight:chefs_pants"
-						tag: {
-							Damage: 0
-							Unbreakable: 1b
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3F31FD1EAF8955C8"
-					item: {
-						Count: 1b
-						id: "candlelight:chefs_jacket"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "3CF741810D542C0E"
-					item: {
-						Count: 1b
-						id: "candlelight:cooking_hat"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "44D8507796225A14"
-					item: {
-						Count: 1b
-						id: "candlelight:chefs_boots"
-						tag: {
-							Damage: 0
-						}
-					}
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "2FBA2DE52885C0AD"
 				item: "extradelight:cheese"
@@ -2257,20 +1505,6 @@
 		{
 			dependencies: ["34D9D292CE6F683E"]
 			id: "3C036D58B281C3AD"
-			rewards: [{
-				id: "02F8AB73D7C23A3F"
-				item: {
-					Count: 1b
-					id: "minecraft:enchanted_book"
-					tag: {
-						StoredEnchantments: [{
-							id: "minecraft:lure"
-							lvl: 3s
-						}]
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				biome: "#minecraft:is_river"
 				icon: "alexsmobs:cosmic_cod"
@@ -2284,12 +1518,6 @@
 		{
 			dependencies: ["4B0786620564E8C0"]
 			id: "595E16D58118F1E9"
-			rewards: [{
-				count: 9
-				id: "181CD46F9D9C111E"
-				item: "farmersdelight:organic_compost"
-				type: "item"
-			}]
 			tasks: [{
 				id: "767ACF80A12454A4"
 				item: "minecraft:beetroot_soup"
@@ -2301,12 +1529,6 @@
 		{
 			dependencies: ["3C036D58B281C3AD"]
 			id: "06B65355766687C5"
-			rewards: [{
-				count: 32
-				id: "6F0C9BFCB9E9C84F"
-				item: "minecraft:kelp"
-				type: "item"
-			}]
 			tasks: [{
 				id: "609AC6F5E1B1F321"
 				item: "minecraft:kelp"
@@ -2318,17 +1540,6 @@
 		{
 			dependencies: ["3C036D58B281C3AD"]
 			id: "5DBA75D8ABCD5AD7"
-			rewards: [{
-				id: "29E07C683A1E361A"
-				item: {
-					Count: 1b
-					id: "beachparty:bikini"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "5695267299DA2772"
 				item: {
@@ -2349,11 +1560,6 @@
 			dependencies: ["3C036D58B281C3AD"]
 			description: [""]
 			id: "4D60541DC7BC99C6"
-			rewards: [{
-				id: "2D9853EB45C88680"
-				item: "alexsmobs:lobster_bucket"
-				type: "item"
-			}]
 			subtitle: "皮皮虾我们走"
 			tasks: [{
 				id: "3885DCE0A29B6226"
@@ -2366,12 +1572,6 @@
 		{
 			dependencies: ["3C036D58B281C3AD"]
 			id: "26E955F487E8570B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "0266228B77FD77E1"
-				table_id: 2512115067297691502L
-				type: "choice"
-			}]
 			tasks: [{
 				id: "1A067FE3121018B8"
 				item: "oceansdelight:guardian"
@@ -2383,11 +1583,6 @@
 		{
 			dependencies: ["3C036D58B281C3AD"]
 			id: "3DE3B1D469147E41"
-			rewards: [{
-				id: "15F24372C5BE9F50"
-				item: "beachparty:empty_sand_bucket"
-				type: "item"
-			}]
 			tasks: [{
 				id: "000E2FFCDD5E7748"
 				item: "oceansdelight:elder_guardian_slab"
@@ -2399,12 +1594,6 @@
 		{
 			dependencies: ["4D60541DC7BC99C6"]
 			id: "136A6577DE05F5B0"
-			rewards: [{
-				count: 9
-				id: "4FE89E19DFF08EB2"
-				item: "beachparty:coconut"
-				type: "item"
-			}]
 			tasks: [{
 				id: "4BDFC1896C929CF3"
 				item: "alexsdelight:lobster_pasta"
@@ -2416,12 +1605,6 @@
 		{
 			dependencies: ["3DE3B1D469147E41"]
 			id: "7E6E570BC025D348"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "61176903C26E51C0"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			tasks: [{
 				id: "71539AA2FF5EC11C"
 				item: "oceansdelight:cabbage_wrapped_elder_guardian"
@@ -2433,12 +1616,6 @@
 		{
 			dependencies: ["26E955F487E8570B"]
 			id: "299462DF04413B15"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6E1F58959AB1CD2F"
-				table_id: 1340029817626541963L
-				type: "choice"
-			}]
 			tasks: [{
 				id: "42B022B9B9058D63"
 				item: "oceansdelight:guardian_soup"
@@ -2450,17 +1627,6 @@
 		{
 			dependencies: ["5DBA75D8ABCD5AD7"]
 			id: "1FC83356B4388550"
-			rewards: [{
-				id: "0057953C40E24ADF"
-				item: {
-					Count: 1b
-					id: "beachparty:trunks"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "6D2680200A0151AA"
 				item: "extradelight:fish_stew_feast"
@@ -2472,17 +1638,6 @@
 		{
 			dependencies: ["3C036D58B281C3AD"]
 			id: "20220744AEF253DA"
-			rewards: [{
-				id: "051B446CFB1EA827"
-				item: {
-					Count: 1b
-					id: "beachparty:beach_hat"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			tasks: [{
 				id: "258827A531773400"
 				item: "oceansdelight:tentacles"
@@ -2494,17 +1649,6 @@
 		{
 			dependencies: ["20220744AEF253DA"]
 			id: "539B7BA5319FAC19"
-			rewards: [{
-				id: "306724D46649BCF0"
-				item: {
-					Count: 1b
-					id: "beachparty:sunglasses"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
 			subtitle: "上次我去萨莉亚吃完这个拉的shirt都是黑的..."
 			tasks: [{
 				id: "75F764ABEC223751"
@@ -2629,22 +1773,6 @@
 			hide_dependency_lines: true
 			id: "5D3615715E39235B"
 			invisible: true
-			rewards: [
-				{
-					count: 16
-					id: "3246A01D97843B9F"
-					item: "farmersdelight:rich_soil"
-					random_bonus: 48
-					type: "item"
-				}
-				{
-					count: 16
-					id: "3F9FC545B946BD05"
-					item: "nethersdelight:rich_soul_soil"
-					random_bonus: 48
-					type: "item"
-				}
-			]
 			size: 3.0d
 			tasks: [{
 				id: "7ED1F41CFAE34CAB"

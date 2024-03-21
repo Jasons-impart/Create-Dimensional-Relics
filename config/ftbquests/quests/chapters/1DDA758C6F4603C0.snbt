@@ -20,12 +20,6 @@
 				"001E54ADF04996D7"
 			]
 			id: "7BDAE316D3CCEA2F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "375F4492B033D8C6"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "再次升级！！！"
 			tasks: [{
 				id: "6870417650AA7A8D"
@@ -44,11 +38,6 @@
 		{
 			dependencies: ["7BDAE316D3CCEA2F"]
 			id: "4CD8BD03328D2FEC"
-			rewards: [{
-				id: "43D12F1E140E3111"
-				item: "ad_astra:venus_globe"
-				type: "item"
-			}]
 			subtitle: "金星！我们的兄弟星球！"
 			tasks: [{
 				dimension: "ad_astra:venus"
@@ -64,11 +53,6 @@
 		{
 			dependencies: ["7BDAE316D3CCEA2F"]
 			id: "46A219929EEDDC4A"
-			rewards: [{
-				id: "2E13588308EB57F5"
-				item: "ad_astra:mercury_globe"
-				type: "item"
-			}]
 			subtitle: "不是？这咋啥也没有啊？"
 			tasks: [{
 				dimension: "ad_astra:mercury"
@@ -84,12 +68,6 @@
 		{
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "669A3D3DD26B5B2B"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6DD8057EBCF02C1E"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "哇哦！融点超高的！"
 			tasks: [{
 				id: "73B7FA86F002889D"
@@ -102,20 +80,6 @@
 		{
 			dependencies: ["669A3D3DD26B5B2B"]
 			id: "5546B7012C47C646"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "55E6B4B7585FB79E"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					id: "0D9C9AD65766F727"
-					item: "ad_astra:calorite_ingot"
-					random_bonus: 5
-					type: "item"
-				}
-			]
 			subtitle: "什么？这不是耐热金属锭，这是压缩毛巾，遇水可以变大变糕（bushi）"
 			tasks: [{
 				id: "08A4587BC95218B0"
@@ -133,12 +97,6 @@
 			]
 			hide_dependent_lines: true
 			id: "454337E9BE007439"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5078CFC5099A1CB1"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "喷气背包！！！你现在可以像钢铁侠一样飞行了！（建议第三人称视角飞行）"
 			tasks: [
 				{
@@ -197,12 +155,6 @@
 				"001E54ADF04996D7"
 			]
 			id: "1629F7F4B01F0189"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5B041EC2834EE9F3"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "终极进化！！！"
 			tasks: [{
 				id: "3243ED1F05B5794B"
@@ -221,11 +173,6 @@
 		{
 			dependencies: ["1629F7F4B01F0189"]
 			id: "387FB6E7ECA3FB46"
-			rewards: [{
-				id: "5F2549D3A1B8AFF7"
-				item: "ad_astra:glacio_globe"
-				type: "item"
-			}]
 			subtitle: "新家园终于找到了！朵朵，培强，丫丫，你们再也不用牺牲了o(╥﹏╥)o"
 			tasks: [{
 				dimension: "ad_astra:glacio"
@@ -296,12 +243,6 @@
 		{
 			dependencies: ["387FB6E7ECA3FB46"]
 			id: "59F1874C1C311D96"
-			rewards: [{
-				id: "7E3996B7A054F90C"
-				item: "ad_astra:glacian_fur"
-				random_bonus: 31
-				type: "item"
-			}]
 			subtitle: "霜原星的小羊们靠着厚厚的羊毛顽强的生存了下来"
 			tasks: [{
 				id: "33575147D49D561D"
@@ -315,12 +256,6 @@
 		{
 			dependencies: ["46A219929EEDDC4A"]
 			id: "6CCAA7FCC937F93F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "386A42458AF35846"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "咋只有岩浆怪啊？？？"
 			tasks: [{
 				entity: "minecraft:magma_cube"
@@ -335,12 +270,6 @@
 		{
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "57D6A78D388A92C6"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "09543D6CC98424E3"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "外星猪灵现在的辉煌！"
 			tasks: [{
 				icon: "ad_astra:pygro_spawn_egg"
@@ -355,12 +284,6 @@
 		{
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "0BB9229302792572"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7ECCEE617CED3D48"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "哇！居然有远古残骸！"
 			tasks: [{
 				icon: "ad_astra:pygro_spawn_egg"
@@ -375,12 +298,6 @@
 		{
 			dependencies: ["4CD8BD03328D2FEC"]
 			id: "1A7EA3E179BEAA80"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "77116AF9A35883F7"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "猪灵以前都移民金星了？？？"
 			tasks: [{
 				icon: "ad_astra:pygro_spawn_egg"

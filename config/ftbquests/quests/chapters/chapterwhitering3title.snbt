@@ -12,12 +12,6 @@
 			dependencies: ["173EAEC8869A01CC"]
 			description: ["{quest.empty_blaze_burner.description}"]
 			id: "77DF8BCBCE422BA9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C71CC70073AD801"
-				table_id: 8595933012744775382L
-				type: "random"
-			}]
 			subtitle: "{quest.empty_blaze_burner.subtitle}"
 			tasks: [{
 				id: "1FF8766588A18B75"
@@ -35,12 +29,6 @@
 			]
 			description: ["{quest.blaze_burner.description}"]
 			id: "241BAFA577B60069"
-			rewards: [{
-				id: "6C62C272183BCE15"
-				item: "create:empty_blaze_burner"
-				random_bonus: 7
-				type: "item"
-			}]
 			subtitle: "{quest.blaze_burner.subtitle}"
 			tasks: [{
 				advancement: "create:burner"
@@ -56,12 +44,6 @@
 			dependencies: ["4F61255897AD730B"]
 			description: ["{quest.brass_casing.description}"]
 			id: "5BC1AFE07AF12B55"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2E11ECB01E4E6AB7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "{quest.brass_casing.subtitle}"
 			tasks: [{
 				id: "6EC1D499A10A062F"
@@ -75,13 +57,6 @@
 			dependencies: ["241BAFA577B60069"]
 			description: ["{quest.brass_ingot.description}"]
 			id: "4F61255897AD730B"
-			rewards: [{
-				id: "143CC7D3D9C3DA65"
-				item: "create:brass_ingot"
-				random_bonus: 15
-				title: "来！看人品的时候到了！"
-				type: "item"
-			}]
 			tasks: [{
 				id: "5D4271B75E30DEC1"
 				item: "create:brass_ingot"
@@ -108,12 +83,6 @@
 				"531B6253250A670C"
 			]
 			id: "71A8E174426C7A6F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "00F5337F511FBE52"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2B053A659BFDDA35"
 				item: "create:deployer"
@@ -125,12 +94,6 @@
 		{
 			dependencies: ["6603024447F23F40"]
 			id: "531B6253250A670C"
-			rewards: [{
-				id: "51EACD395808659E"
-				item: "create:electron_tube"
-				random_bonus: 15
-				type: "item"
-			}]
 			tasks: [{
 				id: "3452140E7F35E132"
 				item: "create:electron_tube"
@@ -142,12 +105,6 @@
 		{
 			dependencies: ["71A8E174426C7A6F"]
 			id: "7D7800A179158577"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3716D912CE4E5835"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1DABCBD6022A45A0"
 				item: "create:precision_mechanism"
@@ -159,12 +116,6 @@
 		{
 			dependencies: ["7D7800A179158577"]
 			id: "2AA821D7195A4CFB"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "547CD772D3072D00"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "33D3F865113DE5D1"
 				item: "create:mechanical_arm"
@@ -176,12 +127,6 @@
 		{
 			dependencies: ["7D7800A179158577"]
 			id: "374725327D8843AE"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "053098A2C0B219C1"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0231234E231B8B8C"
 				item: "create:rotation_speed_controller"
@@ -245,12 +190,6 @@
 		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "15192C0501E39792"
-			rewards: [{
-				id: "05494AC7B0302CF9"
-				item: "minecraft:golden_carrot"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "快去试试&e加农炮&r的&4巨大伤害&r吧！"
 			tasks: [{
 				id: "4A886A93E0722856"
@@ -273,12 +212,6 @@
 				"531B6253250A670C"
 			]
 			id: "56B16C088C2D8BF7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "432DC1C46F86FBC8"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "54B6EED946DE25DD"
 				item: "create:mechanical_crafter"
@@ -290,20 +223,6 @@
 		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "532B2FC7E0826D5E"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "73B5C58429A16249"
-					table_id: 6485826240718891201L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2595808D88237BD6"
-					table_id: 7772018159856264947L
-					type: "choice"
-				}
-			]
 			subtitle: "现在还没啥用....未来一定有用的！(&4坚信&r)"
 			tasks: [{
 				id: "674772936F202FE0"
@@ -316,12 +235,6 @@
 		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "0FB761C59E1A5A81"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2973B97CBA9647D9"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1D44DF0C8E133144"
 				item: "create:crushing_wheel"
@@ -333,11 +246,6 @@
 		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "130011EAAAB3FA06"
-			rewards: [{
-				id: "574129DA3AA8DD71"
-				item: "candlelight:broccoli_beef"
-				type: "item"
-			}]
 			subtitle: "每公里油耗仅为1块&e牛又"
 			tasks: [{
 				id: "0FDC15B013EEFC92"
@@ -355,11 +263,6 @@
 				"7DC98E34AECFBB5C"
 			]
 			id: "13761553F15A2C1A"
-			rewards: [{
-				id: "2C4B6AFD7A8E6B04"
-				item: "createoreexcavation:drill"
-				type: "item"
-			}]
 			tasks: [{
 				id: "06BEEC5B7EA482E4"
 				item: "createoreexcavation:drilling_machine"
@@ -372,12 +275,6 @@
 		{
 			dependencies: ["0FB761C59E1A5A81"]
 			id: "17CB252D70813275"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "218263240D14533B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "033F8673CBDCF84F"
 				item: "create:cinder_flour"
@@ -390,13 +287,6 @@
 		{
 			dependencies: ["0FB761C59E1A5A81"]
 			id: "388C12605ABFBD1D"
-			rewards: [{
-				id: "0E60DCAB3FB9B358"
-				item: "minecraft:obsidian"
-				random_bonus: 7
-				title: "那你还是来&4抽个奖&r吧"
-				type: "item"
-			}]
 			subtitle: "不会有人一次就把黑曜石磨碎了吧？"
 			tasks: [{
 				id: "1A9295477BA91136"
@@ -409,12 +299,6 @@
 		{
 			dependencies: ["17CB252D70813275"]
 			id: "7B0EFD9867CB20AD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "29A05D8221FDEE80"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "3C339D8D6431A7BF"
 				item: "create:blaze_cake_base"
@@ -431,12 +315,6 @@
 			]
 			hide_dependent_lines: true
 			id: "1DAD17F55E0D4B85"
-			rewards: [{
-				count: 10
-				id: "355A736DF9A30CB3"
-				item: "create:sturdy_sheet"
-				type: "item"
-			}]
 			tasks: [{
 				id: "526E95872BBA363C"
 				item: "create:sturdy_sheet"
@@ -451,12 +329,6 @@
 				"143DABFEB7C56227"
 			]
 			id: "222BEFF13D194889"
-			rewards: [{
-				id: "1A19A11B07B7AA69"
-				item: "create:blaze_cake"
-				random_bonus: 5
-				type: "item"
-			}]
 			subtitle: "烈焰人：“&e奥利给&r，一口干了xdm！”"
 			tasks: [{
 				id: "51771C6A79CAB624"
@@ -503,12 +375,6 @@
 			dependencies: ["46F3F0B5A507B3B5"]
 			id: "621260771FF90D36"
 			invisible: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2A215CFE146173C9"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			size: 3.0d
 			subtitle: "&4超超超超超&r级远！"
 			tasks: [{
@@ -539,12 +405,6 @@
 			]
 			id: "029436B2313D06B2"
 			invisible: true
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1EFD0494B7E5FCF0"
-				table_id: 6485826240718891201L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0FB26B81C1EDF4A5"
 				item: "railways:remote_lens"
@@ -557,11 +417,6 @@
 		{
 			dependencies: ["7D7800A179158577"]
 			id: "1B593B8AC90CEE1F"
-			rewards: [{
-				id: "4F2316DBC5EFF077"
-				type: "xp_levels"
-				xp_levels: 3
-			}]
 			subtitle: "我靠！&4他他他他他活了&r！"
 			tasks: [{
 				id: "799D06720683A49A"
@@ -604,11 +459,6 @@
 		{
 			dependencies: ["17CB252D70813275"]
 			id: "50DE8314E2D59DD7"
-			rewards: [{
-				id: "5E643BBF54178F4B"
-				item: "quark:raw_copper_bricks"
-				type: "item"
-			}]
 			subtitle: "虽然也是真的&4超级没用&r啦"
 			tasks: [{
 				id: "59440DEB3B04DA7E"
@@ -655,25 +505,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "21A255A324AD3CE0"
-			rewards: [
-				{
-					id: "364FD71BCF11B261"
-					item: "create:experience_nugget"
-					random_bonus: 15
-					type: "item"
-				}
-				{
-					id: "1C210A6284FFBBA7"
-					item: "create_enchantment_industry:disenchanter"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "14BD4ED9660B173F"
-					table_id: 2218915723137103147L
-					type: "random"
-				}
-			]
 			subtitle: "什么叫做机械飞升啊（&e后仰&r）"
 			tasks: [{
 				id: "121589E89F15DAA9"
@@ -687,12 +518,6 @@
 		{
 			dependencies: ["21A255A324AD3CE0"]
 			id: "6D3E4BC39109B85C"
-			rewards: [{
-				id: "494E20D0F78106AF"
-				item: "create:experience_nugget"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "我知道了！&4蠹虫经验机&r！"
 			tasks: [{
 				icon: "minecraft:silverfish_spawn_egg"
@@ -709,12 +534,6 @@
 		{
 			dependencies: ["21A255A324AD3CE0"]
 			id: "27F30A468AFE992E"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2D102022DCB5D896"
-				table_id: 2218915723137103147L
-				type: "random"
-			}]
 			subtitle: "你的第一次烈焰人附魔"
 			tasks: [{
 				advancement: "create_enchantment_industry:first_order"
@@ -733,12 +552,6 @@
 				"6D3E4BC39109B85C"
 			]
 			id: "12DF597B6B5CD4A3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "76AC30CF49DBC678"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "你成功了！&e无限附魔工业&r向你敞开了大门"
 			tasks: [{
 				advancement: "create_enchantment_industry:additional_order"
@@ -753,12 +566,6 @@
 		{
 			dependencies: ["12DF597B6B5CD4A3"]
 			id: "3914C78F40176BB3"
-			rewards: [{
-				count: 10
-				id: "7D6F65F3091D49B7"
-				item: "create_enchantment_industry:hyper_experience_bottle"
-				type: "item"
-			}]
 			subtitle: "烈焰人使用超越经验可增加一级附魔，&e突破极限！"
 			tasks: [{
 				id: "360698F9348E1A09"
@@ -772,12 +579,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "40DE31F53D2C424C"
-			rewards: [{
-				count: 32
-				id: "42D469F5C492457F"
-				item: "railways:track_dark_oak"
-				type: "item"
-			}]
 			subtitle: "真的，列车系统是整个机械动力里面&e最美最浪漫&r的系统了&e(✧◡✧)"
 			tasks: [{
 				id: "37D58CAA456CDA8F"
@@ -791,11 +592,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "270B0ACA8FAB5482"
-			rewards: [{
-				id: "445CD44A48430382"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "放置烈焰人于列车并使用列车时刻表以&4自动控制列车&r！"
 			tasks: [{
 				id: "2541BFE96AAC9309"
@@ -812,11 +608,6 @@
 				"40DE31F53D2C424C"
 			]
 			id: "524FC60B4E4AEBAA"
-			rewards: [{
-				id: "7B1739ADD7739928"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "右键轨道后放置列车站！"
 			tasks: [{
 				id: "142D90837EFF3B98"
@@ -830,11 +621,6 @@
 		{
 			dependencies: ["40DE31F53D2C424C"]
 			id: "5A52BEB442B35A32"
-			rewards: [{
-				id: "58022D38130733AB"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "采用列车信号机吧，从此以后&e不再撞车~"
 			tasks: [{
 				id: "5A0EFD809F015721"
@@ -851,11 +637,6 @@
 				"40DE31F53D2C424C"
 			]
 			id: "0C08D93D8F1DAD66"
-			rewards: [{
-				id: "7B61BBE195CB356E"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "用它检测列车！"
 			tasks: [{
 				id: "62326848FB146F1F"
@@ -872,11 +653,6 @@
 				"40DE31F53D2C424C"
 			]
 			id: "49DDEA93CFD2BAA5"
-			rewards: [{
-				id: "3CE885FD7BC2BE91"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "手动操作列车（记得切&4第三人称视角&r）"
 			tasks: [{
 				id: "351C4CF3527C87D1"
@@ -890,11 +666,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "394328A77D6D76F9"
-			rewards: [{
-				id: "2FDCE609C4DA91AD"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "最最最最经典的列车轨道，是我童年的记忆！"
 			tasks: [{
 				id: "06922F817A561FC9"
@@ -908,11 +679,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "07E7B444252495D2"
-			rewards: [{
-				id: "54990EB0092A053A"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "倒悬于天上的美景"
 			tasks: [{
 				id: "0345F07E8DFEC64D"
@@ -926,11 +692,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "4C7E83A05D71AA7F"
-			rewards: [{
-				id: "04D6D1843E0BA744"
-				type: "xp"
-				xp: 100
-			}]
 			subtitle: "干净！清洁！速度快！"
 			tasks: [{
 				id: "0FF68185BA04F306"
@@ -943,11 +704,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "1345DCE0565A2379"
-			rewards: [{
-				id: "7505A423EB8C0735"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "560328506D6B2A07"
 				item: "railways:track_phantom"
@@ -960,11 +716,6 @@
 		{
 			dependencies: ["40DE31F53D2C424C"]
 			id: "22A9E5C7F32FC75E"
-			rewards: [{
-				id: "3677D917A7902B4A"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "356BDED2C6868DED"
 				item: "railways:track_coupler"
@@ -977,11 +728,6 @@
 		{
 			dependencies: ["5A52BEB442B35A32"]
 			id: "38A5599253FBD7D1"
-			rewards: [{
-				id: "1B44268D2C1C551D"
-				type: "xp"
-				xp: 100
-			}]
 			tasks: [{
 				id: "6A0B33A1D09E3927"
 				item: "railways:semaphore"
@@ -1018,12 +764,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "4AE542689C31B49A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "5F190C9965C8AA2C"
-				table_id: 6485826240718891201L
-				type: "choice"
-			}]
 			subtitle: "内燃机动力烟筒！"
 			tasks: [
 				{
@@ -1069,12 +809,6 @@
 		{
 			dependencies: ["56B16C088C2D8BF7"]
 			id: "1E1AD72AF2E8C254"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "590F444CAA73AEAA"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "7537CB3054B1ACAA"
 				item: "immersive_aircraft:boiler"
@@ -1086,12 +820,6 @@
 		{
 			dependencies: ["1E1AD72AF2E8C254"]
 			id: "39AD415EC4A78C0C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "363B1FAD64CC85F5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0C890E7F19BB1B3C"
 				item: "immersive_aircraft:engine"
@@ -1103,12 +831,6 @@
 		{
 			dependencies: ["39AD415EC4A78C0C"]
 			id: "3E52E051490819D0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "739394D6EDCB510A"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "26E4D73211447E09"
 				item: "immersive_aircraft:airship"
@@ -1120,12 +842,6 @@
 		{
 			dependencies: ["39AD415EC4A78C0C"]
 			id: "45FA4CD875807C3C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7F18E8E91026370F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "6885E943D683E604"
 				item: "immersive_aircraft:quadrocopter"
@@ -1137,12 +853,6 @@
 		{
 			dependencies: ["39AD415EC4A78C0C"]
 			id: "372FB6DF1B0EF6F2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "55D5721A7998464A"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "1322A85CB519792C"
 				item: "immersive_aircraft:biplane"
@@ -1154,12 +864,6 @@
 		{
 			dependencies: ["3E52E051490819D0"]
 			id: "521B422C1BC9EB2A"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7DDFCE37AA0D06DD"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "40D26CAD9398C731"
 				item: "immersive_aircraft:cargo_airship"
@@ -1174,12 +878,6 @@
 				"2BD079F13B42814F"
 			]
 			id: "73BB120B52863A51"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6B076ACE5502C546"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "34135D56C95501D2"
 				item: "immersive_aircraft:steel_boiler"
@@ -1191,12 +889,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "26780D7DD8148475"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "224C8401798AAAB3"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0AAB5D43B422A2E6"
 				item: "immersive_aircraft:enhanced_propeller"
@@ -1208,12 +900,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "4C5E2B1679AE4ABA"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "365FA83B10757424"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "5F5EF0BB956BD389"
 				item: "immersive_aircraft:eco_engine"
@@ -1225,12 +911,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "61A64DA22EAC1E25"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "2B4FD453F34B5641"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "0CEF48770EAE4BB5"
 				item: "immersive_aircraft:nether_engine"
@@ -1242,12 +922,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "28E0A0C13EDB61C8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "21721E6DE214ECAC"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "2A2E11F0FAFA1E5E"
 				item: "immersive_aircraft:industrial_gears"
@@ -1259,12 +933,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "42DB983A7D07A743"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "46AB04B9C43FEA56"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "5452F183BD45F18A"
 				item: "immersive_aircraft:gyroscope"
@@ -1276,12 +944,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "1C3CF5926342F349"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "73F71DF945BC6BA1"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "76432D7204F527D7"
 				item: "immersive_aircraft:sturdy_pipes"
@@ -1293,12 +955,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "564B9989DE4190F8"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "68D1B539026C65A7"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "11DC2B0814BD1EC2"
 				item: "immersive_aircraft:improved_landing_gear"
@@ -1310,12 +966,6 @@
 		{
 			dependencies: ["2BD079F13B42814F"]
 			id: "07599F5D924D5F5C"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "678D3D537C1C4E0F"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				id: "61867F9A16B8D79A"
 				item: "immersive_aircraft:hull_reinforcement"
@@ -1327,12 +977,6 @@
 		{
 			dependencies: ["1E1AD72AF2E8C254"]
 			id: "2BD079F13B42814F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A2E3666B986BA68"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [{
 				dimension: "minecraft:overworld"
 				disable_toast: true
@@ -1347,107 +991,6 @@
 		{
 			dependencies: ["1DAD17F55E0D4B85"]
 			id: "5293378CC12640FC"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "6362A8BEF48F68B3"
-					table_id: 6485826240718891201L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "1D224BC92CB5D57C"
-					table_id: 5347970608351672481L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "21BC203A65ED188F"
-					table_id: 7772018159856264947L
-					type: "random"
-				}
-				{
-					count: 5
-					id: "3AAB3D26EA969A78"
-					item: "minecraft:diamond_block"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7ADBF6041864E48A"
-					item: "minecraft:netherite_block"
-					type: "item"
-				}
-				{
-					id: "1A298914FDC552F0"
-					item: "upgradednetherite_ultimate:ultimate_upgraded_netherite_ingot"
-					random_bonus: 3
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7C53E3F467A6D668"
-					item: "sophisticatedbackpacks:netherite_backpack"
-					type: "item"
-				}
-				{
-					id: "6EABA31C89220D6D"
-					item: "sophisticatedbackpacks:everlasting_upgrade"
-					type: "item"
-				}
-				{
-					id: "3183610D4B2E8811"
-					item: "sophisticatedbackpacks:stack_upgrade_tier_4"
-					type: "item"
-				}
-				{
-					id: "41E7B9277650440B"
-					item: "sophisticatedbackpacks:inception_upgrade"
-					type: "item"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "7E4D46518EFF084D"
-					table_id: 7548246410364648339L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "0C4784DB2C7D2C9E"
-					table_id: 6730734086547045908L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "2784604A6152FC01"
-					table_id: 2218915723137103147L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "76698D1106BD10BF"
-					table_id: 8595933012744775382L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "365C9F06E19F3DEC"
-					table_id: 7772018159856264947L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "54342799F8B52329"
-					table_id: 6485826240718891201L
-					type: "random"
-				}
-				{
-					id: "48AEC3AB300C9EDB"
-					item: "create_enchantment_industry:hyper_experience_bottle"
-					random_bonus: 31
-					type: "item"
-				}
-			]
 			subtitle: "什么叫做星际仓鼠！"
 			tasks: [
 				{
@@ -1711,10 +1254,9 @@
 			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
 			id: "234903F798E76C58"
 			rewards: [{
-				exclude_from_claim_all: true
-				id: "72BEDA0412E2B3EC"
-				table_id: 5347970608351672481L
-				type: "random"
+				command: "/gamephase add @p Luna"
+				id: "1EC4DD370883EE0C"
+				type: "command"
 			}]
 			subtitle: "麻麻我上天啦！（物理意义上）"
 			tasks: [{
@@ -1740,12 +1282,6 @@
 			description: ["去外太空一定要多带一个在身上，这玩意可不会跟着你起飞"]
 			hide_dependent_lines: true
 			id: "001E54ADF04996D7"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7A89F4CA4987240B"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "这可是不锈钢做的，绝对不会融化！"
 			tasks: [{
 				id: "1AC9785B55E39C61"
@@ -1757,12 +1293,6 @@
 		}
 		{
 			id: "62BF6A18921A3A61"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4FF0A534A9D7F825"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "小型分馏塔！（虽然只能产出燃油）"
 			tasks: [{
 				id: "0B204BA37A8B6001"
@@ -1775,12 +1305,6 @@
 		{
 			dependencies: ["62BF6A18921A3A61"]
 			id: "06DA33866E1148A0"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24057490A99F88F0"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "啊？他还能给插了吸管的烈焰人供能？"
 			tasks: [{
 				id: "7884C254BFA536B8"
@@ -1793,12 +1317,6 @@
 		{
 			dependencies: ["2EF38D620B4E1664"]
 			id: "4A79D97050F1297F"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "58D731C5FE908A9B"
-				table_id: 5347970608351672481L
-				type: "choice"
-			}]
 			subtitle: "oxygen！人类的慢性毒药，吸过氧气的人在200年内必定死亡！"
 			tasks: [{
 				id: "0B7B429A49956D16"
@@ -1811,12 +1329,6 @@
 		{
 			dependencies: ["4A79D97050F1297F"]
 			id: "23237C92178C3BBC"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1532D31411552D2E"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			subtitle: "？？？他为什么能倒过来？？？"
 			tasks: [{
 				id: "50C8B7B8962F8777"
@@ -1853,12 +1365,6 @@
 				}
 			}
 			id: "2A9052E6C76BD051"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38B32645D7A38CE5"
-				table_id: 5347970608351672481L
-				type: "random"
-			}]
 			tasks: [
 				{
 					id: "55FD0DAD31E95905"
@@ -1913,24 +1419,6 @@
 			dependencies: ["2EF38D620B4E1664"]
 			id: "7C5821AC664F2AF3"
 			invisible: true
-			rewards: [
-				{
-					id: "0830075346B3E6EE"
-					item: {
-						Count: 1b
-						id: "ad_astra:tier_1_rocket"
-						tag: {
-							BotariumData: { }
-						}
-					}
-					type: "item"
-				}
-				{
-					id: "0863C716018B58B9"
-					item: "ad_astra:fuel_bucket"
-					type: "item"
-				}
-			]
 			size: 5.0d
 			subtitle: "燕子，没有你我可怎么活啊，燕子！"
 			tasks: [{
@@ -1963,12 +1451,6 @@
 		}
 		{
 			id: "4482AF6BE68C8D1D"
-			rewards: [{
-				id: "6F5BA06FA8651105"
-				item: "minecraft:quartz"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "石英顾名思义就是石头中的英雄（好伐我编不下去了）"
 			tasks: [{
 				id: "52F55A07414D763B"
@@ -1982,12 +1464,6 @@
 		{
 			dependencies: ["4482AF6BE68C8D1D"]
 			id: "3A674F0BEAB8179F"
-			rewards: [{
-				id: "3EFE7E9C47C1F9F0"
-				item: "create:rose_quartz"
-				random_bonus: 4
-				type: "item"
-			}]
 			tasks: [{
 				id: "23D37DA6E8A79653"
 				item: "create:rose_quartz"
@@ -2002,12 +1478,6 @@
 				"3A674F0BEAB8179F"
 			]
 			id: "6603024447F23F40"
-			rewards: [{
-				id: "45858978E7CE8717"
-				item: "create:polished_rose_quartz"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "我给玫瑰石英增加了新合成方式！来，狠狠的自动化玫瑰石英！"
 			tasks: [{
 				id: "1FD42C9663500671"
@@ -2020,12 +1490,6 @@
 		{
 			dependencies: ["77ECF5D5E59B874F"]
 			id: "075B94F4CA10DA3D"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "44F67329E5FCB93F"
-				table_id: 6730734086547045908L
-				type: "random"
-			}]
 			subtitle: "说实话，打磨的动画真的很像...."
 			tasks: [{
 				id: "081508E9AF2E7728"

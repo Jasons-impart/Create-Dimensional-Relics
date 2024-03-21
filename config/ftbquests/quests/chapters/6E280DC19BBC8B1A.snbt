@@ -38,11 +38,6 @@
 		{
 			dependencies: ["43DB02373EDB1FA5"]
 			id: "40DECD25B6B0ED6E"
-			rewards: [{
-				id: "52E12439CF9A5379"
-				item: "extradelight:crimson_knife_block"
-				type: "item"
-			}]
 			subtitle: "大刀向鬼子头上砍去！"
 			tasks: [{
 				id: "47CE20D2570CE852"
@@ -113,12 +108,6 @@
 				"&4注意!!!&r：与&4生物接触&r，&4被弹射物击中&r或&4不使用刀破坏&r时将会发生小型&4爆炸&r并留下火焰"
 			]
 			id: "02B4CB6D9970EDE0"
-			rewards: [{
-				id: "7B8ADBF7C2F303E3"
-				item: "nethersdelight:propelplant_cane"
-				random_bonus: 15
-				type: "item"
-			}]
 			subtitle: "火药的来源"
 			tasks: [{
 				id: "7A2C8C8B3D633835"
@@ -293,11 +282,6 @@
 			dependencies: ["42E8D4D2C5243B72"]
 			description: ["自然生成于末地中型岛屿和末地高岛群系。可放置在方块顶部，每个方块最多可以放3个。它们会产生光亮，第一个会产生3光照等级，之后每增加一个会增加2光照等级。在其向下一格方块为末地石时，可通过骨粉催熟使其增殖为3个。可食用，食用后恢复2点饥饿值和3.2点饱和度。"]
 			id: "376D48B3C8CFD593"
-			rewards: [{
-				id: "1841B2C3E107D9F2"
-				item: "ends_delight:chorus_succulent"
-				type: "item"
-			}]
 			subtitle: "真的不是主世界溜过去的多肉吗？"
 			tasks: [{
 				id: "2A4270A1A57CCCBA"
@@ -311,12 +295,6 @@
 			dependencies: ["42E8D4D2C5243B72"]
 			description: [""]
 			id: "3F038850DFCA4E03"
-			rewards: [{
-				id: "16AE0B6AF24D21DD"
-				item: "ends_delight:raw_dragon_meat"
-				random_bonus: 5
-				type: "item"
-			}]
 			subtitle: "天上龙肉！地下驴肉！"
 			tasks: [{
 				id: "6F6ED9DE421B895D"
@@ -433,12 +411,6 @@
 		{
 			dependencies: ["4995B7A127D91043"]
 			id: "42556DCDFE80FBE7"
-			rewards: [{
-				id: "415E89B238564C8B"
-				item: "minecraft:dragon_breath"
-				random_bonus: 3
-				type: "item"
-			}]
 			tasks: [{
 				id: "15283698A3579237"
 				item: "minecraft:dragon_breath"

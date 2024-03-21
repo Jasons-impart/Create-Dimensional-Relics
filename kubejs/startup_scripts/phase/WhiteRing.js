@@ -1,5 +1,5 @@
 /**
- * shelter.js - Define phase
+ * WhiteRing.js - Define phase
  */
 StartupEvents.postInit(e => {
     

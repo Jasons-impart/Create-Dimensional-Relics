@@ -10,6 +10,11 @@
 	quests: [{
 		description: ["{quest.arriveshelter.description}"]
 		id: "7905D6425CA6E272"
+		rewards: [{
+			command: "/gamephase add @p WhiteRing"
+			id: "52B091F2528593F4"
+			type: "command"
+		}]
 		subtitle: "{quest.arriveshelter.subtitle}"
 		tasks: [{
 			dimension: "minecraft:overworld"
