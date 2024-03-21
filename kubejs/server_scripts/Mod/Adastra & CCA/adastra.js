@@ -1,7 +1,6 @@
 ServerEvents.recipes(e => {
     // 移除配方：ad_astra
     remove_recipes_output(e, [
-        "ad_astra:hammer",
         "ad_astra:compressor",
         "ad_astra:coal_generator",
         "ad_astra:cable_duct",
@@ -15,6 +14,7 @@ ServerEvents.recipes(e => {
         "ad_astra:wrench",
         "ad_astra:rocket_nose_cone",
         "ad_astra:rocket_fin",
+        'ad_astra:steel_plate'
     ])
     remove_recipes_id(e, [
         "ad_astra:nasa_workbench/tier_1_rocket",

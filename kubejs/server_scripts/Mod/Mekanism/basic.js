@@ -15,8 +15,9 @@ ServerEvents.recipes(e => {
     ])
 
     // 序列合成：灌注合金
-    e.recipes.create.sequenced_assembly("mekanism:alloy_infused", "ad_astra:ostrum_ingot", [
-        e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "create:iron_sheet"]),
+    e.recipes.create.sequenced_assembly("mekanism:alloy_infused", "create:iron_sheet", [
+        e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "ad_astra:ostrum_plate"]),
+        e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "mekanism:enriched_redstone"]),
         e.recipes.create.pressing("mekanism:alloy_infused", "mekanism:alloy_infused")
     ])
         .transitionalItem("mekanism:alloy_infused")
@@ -26,6 +27,7 @@ ServerEvents.recipes(e => {
     // 序列合成：强化合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_reinforced", "mekanism:alloy_infused", [
         e.recipes.create.deploying("mekanism:alloy_reinforced", ["mekanism:alloy_reinforced", "ad_astra:calorite_plate"]),
+        e.recipes.create.deploying("mekanism:alloy_reinforced", ["mekanism:alloy_reinforced", "mekanism:enriched_diamond"]),
         e.recipes.create.pressing("mekanism:alloy_reinforced", "mekanism:alloy_reinforced")
     ])
         .transitionalItem("mekanism:alloy_reinforced")
@@ -35,6 +37,7 @@ ServerEvents.recipes(e => {
     // 序列合成：原子合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_atomic", "mekanism:alloy_reinforced", [
         e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "createdimensionalrelicscore:space_alloy_sheet"]),
+        e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", 'mekanism:enriched_refined_obsidian']),
         e.recipes.create.pressing("mekanism:alloy_atomic", "mekanism:alloy_atomic")
     ])
         .transitionalItem("mekanism:alloy_atomic")
@@ -43,13 +46,13 @@ ServerEvents.recipes(e => {
 
     // 序列合成：基础控制电路
     e.recipes.create.sequenced_assembly("mekanism:basic_control_circuit", "mekanism:ingot_osmium", [
-        e.recipes.create.deploying("mekanism:basic_control_circuit", ["mekanism:basic_control_circuit", "create:iron_sheet"]),
+        e.recipes.create.deploying("mekanism:basic_control_circuit", ["mekanism:basic_control_circuit", "create:copper_sheet"]),
+        e.recipes.create.deploying("mekanism:basic_control_circuit", ["mekanism:basic_control_circuit", "mekanism:enriched_redstone"]),
         e.recipes.create.pressing("mekanism:basic_control_circuit", "mekanism:basic_control_circuit")
     ])
         .transitionalItem("mekanism:basic_control_circuit")
-        .loops(2)
-        .id('mekanism:basic_control_circuit')
-
+        .loops(1)
+        .id('mekanism:basic_control_circuit_fast')
     // 序列合成：高级控制电路
     e.recipes.create.sequenced_assembly("mekanism:advanced_control_circuit", "mekanism:basic_control_circuit", [
         e.recipes.create.deploying("mekanism:advanced_control_circuit", ["mekanism:advanced_control_circuit", "mekanism:alloy_infused"]),
@@ -76,5 +79,11 @@ ServerEvents.recipes(e => {
         .transitionalItem("mekanism:ultimate_control_circuit")
         .loops(2)
         .id('mekanism:ultimate_control_circuit')
-
+    // alloyed钢锭青铜锭兼容
+    e.blasting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
+    e.blasting("alloyed:steel_ingot", "mekanism:dust_steel")
+    e.blasting("alloyed:bronze_ingot", "mekanism:dust_bronze")
+    e.smelting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
+    e.smelting("alloyed:steel_ingot", "mekanism:dust_steel")
+    e.smelting("alloyed:bronze_ingot", "mekanism:dust_bronze")
 })

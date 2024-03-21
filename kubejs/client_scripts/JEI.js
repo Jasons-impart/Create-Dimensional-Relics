@@ -11,7 +11,6 @@ JEIEvents.hideItems(e => {
         "ad_astra:nasa_workbench",
         "ad_astra:water_pump",
         "ad_astra:wrench",
-        "ad_astra:hammer",
         "ad_astra:steel_cable",
         "ad_astra:desh_cable",
         "ad_astra:desh_fluid_pipe",
@@ -56,6 +55,13 @@ JEIEvents.hideItems(e => {
         "refinedstorage:wrench",
         "refinedstorage:raw_basic_processor",
         "refinedstorage:raw_improved_processor",
-        "refinedstorage:raw_advanced_processor"
+        "refinedstorage:raw_advanced_processor",
+        'quark:potato_crate',
+        'mekanism:block_bronze',
+        "mekanism:block_steel",
+        'mekanism:ingot_steel',
+        'mekanism:ingot_bronze',
+        'createaddition:diamond_grit',
+        'ad_astra:steel_block'
     ])
 })

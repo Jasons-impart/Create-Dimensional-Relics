@@ -14,4 +14,14 @@ ServerEvents.recipes(e => {
         ["create:polished_rose_quartz", Item.of("create:polished_rose_quartz").withChance(0.1)],
         "create:rose_quartz"
     ).id("create.kjs:polished_rose_quartz")
+    //钻石粉修改兼容
+    e.recipes.create.crushing(
+        ["mekanism:dust_diamond", Item.of("mekanism:dust_diamond").withChance(0.25)],
+        ["minecraft:diamond"]
+    ).id("createaddition:crushing/diamond")
+    // 强化黑曜石粉修改兼容
+    e.recipes.create.crushing(
+        ["mekanism:dust_refined_obsidian", Item.of("create:powdered_obsidian").withChance(0.75)],
+        ["mekanism:ingot_refined_obsidian"]
+    )
 })
