@@ -12,7 +12,7 @@ BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("tier_1_r
     .where("d", 'ad_astra:steel_plating')
     .where("f", 'mekanism:structural_glass')
     .craftingItem("create:wrench")
-    .resultItem("ad_astra:tier_1_rocket")
+    .resultEntity("ad_astra:tier_1_rocket")
     .resultAction((level, pos, player) => {
         player.swing()
     })
@@ -31,7 +31,7 @@ BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("tier_2_r
     .where("d", 'ad_astra:desh_plating')
     .where("f", 'mekanism:structural_glass')
     .craftingItem("create:wrench")
-    .resultItem("ad_astra:tier_2_rocket")
+    .resultEntity("ad_astra:tier_2_rocket")
     .resultAction((level, pos, player) => {
         player.swing()
     })
@@ -50,7 +50,7 @@ BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("tier_3_r
     .where("d", 'ad_astra:ostrum_plating')
     .where("f", 'mekanism:structural_glass')
     .craftingItem("create:wrench")
-    .resultItem("ad_astra:tier_3_rocket")
+    .resultEntity("ad_astra:tier_3_rocket")
     .resultAction((level, pos, player) => {
         player.swing()
     })
@@ -71,7 +71,7 @@ BlockCrafting.addMultiblockStructure(MultiblockStructureBuilder.create("tier_4_r
     .where("d", 'ad_astra:calorite_plating')
     .where("f", 'mekanism:structural_glass')
     .craftingItem("create:wrench")
-    .resultItem("ad_astra:tier_4_rocket")
+    .resultEntity("ad_astra:tier_4_rocket")
     .resultAction((level, pos, player) => {
         player.swing()
     })

@@ -1,5 +1,13 @@
 {
-  "kubejs.ponder.build.header": "",
+  "kubejs.ponder.build.header": "Rocket_tier_1",
+  "kubejs.ponder.build.text_1": "§bPlace steel engine",
+  "kubejs.ponder.build.text_2": "§bPlace steel tank",
+  "kubejs.ponder.build.text_3": "§bRocket_core_tier_1",
+  "kubejs.ponder.build.text_4": "§bPlace_Rocket_core_tier_1",
+  "kubejs.ponder.build.text_5": "§bPlace steel pillar",
+  "kubejs.ponder.build.text_6": "§bPlace steel plating",
+  "kubejs.ponder.build.text_7": "§bThis is a structural glass",
+  "kubejs.ponder.build.text_8": "§bUseing wrench to R-Click Rocket_core_tier_1",
   "createdimensionalrelics.ponder.tag.rocket": "Rockets",
   "createdimensionalrelics.ponder.tag.rocket.description": "How to build rockets?"
 }
