@@ -14,9 +14,9 @@ ServerEvents.recipes(e => {
     // 序列合成：钢锭
     let inter = 'createdimensionalrelics:hammering_raw_steel_ingot'
     e.recipes.create.sequenced_assembly("alloyed:steel_ingot", "createdimensionalrelics:raw_steel_ingot", [
-        e.recipes.createFilling(inter, [inter, Fluid.lava(20)]),
-        e.recipes.createPressing(inter, inter)
+        e.recipes.create.filling(inter, [inter, Fluid.lava(10)]),
+        e.recipes.create.pressing(inter, inter)
     ])
         .transitionalItem(inter)
-        .loops(5)
+        .loops(3)
 })
