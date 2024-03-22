@@ -68,8 +68,8 @@ ServerEvents.recipes(e => {
     // 替换配方：核燃料棒
     let iner = "create_new_age:incomplete_fuel"
     e.recipes.create.sequenced_assembly("create_new_age:nuclear_fuel", "#forge:plates/steel", [
-        e.recipes.create.pressing(iner, iner),
         e.recipes.create.deploying(iner, [iner, "create_new_age:radioactive_thorium"]),
+        e.recipes.create.pressing(iner, iner),
         e.recipes.create.deploying(iner, [iner, "#forge:plates/steel"]),
         e.recipes.create.pressing(iner, iner)
     ]).transitionalItem(iner).loops(1).id("create_new_age:thorium/nuclear_fuel")

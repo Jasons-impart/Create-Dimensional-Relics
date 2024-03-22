@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
         "alloyed:steel_ingot"
     ]).damageIngredient("ad_astra:hammer").id("ad_astra:hammering/steel_sheet")
     // 钢燃料储罐合成
-    let steel_tank = "alloyed:steel_sheet"
+    let steel_tank = "ad_astra:steel_tank"
     e.recipes.create.sequenced_assembly("3x ad_astra:steel_tank", "alloyed:steel_sheet",[
         e.recipes.create.deploying(steel_tank, [steel_tank, "alloyed:steel_sheet"]),
         e.recipes.create.pressing(steel_tank, steel_tank),
@@ -44,7 +44,7 @@ ServerEvents.recipes(e => {
         .loops(2)
         .id("ad_astra:recipes/steel_tank")
     // 戴斯燃料储罐合成
-    let desh_tank = "ad_astra:desh_plate"
+    let desh_tank = "ad_astra:desh_tank"
     e.recipes.create.sequenced_assembly("3x ad_astra:desh_tank", "ad_astra:desh_plate",[
         e.recipes.create.deploying(desh_tank, [desh_tank, "ad_astra:desh_plate"]),
         e.recipes.create.pressing(desh_tank, desh_tank),
@@ -55,7 +55,7 @@ ServerEvents.recipes(e => {
         .loops(2)
         .id("ad_astra:recipes/desh_tank")
     // 紫金燃料储罐合成
-    let ostrum_tank = "ad_astra:ostrum_plate"
+    let ostrum_tank = "ad_astra:ostrum_tank"
     e.recipes.create.sequenced_assembly("3x ad_astra:ostrum_tank", "ad_astra:ostrum_plate",[
         e.recipes.create.deploying(ostrum_tank, [ostrum_tank, "ad_astra:ostrum_plate"]),
         e.recipes.create.pressing(ostrum_tank, ostrum_tank),
@@ -66,7 +66,7 @@ ServerEvents.recipes(e => {
         .loops(2)
         .id("ad_astra:recipes/ostrum_tank")
     // 耐热金属燃料储罐合成
-    let calorite_tank = "ad_astra:calorite_plate"
+    let calorite_tank = "ad_astra:calorite_tank"
     e.recipes.create.sequenced_assembly("3x ad_astra:calorite_tank", "ad_astra:calorite_plate",[
         e.recipes.create.deploying(calorite_tank, [calorite_tank, "ad_astra:calorite_plate"]),
         e.recipes.create.pressing(calorite_tank, calorite_tank),
@@ -204,7 +204,7 @@ ServerEvents.recipes(e => {
         B:"ad_astra:calorite_tank"
     })
     // 一阶火箭核心合成配方
-    let tier_1_core = "alloyed:steel_sheet"
+    let tier_1_core = "createdimensionalrelics:rocket_core_tier_1"
     e.recipes.create.sequenced_assembly("createdimensionalrelics:rocket_core_tier_1", "alloyed:steel_sheet", [
         e.recipes.create.deploying(tier_1_core, [tier_1_core, "create:precision_mechanism"]),
         e.recipes.create.deploying(tier_1_core, [tier_1_core, "alloyed:steel_sheet"])
@@ -212,7 +212,7 @@ ServerEvents.recipes(e => {
         .transitionalItem(tier_1_core)
         .loops(3)
     // 二阶火箭核心合成配方
-    let tier_2_core = "ad_astra:desh_plate"
+    let tier_2_core = "createdimensionalrelics:rocket_core_tier_2"
     e.recipes.create.sequenced_assembly("createdimensionalrelics:rocket_core_tier_2", "ad_astra:desh_plate", [
         e.recipes.create.deploying(tier_2_core, [tier_2_core, "create:precision_mechanism"]),
         e.recipes.create.deploying(tier_2_core, [tier_2_core, "ad_astra:desh_plate"])
@@ -220,7 +220,7 @@ ServerEvents.recipes(e => {
         .transitionalItem(tier_2_core)
         .loops(3)
     // 三阶火箭核心合成配方
-    let tier_3_core = "ad_astra:ostrum_plate"
+    let tier_3_core = "createdimensionalrelics:rocket_core_tier_3"
     e.recipes.create.sequenced_assembly("createdimensionalrelics:rocket_core_tier_3", "ad_astra:ostrum_plate", [
         e.recipes.create.deploying(tier_3_core, [tier_3_core, "create:precision_mechanism"]),
         e.recipes.create.deploying(tier_3_core, [tier_3_core, "ad_astra:ostrum_plate"])
@@ -228,7 +228,7 @@ ServerEvents.recipes(e => {
         .transitionalItem(tier_3_core)
         .loops(3)
     // 四阶火箭核心合成配方
-    let tier_4_core = "ad_astra:calorite_plate"
+    let tier_4_core = "createdimensionalrelics:rocket_core_tier_4"
     e.recipes.create.sequenced_assembly("createdimensionalrelics:rocket_core_tier_4", "ad_astra:calorite_plate", [
         e.recipes.create.deploying(tier_4_core, [tier_4_core, "create:precision_mechanism"]),
         e.recipes.create.deploying(tier_4_core, [tier_4_core, "ad_astra:calorite_plate"])
