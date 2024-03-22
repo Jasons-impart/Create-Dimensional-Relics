@@ -130,7 +130,7 @@ Ponder.registry(e => {
                 scene.idle(2)
             }
             scene.addKeyframe()
-            scene.text(30, "§bUseing wrench to R-Click Rocket_core_tier_1")
+            scene.text(30, "§bUsing wrench to R-Click Rocket_core_tier_1")
             scene.rotateCameraY(45)
             scene
                 .showControls(30, utils.grid.at(4, 2, 3),"left")
