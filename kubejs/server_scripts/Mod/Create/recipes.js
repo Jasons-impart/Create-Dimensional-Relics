@@ -1,4 +1,13 @@
 ServerEvents.recipes(e => {
+    // 燃料储罐合成修改
+    e.shaped("create:fluid_tank",[
+        "AAA",
+        "ABA",
+        "AAA"
+    ],{
+        A:"create:copper_sheet",
+        B:"minecraft:bucket"
+    }).id("create:crafting/kinetics/fluid_tank")
     // 搅拌合成：玫瑰石英
     e.recipes.create.mixing(
         ["create:rose_quartz"],
