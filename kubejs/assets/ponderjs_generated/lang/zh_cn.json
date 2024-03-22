@@ -1,5 +1,19 @@
 {
-    "kubejs.ponder.build.header": "",
-    "createdimensionalrelics.ponder.tag.rocket": "火箭",
-    "createdimensionalrelics.ponder.tag.rocket.description": "如何建造火箭？"
+  "kubejs.ponder.blaze.header": "如何召唤一只烈焰人？",
+  "kubejs.ponder.blaze.text_1": "§b像这样摆放",
+  "kubejs.ponder.blaze.text_2": "§b使用熔岩瓶右键南瓜灯",
+  "kubejs.ponder.tier_1_rocket.header": "一阶火箭",
+  "kubejs.ponder.tier_1_rocket.text_1": "§b放置钢引擎",
+  "kubejs.ponder.tier_1_rocket.text_2": "§b放置钢燃料储罐",
+  "kubejs.ponder.tier_1_rocket.text_3": "§b一级火箭核心",
+  "kubejs.ponder.tier_1_rocket.text_4": "§b放置一级火箭核心",
+  "kubejs.ponder.tier_1_rocket.text_5": "§b放置钢柱",
+  "kubejs.ponder.tier_1_rocket.text_6": "§b放置钢板块",
+  "kubejs.ponder.tier_1_rocket.text_7": "§b这是一块mek的结构玻璃",
+  "kubejs.ponder.tier_1_rocket.text_8": "§b使用扳手右键一级火箭核心",
+  "kubejs.ponder.tier_2_rocket.header": "二阶火箭",
+  "kubejs.ponder.tier_3_rocket.header": "三阶火箭",
+  "kubejs.ponder.tier_4_rocket.header": "四阶火箭",
+  "createdimensionalrelics.ponder.tag.rocket": "火箭",
+  "createdimensionalrelics.ponder.tag.rocket.description": "如何制作一枚火箭？"
 }

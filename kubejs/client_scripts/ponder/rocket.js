@@ -13,7 +13,7 @@ Ponder.tags(e => {
 
 Ponder.registry(e => {
     e.create("ad_astra:tier_1_rocket")
-        .scene("build", "Rocket_tier_1", "kubejs:tier_1_rocket", (scene, utils) => {
+        .scene("tier_1_rocket", "Rocket_tier_1", "kubejs:tier_1_rocket", (scene, utils) => {
             scene.showStructure(0);
             scene.idle(20);
             scene.scaleSceneView(0.8)
@@ -142,15 +142,15 @@ Ponder.registry(e => {
             scene.idle(20)
         })
     e.create("ad_astra:tier_2_rocket")
-        .scene("build", "Rocket_tier_2", (scene, utils) => {
+        .scene("tier_2_rocket", "Rocket_tier_2", (scene, utils) => {
 
         })
     e.create("ad_astra:tier_3_rocket")
-        .scene("build", "Rocket_tier_3", (scene, utils) => {
+        .scene("tier_3_rocket", "Rocket_tier_3", (scene, utils) => {
 
         })
     e.create("ad_astra:tier_4_rocket")
-        .scene("build", "Rocket_tier_4", (scene, utils) => {
+        .scene("tier_4_rocket", "Rocket_tier_4", (scene, utils) => {
 
         })
 })
