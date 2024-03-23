@@ -42,7 +42,7 @@
 	#Keep All: Include all except Unicode font.
 	#The default value depends on OS language and region.
 	#Allowed Values: IGNORE_ALL, KEEP_ASCII, KEEP_OTHER, KEEP_ALL
-	defaultFontBehavior = "KEEP_OTHER"
+	defaultFontBehavior = "KEEP_ASCII"
 	#Whether to use text component object as hash key to lookup in layout cache.
 	#If you find that Modern UI text rendering is not compatible with some mods,
 	#you can disable this option for compatibility, but this will decrease performance a bit.

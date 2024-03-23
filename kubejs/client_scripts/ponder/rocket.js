@@ -36,8 +36,9 @@ Ponder.registry(e => {
             ]
             for (let block of block_1) {
                 scene.world.showSection(block, Direction.down);
-                scene.idle(2)
+                scene.idle(3)
             }
+            scene.idle(20)
             scene.addKeyframe()
             scene.text(50, "§bPlace steel tank")
             const block_2 = [
@@ -69,8 +70,9 @@ Ponder.registry(e => {
             ]
             for (let block of block_2) {
                 scene.world.showSection(block, Direction.down);
-                scene.idle(2)
+                scene.idle(3)
             }
+            scene.idle(20)
             scene.text(40, "§bRocket_core_tier_1", [4.5, 2.5, 3])
             scene.text(13, "§bPlace_Rocket_core_tier_1")
             scene.world.showSection([4, 2, 3], Direction.south)
@@ -97,8 +99,9 @@ Ponder.registry(e => {
             ]
             for (let block of block_3) {
                 scene.world.showSection(block, Direction.down);
-                scene.idle(2)
+                scene.idle(3)
             }
+            scene.idle(20)
             scene.addKeyframe()
             scene.text(38, "§bPlace steel plating")
             scene.text(40, "§bThis is a structural glass", [4.5, 5.5, 3])
@@ -127,8 +130,9 @@ Ponder.registry(e => {
             ]
             for (let block of block_4) {
                 scene.world.showSection(block, Direction.down);
-                scene.idle(2)
+                scene.idle(3)
             }
+            scene.idle(20)
             scene.addKeyframe()
             scene.text(30, "§bUsing wrench to R-Click Rocket_core_tier_1")
             scene.rotateCameraY(45)
