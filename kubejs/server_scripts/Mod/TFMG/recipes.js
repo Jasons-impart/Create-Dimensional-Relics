@@ -1,3 +1,3 @@
 ServerEvents.recipes(e=>{
-    e.custom()
 })
+ServerEvents.tags("fluid", e =>{})
