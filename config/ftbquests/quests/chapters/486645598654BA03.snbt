@@ -18,7 +18,7 @@
 		x: 4.285714285714285d
 		y: 1.75d
 	}]
-	order_index: 10
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -571,15 +571,18 @@
 			y: 6.5d
 		}
 		{
+			description: ["{quest.arrivenether.description}"]
 			id: "64D137AB423EA1FB"
+			subtitle: "{quest.arrivenether.subtitle}"
 			tasks: [{
 				dimension: "minecraft:the_nether"
 				id: "0C5D6B3E867E9496"
 				type: "dimension"
 			}]
+			title: "{quest.arrivenether.title}"
 			x: 4.5d
 			y: 2.0d
 		}
 	]
-	title: "&3黑漆漆的地狱"
+	title: "{chapter.nether.title}"
 }
