@@ -69,7 +69,13 @@
     "quest.questbook.title": "什么？任务书丢了？不知道合成表？",
     "quest.questbook.subtitle": "看我多大方，任务书随便拿！",
     "quest.questbook.description": "其实按e就行，当然你喜欢拿书随你",
-    "quest.log.title": "最原始人的一集",
+    "quest.home.title":"总不能一直挖三填一吧，设置一个家！ ",
+    "quest.home.subtitle": "你的家必须在主世界，如果你不想每次回家都卡的话...",
+    "quest.home.description":"你也可以用/sethome来设置家",
+    "quest.gohome.title":" 我先润了哥们",
+    "quest.gohome.subtitle": "快速帮你回家（你怎么知道不用经验？）",
+    "quest.gohome.description":"你也可以用/home立刻回家",
+    "quest.log.title":"最原始人的一集",
     "quest.log.subtitle": "一切从0",
     "quest.log.description": "没事，至少你还记得很多事情！",
     "quest.waystone.title": "指路石",
@@ -146,10 +152,11 @@
     "chapter.nether.title": "下界-标题",
     "quest.arrivenether.title": "daoda xia jie",
     "quest.arrivenether.subtitle": "fu biao ti",
-    "quest.arrivenether.description": "mniao shu, zhe ci jiu dui le",
+    "quest.arrivenether.description": "mniao shu, zhe ci jiu dui le, c",
     "chapter.desolate.title": "&c荒芜往事",
     "quest.arrivedesolate.title": "荒芜",
     "quest.arrivedesolate.subtitle": "在被发现之前，这里应该很荒芜",
     "quest.arrivedesolate.description": "就像现在一样",
     "chapter.empyrean.title": "&1星际旅行"
+
 }

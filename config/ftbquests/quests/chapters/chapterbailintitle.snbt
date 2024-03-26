@@ -979,6 +979,40 @@
 			x: 16.0d
 			y: -1.5d
 		}
+		{
+			can_repeat: true
+			dependencies: ["3D7427876018E5D5"]
+			description: ["{quest.home.description}"]
+			icon: "minecraft:oak_log"
+			id: "59A7E4F272D67625"
+			optional: true
+			subtitle: "{quest.home.subtitle}"
+			tasks: [{
+				id: "4D2D7C60B7C5C9B6"
+				type: "checkmark"
+			}]
+			title: "{quest.home.title}"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"59A7E4F272D67625"
+				"3D7427876018E5D5"
+			]
+			description: ["{quest.gohome.description}"]
+			id: "38AC3CF679540833"
+			optional: true
+			subtitle: "{quest.gohome.subtitle}"
+			tasks: [{
+				id: "535726C2142BC134"
+				type: "checkmark"
+			}]
+			title: "{quest.gohome.title}"
+			x: 0.0d
+			y: -3.0d
+		}
 	]
 	title: "{chapter.whitering1.title}"
 }
