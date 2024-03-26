@@ -1,12 +1,12 @@
 ServerEvents.recipes(e => {
     // 燃料储罐合成修改
-    e.shaped("create:fluid_tank",[
+    e.shaped("create:fluid_tank", [
         "AAA",
         "ABA",
         "AAA"
-    ],{
-        A:"create:copper_sheet",
-        B:"minecraft:bucket"
+    ], {
+        A: "create:copper_sheet",
+        B: "minecraft:bucket"
     }).id("create:crafting/kinetics/fluid_tank")
     // 搅拌合成：玫瑰石英
     e.recipes.create.mixing(
@@ -33,4 +33,8 @@ ServerEvents.recipes(e => {
         ["mekanism:dust_refined_obsidian", Item.of("create:powdered_obsidian").withChance(0.75)],
         ["mekanism:ingot_refined_obsidian"]
     )
+    // 树木肥料
+    remove_recipes_output(e, "create:tree_fertilizer")
+    e.shapeless("2x create:tree_fertilizer",
+        ["createaddition:biomass", "minecraft:bone_meal"])
 })
