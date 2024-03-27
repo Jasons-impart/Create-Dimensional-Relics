@@ -27,5 +27,15 @@ ServerEvents.recipes(e=>{
         "minecraft:raw_iron_block"
     ])
         .id("create:crushing/raw_iron_block")
+    //塑料合成配方修改
+    e.recipes.create.mixing(
+        [Fluid.of("createindustry:liquid_plastic",500)],
+        [
+            Fluid.of("mekanism:flowing_ethene", 1000),
+            Fluid.of("createindustry:air", 1000)
+        ]
+    )
+        .id("createindustry:mixing/liquid_plastic_from_ethylene")
+        .heated()
 })
 ServerEvents.tags("fluid", e =>{})

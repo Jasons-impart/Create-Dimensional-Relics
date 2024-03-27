@@ -2,7 +2,7 @@ ServerEvents.recipes(e => {
     // 钍粉碎成放射性钍
     e.recipes.create.crushing([
         Item.of("create_new_age:radioactive_thorium")
-            .withChance(0.03),
+            .withChance(0.10),
         Item.of("minecraft:iron_nugget")
             .withChance(0.70),
         Item.of("create:experience_nugget")
