@@ -8,5 +8,4 @@ ServerEvents.recipes(e =>{
     e.recipes.create.emptying([Fluid.of('createindustry:kerosene'), "minecraft:bucket"], 'createindustry:kerosene_bucket')
     e.recipes.create.emptying([Fluid.of('createindustry:diesel'), "minecraft:bucket"], 'createindustry:diesel_bucket')
     e.recipes.create.emptying([Fluid.of('ulterlands:primosoup'), "minecraft:bucket"], 'ulterlands:primosoup_bucket')
-
 })
