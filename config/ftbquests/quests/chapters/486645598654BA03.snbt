@@ -571,7 +571,7 @@
 			y: 6.5d
 		}
 		{
-			description: ["{quest.arrivenether.description}"]
+			description: [""]
 			id: "64D137AB423EA1FB"
 			subtitle: "{quest.arrivenether.subtitle}"
 			tasks: [{

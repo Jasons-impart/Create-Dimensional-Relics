@@ -238,7 +238,7 @@
 				item: "minecraft:redstone"
 				type: "item"
 			}]
-			x: 12.5d
+			x: 12.0d
 			y: 1.5d
 		}
 		{
@@ -281,7 +281,7 @@
 				type: "item"
 			}]
 			x: 12.5d
-			y: -2.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["77ECF5D5E59B874F"]
@@ -901,13 +901,18 @@
 				"3063D93E51ECAFA7"
 			]
 			id: "2273B81FC4DA0A36"
-			subtitle: "哇，金色传说！"
+			rewards: [{
+				id: "54DF9E9DE9BFF1FA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "{quest.enchanting-table.subtitle}"
 			tasks: [{
 				id: "225DFEBD3CFE9612"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "附魔大师"
+			title: "{quest.enchanting-table.title}"
 			x: 16.0d
 			y: 1.5d
 		}
@@ -983,9 +988,13 @@
 			can_repeat: true
 			dependencies: ["3D7427876018E5D5"]
 			description: ["{quest.home.description}"]
-			icon: "minecraft:oak_log"
 			id: "59A7E4F272D67625"
 			optional: true
+			rewards: [{
+				command: "/sethome"
+				id: "651C857B1B9955AF"
+				type: "command"
+			}]
 			subtitle: "{quest.home.subtitle}"
 			tasks: [{
 				id: "4D2D7C60B7C5C9B6"
@@ -1004,6 +1013,11 @@
 			description: ["{quest.gohome.description}"]
 			id: "38AC3CF679540833"
 			optional: true
+			rewards: [{
+				command: "/home"
+				id: "6D9E558AC8C75EC1"
+				type: "command"
+			}]
 			subtitle: "{quest.gohome.subtitle}"
 			tasks: [{
 				id: "535726C2142BC134"

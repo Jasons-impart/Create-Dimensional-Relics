@@ -1503,7 +1503,7 @@
 			y: 9.0d
 		}
 		{
-			dependencies: ["34D9D292CE6F683E"]
+			dependencies: ["6ECB37F221CC668C"]
 			id: "3C036D58B281C3AD"
 			tasks: [{
 				biome: "#minecraft:is_river"
@@ -1513,7 +1513,7 @@
 			}]
 			title: "鱼，高嘌呤高蛋白！"
 			x: -8.0d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["4B0786620564E8C0"]
@@ -1793,6 +1793,18 @@
 			}]
 			x: -8.5d
 			y: 7.5d
+		}
+		{
+			dependencies: ["34D9D292CE6F683E"]
+			id: "6ECB37F221CC668C"
+			subtitle: "很多东西需要碗"
+			tasks: [{
+				id: "5467EC6C348CE69E"
+				item: "minecraft:bowl"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 1.5d
 		}
 	]
 	title: "&e超级多好吃的欸！"

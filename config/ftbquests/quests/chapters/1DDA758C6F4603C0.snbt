@@ -93,7 +93,6 @@
 			dependencies: [
 				"5546B7012C47C646"
 				"16DF1C16CDB5A548"
-				"75AB4CD9558C4EEE"
 			]
 			hide_dependent_lines: true
 			id: "454337E9BE007439"
@@ -175,15 +174,22 @@
 				"2EF38D620B4E1664"
 				"41F017E692B74F71"
 				"7DC98E34AECFBB5C"
+				"32F35AC0C1E8F51E"
 			]
-			hide_dependent_lines: true
 			id: "75AB4CD9558C4EEE"
 			subtitle: "更远的星球受到了异界的影响，需要使用&e以太晶片&r破开屏障"
-			tasks: [{
-				id: "2F5017BA13F63DC2"
-				item: "ad_astra:ostrum_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F5017BA13F63DC2"
+					item: "ad_astra:ostrum_engine"
+					type: "item"
+				}
+				{
+					id: "320246ACC90D2F4E"
+					item: "createdimensionalrelics:rocket_core_tier_3"
+					type: "item"
+				}
+			]
 			x: 6.5d
 			y: 9.5d
 		}
@@ -192,15 +198,22 @@
 				"2EF38D620B4E1664"
 				"41F017E692B74F71"
 				"7DC98E34AECFBB5C"
+				"32F35AC0C1E8F51E"
 			]
-			hide_dependent_lines: true
 			id: "4F3CF95B76ECD133"
 			subtitle: "更远的星球受到了异界的影响，需要使用&e以太晶片&r破开屏障"
-			tasks: [{
-				id: "0E7AC760D02E6F5C"
-				item: "ad_astra:calorite_engine"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E7AC760D02E6F5C"
+					item: "ad_astra:calorite_engine"
+					type: "item"
+				}
+				{
+					id: "06294675CC720A7E"
+					item: "createdimensionalrelics:rocket_core_tier_4"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 11.0d
 		}
@@ -261,6 +274,93 @@
 			title: "啊？？？？"
 			x: 9.5d
 			y: 11.0d
+		}
+		{
+			id: "32F35AC0C1E8F51E"
+			tasks: [
+				{
+					id: "34B66CE8EE2434B7"
+					item: "ad_astra:engine_frame"
+					type: "item"
+				}
+				{
+					id: "3B77014E51E9FFAC"
+					item: "ad_astra:engine_fan"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["32F35AC0C1E8F51E"]
+			id: "4FD23A3AED2C5337"
+			tasks: [
+				{
+					id: "5F4EB0560BCC40C9"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+				{
+					id: "3CA909D2F67AB8C4"
+					item: "createdimensionalrelics:rocket_core_tier_2"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["32F35AC0C1E8F51E"]
+			id: "5D344E90FC000253"
+			tasks: [
+				{
+					id: "418A60A28D946AAF"
+					item: "ad_astra:steel_engine"
+					type: "item"
+				}
+				{
+					id: "47E03AB063023D38"
+					item: "createdimensionalrelics:rocket_core_tier_1"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4FD23A3AED2C5337"]
+			id: "7A65F74C784B18D3"
+			tasks: [{
+				id: "6976787304428424"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_2_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5D344E90FC000253"]
+			id: "6844120C0F5912F1"
+			tasks: [{
+				id: "21FE1317BFDB8F59"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
 		}
 	]
 	title: "&e银河系漫游指南"
