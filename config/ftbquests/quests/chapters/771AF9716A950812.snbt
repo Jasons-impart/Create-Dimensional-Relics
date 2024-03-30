@@ -7,21 +7,64 @@
 	id: "771AF9716A950812"
 	order_index: 0
 	quest_links: [ ]
-	quests: [{
-		description: ["{quest.introduction.description}"]
-		id: "55C42BCE0E399B3D"
-		subtitle: "{quest.introduction.subtitle}"
-		tasks: [{
-			dimension: "minecraft:overworld"
-			disable_toast: true
-			icon: "minecraft:grass_block"
-			id: "2664A2E2CC659A77"
-			title: "原来你也玩机械动力悠然乐事！"
-			type: "dimension"
-		}]
-		title: "{quest.introduction.title}"
-		x: 9.5d
-		y: -2.5d
-	}]
+	quests: [
+		{
+			description: ["{quest.introduction.description}"]
+			id: "55C42BCE0E399B3D"
+			subtitle: "{quest.introduction.subtitle}"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "minecraft:grass_block"
+				id: "2664A2E2CC659A77"
+				title: "原来你也玩机械动力悠然乐事！"
+				type: "dimension"
+			}]
+			title: "{quest.introduction.title}"
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			hide_dependent_lines: true
+			id: "7C0BE7E4F30E05A9"
+			subtitle: "欢迎你游玩&e薪尽火传&r整合包，目前尚在&4制作中...&r ，不过你已经可以游玩&2大部分&r内容"
+			tasks: [{
+				id: "3B9B95B6979873A6"
+				type: "checkmark"
+			}]
+			title: "&e薪尽火传&r"
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "062A5DD8C81596DB"
+			tasks: [{
+				id: "58AD9C914C1E5FA3"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			id: "04A98C5F572E8A28"
+			subtitle: "在游玩过程中出现如任何bug可以在作者&ejason&r的GitHub上提交&4issue&r，我们将在第一时间答复"
+			tasks: [{
+				id: "5B846C290C3F8E88"
+				type: "checkmark"
+			}]
+			title: "&eBUG与issue&r"
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			id: "40ED06CAF32C306F"
+			tasks: [{
+				id: "56B413B089CEBEBB"
+				type: "checkmark"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+	]
 	title: "{chapter.introduction.title}"
 }
