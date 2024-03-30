@@ -104,17 +104,21 @@ ServerEvents.recipes(e=>{
               {
                 "fluid": "createindustry:kerosene",
                 "nbt": {},
-                "amount": 3
+                "amount": 300
               }
             ],
             "results": [
               {
-                "fluid": "createindustry:lng",
-                "amount": 1
+                "fluid": "createindustry:lpg",
+                "amount": 30
               },
               {
                 "fluid": "createindustry:ethylene",
-                "amount": 2
+                "amount": 35
+              },
+              {
+                "fluid": "createindustry:ethylene",
+                "amount": 35
               },
               {
                 "item": "createindustry:coal_coke"
@@ -124,7 +128,45 @@ ServerEvents.recipes(e=>{
               }
             ]
         }
-    ).id("createindustry:distillation/heavy_oil")
+    ).id("createindustry:distillation/kerosene")
+    // 石脑油裂解
+    e.custom(
+        {
+            "type": "createindustry:distillation",
+            "ingredients": [
+          
+              {
+                "fluid": "createindustry:naphtha",
+                "nbt": {},
+                "amount": 3
+              }
+            ],
+            "results": [
+              {
+                "fluid": "createindustry:propylene",
+                "amount": 1
+              },
+              {
+                "fluid": "createindustry:ethylene",
+                "amount": 1
+              },
+              {
+                "fluid": "createindustry:ethylene",
+                "amount": 1
+              },
+              {
+                "item": "minecraft:air"
+          
+              },
+              {
+                "item": "minecraft:air"
+          
+              }
+            ]
+        }          
+    )
+    // 移除古早配方
     e.remove({id:"createindustry:fractional_distillation/crude_oil_sus"})
+    e.remove({id:"createindustry:distillation/heavy_oil"})
 })
 ServerEvents.tags("fluid", e =>{})
