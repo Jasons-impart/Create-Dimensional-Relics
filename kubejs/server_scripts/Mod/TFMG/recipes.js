@@ -39,7 +39,7 @@ ServerEvents.recipes(e=>{
         "minecraft:raw_iron_block"
     ])
         .id("create:crushing/raw_iron_block")
-    //塑料合成配方修改
+    // 乙烯合成配方修改
     e.recipes.create.mixing(
         [Fluid.of("createindustry:liquid_plastic",500)],
         [
@@ -49,6 +49,11 @@ ServerEvents.recipes(e=>{
     )
         .id("createindustry:mixing/liquid_plastic_from_ethylene")
         .heated()
+    // 丙烯合成配方
+    e.recipes.create.compacting(
+      "createdimensionalrelics:polypropylene",
+      Fluid.of("createindustry:propylene", 200)
+    )
     // 石油分馏
     e.custom(
         {
