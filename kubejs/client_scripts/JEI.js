@@ -63,6 +63,8 @@ JEIEvents.hideItems(e => {
         'mekanism:ingot_bronze',
         'createaddition:diamond_grit',
         'ad_astra:steel_block',
-        "createindustry:sulfur_dust"
+        "createindustry:sulfur_dust",
+        "createindustry:cast_iron_block",
+        "createindustry:cast_iron_ingot"
     ])
 })

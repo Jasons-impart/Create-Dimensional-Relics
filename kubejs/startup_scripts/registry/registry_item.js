@@ -200,6 +200,10 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.sodium_hypochlorite")
         .rarity("common")
+    e.create("createdimensionalrelics:double_steel")
+        .maxStackSize(32)
+        .translationKey("item.createdimensionalrelics.double_steel")
+        .rarity("rare")
     // 开发组人员物品
 
     // 李武的纠缠之缘

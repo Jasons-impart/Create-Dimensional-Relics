@@ -13,7 +13,10 @@ ServerEvents.recipes(e => {
         "mekanism:elite_control_circuit",
         "mekanism:ultimate_control_circuit",
     ])
-
+    e.recipes.mekanism.metallurgic_infusing("createbigcannons:cast_iron_ingot",
+        "createdimensionalrelics:raw_steel_ingot",
+        "mekanism:carbon"
+    )
     // 序列合成：灌注合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_infused", "create:iron_sheet", [
         e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "ad_astra:ostrum_plate"]),
@@ -81,9 +84,9 @@ ServerEvents.recipes(e => {
         .id('mekanism:ultimate_control_circuit')
     // alloyed钢锭青铜锭兼容
     e.blasting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
-    e.blasting("alloyed:steel_ingot", "mekanism:dust_steel")
+    e.blasting("createindustry:steel_ingot", "mekanism:dust_steel")
     e.blasting("alloyed:bronze_ingot", "mekanism:dust_bronze")
     e.smelting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
-    e.smelting("alloyed:steel_ingot", "mekanism:dust_steel")
+    e.smelting("createindustry:steel_ingot", "mekanism:dust_steel")
     e.smelting("alloyed:bronze_ingot", "mekanism:dust_bronze")
 })

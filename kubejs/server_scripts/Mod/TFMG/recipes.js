@@ -1,4 +1,16 @@
 ServerEvents.recipes(e=>{
+    // 钢双锭合成
+    e.recipes.create.deploying("createdimensionalrelics:double_steel",["createindustry:steel_ingot", "createindustry:steel_ingot"])
+    // 厚钢板合成
+    let iner = "createdimensionalrelics:double_steel"
+    e.recipes.create.sequenced_assembly("createindustry:heavy_plate", "createdimensionalrelics:double_steel", [
+        e.recipes.create.pressing(iner, [iner, iner]),
+        e.recipes.create.pressing(iner, [iner, iner]),
+        e.recipes.create.pressing(iner, [iner, iner])
+    ])
+        .transitionalItem(iner)
+        .loops(1)
+        .id("createindustry:sequenced_assembly/heavy_plate")
     // 耐火黏土球与耐火黏土合成
     e.shapeless('createindustry:fireclay', '4x createindustry:fireclay_ball')
     e.recipes.create.crushing("4x createindustry:fireclay_ball", "createindustry:fireclay")
@@ -192,5 +204,6 @@ ServerEvents.recipes(e=>{
     e.remove({id:"createindustry:fractional_distillation/crude_oil_sus"})
     e.remove({id:"createindustry:distillation/heavy_oil"})
     e.remove({id:"createindustry:mixing/liquid_plastic_from_propylene"})
+    e.remove({id:"createindustry:mixing/cast_iron_ingot"})
 })
 ServerEvents.tags("fluid", e =>{})
