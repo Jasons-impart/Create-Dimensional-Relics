@@ -6,7 +6,7 @@ ServerEvents.recipes(e => {
         "AAA"
     ], {
         A: "alloyed:steel_sheet",
-        B: "'minecraft:redstone'",
+        B: "minecraft:redstone",
         C: "create:fluid_pipe"
     })
         .id("pipez:fluid_pipe")
@@ -17,7 +17,7 @@ ServerEvents.recipes(e => {
         "AAA"
     ], {
         A: "alloyed:steel_sheet",
-        B: "'minecraft:redstone'",
+        B: "minecraft:redstone",
         C: "minecraft:dropper"
     })
         .id("pipez:item_pipe")
@@ -28,7 +28,7 @@ ServerEvents.recipes(e => {
         "AAA"
     ], {
         A: "alloyed:steel_sheet",
-        B: "'minecraft:redstone'",
+        B: "minecraft:redstone",
         C: "create_new_age:copper_wire"
     })
         .id("pipez:energy_pipe")
@@ -39,7 +39,7 @@ ServerEvents.recipes(e => {
         "AAA"
     ], {
         A: "alloyed:steel_sheet",
-        B: "'minecraft:redstone'",
+        B: "minecraft:redstone",
         C: "mekanism:alloy_infused"
     })
         .id("pipez:gas_pipe")

@@ -124,7 +124,7 @@ ServerEvents.recipes(e=>{
                 "item": "createindustry:coal_coke"
               },
               {
-                "item": "createindustry:sulfur_dust"
+                "item": "mekanism:dust_sulfur"
               }
             ]
         }
