@@ -37,5 +37,94 @@ ServerEvents.recipes(e=>{
     )
         .id("createindustry:mixing/liquid_plastic_from_ethylene")
         .heated()
+    // 石油分馏
+    e.custom(
+        {
+            "type": "createindustry:advanced_distillation",
+            "ingredients": [
+              {
+                "fluid": "createindustry:crude_oil_fluid",
+                "nbt": {},
+                "amount": 200
+              }
+            ],
+            "results": [
+              {
+                "fluid": "createindustry:heavy_oil",
+                "amount": 40
+              },
+              {
+                "fluid": "createindustry:diesel",
+                "amount": 30
+              },
+              {
+                "fluid": "createindustry:kerosene",
+                "amount": 30
+              },
+              {
+                "fluid": "createindustry:naphtha",
+                "amount": 70
+              },
+              {
+                "fluid": "createindustry:lpg",
+                "amount": 30
+              }
+            ]
+        }
+    ).id("createindustry:fractional_distillation/crude_oil")
+    // 重油分馏
+    e.custom(
+        {
+            "type": "createindustry:advanced_distillation",
+            "ingredients": [
+                {
+                    "fluid": "createindustry:heavy_oil",
+                    "nbt": {},
+                    "amount":100
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createindustry:liquid_asphalt",
+                    "amount": 40
+                },
+                {
+                    "fluid": "createindustry:lubrication_oil",
+                    "amount": 60
+                },
+            ]
+        }
+    )
+    // 煤油裂解
+    e.custom(
+        {
+            "type": "createindustry:distillation",
+            "ingredients": [
+          
+              {
+                "fluid": "createindustry:kerosene",
+                "nbt": {},
+                "amount": 3
+              }
+            ],
+            "results": [
+              {
+                "fluid": "createindustry:lng",
+                "amount": 1
+              },
+              {
+                "fluid": "createindustry:ethylene",
+                "amount": 2
+              },
+              {
+                "item": "createindustry:coal_coke"
+              },
+              {
+                "item": "createindustry:sulfur_dust"
+              }
+            ]
+        }
+    ).id("createindustry:distillation/heavy_oil")
+    e.remove({id:"createindustry:fractional_distillation/crude_oil_sus"})
 })
 ServerEvents.tags("fluid", e =>{})
