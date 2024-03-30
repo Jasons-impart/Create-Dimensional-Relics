@@ -9,5 +9,5 @@ StartupEvents.registry("fluid", e =>{
     e.create("createdimensionalrelics:hypochlorous_acid")
     e.create("createdimensionalrelics:hypertonic_saline")
     e.create("createdimensionalrelics:hydrazine")
-    e.create("createdimensionalrelics:UDMH")
+    e.create("createdimensionalrelics:udmh")
 })
