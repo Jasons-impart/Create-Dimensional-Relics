@@ -212,6 +212,7 @@
 				"531B6253250A670C"
 			]
 			id: "56B16C088C2D8BF7"
+			subtitle: "{quest.mechanical_crafter.subtitle}"
 			tasks: [{
 				id: "54B6EED946DE25DD"
 				item: "create:mechanical_crafter"
@@ -566,6 +567,7 @@
 		{
 			dependencies: ["12DF597B6B5CD4A3"]
 			id: "3914C78F40176BB3"
+			invisible: true
 			subtitle: "烈焰人使用超越经验可增加一级附魔，&e突破极限！"
 			tasks: [{
 				id: "360698F9348E1A09"

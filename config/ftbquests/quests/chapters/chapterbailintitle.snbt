@@ -991,7 +991,7 @@
 			id: "59A7E4F272D67625"
 			optional: true
 			rewards: [{
-				command: "/sethome"
+				command: "/sethome @p"
 				id: "651C857B1B9955AF"
 				type: "command"
 			}]
@@ -1014,7 +1014,7 @@
 			id: "38AC3CF679540833"
 			optional: true
 			rewards: [{
-				command: "/home"
+				command: "/home @p"
 				id: "6D9E558AC8C75EC1"
 				type: "command"
 			}]
