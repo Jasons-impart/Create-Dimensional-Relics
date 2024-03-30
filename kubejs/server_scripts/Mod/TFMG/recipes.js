@@ -31,8 +31,8 @@ ServerEvents.recipes(e=>{
     e.recipes.create.mixing(
         [Fluid.of("createindustry:liquid_plastic",500)],
         [
-            Fluid.of("mekanism:flowing_ethene", 1000),
-            Fluid.of("createindustry:air", 1000)
+            Fluid.of("createindustry:ethylene", 1000),
+            Fluid.of("ad_astra:oxygen", 1000)
         ]
     )
         .id("createindustry:mixing/liquid_plastic_from_ethylene")
@@ -94,7 +94,7 @@ ServerEvents.recipes(e=>{
                 },
             ]
         }
-    )
+    ).id("createindustry:fractional_distillation/heavy_oil")
     // 煤油裂解
     e.custom(
         {
@@ -129,6 +129,29 @@ ServerEvents.recipes(e=>{
             ]
         }
     ).id("createindustry:distillation/kerosene")
+    // 石脑油分馏提纯
+    e.custom(
+            {
+                "type": "createindustry:advanced_distillation",
+                "ingredients": [
+                    {
+                        "fluid": "createindustry:naphtha",
+                        "nbt": {},
+                        "amount":100
+                    }
+                ],
+                "results": [
+                    {
+                        "fluid": "createindustry:kerosene",
+                        "amount": 20
+                    },
+                    {
+                        "fluid": "createindustry:gasoline",
+                        "amount": 80
+                    },
+                ]
+            }
+        ).id("createindustry:fractional_distillation/naphtha")
     // 石脑油裂解
     e.custom(
         {
@@ -151,7 +174,7 @@ ServerEvents.recipes(e=>{
                 "amount": 1
               },
               {
-                "fluid": "createindustry:ethylene",
+                "fluid": "createdimensionalrelics:benzene",
                 "amount": 1
               },
               {
@@ -164,9 +187,10 @@ ServerEvents.recipes(e=>{
               }
             ]
         }          
-    )
+    ).id("createindustry:distillation/naphtha")
     // 移除古早配方
     e.remove({id:"createindustry:fractional_distillation/crude_oil_sus"})
     e.remove({id:"createindustry:distillation/heavy_oil"})
+    e.remove({id:"createindustry:mixing/liquid_plastic_from_propylene"})
 })
 ServerEvents.tags("fluid", e =>{})
