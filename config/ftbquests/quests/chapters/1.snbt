@@ -1,0 +1,73 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "4EA7FB7A9D338217"
+	icon: "refinedstorage:disk_drive"
+	id: "192C55DE9E83EE78"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6A43657377814B9D"
+			tasks: [{
+				id: "7D0C8717568770E4"
+				item: "refinedstorage:silicon"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 0.0d
+		}
+		{
+			id: "1090819FA2B146A4"
+			tasks: [{
+				id: "06BD2831E836F440"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			x: -9.5d
+			y: -1.0d
+		}
+		{
+			id: "7479AA89B798A26B"
+			tasks: [{
+				id: "3B32ED6BD8428C11"
+				item: "mekanismgenerators:heat_generator"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"1090819FA2B146A4"
+				"7479AA89B798A26B"
+				"6A43657377814B9D"
+			]
+			id: "75139D7C02A52B0E"
+			tasks: [{
+				id: "0C14DFE808A28F7B"
+				item: "refinedstorage:basic_processor"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"7479AA89B798A26B"
+				"1090819FA2B146A4"
+				"6A43657377814B9D"
+			]
+			id: "03CEFD4AA5CB97C6"
+			tasks: [{
+				id: "265AF4804B211EEE"
+				item: "refinedstorage:machine_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 0.5d
+		}
+	]
+	title: "&3精妙MEK存储"
+}

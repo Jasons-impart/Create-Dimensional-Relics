@@ -5,7 +5,7 @@
 	group: "4EA7FB7A9D338217"
 	icon: "sophisticatedbackpacks:backpack"
 	id: "7634A6C41974A5C8"
-	order_index: 0
+	order_index: 1
 	quest_links: [ ]
 	quests: [
 		{
@@ -489,5 +489,5 @@
 			y: -12.0d
 		}
 	]
-	title: "&3精妙背包"
+	title: "&3精妙背包存储"
 }
