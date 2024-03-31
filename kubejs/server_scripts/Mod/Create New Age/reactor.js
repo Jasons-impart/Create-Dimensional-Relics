@@ -3,7 +3,7 @@ ServerEvents.recipes(e => {
     e.custom(
         {
             "type": "create_new_age:energising",
-            "energy_needed": 100,
+            "energy_needed": 500,
             "ingredients": [
                 {
                     "item": "createdimensionalrelics:electrolyzer"

@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    // 添加燃油和凌冰燃油成为烈焰人燃烧室的燃料
+    // 添加燃油和凛冰燃油成为烈焰人燃烧室的燃料
     e.custom({
         "type": "createaddition:liquid_burning",
         "input": {

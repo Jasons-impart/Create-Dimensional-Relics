@@ -56,13 +56,13 @@ JEIEvents.hideItems(e => {
         "refinedstorage:raw_basic_processor",
         "refinedstorage:raw_improved_processor",
         "refinedstorage:raw_advanced_processor",
-        'quark:potato_crate',
-        'mekanism:block_bronze',
+        "quark:potato_crate",
+        "mekanism:block_bronze",
         "mekanism:block_steel",
-        'mekanism:ingot_steel',
-        'mekanism:ingot_bronze',
-        'createaddition:diamond_grit',
-        'ad_astra:steel_block',
+        "mekanism:ingot_steel",
+        "mekanism:ingot_bronze",
+        "createaddition:diamond_grit",
+        "ad_astra:steel_block",
         "createindustry:sulfur_dust",
         "createindustry:cast_iron_block",
         "createindustry:cast_iron_ingot",
@@ -77,5 +77,10 @@ JEIEvents.hideItems(e => {
 JEIEvents.hideFluids(e =>{
     e.hide([
         "vintageimprovements:sulfuric_acid"
+    ])
+})
+JEIEvents.addItems(e =>{
+    e.add([
+        "create:crushed_raw_aluminum"
     ])
 })

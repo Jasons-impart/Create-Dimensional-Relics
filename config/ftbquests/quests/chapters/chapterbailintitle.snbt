@@ -906,13 +906,13 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "{quest.enchanting-table.subtitle}"
+			subtitle: "{quest.enchanting_table.subtitle}"
 			tasks: [{
 				id: "225DFEBD3CFE9612"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "{quest.enchanting-table.title}"
+			title: "{quest.enchanting_table.title}"
 			x: 16.0d
 			y: 1.5d
 		}

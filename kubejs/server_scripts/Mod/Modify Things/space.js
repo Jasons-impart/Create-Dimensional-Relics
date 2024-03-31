@@ -192,6 +192,7 @@ MoreJSEvents.enchantmentTableIsEnchantable(e => {
         e.cancel()
     }
 })
+
 ServerEvents.tags("item", e => {
     // 太空合金锭tag添加（维修）
     e.add("kjs:bleak_space_alloy_ingot", [
