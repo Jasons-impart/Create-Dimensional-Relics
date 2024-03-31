@@ -1,5 +1,6 @@
 ServerEvents.recipes(e => {
     // 移除配方：ad_astra
+    e.remove({id:"ad_astra:conversion/oxygen_from_water"})
     remove_recipes_output(e, [
         "ad_astra:compressor",
         "ad_astra:coal_generator",

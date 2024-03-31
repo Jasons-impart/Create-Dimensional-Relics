@@ -86,7 +86,49 @@ ServerEvents.recipes(e=>{
         .id("createindustry:mixing/liquid_plastic_from_ethylene")
         .heated()
     // 聚丙烯合成配方
-
+    e.recipes.create.mixing(
+      [
+        Fluid.of("createdimensionalrelics:polypropylene", 500)
+      ],
+      [
+        Fluid.of("ad_astra:oxygen", 1000),
+        Fluid.of("createindustry:propylene", 1000)
+      ]
+    ).heated()
+    e.recipes.create.compacting(
+      "createdimensionalrelics:polypropylene",
+      [
+        Fluid.of("createdimensionalrelics:polypropylene", 200)
+      ]
+    )
+    // 聚氯乙烯
+    e.recipes.create.mixing(
+      Fluid.of("createdimensionalrelics:polyvinyl_chloride", 1000),
+      [
+        Fluid.of("createindustry:ethylene", 1000),
+        Fluid.of("createdimensionalrelics:benzene", 200)
+      ]
+    ).heated()
+    e.recipes.create.compacting(
+      "createdimensionalrelics:polyvinyl_chloride",
+      [
+        Fluid.of("createdimensionalrelics:polyvinyl_chloride")
+      ]
+    )
+    // 聚苯乙烯
+    e.recipes.create.mixing(
+      Fluid.of("createdimensionalrelics:polystyrene", 1000),
+      [
+        Fluid.of("createindustry:ethylene", 1000),
+        Fluid.of("mekanism:chlorine", 200)
+      ]
+    ).heated()
+    e.recipes.create.compacting(
+      "createdimensionalrelics:polystyrene",
+      [
+        Fluid.of("createdimensionalrelics:polystyrene")
+      ]
+    )
     // 石油分馏
     e.custom(
         {
