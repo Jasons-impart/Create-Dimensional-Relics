@@ -25,7 +25,7 @@
 			y: -2.5d
 		}
 		{
-			hide_dependent_lines: true
+			dependencies: ["55C42BCE0E399B3D"]
 			id: "7C0BE7E4F30E05A9"
 			subtitle: "欢迎你游玩&e薪尽火传&r整合包，目前尚在&4制作中...&r ，不过你已经可以游玩&2大部分&r内容"
 			tasks: [{
@@ -37,6 +37,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["55C42BCE0E399B3D"]
 			id: "062A5DD8C81596DB"
 			tasks: [{
 				id: "58AD9C914C1E5FA3"
@@ -46,6 +47,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["55C42BCE0E399B3D"]
 			id: "04A98C5F572E8A28"
 			subtitle: "在游玩过程中出现如任何bug可以在作者&ejason&r的GitHub上提交&4issue&r，我们将在第一时间答复"
 			tasks: [{
@@ -57,6 +59,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["55C42BCE0E399B3D"]
 			id: "40ED06CAF32C306F"
 			tasks: [{
 				id: "56B413B089CEBEBB"
