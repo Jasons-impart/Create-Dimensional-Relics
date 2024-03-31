@@ -19,54 +19,70 @@
 			y: 0.0d
 		}
 		{
-			id: "1090819FA2B146A4"
-			tasks: [{
-				id: "06BD2831E836F440"
-				item: "refinedstorage:cable"
-				type: "item"
-			}]
-			x: -9.5d
-			y: -1.0d
-		}
-		{
-			id: "7479AA89B798A26B"
-			tasks: [{
-				id: "3B32ED6BD8428C11"
-				item: "mekanismgenerators:heat_generator"
-				type: "item"
-			}]
-			x: -9.5d
-			y: 1.0d
-		}
-		{
-			dependencies: [
-				"1090819FA2B146A4"
-				"7479AA89B798A26B"
-				"6A43657377814B9D"
-			]
+			dependencies: ["6A43657377814B9D"]
 			id: "75139D7C02A52B0E"
 			tasks: [{
 				id: "0C14DFE808A28F7B"
 				item: "refinedstorage:basic_processor"
 				type: "item"
 			}]
-			x: -8.0d
-			y: -0.5d
+			x: -7.5d
+			y: 0.0d
 		}
 		{
-			dependencies: [
-				"7479AA89B798A26B"
-				"1090819FA2B146A4"
-				"6A43657377814B9D"
-			]
-			id: "03CEFD4AA5CB97C6"
+			dependencies: ["75139D7C02A52B0E"]
+			id: "7A1BAE1B031EAE68"
 			tasks: [{
-				id: "265AF4804B211EEE"
-				item: "refinedstorage:machine_casing"
+				id: "613D42B3BBBAA77F"
+				item: "refinedstorage:improved_processor"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.5d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7A1BAE1B031EAE68"]
+			id: "128E4161AC577829"
+			tasks: [{
+				id: "79A9610BE4785623"
+				item: "refinedstorage:advanced_processor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6A43657377814B9D"]
+			id: "120DC86D4AD0314B"
+			tasks: [{
+				id: "054E4549571D1939"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["120DC86D4AD0314B"]
+			id: "59A7F5DB320CA687"
+			tasks: [{
+				id: "336D343710787543"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["59A7F5DB320CA687"]
+			id: "69AF34EFF6108575"
+			tasks: [{
+				id: "3DE9420A53A2185B"
+				item: "refinedstorage:1k_storage_disk"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.5d
 		}
 	]
 	title: "&3精妙MEK存储"
