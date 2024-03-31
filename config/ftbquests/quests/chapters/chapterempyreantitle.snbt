@@ -5,7 +5,7 @@
 	group: "7B56C96F95F1D773"
 	icon: "ad_astra:glacio_globe"
 	id: "3BBDA54B8E75D055"
-	order_index: 8
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{

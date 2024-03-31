@@ -1290,8 +1290,8 @@
 				item: "ad_astra:launch_pad"
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -6.5d
+			y: 4.0d
 		}
 		{
 			id: "62BF6A18921A3A61"

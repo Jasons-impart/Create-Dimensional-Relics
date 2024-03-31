@@ -43,7 +43,7 @@
 				type: "structure"
 			}]
 			title: "月球要塞！"
-			x: -4.5d
+			x: -3.0d
 			y: 1.5d
 		}
 		{
@@ -57,7 +57,7 @@
 				type: "structure"
 			}]
 			title: "月球村"
-			x: -3.0d
+			x: -1.5d
 			y: 1.5d
 		}
 		{
@@ -178,7 +178,7 @@
 				type: "structure"
 			}]
 			title: "发现月球塔！"
-			x: -1.5d
+			x: 0.0d
 			y: 1.5d
 		}
 		{
