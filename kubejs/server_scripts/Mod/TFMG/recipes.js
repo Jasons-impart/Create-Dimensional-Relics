@@ -1,4 +1,15 @@
 ServerEvents.recipes(e => {
+    // 电解器合成
+    e.shaped("createdimensionalrelics:electrolyzer",[
+      "ABA",
+      "C D",
+      "   "
+    ], {
+      A:"create_new_age:copper_wire",
+      B:"create:golden_sheet",
+      C:"vintageimprovements:vanadium_nugget",
+      D:"createaddition:electrum_nugget"
+    })
     // 钢储罐合成
     e.recipes.create.item_application("createindustry:steel_fluid_tank", [
         "create:fluid_tank", "createindustry:heavy_plate"

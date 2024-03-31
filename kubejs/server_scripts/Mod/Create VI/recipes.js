@@ -1,4 +1,12 @@
 ServerEvents.recipes(e => {
+    // 琥珀金合成
+    e.recipes.create.mixing(
+        ["createaddition:electrum_ingot"],
+        [
+            "minecraft:gold_ingot",
+            "minecraft:copper_ingot"
+        ]
+    ).superheated()
     // 移除硫磺配方
     e.remove({ output: "vintageimprovements:sulfur_chunk" })
     e.remove({ input: "vintageimprovements:sulfur_chunk" })
