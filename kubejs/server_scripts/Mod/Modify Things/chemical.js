@@ -1,4 +1,4 @@
-ServerEvents.recipes(e =>{
+ServerEvents.recipes(e => {
     // 盐溶解
     e.recipes.create.mixing(
         [
@@ -24,14 +24,13 @@ ServerEvents.recipes(e =>{
                     "block": "mekanism:brine"
                 }
             ]
-        }
-    )
+        })
     // 电解食盐水
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 1,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "mekanism:brine",
                     "amount": 1000
@@ -62,32 +61,32 @@ ServerEvents.recipes(e =>{
     ).id("createdimensionalrelics:electrolyze/brine")
     // 电解食盐
     e.custom(
-            {
-                "type":"vintageimprovements:pressurizing",
-                "secondaryFluidResults": 0,
-                "heatRequirement": "superheated",
-                "ingredients": [ 
-                    {
-                        "item": "mekanism:salt"
-                    },
-                    {
-                        "item": "createdimensionalrelics:electrolyzer_charged"
-                    }
-                ],
-                "results": [
-                    {
-                        "fluid": "mekanism:chlorine",
-                        "amount": 100
-                    },
-                    {
-                        "item": "createdimensionalrelics:sodium",
-                    },
-                    {
-                        "item": "createdimensionalrelics:electrolyzer"
-                    }
-                ],
-                "processingTime": 600
-            }
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "heatRequirement": "superheated",
+            "ingredients": [
+                {
+                    "item": "mekanism:salt"
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer_charged"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "mekanism:chlorine",
+                    "amount": 100
+                },
+                {
+                    "item": "createdimensionalrelics:sodium",
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer"
+                }
+            ],
+            "processingTime": 600
+        }
     ).id("createdimensionalrelics:electrolyze/salt")
     // 钠遇水爆炸生成NaOH
     e.custom(
@@ -109,14 +108,13 @@ ServerEvents.recipes(e =>{
                     "block": "createdimensionalrelics:sodium_hydroxide_fluid"
                 }
             ]
-        }
-    )
+        })
     // 钠与水缓慢反应生成NaOH
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 1,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "water",
                     "amount": 1000
@@ -136,14 +134,13 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 300
-        }
-    )
+        })
     // NaOH+Cl
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 0,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "createdimensionalrelics:sodium_hydroxide_fluid",
                     "amount": 1000
@@ -164,14 +161,13 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 600
-        }
-    )
+        })
     // CO2生成
     e.custom(
         {
-            "type":"vintageimprovements:vacuumizing",
+            "type": "vintageimprovements:vacuumizing",
             "heatRequirement": "heated",
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "tag": "minecraft:coals",
                 },
@@ -187,13 +183,12 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 100
-        }
-    )
+        })
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "heatRequirement": "heated",
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "tag": "minecraft:coals",
                 },
@@ -205,8 +200,7 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 600
-        } 
-    )
+        })
     // 合成氨
     e.custom(
         {

@@ -15,7 +15,7 @@ ServerEvents.recipes(e => {
         "ad_astra:wrench",
         "ad_astra:rocket_nose_cone",
         "ad_astra:rocket_fin",
-        'ad_astra:steel_plate'
+        "ad_astra:steel_plate"
     ])
     remove_recipes_id(e, [
         "ad_astra:nasa_workbench/tier_1_rocket",

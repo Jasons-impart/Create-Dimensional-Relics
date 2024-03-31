@@ -26,7 +26,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("refinedstorage:raw_basic_processor")
         .loops(1)
-        .id('refinedstorage:basic_processor')
+        .id("refinedstorage:basic_processor")
     // 序列合成：进阶处理器
     e.recipes.create.sequenced_assembly("refinedstorage:improved_processor", "refinedstorage:basic_processor", [
         e.recipes.create.deploying("refinedstorage:raw_improved_processor", ["refinedstorage:raw_improved_processor", "refinedstorage:processor_binding"]),
@@ -38,7 +38,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("refinedstorage:raw_improved_processor")
         .loops(1)
-        .id('refinedstorage:improved_processor')
+        .id("refinedstorage:improved_processor")
     // 序列合成：高阶处理器
     e.recipes.create.sequenced_assembly("refinedstorage:advanced_processor", "refinedstorage:improved_processor", [
         e.recipes.create.deploying("refinedstorage:raw_advanced_processor", ["refinedstorage:raw_advanced_processor", "refinedstorage:processor_binding"]),
@@ -50,7 +50,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("refinedstorage:raw_advanced_processor")
         .loops(1)
-        .id('refinedstorage:advanced_processor')
+        .id("refinedstorage:advanced_processor")
     // 破坏核心
     e.recipes.create.sequenced_assembly("refinedstorage:destruction_core", "refinedstorage:advanced_processor", [
         e.recipes.create.deploying("refinedstorage:advanced_processor", ["refinedstorage:advanced_processor", "minecraft:diamond_pickaxe"]),

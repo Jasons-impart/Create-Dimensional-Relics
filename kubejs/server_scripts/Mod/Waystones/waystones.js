@@ -1,3 +1,5 @@
 ServerEvents.recipes(e => {
-    e.remove({ id: "waystones:warp_stone" })
+    remove_recipes_id(e, [
+        "waystones:warp_stone",
+    ])
 })

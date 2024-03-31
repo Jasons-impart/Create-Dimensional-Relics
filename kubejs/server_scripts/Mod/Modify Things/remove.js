@@ -33,7 +33,7 @@ ServerEvents.recipes(e => {
         "refinedstorage:raw_improved_processor",
         "refinedstorage:raw_advanced_processor",
         "refinedstorage:wrench",
-        'supplementaries:bomb_spiky'
+        "supplementaries:bomb_spiky"
     ])
     remove_recipes_id(e, [
         "create:crafting/materials/rose_quartz",
