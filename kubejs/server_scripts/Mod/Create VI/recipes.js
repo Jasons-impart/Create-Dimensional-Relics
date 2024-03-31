@@ -10,7 +10,7 @@ ServerEvents.recipes(e =>{
     ], [
         "create:asurine"
     ])
-    e.recipes.create.crushing([
+    e.recipes.create.crushing([ 
         Item.of("create:crushed_raw_zinc").withChance(0.3),
         Item.of("create:zinc_nugget").withChance(0.3)
     ], [
