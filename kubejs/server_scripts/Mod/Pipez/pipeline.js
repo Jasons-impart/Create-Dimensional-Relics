@@ -43,4 +43,4 @@ ServerEvents.recipes(e => {
         C: "mekanism:alloy_infused"
     })
         .id("pipez:gas_pipe")
-})       
+})
