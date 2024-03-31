@@ -8,7 +8,6 @@ ServerEvents.recipes(e => {
             count: 1
         }],
         item_in: [
-
             {
                 "item": "deeperdarker:heart_of_the_deep"
             },
@@ -38,8 +37,7 @@ ServerEvents.recipes(e => {
             },
             {
                 "item": "upgradednetherite:echo_upgraded_netherite_ingot"
-            }
-
+            },
         ]
     })
     // 合成深渊合金块

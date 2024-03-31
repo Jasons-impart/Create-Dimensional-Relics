@@ -14,6 +14,7 @@ ServerEvents.recipes(e => {
         .stress(1024)
         .veinSize(3, 8.5)
 })
+
 ServerEvents.tags("minecraft:worldgen/biome", e => {
     e.add("kjs:has_cryo_fuel", "ad_astra:glacio_ice_peaks")
 })

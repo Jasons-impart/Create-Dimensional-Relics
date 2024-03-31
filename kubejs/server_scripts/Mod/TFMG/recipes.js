@@ -1,44 +1,43 @@
-ServerEvents.recipes(e=>{
+ServerEvents.recipes(e => {
     // 钢储罐合成
-    e.recipes.create.item_application("createindustry:steel_fluid_tank",
-    [
-      "create:fluid_tank", "createindustry:heavy_plate"
+    e.recipes.create.item_application("createindustry:steel_fluid_tank", [
+        "create:fluid_tank", "createindustry:heavy_plate"
     ])
-      .id("createindustry:crafting/steel_tank")
+        .id("createindustry:crafting/steel_tank")
     e.custom(
-      {
-          "type": "create:sequenced_assembly",
-          "ingredient": {
-            "item": "createindustry:heavy_plate"
-          },
-          "loops": 5,
-          "results": [
-            {
-              "item": "createindustry:steel_fluid_tank"
+        {
+            "type": "create:sequenced_assembly",
+            "ingredient": {
+                "item": "createindustry:heavy_plate"
+            },
+            "loops": 5,
+            "results": [
+                {
+                    "item": "createindustry:steel_fluid_tank"
+                }
+            ],
+            "sequence": [
+                {
+                    "type": "vintageimprovements:curving",
+                    "ingredients": [
+                        {
+                            "item": "createindustry:heavy_plate"
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createindustry:heavy_plate"
+                        }
+                    ]
+                },
+            ],
+            "transitionalItem": {
+                "item": "createindustry:heavy_plate"
             }
-          ],
-          "sequence": [
-              {
-                  "type": "vintageimprovements:curving",
-                  "ingredients": [
-                      {
-                        "item": "createindustry:heavy_plate"
-                      }
-                  ],
-                  "results": [
-                      {
-                        "item": "createindustry:heavy_plate"
-                      }
-                  ]
-              },
-          ],
-          "transitionalItem": {
-            "item": "createindustry:heavy_plate"
-          }
         }
     )
     // 钢双锭合成
-    e.recipes.create.deploying("createdimensionalrelics:double_steel",["createindustry:steel_ingot", "createindustry:steel_ingot"])
+    e.recipes.create.deploying("createdimensionalrelics:double_steel", ["createindustry:steel_ingot", "createindustry:steel_ingot"])
     // 厚钢板合成
     let iner = "createdimensionalrelics:double_steel"
     e.recipes.create.sequenced_assembly("createindustry:heavy_plate", "createdimensionalrelics:double_steel", [
@@ -48,7 +47,7 @@ ServerEvents.recipes(e=>{
         .loops(3)
         .id("createindustry:sequenced_assembly/heavy_plate")
     // 耐火黏土球与耐火黏土合成
-    e.shapeless('createindustry:fireclay', '4x createindustry:fireclay_ball')
+    e.shapeless("createindustry:fireclay", "4x createindustry:fireclay_ball")
     e.recipes.create.crushing("4x createindustry:fireclay_ball", "createindustry:fireclay")
     // quark石灰岩兼容石灰粉
     e.recipes.create.crushing("createindustry:limesand", "quark:limestone")
@@ -77,7 +76,7 @@ ServerEvents.recipes(e=>{
         .id("create:crushing/raw_iron_block")
     // 乙烯合成配方修改
     e.recipes.create.mixing(
-        [Fluid.of("createindustry:liquid_plastic",500)],
+        [Fluid.of("createindustry:liquid_plastic", 500)],
         [
             Fluid.of("createindustry:ethylene", 1000),
             Fluid.of("ad_astra:oxygen", 1000)
@@ -87,80 +86,80 @@ ServerEvents.recipes(e=>{
         .heated()
     // 聚丙烯合成配方
     e.recipes.create.mixing(
-      [
-        Fluid.of("createdimensionalrelics:polypropylene", 500)
-      ],
-      [
-        Fluid.of("ad_astra:oxygen", 1000),
-        Fluid.of("createindustry:propylene", 1000)
-      ]
+        [
+            Fluid.of("createdimensionalrelics:polypropylene", 500)
+        ],
+        [
+            Fluid.of("ad_astra:oxygen", 1000),
+            Fluid.of("createindustry:propylene", 1000)
+        ]
     ).heated()
     e.recipes.create.compacting(
-      "createdimensionalrelics:polypropylene",
-      [
-        Fluid.of("createdimensionalrelics:polypropylene", 200)
-      ]
+        "createdimensionalrelics:polypropylene",
+        [
+            Fluid.of("createdimensionalrelics:polypropylene", 200)
+        ]
     )
     // 聚氯乙烯
     e.recipes.create.mixing(
-      Fluid.of("createdimensionalrelics:polyvinyl_chloride", 1000),
-      [
-        Fluid.of("createindustry:ethylene", 1000),
-        Fluid.of("createdimensionalrelics:benzene", 200)
-      ]
+        Fluid.of("createdimensionalrelics:polyvinyl_chloride", 1000),
+        [
+            Fluid.of("createindustry:ethylene", 1000),
+            Fluid.of("createdimensionalrelics:benzene", 200)
+        ]
     ).heated()
     e.recipes.create.compacting(
-      "createdimensionalrelics:polyvinyl_chloride",
-      [
-        Fluid.of("createdimensionalrelics:polyvinyl_chloride")
-      ]
+        "createdimensionalrelics:polyvinyl_chloride",
+        [
+            Fluid.of("createdimensionalrelics:polyvinyl_chloride")
+        ]
     )
     // 聚苯乙烯
     e.recipes.create.mixing(
-      Fluid.of("createdimensionalrelics:polystyrene", 1000),
-      [
-        Fluid.of("createindustry:ethylene", 1000),
-        Fluid.of("mekanism:chlorine", 200)
-      ]
+        Fluid.of("createdimensionalrelics:polystyrene", 1000),
+        [
+            Fluid.of("createindustry:ethylene", 1000),
+            Fluid.of("mekanism:chlorine", 200)
+        ]
     ).heated()
     e.recipes.create.compacting(
-      "createdimensionalrelics:polystyrene",
-      [
-        Fluid.of("createdimensionalrelics:polystyrene")
-      ]
+        "createdimensionalrelics:polystyrene",
+        [
+            Fluid.of("createdimensionalrelics:polystyrene")
+        ]
     )
     // 石油分馏
     e.custom(
         {
             "type": "createindustry:advanced_distillation",
             "ingredients": [
-              {
-                "fluid": "createindustry:crude_oil_fluid",
-                "nbt": {},
-                "amount": 200
-              }
+                {
+                    "fluid": "createindustry:crude_oil_fluid",
+                    "nbt": {},
+                    "amount": 200
+                }
             ],
             "results": [
-              {
-                "fluid": "createindustry:heavy_oil",
-                "amount": 40
-              },
-              {
-                "fluid": "createindustry:diesel",
-                "amount": 30
-              },
-              {
-                "fluid": "createindustry:kerosene",
-                "amount": 30
-              },
-              {
-                "fluid": "createindustry:naphtha",
-                "amount": 70
-              },
-              {
-                "fluid": "createindustry:lpg",
-                "amount": 30
-              }
+                {
+                    "fluid": "createindustry:heavy_oil",
+                    "amount": 40
+                },
+                {
+                    "fluid": "createindustry:diesel",
+                    "amount": 30
+                },
+                {
+                    "fluid": "createindustry:kerosene",
+                    "amount": 30
+                },
+                {
+                    "fluid": "createindustry:naphtha",
+                    "amount": 70
+                },
+                {
+                    "fluid": "createindustry:lpg",
+                    "amount": 30
+                }
             ]
         }
     ).id("createindustry:fractional_distillation/crude_oil")
@@ -172,7 +171,7 @@ ServerEvents.recipes(e=>{
                 {
                     "fluid": "createindustry:heavy_oil",
                     "nbt": {},
-                    "amount":100
+                    "amount": 100
                 }
             ],
             "results": [
@@ -192,98 +191,104 @@ ServerEvents.recipes(e=>{
         {
             "type": "createindustry:distillation",
             "ingredients": [
-          
-              {
-                "fluid": "createindustry:kerosene",
-                "nbt": {},
-                "amount": 300
-              }
+
+                {
+                    "fluid": "createindustry:kerosene",
+                    "nbt": {},
+                    "amount": 300
+                }
             ],
             "results": [
-              {
-                "fluid": "createindustry:lpg",
-                "amount": 30
-              },
-              {
-                "fluid": "createindustry:ethylene",
-                "amount": 35
-              },
-              {
-                "fluid": "createindustry:ethylene",
-                "amount": 35
-              },
-              {
-                "item": "createindustry:coal_coke"
-              },
-              {
-                "item": "mekanism:dust_sulfur"
-              }
+                {
+                    "fluid": "createindustry:lpg",
+                    "amount": 30
+                },
+                {
+                    "fluid": "createindustry:ethylene",
+                    "amount": 35
+                },
+                {
+                    "fluid": "createindustry:ethylene",
+                    "amount": 35
+                },
+                {
+                    "item": "createindustry:coal_coke"
+                },
+                {
+                    "item": "mekanism:dust_sulfur"
+                }
             ]
         }
     ).id("createindustry:distillation/kerosene")
     // 石脑油分馏提纯
     e.custom(
-            {
-                "type": "createindustry:advanced_distillation",
-                "ingredients": [
-                    {
-                        "fluid": "createindustry:naphtha",
-                        "nbt": {},
-                        "amount":100
-                    }
-                ],
-                "results": [
-                    {
-                        "fluid": "createindustry:kerosene",
-                        "amount": 20
-                    },
-                    {
-                        "fluid": "createindustry:gasoline",
-                        "amount": 80
-                    },
-                ]
-            }
-        ).id("createindustry:fractional_distillation/naphtha")
+        {
+            "type": "createindustry:advanced_distillation",
+            "ingredients": [
+                {
+                    "fluid": "createindustry:naphtha",
+                    "nbt": {},
+                    "amount": 100
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createindustry:kerosene",
+                    "amount": 20
+                },
+                {
+                    "fluid": "createindustry:gasoline",
+                    "amount": 80
+                },
+            ]
+        }
+    ).id("createindustry:fractional_distillation/naphtha")
     // 石脑油裂解
     e.custom(
         {
             "type": "createindustry:distillation",
             "ingredients": [
-          
-              {
-                "fluid": "createindustry:naphtha",
-                "nbt": {},
-                "amount": 3
-              }
+
+                {
+                    "fluid": "createindustry:naphtha",
+                    "nbt": {},
+                    "amount": 3
+                }
             ],
             "results": [
-              {
-                "fluid": "createindustry:propylene",
-                "amount": 1
-              },
-              {
-                "fluid": "createindustry:ethylene",
-                "amount": 1
-              },
-              {
-                "fluid": "createdimensionalrelics:benzene",
-                "amount": 1
-              },
-              {
-                "item": "minecraft:air"
-          
-              },
-              {
-                "item": "minecraft:air"
-          
-              }
+                {
+                    "fluid": "createindustry:propylene",
+                    "amount": 1
+                },
+                {
+                    "fluid": "createindustry:ethylene",
+                    "amount": 1
+                },
+                {
+                    "fluid": "createdimensionalrelics:benzene",
+                    "amount": 1
+                },
+                {
+                    "item": "minecraft:air"
+
+                },
+                {
+                    "item": "minecraft:air"
+
+                }
             ]
-        }          
+        }
     ).id("createindustry:distillation/naphtha")
+
     // 移除古早配方
-    e.remove({id:"createindustry:fractional_distillation/crude_oil_sus"})
-    e.remove({id:"createindustry:distillation/heavy_oil"})
-    e.remove({id:"createindustry:mixing/liquid_plastic_from_propylene"})
-    e.remove({id:"createindustry:mixing/cast_iron_ingot"})
+    remove_recipes_id(e, [
+        "createindustry:fractional_distillation/crude_oil_sus",
+        "createindustry:fractional_distillation/heavy_oil",
+        "createindustry:mixing/liquid_plastic_from_propylene",
+        "createindustry:mixing/cast_iron_ingot",
+    ])
 })
-ServerEvents.tags("fluid", e =>{})
+
+ServerEvents.tags("fluid", e => {
+
+})

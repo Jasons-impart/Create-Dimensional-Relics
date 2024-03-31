@@ -32,10 +32,10 @@ Ponder.registry(e => {
                 [4, 1, 3],
                 [3, 1, 3],
                 [6, 1, 2],
-                [2, 1, 2]
+                [2, 1, 2],
             ]
             for (let block of block_1) {
-                scene.world.showSection(block, Direction.down);
+                scene.world.showSection(block, Direction.down)
                 scene.idle(3)
             }
             scene.idle(20)
@@ -66,10 +66,10 @@ Ponder.registry(e => {
                 [4, 3, 3],
                 [3, 3, 3],
                 [6, 3, 2],
-                [2, 3, 2]
+                [2, 3, 2],
             ]
             for (let block of block_2) {
-                scene.world.showSection(block, Direction.down);
+                scene.world.showSection(block, Direction.down)
                 scene.idle(3)
             }
             scene.idle(20)
@@ -98,7 +98,7 @@ Ponder.registry(e => {
                 [3, 7, 3],
             ]
             for (let block of block_3) {
-                scene.world.showSection(block, Direction.down);
+                scene.world.showSection(block, Direction.down)
                 scene.idle(3)
             }
             scene.idle(20)
@@ -126,20 +126,19 @@ Ponder.registry(e => {
                 [5, 8, 4],
                 [3, 8, 4],
                 [4, 8, 3],
-                [4, 9, 4]
+                [4, 9, 4],
             ]
             for (let block of block_4) {
-                scene.world.showSection(block, Direction.down);
+                scene.world.showSection(block, Direction.down)
                 scene.idle(3)
             }
             scene.idle(20)
             scene.addKeyframe()
             scene.text(30, "§bUsing wrench to R-Click Rocket_core_tier_1")
             scene.rotateCameraY(45)
-            scene
-                .showControls(30, utils.grid.at(4, 2, 3),"left")
+            scene.showControls(30, utils.grid.at(4, 2, 3), "left")
                 .rightClick()
-                .withItem("create:wrench");
+                .withItem("create:wrench")
             scene.idle(30)
             scene.world.setBlocks([2, 1, 2, 6, 9, 6], "minecraft:air")
             scene.world.createEntity("ad_astra:tier_1_rocket", [4.5, 1, 4.5])

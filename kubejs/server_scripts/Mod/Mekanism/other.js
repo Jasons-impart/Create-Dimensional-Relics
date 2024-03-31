@@ -3,8 +3,8 @@ ServerEvents.recipes(e => {
     remove_recipes_output(e, [
         "mekanism:ingot_steel",
         "mekanism:ingot_bronze",
-        'mekanism:block_bronze',
-        'mekanism:block_steel'
+        "mekanism:block_bronze",
+        "mekanism:block_steel"
     ])
 
 })

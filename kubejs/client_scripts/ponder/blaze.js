@@ -4,15 +4,15 @@ Ponder.tags(e => {
         "Blaze",
         "How to summon a blaze?",
         [
-            'minecraft:jack_o_lantern',
-            'minecraft:magma_block',
-            'minecraft:soul_sand'
+            "minecraft:jack_o_lantern",
+            "minecraft:magma_block",
+            "minecraft:soul_sand",
         ])
 })
 
-Ponder.registry(e =>{
-    e.create('minecraft:jack_o_lantern')
-        .scene("blaze", "How To Summon A Blaze", "kubejs:blaze", (scene, utils) =>{
+Ponder.registry(e => {
+    e.create("minecraft:jack_o_lantern")
+        .scene("blaze", "How To Summon A Blaze", "kubejs:blaze", (scene, utils) => {
             scene.showStructure(0)
             scene.idle(20)
             scene.addKeyframe()
@@ -22,10 +22,10 @@ Ponder.registry(e =>{
                 [3, 2, 2],
                 [2, 2, 2],
                 [1, 2, 2],
-                [2, 3, 2]
+                [2, 3, 2],
             ]
             for (let block of block_1) {
-                scene.world.showSection(block, Direction.down);
+                scene.world.showSection(block, Direction.down)
                 scene.idle(4)
             }
             scene.idle(19)
