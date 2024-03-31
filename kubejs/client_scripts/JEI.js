@@ -79,3 +79,8 @@ JEIEvents.hideFluids(e =>{
         "vintageimprovements:sulfuric_acid"
     ])
 })
+JEIEvents.addItems(e =>{
+    e.add([
+        "create:crushed_raw_aluminum"
+    ])
+})

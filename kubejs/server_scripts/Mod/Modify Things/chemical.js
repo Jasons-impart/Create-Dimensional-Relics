@@ -1,4 +1,105 @@
 ServerEvents.recipes(e => {
+    // 
+    // 氢氧化钠溶解
+    e.recipes.create.mixing(
+        [
+            Fluid.of("createdimensionalrelics:sodium_hydroxide_fluid", 1000)
+        ],
+        [
+            "createdimensionalrelics:sodium_hydroxide",
+            Fluid.of("minecraft:water", 1000)
+        ]
+    )
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "item_in": {
+                "item": "createdimensionalrelics:sodium_hydroxide"
+            },
+            "block_in": {
+                "blocks": ["water"]
+            },
+            "post": [
+                {
+                    "type": "place",
+                    "block": "createdimensionalrelics:sodium_hydroxide_fluid"
+                }
+            ]
+        })
+    // 氢氧化钠提取
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "fluid": "createdimensionalrelics:sodium_hydroxide_fluid",
+                    "amount": 1000
+                },
+            ],
+            "results": [
+                {
+                    "fluid": "water",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:sodium_hydroxide",
+                },
+            ],
+            "processingTime": 300
+        }
+    )
+    // 次氯酸钠溶解
+    e.recipes.create.mixing(
+        [
+            Fluid.of("createdimensionalrelics:sodium_hypochlorite_fluid", 1000)
+        ],
+        [
+            "createdimensionalrelics:sodium_hypochlorite",
+            Fluid.of("minecraft:water", 1000)
+        ]
+    )
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "item_in": {
+                "item": "createdimensionalrelics:sodium_hypochlorite"
+            },
+            "block_in": {
+                "blocks": ["water"]
+            },
+            "post": [
+                {
+                    "type": "place",
+                    "block": "createdimensionalrelics:sodium_hypochlorite_fluid"
+                }
+            ]
+        })
+    // 次氯酸钠提取
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "fluid": "createdimensionalrelics:sodium_hypochlorite_fluid",
+                    "amount": 1000
+                },
+            ],
+            "results": [
+                {
+                    "fluid": "water",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:sodium_hypochlorite",
+                },
+            ],
+            "processingTime": 300
+        }
+    )
     // 盐溶解
     e.recipes.create.mixing(
         [
@@ -25,6 +126,30 @@ ServerEvents.recipes(e => {
                 }
             ]
         })
+    // 盐提取
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "fluid": "mekanism:brine",
+                    "amount": 1000
+                },
+            ],
+            "results": [
+                {
+                    "fluid": "water",
+                    "amount": 1000
+                },
+                {
+                    "item": "mekanism:salt",
+                },
+            ],
+            "processingTime": 300
+        }
+    )
     // 电解食盐水
     e.custom(
         {
@@ -162,6 +287,35 @@ ServerEvents.recipes(e => {
             ],
             "processingTime": 600
         })
+    // 甲烷合成H2
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 1,
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "fluid": "createindustry:lpg",
+                    "amount": 100
+                },
+                {
+                    "fluid": "water",
+                    "amount": 200
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 100
+                },
+                {
+                    "fluid": "mekanism:hydrogen",
+                    "amount": 400
+                }
+            ],
+            "processingTime": 600
+        }
+    )
     // CO2生成
     e.custom(
         {
@@ -230,6 +384,104 @@ ServerEvents.recipes(e => {
                 }
             ],
             "processingTime": 3000
+        }
+    )
+    // 合成尿素
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "ingredients": [ 
+                {
+                    "fluid": "createdimensionalrelics:ammonia",
+                    "amount": 1000
+                },
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 500
+                }
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:urea"
+                },
+                {
+                    "fluid": "water",
+                    "amount": 500
+                }
+            ],
+            "processingTime": 3000
+        }
+    )
+    // 合成肼
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "secondaryFluidResults": 2,
+            "ingredients": [ 
+                {
+                    "fluid": "createdimensionalrelics:sodium_hydroxide_fluid",
+                    "amount": 2000
+                },
+                {
+                    "fluid": "createdimensionalrelics:sodium_hypochlorite_fluid",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:urea"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:hydrazine",
+                    "amount": 1000
+                },
+                {
+                    "fluid": "mekanism:brine",
+                    "amount": 2000
+                },
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 1000
+                }
+                
+            ],
+            "processingTime": 2000
+        }
+    )
+    // 合成偏二甲肼
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "secondaryFluidResults": 1,
+            "ingredients": [ 
+                {
+                    "fluid": "createdimensionalrelics:hydrazine",
+                    "amount": 500
+                },
+                {
+                    "fluid": "createdimensionalrelics:methane",
+                    "amount": 500
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer_charged"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:udmh",
+                    "amount": 500
+                },
+                {
+                    "fluid": "mekanism:hydrogen",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer"
+                }
+                
+            ],
+            "processingTime": 2000
         }
     )
 })

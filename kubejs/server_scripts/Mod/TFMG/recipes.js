@@ -105,7 +105,7 @@ ServerEvents.recipes(e => {
         Fluid.of("createdimensionalrelics:polyvinyl_chloride", 1000),
         [
             Fluid.of("createindustry:ethylene", 1000),
-            Fluid.of("createdimensionalrelics:benzene", 200)
+            Fluid.of("mekanism:chlorine", 200)
         ]
     ).heated()
     e.recipes.create.compacting(
@@ -119,7 +119,7 @@ ServerEvents.recipes(e => {
         Fluid.of("createdimensionalrelics:polystyrene", 1000),
         [
             Fluid.of("createindustry:ethylene", 1000),
-            Fluid.of("mekanism:chlorine", 200)
+            Fluid.of("createdimensionalrelics:benzene", 200)
         ]
     ).heated()
     e.recipes.create.compacting(
@@ -128,6 +128,34 @@ ServerEvents.recipes(e => {
             Fluid.of("createdimensionalrelics:polystyrene")
         ]
     )
+    // 高分子化合物合成
+    e.recipes.create.mixing(
+      ["2x createdimensionalrelics:super_polymer"],
+      [
+        "createindustry:plastic_sheet",
+        "createdimensionalrelics:polypropylene",
+        "createdimensionalrelics:polystyrene",
+        "createdimensionalrelics:polyvinyl_chloride"
+      ]
+    ).superheated()
+    // 航空纤维
+    e.recipes.create.mixing(
+      ["createdimensionalrelics:aviation_fibers"],
+      [
+        "createdimensionalrelics:super_polymer",
+        "vintageimprovements:steel_wire",
+        "#minecraft:coals",
+        Fluid.of("createindustry:liquid_plastic", 200)
+      ]
+    )
+    // 航空纤维板
+    let iner_1 = "alloyed:steel_sheet"
+    e.recipes.create.sequenced_assembly("createdimensionalrelics:aviation_fibers_sheet","alloyed:steel_sheet",[
+      e.recipes.create.deploying(iner_1, [iner_1, "createdimensionalrelics:aviation_fibers"]),
+      e.recipes.create.filling(iner_1, [iner_1, Fluid.of("createindustry:liquid_plastic", 100)]),
+    ])
+      .transitionalItem(iner_1)
+      .loops(3)
     // 石油分馏
     e.custom(
         {

@@ -58,5 +58,28 @@ ServerEvents.recipes(e => {
                 }
             ],
             "processingTime": 1000
-        })
+        }
+    )
+    // LPG离心合成甲烷
+    e.custom(
+        {
+            "type": "vintageimprovements:centrifugation",
+            "ingredients": [
+                {
+                    "fluid": "createindustry:lpg",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:methane",
+                    "amount": 800
+                },
+                {
+                    "item": "mekanism:dust_sulfur"
+                }
+            ],
+            "processingTime": 1000
+        }
+    )
 })
