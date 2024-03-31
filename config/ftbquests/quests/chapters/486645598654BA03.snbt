@@ -278,6 +278,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["64D137AB423EA1FB"]
 			id: "6460F97709785CDA"
 			subtitle: "找到猪灵堡垒"
 			tasks: [{

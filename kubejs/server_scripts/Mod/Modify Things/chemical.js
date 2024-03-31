@@ -25,6 +25,7 @@ ServerEvents.recipes(e => {
                 }
             ]
         })
+    
     // 电解食盐水
     e.custom(
         {
@@ -57,8 +58,7 @@ ServerEvents.recipes(e => {
                 }
             ],
             "processingTime": 600
-        }
-    ).id("createdimensionalrelics:electrolyze/brine")
+        }).id("createdimensionalrelics:electrolyze/brine")
     // 电解食盐
     e.custom(
         {
@@ -86,8 +86,7 @@ ServerEvents.recipes(e => {
                 }
             ],
             "processingTime": 600
-        }
-    ).id("createdimensionalrelics:electrolyze/salt")
+        }).id("createdimensionalrelics:electrolyze/salt")
     // 钠遇水爆炸生成NaOH
     e.custom(
         {

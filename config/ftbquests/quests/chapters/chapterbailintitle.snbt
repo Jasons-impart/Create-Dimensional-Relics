@@ -938,7 +938,7 @@
 			dependency_requirement: "one_completed"
 			hide_dependency_lines: true
 			id: "181E2BB5C3BC31A9"
-			subtitle: "书籍是人类进步的阶梯——高尔基如是说    书籍是你通向MC大师的必经之路——作者如是说"
+			subtitle: "书籍是人类进步的阶梯——高尔基如是说\\n书籍是你通向MC大师的必经之路——作者如是说"
 			tasks: [{
 				id: "2920B4B4B42306C2"
 				item: "minecraft:book"
@@ -991,8 +991,9 @@
 			id: "59A7E4F272D67625"
 			optional: true
 			rewards: [{
-				command: "/sethome @p"
+				command: "/sethome"
 				id: "651C857B1B9955AF"
+				player_command: true
 				type: "command"
 			}]
 			subtitle: "{quest.home.subtitle}"
@@ -1006,16 +1007,14 @@
 		}
 		{
 			can_repeat: true
-			dependencies: [
-				"59A7E4F272D67625"
-				"3D7427876018E5D5"
-			]
+			dependencies: ["3D7427876018E5D5"]
 			description: ["{quest.gohome.description}"]
 			id: "38AC3CF679540833"
 			optional: true
 			rewards: [{
-				command: "/home @p"
+				command: "/home"
 				id: "6D9E558AC8C75EC1"
+				player_command: true
 				type: "command"
 			}]
 			subtitle: "{quest.gohome.subtitle}"
