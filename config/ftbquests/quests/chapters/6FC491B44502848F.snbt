@@ -5,15 +5,10 @@
 	group: "4EA7FB7A9D338217"
 	icon: "sophisticatedstorage:basic_to_netherite_tier_upgrade"
 	id: "6FC491B44502848F"
-	order_index: 1
+	order_index: 0
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"05198FED2CF33453"
-				"4D14320512D32784"
-				"46599B077D831792"
-			]
 			dependency_requirement: "one_completed"
 			id: "295AFB39F6D0CE8B"
 			tasks: [{
@@ -179,6 +174,7 @@
 			y: 4.0d
 		}
 		{
+			dependencies: ["295AFB39F6D0CE8B"]
 			id: "05198FED2CF33453"
 			tasks: [{
 				id: "376733B402B9BBC0"
@@ -282,6 +278,7 @@
 			y: -0.5d
 		}
 		{
+			dependencies: ["295AFB39F6D0CE8B"]
 			id: "4D14320512D32784"
 			tasks: [{
 				id: "7CE695B9509F15C1"
@@ -336,6 +333,7 @@
 			y: 1.0d
 		}
 		{
+			dependencies: ["295AFB39F6D0CE8B"]
 			id: "46599B077D831792"
 			tasks: [{
 				id: "64C0B1F2C72A7E43"
@@ -744,5 +742,5 @@
 			y: 4.5d
 		}
 	]
-	title: "&3精妙存储"
+	title: "&3精妙箱桶存储"
 }
