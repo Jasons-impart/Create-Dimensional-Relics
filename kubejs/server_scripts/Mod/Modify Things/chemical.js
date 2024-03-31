@@ -166,4 +166,47 @@ ServerEvents.recipes(e =>{
             "processingTime": 600
         }
     )
+    // CO2生成
+    e.custom(
+        {
+            "type":"vintageimprovements:vacuumizing",
+            "heatRequirement": "heated",
+            "ingredients": [ 
+                {
+                    "tag": "minecraft:coals",
+                },
+                {
+                    "fluid": "ad_astra:oxygen",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 1000
+                },
+            ],
+            "processingTime": 100
+        }
+    )
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "heatRequirement": "heated",
+            "ingredients": [ 
+                {
+                    "tag": "minecraft:coals",
+                },
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 500
+                },
+            ],
+            "processingTime": 600
+        } 
+    )
+    // 合成氨
+    
 })
