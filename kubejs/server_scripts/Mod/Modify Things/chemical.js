@@ -24,8 +24,7 @@ ServerEvents.recipes(e =>{
                     "block": "mekanism:brine"
                 }
             ]
-        }
-    )
+        })
     // 电解食盐水
     e.custom(
         {
@@ -109,8 +108,7 @@ ServerEvents.recipes(e =>{
                     "block": "createdimensionalrelics:sodium_hydroxide_fluid"
                 }
             ]
-        }
-    )
+        })
     // 钠与水缓慢反应生成NaOH
     e.custom(
         {
@@ -136,8 +134,7 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 300
-        }
-    )
+        })
     // NaOH+Cl
     e.custom(
         {
@@ -164,6 +161,5 @@ ServerEvents.recipes(e =>{
                 },
             ],
             "processingTime": 600
-        }
-    )
+        })
 })

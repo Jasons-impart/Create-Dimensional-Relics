@@ -3,11 +3,8 @@ ItemEvents.rightClicked(e => {
 	if (e.player.mainHandItem == "createdimensionalrelics:mine_carryon") {
 		e.player.mainHandItem.count--
 		e.player.swing()
-		let {
-			x,
-			y,
-			z
-		} = e.player
+		let { x, y, z } = e.player
+
 		e.server.runCommandSilent(`coe setvein ${parseInt(x)} ${parseInt(y)} ${parseInt(z)} createoreexcavation_kjs:ancient_debris`)
 		e.server.runCommandSilent("title @p actionbar \"§6 成功产生远古残骸矿藏 \"")
 	}

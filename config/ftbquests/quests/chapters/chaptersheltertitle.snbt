@@ -13,6 +13,7 @@
 		rewards: [{
 			command: "/gamephase add @p WhiteRing"
 			id: "52B091F2528593F4"
+			silent: true
 			type: "command"
 		}]
 		subtitle: "{quest.arriveshelter.subtitle}"

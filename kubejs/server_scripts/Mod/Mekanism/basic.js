@@ -22,20 +22,19 @@ ServerEvents.recipes(e => {
         {
             "type": "create:item_application",
             "ingredients": [
-              {
-                "item": "createindustry:heavy_machinery_casing"
-              },
-              {
-                "item": "createindustry:steel_mechanism"
-              }
+                {
+                    "item": "createindustry:heavy_machinery_casing"
+                },
+                {
+                    "item": "createindustry:steel_mechanism"
+                }
             ],
             "results": [
-              {
-                "item": "mekanism:steel_casing"
-              }
+                {
+                    "item": "mekanism:steel_casing"
+                }
             ]
-          }
-    ).id("mekanism:steel_casing")
+        }).id("mekanism:steel_casing")
     // 序列合成：灌注合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_infused", "create:iron_sheet", [
         e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "ad_astra:ostrum_plate"]),
@@ -44,7 +43,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:alloy_infused")
         .loops(1)
-        .id('mekanism:alloy_infused')
+        .id("mekanism:alloy_infused")
 
     // 序列合成：强化合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_reinforced", "mekanism:alloy_infused", [
@@ -54,17 +53,17 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:alloy_reinforced")
         .loops(1)
-        .id('mekanism:alloy_reinforced')
+        .id("mekanism:alloy_reinforced")
 
     // 序列合成：原子合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_atomic", "mekanism:alloy_reinforced", [
         e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "createdimensionalrelicscore:space_alloy_sheet"]),
-        e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", 'mekanism:enriched_refined_obsidian']),
+        e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "mekanism:enriched_refined_obsidian"]),
         e.recipes.create.pressing("mekanism:alloy_atomic", "mekanism:alloy_atomic")
     ])
         .transitionalItem("mekanism:alloy_atomic")
         .loops(1)
-        .id('mekanism:alloy_atomic')
+        .id("mekanism:alloy_atomic")
 
     // 序列合成：基础控制电路
     e.recipes.create.sequenced_assembly("mekanism:basic_control_circuit", "mekanism:ingot_osmium", [
@@ -74,7 +73,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:basic_control_circuit")
         .loops(1)
-        .id('mekanism:basic_control_circuit_fast')
+        .id("mekanism:basic_control_circuit_fast")
     // 序列合成：高级控制电路
     e.recipes.create.sequenced_assembly("mekanism:advanced_control_circuit", "mekanism:basic_control_circuit", [
         e.recipes.create.deploying("mekanism:advanced_control_circuit", ["mekanism:advanced_control_circuit", "mekanism:alloy_infused"]),
@@ -82,7 +81,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:advanced_control_circuit")
         .loops(2)
-        .id('mekanism:advanced_control_circuit')
+        .id("mekanism:advanced_control_circuit")
 
     // 序列合成：精英控制电路
     e.recipes.create.sequenced_assembly("mekanism:elite_control_circuit", "mekanism:advanced_control_circuit", [
@@ -91,7 +90,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:elite_control_circuit")
         .loops(2)
-        .id('mekanism:elite_control_circuit')
+        .id("mekanism:elite_control_circuit")
 
     // 序列合成：终极控制电路
     e.recipes.create.sequenced_assembly("mekanism:ultimate_control_circuit", "mekanism:elite_control_circuit", [
@@ -100,7 +99,8 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem("mekanism:ultimate_control_circuit")
         .loops(2)
-        .id('mekanism:ultimate_control_circuit')
+        .id("mekanism:ultimate_control_circuit")
+    
     // alloyed钢锭青铜锭兼容
     e.blasting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
     e.blasting("createindustry:steel_ingot", "mekanism:dust_steel")
