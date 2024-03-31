@@ -208,5 +208,34 @@ ServerEvents.recipes(e =>{
         } 
     )
     // 合成氨
-    
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "ingredients": [ 
+                {
+                    "fluid": "mekanism:hydrogen",
+                    "amount": 100
+                },
+                {
+                    "fluid": "createdimensionalrelics:nitrogen",
+                    "amount": 33
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer_charged"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:ammonia",
+                    "amount": 100
+                },
+                {
+                    "item": "createdimensionalrelics:electrolyzer",
+                    "count": 1
+                }
+            ],
+            "processingTime": 3000
+        }
+    )
 })
