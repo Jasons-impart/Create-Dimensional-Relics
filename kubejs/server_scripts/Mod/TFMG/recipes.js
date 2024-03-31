@@ -1,15 +1,51 @@
 ServerEvents.recipes(e=>{
+    // 钢储罐合成
+    e.recipes.create.item_application("createindustry:steel_fluid_tank",
+    [
+      "create:fluid_tank", "createindustry:heavy_plate"
+    ])
+      .id("createindustry:crafting/steel_tank")
+    e.custom(
+      {
+          "type": "create:sequenced_assembly",
+          "ingredient": {
+            "item": "createindustry:heavy_plate"
+          },
+          "loops": 5,
+          "results": [
+            {
+              "item": "createindustry:steel_fluid_tank"
+            }
+          ],
+          "sequence": [
+              {
+                  "type": "vintageimprovements:curving",
+                  "ingredients": [
+                      {
+                        "item": "createindustry:heavy_plate"
+                      }
+                  ],
+                  "results": [
+                      {
+                        "item": "createindustry:heavy_plate"
+                      }
+                  ]
+              },
+          ],
+          "transitionalItem": {
+            "item": "createindustry:heavy_plate"
+          }
+        }
+    )
     // 钢双锭合成
     e.recipes.create.deploying("createdimensionalrelics:double_steel",["createindustry:steel_ingot", "createindustry:steel_ingot"])
     // 厚钢板合成
     let iner = "createdimensionalrelics:double_steel"
     e.recipes.create.sequenced_assembly("createindustry:heavy_plate", "createdimensionalrelics:double_steel", [
-        e.recipes.create.pressing(iner, [iner, iner]),
-        e.recipes.create.pressing(iner, [iner, iner]),
         e.recipes.create.pressing(iner, [iner, iner])
     ])
         .transitionalItem(iner)
-        .loops(1)
+        .loops(3)
         .id("createindustry:sequenced_assembly/heavy_plate")
     // 耐火黏土球与耐火黏土合成
     e.shapeless('createindustry:fireclay', '4x createindustry:fireclay_ball')
@@ -49,11 +85,8 @@ ServerEvents.recipes(e=>{
     )
         .id("createindustry:mixing/liquid_plastic_from_ethylene")
         .heated()
-    // 丙烯合成配方
-    e.recipes.create.compacting(
-      "createdimensionalrelics:polypropylene",
-      Fluid.of("createindustry:propylene", 200)
-    )
+    // 聚丙烯合成配方
+
     // 石油分馏
     e.custom(
         {

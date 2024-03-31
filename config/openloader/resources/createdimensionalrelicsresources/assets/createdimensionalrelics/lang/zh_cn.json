@@ -99,6 +99,8 @@
     "fluid.createdimensionalrelics.udmh":"偏二甲肼",
     "block.createdimensionalrelics.udmh":"偏二甲肼",
     "item.createdimensionalrelics.udmh_bucket":"偏二甲肼桶",
+    "item.createdimensionalrelics.electrolyzer": "电解器",
+    "item.createdimensionalrelics.electrolyzer_charged": "满电的电解器",
     "_commenttask": "tasks",
     "chapter.introduction.title": "介绍",
     "quest.introduction.title": "薪尽火传",

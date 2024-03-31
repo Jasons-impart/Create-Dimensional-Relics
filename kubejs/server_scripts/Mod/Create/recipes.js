@@ -1,5 +1,5 @@
 ServerEvents.recipes(e => {
-    // 燃料储罐合成修改
+    // 储罐合成修改
     e.shaped("create:fluid_tank", [
         "AAA",
         "ABA",
@@ -8,6 +8,39 @@ ServerEvents.recipes(e => {
         A: "create:copper_sheet",
         B: "minecraft:bucket"
     }).id("create:crafting/kinetics/fluid_tank")
+    // 储罐合成增加配方
+    e.custom(
+        {
+            "type": "create:sequenced_assembly",
+            "ingredient": {
+              "tag": "forge:plates/bronze"
+            },
+            "loops": 5,
+            "results": [
+              {
+                "item": "create:fluid_tank"
+              }
+            ],
+            "sequence": [
+                {
+                    "type": "vintageimprovements:curving",
+                    "ingredients": [
+                        {
+                          "tag": "forge:plates/bronze"
+                        }
+                    ],
+                    "results": [
+                        {
+                          "item": "alloyed:bronze_sheet"
+                        }
+                    ]
+                },
+            ],
+            "transitionalItem": {
+              "item": "alloyed:bronze_sheet"
+            }
+          }
+    )
     // 搅拌合成：玫瑰石英
     e.recipes.create.mixing(
         ["create:rose_quartz"],
@@ -17,12 +50,7 @@ ServerEvents.recipes(e => {
     e.shapeless("create:rose_quartz", [
         "4x redstone",
         "quartz"
-    ])
-    // 动力锯切割：平滑玫瑰石英
-    e.recipes.create.cutting(
-        ["create:polished_rose_quartz", Item.of("create:polished_rose_quartz").withChance(0.1)],
-        "create:rose_quartz"
-    ).id("create.kjs:polished_rose_quartz")
+    ]).id("create.kjs:rose_quartz_manual_only")
     //钻石粉修改兼容
     e.recipes.create.crushing(
         ["mekanism:dust_diamond", Item.of("mekanism:dust_diamond").withChance(0.25)],

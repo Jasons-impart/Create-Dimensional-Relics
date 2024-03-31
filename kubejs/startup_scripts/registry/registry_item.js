@@ -160,6 +160,7 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.raw_silicon")
         .rarity("common")
+    // 注册化工线相关物品
     e.create("createdimensionalrelics:sodium")
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.sodium")
@@ -203,6 +204,15 @@ StartupEvents.registry("item", e => {
     e.create("createdimensionalrelics:double_steel")
         .maxStackSize(32)
         .translationKey("item.createdimensionalrelics.double_steel")
+        .rarity("rare")
+    // 注册电解器
+    e.create("createdimensionalrelics:electrolyzer")
+        .maxStackSize(16)
+        .translationKey("item.createdimensionalrelics.electrolyzer")
+        .rarity("rare")
+    e.create("createdimensionalrelics:electrolyzer_charged")
+        .maxStackSize(16)
+        .translationKey("item.createdimensionalrelics.electrolyzer_charged")
         .rarity("rare")
     // 开发组人员物品
 
