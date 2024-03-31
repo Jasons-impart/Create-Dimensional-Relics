@@ -906,13 +906,13 @@
 				type: "xp_levels"
 				xp_levels: 3
 			}]
-			subtitle: "{quest.enchanting-table.subtitle}"
+			subtitle: "{quest.enchanting_table.subtitle}"
 			tasks: [{
 				id: "225DFEBD3CFE9612"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
-			title: "{quest.enchanting-table.title}"
+			title: "{quest.enchanting_table.title}"
 			x: 16.0d
 			y: 1.5d
 		}
@@ -985,14 +985,14 @@
 			y: -1.5d
 		}
 		{
+			can_repeat: true
 			dependencies: ["3D7427876018E5D5"]
 			description: ["{quest.home.description}"]
 			id: "59A7E4F272D67625"
 			optional: true
 			rewards: [{
-				command: "/sethome "
+				command: "/sethome @p"
 				id: "651C857B1B9955AF"
-				player_command: true
 				type: "command"
 			}]
 			subtitle: "{quest.home.subtitle}"
@@ -1014,9 +1014,8 @@
 			id: "38AC3CF679540833"
 			optional: true
 			rewards: [{
-				command: "/home "
+				command: "/home @p"
 				id: "6D9E558AC8C75EC1"
-				player_command: true
 				type: "command"
 			}]
 			subtitle: "{quest.gohome.subtitle}"
