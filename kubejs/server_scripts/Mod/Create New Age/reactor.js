@@ -1,4 +1,21 @@
 ServerEvents.recipes(e => {
+    // 充电电解器
+    e.custom(
+        {
+            "type": "create_new_age:energising",
+            "energy_needed": 100,
+            "ingredients": [
+                {
+                    "item": "createdimensionalrelics:electrolyzer"
+                }
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:electrolyzer_charged"
+                }
+            ]
+        },
+    )
     // 序列合成：核反应堆砖块
     e.custom(
         {

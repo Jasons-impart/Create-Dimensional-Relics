@@ -31,4 +31,6 @@ ServerEvents.recipes(e =>{
     ]).id("createindustry:mixing/gun_powder")
     // 硫粉兼容粉碎工厂
     e.recipes.mekanism.crushing("2x mekanism:dust_sulfur", "createindustry:sulfur")
+    // 钢块合成
+    e.shapeless("createindustry:steel_block", "9x createindustry:steel_ingot")
 })

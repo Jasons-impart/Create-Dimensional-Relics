@@ -65,6 +65,17 @@ JEIEvents.hideItems(e => {
         'ad_astra:steel_block',
         "createindustry:sulfur_dust",
         "createindustry:cast_iron_block",
-        "createindustry:cast_iron_ingot"
+        "createindustry:cast_iron_ingot",
+        "alloyed:steel_ingot",
+        "alloyed:steel_block",
+        "vintageimprovements:sulfur",
+        "vintageimprovements:sulfur_chunk",
+        "vintageimprovements:sulfur_block",
+        "vintageimprovements:sulfuric_acid_bucket"
+    ])
+})
+JEIEvents.hideFluids(e =>{
+    e.hide([
+        "vintageimprovements:sulfuric_acid"
     ])
 })

@@ -36,35 +36,53 @@ ServerEvents.recipes(e => {
         D: "blaze_rod"
     })
     // 合成奇迹块
-    e.custom({
-        type: "lychee:block_interacting",
-        recipes_id: "createdimensionalrelics:magical_change",
-        item_in: {
-            "item": "createdimensionalrelics:miracle_dust"
-        },
-        block_in: "create:experience_block",
-        post: [{
-            type: "place",
-            block: "createdimensionalrelics:miracle_block"
-        }]
-    })
-    e.recipes.create.deploying("createdimensionalrelics:miracle_block", [
-        "create:experience_block",
-        "createdimensionalrelics:miracle_dust"
-    ])
+    e.custom(
+        {
+            "type": "create:item_application",
+            "ingredients": [
+              {
+                "item": "create:experience_block"
+              },
+              {
+                "item": "createdimensionalrelics:miracle_dust"
+              }
+            ],
+            "results": [
+              {
+                "item": "createdimensionalrelics:miracle_block"
+              }
+            ]
+          }
+    )
+//     e.custom({
+//         type: "lychee:block_interacting",
+//         recipes_id: "createdimensionalrelics:magical_change",
+//         item_in: {
+//             "item": "createdimensionalrelics:miracle_dust"
+//         },
+//         block_in: "create:experience_block",
+//         post: [{
+//             type: "place",
+//             block: "createdimensionalrelics:miracle_block"
+//         }]
+//     })
+//     e.recipes.create.deploying("createdimensionalrelics:miracle_block", [
+//         "create:experience_block",
+//         "createdimensionalrelics:miracle_dust"
+//     ])
     e.recipes.shapeless("createdimensionalrelics:miracle_block", ["9x createdimensionalrelics:miracle_ingot"])
     e.recipes.shapeless("9x createdimensionalrelics:miracle_ingot", ["createdimensionalrelics:miracle_block"])
 })
-BlockEvents.rightClicked(e => {
-    if (e.player.mainHandItem == "createdimensionalrelics:miracle_dust" && e.block.id == "create:experience_block") {
-        let {
-            x,
-            y,
-            z
-        } = e.block
-        e.server.runCommandSilent(`particle supplementaries:sugar ${x} ${y + 0.75} ${z} 0.5 0.5 0.5 0.01 65`)
-    }
-})
+// BlockEvents.rightClicked(e => {
+//     if (e.player.mainHandItem == "createdimensionalrelics:miracle_dust" && e.block.id == "create:experience_block") {
+//         let {
+//             x,
+//             y,
+//             z
+//         } = e.block
+//         e.server.runCommandSilent(`particle supplementaries:sugar ${x} ${y + 0.75} ${z} 0.5 0.5 0.5 0.01 65`)
+//     }
+// })
 // 奇迹系列物品效果
 ItemEvents.entityInteracted("createdimensionalrelics:miracle_shear", (event) => {
     const {
