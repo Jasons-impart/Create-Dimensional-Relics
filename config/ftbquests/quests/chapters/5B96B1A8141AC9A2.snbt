@@ -36,34 +36,15 @@
 		{
 			dependencies: ["26710B63F426D6DF"]
 			id: "54E9D8443D877CB9"
-			subtitle: "这玩意可是现代工业的基础！"
+			subtitle: "千锤百炼出精品！"
 			tasks: [{
-				id: "0D470F995052EBA6"
-				item: "alloyed:steel_ingot"
+				id: "7183897E737EE219"
+				item: "createbigcannons:cast_iron_ingot"
 				type: "item"
 			}]
 			title: "反复捶打！"
 			x: -10.0d
 			y: 3.0d
-		}
-		{
-			dependencies: ["54E9D8443D877CB9"]
-			id: "1F84419F388C13F9"
-			subtitle: "现在&e打火石&r真难做，唉，&4钢铁&r；唉，&4燧石&r"
-			tasks: [{
-				id: "79E1FEDC48CA8639"
-				item: {
-					Count: 1b
-					id: "minecraft:flint_and_steel"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "打火石怎么变成钢做的了？"
-			x: -10.0d
-			y: 4.0d
 		}
 		{
 			dependencies: ["7EDEA3C57AA0F20A"]
@@ -243,7 +224,7 @@
 			]
 			title: "仍然是必需品！"
 			x: -14.5d
-			y: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["74F81A8C4757CD08"]
@@ -504,7 +485,7 @@
 				type: "item"
 			}]
 			x: -11.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["39DA0269D50B216B"]
@@ -517,7 +498,7 @@
 				type: "item"
 			}]
 			x: -10.0d
-			y: 5.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -542,8 +523,8 @@
 				type: "item"
 			}]
 			title: "挖呀挖"
-			x: -12.0d
-			y: 0.5d
+			x: -11.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -580,7 +561,7 @@
 				type: "item"
 			}]
 			title: "咯吱咯吱"
-			x: -13.0d
+			x: -12.5d
 			y: 0.0d
 		}
 		{
@@ -594,7 +575,7 @@
 			}]
 			title: "这是个什么东西？"
 			x: -8.5d
-			y: 5.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -619,7 +600,7 @@
 				type: "item"
 			}]
 			title: "万用表？"
-			x: -14.0d
+			x: -13.5d
 			y: 0.0d
 		}
 		{
@@ -645,7 +626,7 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -11.0d
+			x: -11.5d
 			y: 1.0d
 		}
 		{
@@ -656,7 +637,7 @@
 				item: "sliceanddice:slicer"
 				type: "item"
 			}]
-			x: -10.5d
+			x: -11.5d
 			y: 2.0d
 		}
 		{
@@ -672,15 +653,32 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["54E9D8443D877CB9"]
-			id: "2EF38D620B4E1664"
+			id: "0E86B85402B24289"
+			tasks: [
+				{
+					id: "0E9A347212BF193C"
+					item: "createindustry:blast_furnace_output"
+					type: "item"
+				}
+				{
+					id: "531FAA854FC76AC4"
+					item: "createindustry:fireproof_bricks"
+					type: "item"
+				}
+			]
+			title: "高炉炼钢?"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			id: "0763FE7F3A264593"
 			tasks: [{
-				id: "36943D18052D9C81"
-				item: "ad_astra:astrodux"
+				id: "1BAB34788F8D6C38"
+				item: "createindustry:fireclay_ball"
 				type: "item"
 			}]
-			x: -8.5d
-			y: 3.0d
+			x: -8.0d
+			y: 1.5d
 		}
 	]
 	title: "{chapter.whitering2.title}"

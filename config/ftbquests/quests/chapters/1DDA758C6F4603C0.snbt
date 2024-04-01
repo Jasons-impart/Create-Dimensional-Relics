@@ -11,14 +11,11 @@
 		}
 	}
 	id: "1DDA758C6F4603C0"
-	order_index: 9
+	order_index: 10
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"75AB4CD9558C4EEE"
-				"001E54ADF04996D7"
-			]
+			dependencies: ["75AB4CD9558C4EEE"]
 			id: "7BDAE316D3CCEA2F"
 			subtitle: "再次升级！！！"
 			tasks: [{
@@ -149,10 +146,7 @@
 			y: 8.0d
 		}
 		{
-			dependencies: [
-				"4F3CF95B76ECD133"
-				"001E54ADF04996D7"
-			]
+			dependencies: ["4F3CF95B76ECD133"]
 			id: "1629F7F4B01F0189"
 			subtitle: "终极进化！！！"
 			tasks: [{
@@ -171,7 +165,6 @@
 		}
 		{
 			dependencies: [
-				"2EF38D620B4E1664"
 				"41F017E692B74F71"
 				"7DC98E34AECFBB5C"
 				"32F35AC0C1E8F51E"
@@ -195,7 +188,6 @@
 		}
 		{
 			dependencies: [
-				"2EF38D620B4E1664"
 				"41F017E692B74F71"
 				"7DC98E34AECFBB5C"
 				"32F35AC0C1E8F51E"

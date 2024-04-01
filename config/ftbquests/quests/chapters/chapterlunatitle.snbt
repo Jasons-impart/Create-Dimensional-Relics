@@ -5,7 +5,7 @@
 	group: "7B56C96F95F1D773"
 	icon: "ad_astra:moon_globe"
 	id: "7C40CD25878E4827"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -197,7 +197,6 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["2EF38D620B4E1664"]
 			hide_dependent_lines: true
 			id: "797E79E8F64B5B92"
 			tasks: [{
@@ -209,10 +208,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"797E79E8F64B5B92"
-				"001E54ADF04996D7"
-			]
+			dependencies: ["797E79E8F64B5B92"]
 			id: "49229740420BD8BD"
 			subtitle: "首次升级！！！"
 			tasks: [{

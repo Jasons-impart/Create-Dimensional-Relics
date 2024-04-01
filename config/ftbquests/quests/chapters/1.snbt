@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "1"
 	group: "4EA7FB7A9D338217"
-	icon: "refinedstorage:disk_drive"
+	icon: "refinedstorage:creative_controller"
 	id: "192C55DE9E83EE78"
 	order_index: 2
 	quest_links: [ ]
@@ -85,5 +85,5 @@
 			y: 4.5d
 		}
 	]
-	title: "&3精妙MEK存储"
+	title: "&3精致存储"
 }
