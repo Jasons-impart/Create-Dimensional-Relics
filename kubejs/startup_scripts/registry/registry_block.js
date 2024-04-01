@@ -26,8 +26,6 @@ StartupEvents.registry("block", e => {
     registerBlock("miracle_block", "amethyst", 10, 10, "mineable/pickaxe", "forge:needs_netherite_tool", true)
     // 深渊合金块
     registerBlock("abyss_alloy_block", "metal", 15, 1200, "mineable/pickaxe", "forge:needs_netherite_tool", true)
-    // 模型测试物品
-    registerBlock("model_test", "metal", 15, 15, "mineable/pickaxe", "minecraft:needs_stone_tool", false)
     // 钢燃料储罐
     registerBlock("steel_tank", "metal", 5, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 钢引擎

@@ -1,5 +1,4 @@
 ServerEvents.recipes(e => {
-    // 
     // 氢氧化钠溶解
     e.recipes.create.mixing(
         [

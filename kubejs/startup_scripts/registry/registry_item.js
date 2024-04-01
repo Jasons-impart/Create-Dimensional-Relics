@@ -265,6 +265,28 @@ StartupEvents.registry("item", e => {
         .translationKey("item.createaddition.incompleted_capacitor")
         .rarity("common")
         .group("extra")
+    // 注册未完成电池
+    e.create("createdimensionalrelics:incompleted_disposable_batteries")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.incompleted_disposable_batteries")
+        .rarity("common")
+    // 注册电池测试
+    e.create("createdimensionalrelics:disposable_batteries")
+        .maxDamage(320000)
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.disposable_batteries")
+        .rarity("common")
+        .attachCapability(
+            CapabilityBuilder.ENERGY.customItemStack()
+                .canExtract(() =>true)
+                .getEnergyStored(be =>{ return (320000 - be.damageValue) })
+                .extractEnergy((item, amount, sim) => {
+                    if(item.damageValue < 32000 && !sim) {
+                        item.damageValue += Math.min(120, amount)
+                    }
+                    return Math.min(120, amount)
+                })
+        )
     // 开发组人员物品
 
     // 李武的纠缠之缘
