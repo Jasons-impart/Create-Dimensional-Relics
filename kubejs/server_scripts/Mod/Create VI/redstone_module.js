@@ -20,6 +20,22 @@ ServerEvents.recipes(e =>{
                 "item": "vintageimprovements:incomplete_redstone_module"
               },
               {
+                "item": "create_new_age:copper_circuit"
+              }
+            ],
+            "results": [
+              {
+                "item": "vintageimprovements:incomplete_redstone_module"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients":[
+              {
+                "item": "vintageimprovements:incomplete_redstone_module"
+              },
+              {
                 "item": "minecraft:redstone"
               }
             ],
@@ -43,13 +59,14 @@ ServerEvents.recipes(e =>{
             ]
           },
           {
-            "type": "create:deploying",
+            "type": "create:filling",
             "ingredients": [
               {
-                "item": "vintageimprovements:incomplete_redstone_module"
+               "item": "vintageimprovements:incomplete_redstone_module"
               },
               {
-                "tag": "forge:gems/quartz"
+                  "fluid": "createindustry:lubrication_oil",
+                  "amount": 200
               }
             ],
             "results": [
@@ -78,7 +95,23 @@ ServerEvents.recipes(e =>{
                 "item": "vintageimprovements:incomplete_redstone_module"
               },
               {
-                "tag": "forge:nuggets/iron"
+                "item": "createindustry:screw"
+              }
+            ],
+            "results": [
+              {
+                "item": "vintageimprovements:incomplete_redstone_module"
+              }
+            ]
+          },
+          {
+            "type": "create:deploying",
+            "ingredients": [
+              {
+                "item": "vintageimprovements:incomplete_redstone_module"
+              },
+              {
+                "item": "createindustry:screwdriver"
               }
             ],
             "results": [
