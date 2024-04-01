@@ -179,9 +179,15 @@ ServerEvents.recipes(e => {
         }]
     })
     // 替换配方：基础电路板
-    e.recipes.create.deploying("create_new_age:blank_circuit", [
+    e.recipes.create.deploying("2x create_new_age:blank_circuit", [
         "#forge:stone",
         "refinedstorage:basic_processor"
     ])
         .id("create_new_age:pressing/blank_circuit")
+    e.recipes.create.sequenced_assembly("2x create_new_age:copper_circuit", "create_new_age:blank_circuit",[
+        e.recipes.create.deploying("create_new_age:blank_circuit", ["create_new_age:blank_circuit", "createaddition:copper_wire"])
+    ])
+        .transitionalItem("create_new_age:blank_circuit")
+        .loops(2)
+        .id("create_new_age:deploying/copper_circuit")
 })

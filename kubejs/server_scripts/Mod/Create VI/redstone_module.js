@@ -13,21 +13,16 @@ ServerEvents.recipes(e =>{
             "item": "vintageimprovements:redstone_module"
           },
           {
-            "chance": 4.0,
-            "item": "create:golden_sheet"
+            "chance": 3.0,
+            "item": "createindustry:screw"
           },
           {
             "chance": 1.0,
-            "item": "neapolitan:milk_bottle"
+            "item": "minecraft:redstone"
           },
           {
-            "item": "minecraft:iron_ingot"
-          },
-          {
-            "item": "minecraft:clock"
-          },
-          {
-            "item": "vintageimprovements:redstone_module"
+            "chance":5.0,
+            "item": "create_new_age:copper_circuit"
           }
         ],
         "sequence": [
