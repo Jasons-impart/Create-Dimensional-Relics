@@ -664,7 +664,7 @@ ServerEvents.recipes(e => {
             Item.of("create:zinc_nugget").withChance(0.3)
         ],
         [
-            Item.of("createdimensionalrelics:disposable_batteries", "{Damage:32000}")
+            Item.of("createdimensionalrelics:disposable_batteries").withNBT({Damage:32000})
         ]
     ).id("createdimensionalrelics:recycle_batteries")
 })
