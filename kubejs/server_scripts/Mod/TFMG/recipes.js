@@ -1,7 +1,21 @@
 ServerEvents.recipes(e => {
     // 碳板合成
-    e.recipes.create.pressing("createindustry:coal_sheet", "#minecraft:coals")
+    e.recipes.create.compacting("createindustry:coal_sheet", "createdimensionalrelics:carbon_dust")
+        .heated()
         .id("craeteindustry:pressing/coal_sheet")
+    // 碳棍合成
+    e.custom(
+        {
+            "type":"createaddition:rolling",
+            "input": {
+                  "tag": "forge:plates/carbon"
+            },
+            "result": {
+                "item": "createdimensionalrelics:carbon_rod",
+                "count": 2
+            }
+        }
+    )
     // 铝板合成
     e.recipes.create.pressing("createindustry:aluminum_sheet", "createindustry:aluminum_ingot")
         .id("createindustry:pressing/aluminum_sheet")

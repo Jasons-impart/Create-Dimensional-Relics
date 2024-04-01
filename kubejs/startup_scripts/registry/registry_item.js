@@ -256,7 +256,7 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createindustry.coal_sheet")
         .tag("forge:plates")
-        .tag("forge:plates/coal")
+        .tag("forge:plates/carbon")
         .rarity("common")
         .group("createindustry.base")
     // 注册未完成的电容
@@ -287,6 +287,20 @@ StartupEvents.registry("item", e => {
                     return Math.min(160, amount)
                 })
         )
+    // 注册碳粉
+    e.create("createdimensionalrelics:carbon_dust")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.carbon_dust")
+        .tag("forge:dusts")
+        .tag("forge:dusts/carbon")
+        .rarity("rare")
+    // 注册碳棒
+    e.create("createdimensionalrelics:carbon_rod")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.carbon_rod")
+        .tag("forge:rods")
+        .tag("forge:rods/carbon")
+        .rarity("rare")
     // 开发组人员物品
 
     // 李武的纠缠之缘

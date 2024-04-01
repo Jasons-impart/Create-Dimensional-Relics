@@ -6,5 +6,24 @@ ServerEvents.recipes(e => {
         "mekanism:block_bronze",
         "mekanism:block_steel"
     ])
-
+    // 碳粉灌注到碳
+    e.custom(
+        {
+            "type": "mekanism:infusion_conversion",
+            "input": {
+              "ingredient": [
+                {
+                  "tag": "forge:dusts/carbon"
+                },
+                {
+                  "item": "createdimensionalrelics:carbon_dust"
+                }
+              ]
+            },
+            "output": {
+              "amount": 40,
+              "infuse_type": "mekanism:carbon"
+            }
+          }
+    )
 })

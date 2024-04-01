@@ -481,4 +481,190 @@ ServerEvents.recipes(e => {
             "processingTime": 2000
         }
     )
+    // 合成HCl
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "ingredients": [ 
+                {
+                    "fluid": "mekanism:chlorine",
+                    "amount": 1000
+                },
+                {
+                    "fluid": "mekanism:hydrogen",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "mekanism:hydrogen_chloride",
+                    "amount": 1000
+                },
+            ],
+            "processingTime": 600
+        }
+    )
+    // 合成氯化铵
+    e.custom(
+        {
+            "type":"vintageimprovements:pressurizing",
+            "ingredients": [ 
+                {
+                    "fluid": "mekanism:hydrogen_chloride",
+                    "amount": 1000
+                },
+                {
+                    "fluid": "createdimensionalrelics:ammonia",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:ammonium_chloride",
+                    "amount": 1000
+                },
+            ],
+            "processingTime": 600
+        }
+    )
+    // 炭粉碎
+    e.recipes.create.crushing(
+        [
+            "mekanism:dust_coal",
+            Item.of("mekanism:dust_coal").withChance(0.25)
+        ],
+        [
+            "minecraft:coal"
+        ])
+        .id("create:crushing/coal")
+    e.recipes.create.crushing(        [
+        "mekanism:dust_charcoal",
+        Item.of("mekanism:dust_charcoal").withChance(0.25)
+    ],
+    [
+        "minecraft:charcoal"
+    ])
+        .id("create:crushing/charcoal")
+
+    // // 电池合成
+    e.custom(
+        {
+            "type": "create:sequenced_assembly",
+            "ingredient": {
+              "tag": "forge:plates/zinc"
+            },
+            "loops": 1,
+            "results": [
+              {
+                "item": "createdimensionalrelics:disposable_batteries"
+              }
+            ],
+            "sequence": [
+                {
+                    "type": "vintageimprovements:curving",
+                    "ingredients": [
+                        {
+                          "tag": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
+                    ],
+                    "results": [
+                        {
+                          "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      },
+                      {
+                        "item": "createdimensionalrelics:carbon_dust"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      }
+                    ]
+                  },
+                {
+                    "type": "create:filling",
+                    "ingredients": [
+                      {
+                       "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      },
+                      {
+                          "fluid": "createdimensionalrelics:ammonium_chloride",
+                          "amount": 200
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      },
+                      {
+                        "item": "createdimensionalrelics:carbon_rod"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      },
+                      {
+                        "tag": "forge:plates/zinc"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "create:pressing",
+                    "ingredients":[
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      },
+                    ],
+                    "results": [
+                      {
+                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                      }
+                    ]
+                  }
+            ],
+            "transitionalItem": {
+              "item": "createdimensionalrelics:incompleted_disposable_batteries"
+            }
+          }
+    )
+          .id("createdimensionalrelics:crafting/disposable_batteries")
+    e.recipes.create.crushing(
+        [
+            Item.of("create:zinc_ingot").withChance(0.2),
+            Item.of("create:zinc_nugget").withChance(0.3)
+        ],
+        [
+            Item.of("createdimensionalrelics:disposable_batteries", "{Damage:32000}")
+        ]
+    ).id("createdimensionalrelics:recycle_batteries")
 })

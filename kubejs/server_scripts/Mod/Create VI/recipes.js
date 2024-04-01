@@ -90,4 +90,43 @@ ServerEvents.recipes(e => {
             "processingTime": 1000
         }
     )
+    // 木炭粉和煤粉离心出碳粉
+    e.custom(
+        {
+            "type": "vintageimprovements:centrifugation",
+            "ingredients": [
+                {
+                    "item": "mekanism:dust_coal"
+                }
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:carbon_dust",
+                },
+                {
+                    "item": "mekanism:dust_sulfur"
+                }
+            ],
+            "processingTime": 1000
+        }
+    )
+    e.custom(
+        {
+            "type": "vintageimprovements:centrifugation",
+            "ingredients": [
+                {
+                    "item": "mekanism:dust_charcoal"
+                }
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:carbon_dust",
+                },
+                {
+                    "item": "mekanism:dust_sulfur"
+                }
+            ],
+            "processingTime": 1000
+        }
+    )
 })
