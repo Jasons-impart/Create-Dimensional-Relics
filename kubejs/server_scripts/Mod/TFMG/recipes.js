@@ -1,4 +1,10 @@
 ServerEvents.recipes(e => {
+    // 碳板合成
+    e.recipes.create.pressing("createindustry:coal_sheet", "#minecraft:coals")
+        .id("craeteindustry:pressing/coal_sheet")
+    // 铝板合成
+    e.recipes.create.pressing("createindustry:aluminum_sheet", "createindustry:aluminum_ingot")
+        .id("createindustry:pressing/aluminum_sheet")
     // 电解器合成
     e.shaped("createdimensionalrelics:electrolyzer",[
       "ABA",
@@ -155,13 +161,12 @@ ServerEvents.recipes(e => {
       [
         "createdimensionalrelics:super_polymer",
         "vintageimprovements:steel_wire",
-        "#minecraft:coals",
         Fluid.of("createindustry:liquid_plastic", 200)
       ]
     )
     // 航空纤维板
-    let iner_1 = "alloyed:steel_sheet"
-    e.recipes.create.sequenced_assembly("createdimensionalrelics:aviation_fibers_sheet","alloyed:steel_sheet",[
+    let iner_1 = "createindustry:coal_sheet"
+    e.recipes.create.sequenced_assembly("createdimensionalrelics:aviation_fibers_sheet","createindustry:coal_sheet",[
       e.recipes.create.deploying(iner_1, [iner_1, "createdimensionalrelics:aviation_fibers"]),
       e.recipes.create.filling(iner_1, [iner_1, Fluid.of("createindustry:liquid_plastic", 100)]),
     ])

@@ -170,36 +170,36 @@ ServerEvents.recipes(e => {
     })
     // 钢燃料储罐方块合成配方
     e.shaped("createdimensionalrelics:steel_tank", [
-        "AAA",
-        "AAA",
-        "BBB"
+        "ABA",
+        "ABA",
+        "ABA"
     ], {
         A:"alloyed:steel_sheet",
         B:"ad_astra:steel_tank"
     })
     // 戴斯燃料储罐方块合成配方
     e.shaped("createdimensionalrelics:desh_tank", [
-        "AAA",
-        "AAA",
-        "BBB"
+        "ABA",
+        "ABA",
+        "ABA"
     ], {
         A:"ad_astra:desh_plate",
         B:"ad_astra:desh_tank"
     })
     // 紫金燃料储罐方块合成配方
     e.shaped("createdimensionalrelics:ostrum_tank", [
-        "AAA",
-        "AAA",
-        "BBB"
+        "ABA",
+        "ABA",
+        "ABA"
     ], {
         A:"ad_astra:ostrum_plate",
         B:"ad_astra:ostrum_tank"
     })
     // 耐热金属燃料储罐方块合成配方
     e.shaped("createdimensionalrelics:calorite_tank", [
-        "AAA",
-        "AAA",
-        "BBB"
+        "ABA",
+        "ABA",
+        "ABA"
     ], {
         A:"ad_astra:calorite_plate",
         B:"ad_astra:calorite_tank"

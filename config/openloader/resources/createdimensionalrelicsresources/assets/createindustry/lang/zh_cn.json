@@ -253,6 +253,8 @@
 	"fluid.createindustry.propylene": "丙烯",
 
 	"item.createindustry.aluminum_ingot": "铝锭",
+	"item.createindustry.aluminum_sheet": "铝板",
+	"item.createindustry.coal_sheet": "碳板",
 	"item.createindustry.bitumen": "沥青",
 	"item.createindustry.blasting_mixture": "铁矿混合粉",
 	"item.createindustry.block_mold": "块状铸模",

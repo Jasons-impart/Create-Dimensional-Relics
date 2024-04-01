@@ -5,8 +5,6 @@ ServerEvents.recipes(e => {
         "mekanism:energized_smelter",
 
     ])
-
-
     //  序列合成电力熔炼炉
     let iner = "minecraft:blast_furnace"
     e.recipes.create.sequenced_assembly("mekanism:energized_smelter", "minecraft:blast_furnace", [
@@ -19,8 +17,7 @@ ServerEvents.recipes(e => {
     ])
         .transitionalItem(iner)
         .loops(1)
-        .id('mekanism:energized_smelter')
-    
+        .id("mekanism:energized_smelter")
     //  序列合成冶金灌注机
     let perfusion = "createindustry:casting_spout"
     e.recipes.create.sequenced_assembly("mekanism:metallurgic_infuser", "createindustry:casting_spout", [
@@ -31,9 +28,8 @@ ServerEvents.recipes(e => {
         e.recipes.create.deploying(perfusion, [perfusion, "createindustry:screw"]),
         e.recipes.create.deploying(perfusion, [perfusion, "createindustry:screwdriver"])
             .keepHeldItem()
-        
     ])
         .transitionalItem(perfusion)
         .loops(1)
-        .id('mekanism:metallurgic_infuser')
+        .id("mekanism:metallurgic_infuser")
 }) 
