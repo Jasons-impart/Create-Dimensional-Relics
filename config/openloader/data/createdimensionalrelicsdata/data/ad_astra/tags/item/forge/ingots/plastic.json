@@ -1,0 +1,10 @@
+{
+  "replace": true,
+  "values": [
+    "createdimensionalrelics:super_polymer",
+    "createdimensionalrelics:polypropylene",
+    "createdimensionalrelics:polystyrene",
+    "createdimensionalrelics:polyvinyl_chloride",
+    "createindustry:plastic_sheet"
+  ]
+}

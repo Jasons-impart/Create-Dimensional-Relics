@@ -36,12 +36,7 @@ JEIEvents.hideItems(e => {
         "vinery:cherry_chest_boat",
         "createaddition:tesla_coil",
         "createaddition:electrum_amulet",
-        "createaddition:copper_wire",
-        "createaddition:iron_wire",
         "createaddition:spool",
-        "createaddition:electrum_rod",
-        "createaddition:gold_rod",
-        "createaddition:brass_rod",
         "createaddition:festive_spool",
         "createaddition:gold_spool",
         "createaddition:electrum_spool",
@@ -71,7 +66,8 @@ JEIEvents.hideItems(e => {
         "vintageimprovements:sulfur",
         "vintageimprovements:sulfur_chunk",
         "vintageimprovements:sulfur_block",
-        "vintageimprovements:sulfuric_acid_bucket"
+        "vintageimprovements:sulfuric_acid_bucket",
+        "createindustry:plastic_block"
     ])
 })
 JEIEvents.hideFluids(e =>{
