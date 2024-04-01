@@ -1,0 +1,81 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4B9D0407A7108388"
+	group: "7B56C96F95F1D773"
+	icon: "createindustry:crude_oil_fluid_bucket"
+	id: "4B9D0407A7108388"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
+			id: "234903F798E76C58"
+			rewards: [{
+				command: "/gamephase add @p Luna"
+				id: "1EC4DD370883EE0C"
+				type: "command"
+			}]
+			subtitle: "麻麻我上天啦！（物理意义上）"
+			tasks: [{
+				id: "0E5C6E185D52F32F"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_1_rocket"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			title: "发射！"
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "7C5821AC664F2AF3"
+			invisible: true
+			size: 5.0d
+			subtitle: "燕子，没有你我可怎么活啊，燕子！"
+			tasks: [{
+				advancement: "ad_astra:rocket_destroyed"
+				criterion: ""
+				id: "5A047A050FB4A6A5"
+				type: "advancement"
+			}]
+			title: "等等我我还没上车啊！！！！"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			description: ["&4&l小心霉菌?&l"]
+			id: "6D52848AA0B207E0"
+			tasks: [{
+				id: "295F9670BE68FF54"
+				item: "createindustry:crude_oil_fluid_bucket"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 1.0d
+		}
+		{
+			id: "1F84419F388C13F9"
+			subtitle: "现在&e打火石&r真难做，唉，&4钢铁&r；唉，&4燧石&r"
+			tasks: [{
+				id: "79E1FEDC48CA8639"
+				item: {
+					Count: 1b
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "打火石怎么变成钢做的了？"
+			x: -4.0d
+			y: 3.0d
+		}
+	]
+	title: "石油化工"
+}

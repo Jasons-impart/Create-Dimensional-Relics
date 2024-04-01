@@ -1252,72 +1252,6 @@
 			y: 1.5d
 		}
 		{
-			dependencies: ["001E54ADF04996D7"]
-			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
-			id: "234903F798E76C58"
-			rewards: [{
-				command: "/gamephase add @p Luna"
-				id: "1EC4DD370883EE0C"
-				type: "command"
-			}]
-			subtitle: "麻麻我上天啦！（物理意义上）"
-			tasks: [{
-				id: "0E5C6E185D52F32F"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_1_rocket"
-					tag: {
-						BotariumData: { }
-					}
-				}
-				type: "item"
-			}]
-			title: "发射！"
-			x: -9.0d
-			y: 4.0d
-		}
-		{
-			dependencies: [
-				"2EF38D620B4E1664"
-				"0F9A325B7651DE3D"
-			]
-			description: ["去外太空一定要多带一个在身上，这玩意可不会跟着你起飞"]
-			hide_dependent_lines: true
-			id: "001E54ADF04996D7"
-			subtitle: "这可是不锈钢做的，绝对不会融化！"
-			tasks: [{
-				id: "1AC9785B55E39C61"
-				item: "ad_astra:launch_pad"
-				type: "item"
-			}]
-			x: -6.5d
-			y: 4.0d
-		}
-		{
-			id: "62BF6A18921A3A61"
-			subtitle: "小型分馏塔！（虽然只能产出燃油）"
-			tasks: [{
-				id: "0B204BA37A8B6001"
-				item: "ad_astra:fuel_refinery"
-				type: "item"
-			}]
-			x: -6.0d
-			y: 1.0d
-		}
-		{
-			dependencies: ["62BF6A18921A3A61"]
-			id: "06DA33866E1148A0"
-			subtitle: "啊？他还能给插了吸管的烈焰人供能？"
-			tasks: [{
-				id: "7884C254BFA536B8"
-				item: "ad_astra:fuel_bucket"
-				type: "item"
-			}]
-			x: -7.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["2EF38D620B4E1664"]
 			id: "4A79D97050F1297F"
 			subtitle: "oxygen！人类的慢性毒药，吸过氧气的人在200年内必定死亡！"
 			tasks: [{
@@ -1416,22 +1350,6 @@
 			]
 			x: -9.0d
 			y: -1.5d
-		}
-		{
-			dependencies: ["2EF38D620B4E1664"]
-			id: "7C5821AC664F2AF3"
-			invisible: true
-			size: 5.0d
-			subtitle: "燕子，没有你我可怎么活啊，燕子！"
-			tasks: [{
-				advancement: "ad_astra:rocket_destroyed"
-				criterion: ""
-				id: "5A047A050FB4A6A5"
-				type: "advancement"
-			}]
-			title: "等等我我还没上车啊！！！！"
-			x: -12.5d
-			y: 2.5d
 		}
 		{
 			dependencies: ["7B3771D9729E61A2"]

@@ -9,6 +9,24 @@ ServerEvents.recipes(e =>{
         "loops": 1,
         "results": [
           {
+            "chance": 195.0,
+            "item": "vintageimprovements:redstone_module"
+          },
+          {
+            "chance": 4.0,
+            "item": "create:golden_sheet"
+          },
+          {
+            "chance": 1.0,
+            "item": "neapolitan:milk_bottle"
+          },
+          {
+            "item": "minecraft:iron_ingot"
+          },
+          {
+            "item": "minecraft:clock"
+          },
+          {
             "item": "vintageimprovements:redstone_module"
           }
         ],

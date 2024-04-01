@@ -18,7 +18,7 @@
 		x: 4.285714285714285d
 		y: 1.75d
 	}]
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -485,28 +485,6 @@
 			title: "&e古堡里面的金子！！！"
 			x: -3.5d
 			y: 1.5d
-		}
-		{
-			dependencies: [
-				"4A19D3EB3E47BFDF"
-				"24BE09160DC6BE45"
-			]
-			id: "6DF59E3FBC34C19E"
-			subtitle: "这不是送你转生的泥头车，这是通往&4异界的钥匙"
-			tasks: [{
-				id: "4C5CA986104C9859"
-				item: {
-					Count: 1b
-					id: "ulterlands:ulterlands_dimension"
-					tag: {
-						Damage: 0
-					}
-				}
-				type: "item"
-			}]
-			title: "&4这是什么？？？"
-			x: -3.5d
-			y: 2.5d
 		}
 		{
 			dependencies: [
