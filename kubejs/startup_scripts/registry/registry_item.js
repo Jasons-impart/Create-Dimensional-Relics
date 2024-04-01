@@ -272,19 +272,19 @@ StartupEvents.registry("item", e => {
         .rarity("common")
     // 注册电池测试
     e.create("createdimensionalrelics:disposable_batteries")
-        .maxDamage(320000)
+        .maxDamage(32000)
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.disposable_batteries")
         .rarity("common")
         .attachCapability(
             CapabilityBuilder.ENERGY.customItemStack()
                 .canExtract(() =>true)
-                .getEnergyStored(be =>{ return (320000 - be.damageValue) })
+                .getEnergyStored(be =>{ return (32000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
                     if(item.damageValue < 32000 && !sim) {
-                        item.damageValue += Math.min(120, amount)
+                        item.damageValue += Math.min(160, amount)
                     }
-                    return Math.min(120, amount)
+                    return Math.min(160, amount)
                 })
         )
     // 开发组人员物品
