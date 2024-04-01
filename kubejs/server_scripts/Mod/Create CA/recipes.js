@@ -2,11 +2,11 @@ ServerEvents.recipes(e =>{
     // 电容合成
     e.remove({id:"createaddition:crafting/capacitor_1"})
     e.remove({id:"createaddition:crafting/capacitor_2"})
-    let iner = "createindustry:aluminum_sheet"
+    let iner = "createaddition:incompleted_capacitor"
     e.recipes.create.sequenced_assembly("createaddition:capacitor", "createindustry:aluminum_sheet", [
         e.recipes.create.pressing(iner, iner),
         e.recipes.create.deploying(iner, [iner, "minecraft:paper"]),
-        e.recipes.create.deploying(iner, [iner, iner]),
+        e.recipes.create.deploying(iner, [iner, "createindustry:aluminum_sheet"]),
         e.recipes.create.pressing(iner, iner)
     ])
         .transitionalItem(iner)
