@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
     // 移除聚乙烯块
-    e.remove({input:"createindustry:plastic_block"})
-    e.remove({output:"createindustry:plastic_block"})
+    e.remove({ input: "createindustry:plastic_block" })
+    e.remove({ output: "createindustry:plastic_block" })
     // 流体兼容create储罐
     e.recipes.create.emptying([Fluid.of("createindustry:crude_oil_fluid"), "minecraft:bucket"], "createindustry:crude_oil_fluid_bucket")
     e.recipes.create.emptying([Fluid.of("createindustry:gasoline"), "minecraft:bucket"], "createindustry:gasoline_bucket")
