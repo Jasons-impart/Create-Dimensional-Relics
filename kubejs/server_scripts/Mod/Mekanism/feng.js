@@ -2,30 +2,30 @@ ServerEvents.recipes(e => {
     // 钻石粉碎
     e.recipes.create.crushing(
         [
-            "minecraft:diamond",
+            "mekanism:dust_diamond",
             Item.of("mekanism:dust_diamond").withChance(0.25)
         ],
         [
-            "mekanism:dust_diamond"
+            "minecraft:diamond"
         ])
-        .id("create:crushing/mekanism:dust_diamond")
+        .id("create:crushing/dust_diamond")
     // 金粉碎
     e.recipes.create.crushing(        
         [
-        "minecraft:gold_ingot",
-        Item.of("mekanism:dust_gold").withChance(0.25)
+            "mekanism:dust_gold",
+            Item.of("mekanism:dust_gold").withChance(0.25)
         ],
         [
-            "mekanism:dust_gold"
+            "minecraft:gold_ingot"
         ])
-        .id("create:crushing/mekanism:dust_gold")
+        .id("create:crushing/dust_gold")
     // 焦煤粉 
     e.recipeSt.create.milling(
         [
-            "createindustry:coal_coke",
+            "createindustry:coal_coke_dust",
         ],
         [
-            "createindustry:coal_coke_dust"
+            "createindustry:coal_coke"
         ])
-        .id("coal_coke_dust")
+        .id("create:crushing/coal_coke_dust")
 })
