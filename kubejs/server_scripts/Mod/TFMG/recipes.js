@@ -6,9 +6,9 @@ ServerEvents.recipes(e => {
     // 碳棍合成
     e.custom(
         {
-            "type":"createaddition:rolling",
+            "type": "createaddition:rolling",
             "input": {
-                  "tag": "forge:plates/carbon"
+                "tag": "forge:plates/carbon"
             },
             "result": {
                 "item": "createdimensionalrelics:carbon_rod",
@@ -20,15 +20,15 @@ ServerEvents.recipes(e => {
     e.recipes.create.pressing("createindustry:aluminum_sheet", "createindustry:aluminum_ingot")
         .id("createindustry:pressing/aluminum_sheet")
     // 电解器合成
-    e.shaped("createdimensionalrelics:electrolyzer",[
-      "ABA",
-      "C D",
-      "   "
+    e.shaped("createdimensionalrelics:electrolyzer", [
+        "ABA",
+        "C D",
+        "   "
     ], {
-      A:"create_new_age:copper_wire",
-      B:"create:golden_sheet",
-      C:"vintageimprovements:vanadium_nugget",
-      D:"createaddition:electrum_nugget"
+        A: "create_new_age:copper_wire",
+        B: "create:golden_sheet",
+        C: "vintageimprovements:vanadium_nugget",
+        D: "createaddition:electrum_nugget"
     })
     // 钢储罐合成
     e.recipes.create.item_application("createindustry:steel_fluid_tank", [
@@ -70,7 +70,7 @@ ServerEvents.recipes(e => {
     // 钢双锭合成
     e.recipes.create.deploying("createdimensionalrelics:double_steel", ["createindustry:steel_ingot", "createindustry:steel_ingot"])
     // 厚钢板合成
-    let iner = "createdimensionalrelics:double_steel"
+    const iner = "createdimensionalrelics:double_steel"
     e.recipes.create.sequenced_assembly("createindustry:heavy_plate", "createdimensionalrelics:double_steel", [
         e.recipes.create.pressing(iner, [iner, iner])
     ])
@@ -161,31 +161,31 @@ ServerEvents.recipes(e => {
     )
     // 高分子化合物合成
     e.recipes.create.mixing(
-      ["2x createdimensionalrelics:super_polymer"],
-      [
-        "createindustry:plastic_sheet",
-        "createdimensionalrelics:polypropylene",
-        "createdimensionalrelics:polystyrene",
-        "createdimensionalrelics:polyvinyl_chloride"
-      ]
+        ["2x createdimensionalrelics:super_polymer"],
+        [
+            "createindustry:plastic_sheet",
+            "createdimensionalrelics:polypropylene",
+            "createdimensionalrelics:polystyrene",
+            "createdimensionalrelics:polyvinyl_chloride"
+        ]
     ).superheated()
     // 航空纤维
     e.recipes.create.mixing(
-      ["createdimensionalrelics:aviation_fibers"],
-      [
-        "createdimensionalrelics:super_polymer",
-        "vintageimprovements:steel_wire",
-        Fluid.of("createindustry:liquid_plastic", 200)
-      ]
+        ["createdimensionalrelics:aviation_fibers"],
+        [
+            "createdimensionalrelics:super_polymer",
+            "vintageimprovements:steel_wire",
+            Fluid.of("createindustry:liquid_plastic", 200)
+        ]
     )
     // 航空纤维板
     let iner_1 = "createindustry:coal_sheet"
-    e.recipes.create.sequenced_assembly("createdimensionalrelics:aviation_fibers_sheet","createindustry:coal_sheet",[
-      e.recipes.create.deploying(iner_1, [iner_1, "createdimensionalrelics:aviation_fibers"]),
-      e.recipes.create.filling(iner_1, [iner_1, Fluid.of("createindustry:liquid_plastic", 100)]),
+    e.recipes.create.sequenced_assembly("createdimensionalrelics:aviation_fibers_sheet", "createindustry:coal_sheet", [
+        e.recipes.create.deploying(iner_1, [iner_1, "createdimensionalrelics:aviation_fibers"]),
+        e.recipes.create.filling(iner_1, [iner_1, Fluid.of("createindustry:liquid_plastic", 100)]),
     ])
-      .transitionalItem(iner_1)
-      .loops(3)
+        .transitionalItem(iner_1)
+        .loops(3)
     // 石油分馏
     e.custom(
         {
