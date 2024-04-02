@@ -67,7 +67,8 @@ JEIEvents.hideItems(e => {
         "vintageimprovements:sulfur_chunk",
         "vintageimprovements:sulfur_block",
         "vintageimprovements:sulfuric_acid_bucket",
-        "createindustry:plastic_block"
+        "createindustry:plastic_block",
+        "mekanism:dust_obsidian"
     ])
 })
 JEIEvents.hideFluids(e =>{

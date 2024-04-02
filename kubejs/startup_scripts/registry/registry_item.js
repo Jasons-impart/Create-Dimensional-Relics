@@ -323,7 +323,7 @@ StartupEvents.registry("item", e => {
                     if (item.damageValue < 160000 && !sim) {
                         item.damageValue += Math.min(1600, amount)
                     }
-                    return Math.min(160, amount)
+                    return Math.min(1600, amount)
                 })
         )
     // 注册碳粉
