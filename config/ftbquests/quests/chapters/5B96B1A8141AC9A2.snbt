@@ -15,8 +15,8 @@
 		image: "create:item/andesite_alloy"
 		rotation: 0.0d
 		width: 9.0d
-		x: -15.999999999999993d
-		y: -1.047619047619044d
+		x: -18.0d
+		y: 0.5d
 	}]
 	order_index: 2
 	quest_links: [ ]
@@ -43,7 +43,7 @@
 				type: "item"
 			}]
 			title: "反复捶打！"
-			x: -10.0d
+			x: -9.0d
 			y: 3.0d
 		}
 		{
@@ -57,7 +57,7 @@
 				type: "item"
 			}]
 			title: "{quest.andesite_alloy.title}"
-			x: -16.0d
+			x: -17.0d
 			y: 0.0d
 		}
 		{
@@ -223,7 +223,7 @@
 				}
 			]
 			title: "仍然是必需品！"
-			x: -14.5d
+			x: -15.0d
 			y: 0.0d
 		}
 		{
@@ -236,7 +236,7 @@
 				item: "create:andesite_casing"
 				type: "item"
 			}]
-			x: -14.5d
+			x: -15.5d
 			y: 3.0d
 		}
 		{
@@ -278,7 +278,7 @@
 				}
 			]
 			title: "{quest.cog_wheel.title}"
-			x: -16.0d
+			x: -17.0d
 			y: 3.0d
 		}
 		{
@@ -291,7 +291,7 @@
 				type: "item"
 			}]
 			title: "产生应力的第一步！"
-			x: -16.0d
+			x: -17.0d
 			y: 4.5d
 		}
 		{
@@ -308,7 +308,7 @@
 				type: "item"
 			}]
 			title: "动力醌压鸡"
-			x: -14.5d
+			x: -15.5d
 			y: 4.5d
 		}
 		{
@@ -334,7 +334,7 @@
 				id: "26347299D6F121E3"
 				type: "advancement"
 			}]
-			x: -17.5d
+			x: -19.0d
 			y: 6.0d
 		}
 		{
@@ -347,7 +347,7 @@
 				type: "item"
 			}]
 			title: "大风车吱呀吱悠悠地转"
-			x: -16.0d
+			x: -17.0d
 			y: 6.0d
 		}
 		{
@@ -367,7 +367,7 @@
 				}
 			]
 			title: "水车嘎吱嘎吱是我的童年"
-			x: -17.5d
+			x: -19.0d
 			y: 4.5d
 		}
 		{
@@ -417,7 +417,7 @@
 				item: "create:empty_schematic"
 				type: "item"
 			}]
-			x: -17.0d
+			x: -17.5d
 			y: -1.5d
 		}
 		{
@@ -430,7 +430,7 @@
 				type: "item"
 			}]
 			title: "把蓝图写入游戏中！"
-			x: -15.0d
+			x: -16.5d
 			y: -1.5d
 		}
 		{
@@ -448,7 +448,7 @@
 				type: "item"
 			}]
 			title: "论机械动力为什么能称之为神"
-			x: -16.0d
+			x: -17.5d
 			y: -3.0d
 		}
 		{
@@ -460,8 +460,8 @@
 				type: "item"
 			}]
 			title: "简单装饰一下我的齿轮组们~"
-			x: -17.0d
-			y: 2.0d
+			x: -19.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["7C63D27693E2270D"]
@@ -472,7 +472,7 @@
 				type: "item"
 			}]
 			title: "超有工业风的齿轮组！"
-			x: -17.0d
+			x: -19.0d
 			y: 3.5d
 		}
 		{
@@ -497,7 +497,7 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -10.0d
+			x: -9.0d
 			y: 4.5d
 		}
 		{
@@ -523,8 +523,8 @@
 				type: "item"
 			}]
 			title: "挖呀挖"
-			x: -11.5d
-			y: 0.0d
+			x: -15.0d
+			y: 2.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -561,8 +561,8 @@
 				type: "item"
 			}]
 			title: "咯吱咯吱"
-			x: -12.5d
-			y: 0.0d
+			x: -15.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1693FFC834A77F70"]
@@ -574,7 +574,7 @@
 				type: "item"
 			}]
 			title: "这是个什么东西？"
-			x: -8.5d
+			x: -6.5d
 			y: 4.5d
 		}
 		{
@@ -600,8 +600,8 @@
 				type: "item"
 			}]
 			title: "万用表？"
-			x: -13.5d
-			y: 0.0d
+			x: -15.5d
+			y: -1.0d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -626,7 +626,7 @@
 				item: "createaddition:rolling_mill"
 				type: "item"
 			}]
-			x: -11.5d
+			x: -16.0d
 			y: 1.0d
 		}
 		{
@@ -637,8 +637,8 @@
 				item: "sliceanddice:slicer"
 				type: "item"
 			}]
-			x: -11.5d
-			y: 2.0d
+			x: -16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["063D5D66280B8B80"]
@@ -653,6 +653,11 @@
 			y: -3.0d
 		}
 		{
+			dependencies: [
+				"54E9D8443D877CB9"
+				"0763FE7F3A264593"
+			]
+			description: ["&4&n按住W看思索哦"]
 			id: "0E86B85402B24289"
 			tasks: [
 				{
@@ -661,23 +666,72 @@
 					type: "item"
 				}
 				{
+					count: 16L
 					id: "531FAA854FC76AC4"
 					item: "createindustry:fireproof_bricks"
 					type: "item"
 				}
+				{
+					count: 8L
+					id: "30EB4F3CBA0AA413"
+					item: "createindustry:fireproof_brick_reinforcement"
+					type: "item"
+				}
 			]
 			title: "高炉炼钢?"
-			x: -8.0d
+			x: -6.5d
 			y: 3.0d
 		}
 		{
+			description: ["&4在主世界的地底下找到"]
 			id: "0763FE7F3A264593"
 			tasks: [{
 				id: "1BAB34788F8D6C38"
 				item: "createindustry:fireclay_ball"
 				type: "item"
 			}]
-			x: -8.0d
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			description: ["&o熔炼的好帮手&o"]
+			id: "1471119032EEEBEA"
+			tasks: [{
+				id: "191485C214C4BA31"
+				item: "create:limestone"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1471119032EEEBEA"
+				"5D9B248C6F678D85"
+			]
+			description: ["粉碎味才正"]
+			id: "7CA45C409DB27D69"
+			tasks: [{
+				id: "78C2EE02B36C4CED"
+				item: "createindustry:limesand"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7CA45C409DB27D69"
+				"65C204DFA418FD56"
+			]
+			description: ["据说可以用来炼钢"]
+			id: "5871B1BE04FB8BBA"
+			tasks: [{
+				id: "209D0ECA745BB4EA"
+				item: "createindustry:blasting_mixture"
+				type: "item"
+			}]
+			x: -13.0d
 			y: 1.5d
 		}
 	]

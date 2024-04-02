@@ -2,7 +2,7 @@
 [CDTool]
 	#
 	#附魔黑名单
-	enchantmentBlacklist = ["createdimensionalrelics:lithium_battery","createdimensionalrelics:space_alloy_helmet", "createdimensionalrelics:space_alloy_boots", "createdimensionalrelics:space_alloy_leggings", "createdimensionalrelics:space_alloy_chestplate", "createdimensionalrelics:space_alloy_axe", "createdimensionalrelics:space_alloy_pickaxe", "createdimensionalrelics:space_alloy_sword", "createdimensionalrelics:space_alloy_shovel", "createdimensionalrelics:space_alloy_hoe", "createdimensionalrelics:disposable_batteries"]
+	enchantmentBlacklist = ["createdimensionalrelics:lithium_battery", "createdimensionalrelics:space_alloy_helmet", "createdimensionalrelics:space_alloy_boots", "createdimensionalrelics:space_alloy_leggings", "createdimensionalrelics:space_alloy_chestplate", "createdimensionalrelics:space_alloy_axe", "createdimensionalrelics:space_alloy_pickaxe", "createdimensionalrelics:space_alloy_sword", "createdimensionalrelics:space_alloy_shovel", "createdimensionalrelics:space_alloy_hoe", "createdimensionalrelics:disposable_batteries"]
 	#
 	#是否启用调试模式(调试模式下将会在控制台与聊天框输出调试信息)
 	debugMode = false
