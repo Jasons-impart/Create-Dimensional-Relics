@@ -1,24 +1,4 @@
 ServerEvents.recipes(e => {
-    // 电池充电
-    // e.custom(
-    //     {
-    //         "type": "create_new_age:energising",
-    //         "energy_needed": 500,
-    //         "ingredients": [
-    //         {
-    //             "item": "createdimensionalrelics:lithium_battery",
-    //             "nbt": {
-    //                 "Damage": 160000
-    //             }
-    //         }
-    //         ],
-    //         "results": [
-    //         {
-    //             "item": "createdimensionalrelics:lithium_battery"
-    //         }
-    //         ]
-    //     }
-    // )
     // 充电铁线及充电金线合成
     e.recipes.create.cutting("2x create_new_age:overcharged_iron_wire_2", "create_new_age:overcharged_iron_sheet")
     e.custom(

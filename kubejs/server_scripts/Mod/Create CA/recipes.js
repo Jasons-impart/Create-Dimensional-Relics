@@ -1,4 +1,5 @@
 ServerEvents.recipes(e =>{
+    e.remove({output:"createaddition:tesla_coil"})
     // 电容合成
     e.remove({id:"createaddition:crafting/capacitor_1"})
     e.remove({id:"createaddition:crafting/capacitor_2"})

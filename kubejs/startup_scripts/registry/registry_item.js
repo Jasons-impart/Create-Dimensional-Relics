@@ -287,6 +287,14 @@ StartupEvents.registry("item", e => {
                     return Math.min(160, amount)
                 })
         )
+    // 注册锂
+    e.create("createdimensionalrelics:lithium")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.lithium")
+        .tag("forge:ingots")
+        .rarity("rare")
+    // 注册粉碎锂矿石
+    e.create("createdimensionalrelics:lithium")
     // 注册未完成锂电池
     e.create("createdimensionalrelics:incompleted_lithium_battery")
         .maxStackSize(64)
@@ -304,7 +312,7 @@ StartupEvents.registry("item", e => {
                 .canReceive(() => true)
                 .getMaxEnergyStored(item => 160000)
                 .receiveEnergy((item, amount, sim) => {
-                    const receieve = Math.min(160, amount, item.damageValue)
+                    const receieve = Math.min(400, amount, item.damageValue)
                     if (item.damageValue > 0 && !sim) {
                         item.damageValue -= receieve
                     }
@@ -313,9 +321,9 @@ StartupEvents.registry("item", e => {
                 .getEnergyStored(be => { return (160000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
                     if (item.damageValue < 160000 && !sim) {
-                        item.damageValue += Math.min(160, amount)
+                        item.damageValue += Math.min(1600, amount)
                     }
-                    return Math.min(160, amount)
+                    return Math.min(1600, amount)
                 })
         )
     // 注册碳粉
