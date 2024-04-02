@@ -278,10 +278,10 @@ StartupEvents.registry("item", e => {
         .rarity("common")
         .attachCapability(
             CapabilityBuilder.ENERGY.customItemStack()
-                .canExtract(() =>true)
-                .getEnergyStored(be =>{ return (32000 - be.damageValue) })
+                .canExtract(() => true)
+                .getEnergyStored(be => { return (32000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
-                    if(item.damageValue < 32000 && !sim) {
+                    if (item.damageValue < 32000 && !sim) {
                         item.damageValue += Math.min(160, amount)
                     }
                     return Math.min(160, amount)
@@ -302,16 +302,17 @@ StartupEvents.registry("item", e => {
             CapabilityBuilder.ENERGY.customItemStack()
                 .canExtract(() => true)
                 .canReceive(() => true)
-                .receiveEnergy((item, amount, sim) =>{
+                .getMaxEnergyStored(item => 160000)
+                .receiveEnergy((item, amount, sim) => {
                     const receieve = Math.min(160, amount, item.damageValue)
                     if (item.damageValue > 0 && !sim) {
                         item.damageValue -= receieve
                     }
                     return receieve
                 })
-                .getEnergyStored(be =>{ return (160000 - be.damageValue) })
+                .getEnergyStored(be => { return (160000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
-                    if(item.damageValue < 160000 && !sim) {
+                    if (item.damageValue < 160000 && !sim) {
                         item.damageValue += Math.min(160, amount)
                     }
                     return Math.min(160, amount)
