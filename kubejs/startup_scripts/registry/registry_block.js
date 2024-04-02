@@ -17,7 +17,6 @@ StartupEvents.registry("block", e => {
             .tagBlock(Grade)
             .requiresTool(RequiresTool)
     }
-
     // 暗淡太空合金块
     registerBlock("bleak_space_alloy_block", "metal", 15, 120, "mineable/pickaxe", "forge:needs_netherite_tool", true)
     // 太空合金块
