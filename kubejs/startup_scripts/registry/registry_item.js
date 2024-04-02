@@ -236,13 +236,15 @@ StartupEvents.registry("item", e => {
     e.create("create_new_age:overcharged_iron_wire_2")
         .maxStackSize(64)
         .translationKey("item.create_new_age.overcharged_iron_wire_2")
+        .tag("forge:wires")
+        .tag("forge:wires/all_metal")
         .rarity("common")
-        .group("create_new_age_tab")
     e.create("create_new_age:overcharged_gold_wire")
         .maxStackSize(64)
         .translationKey("item.create_new_age.overcharged_gold_wire")
+        .tag("forge:wires")
+        .tag("forge:wires/all_metal")
         .rarity("common")
-        .group("create_new_age_tab")
     // 注册铝板
     e.create("createindustry:aluminum_sheet")
         .maxStackSize(64)
@@ -250,7 +252,6 @@ StartupEvents.registry("item", e => {
         .tag("forge:plates")
         .tag("forge:plates/aluminum")
         .rarity("common")
-        .group("createindustry.base")
     // 注册碳板
     e.create("createindustry:coal_sheet")
         .maxStackSize(64)
@@ -258,19 +259,18 @@ StartupEvents.registry("item", e => {
         .tag("forge:plates")
         .tag("forge:plates/carbon")
         .rarity("common")
-        .group("createindustry.base")
     // 注册未完成的电容
     e.create("createaddition:incompleted_capacitor")
         .maxStackSize(64)
         .translationKey("item.createaddition.incompleted_capacitor")
         .rarity("common")
         .group("extra")
-    // 注册未完成电池
+    // 注册未完成干电池
     e.create("createdimensionalrelics:incompleted_disposable_batteries")
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.incompleted_disposable_batteries")
         .rarity("common")
-    // 注册电池测试
+    // 注册干电池
     e.create("createdimensionalrelics:disposable_batteries")
         .maxDamage(32000)
         .maxStackSize(64)
@@ -282,6 +282,36 @@ StartupEvents.registry("item", e => {
                 .getEnergyStored(be =>{ return (32000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
                     if(item.damageValue < 32000 && !sim) {
+                        item.damageValue += Math.min(160, amount)
+                    }
+                    return Math.min(160, amount)
+                })
+        )
+    // 注册未完成锂电池
+    e.create("createdimensionalrelics:incompleted_lithium_battery")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.incompleted_lithium_battery")
+        .rarity("common")
+    // 注册锂电池
+    e.create("createdimensionalrelics:lithium_battery")
+        .maxDamage(160000)
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.lithium_battery")
+        .rarity("rare")
+        .attachCapability(
+            CapabilityBuilder.ENERGY.customItemStack()
+                .canExtract(() => true)
+                .canReceive(() => true)
+                .receiveEnergy((item, amount, sim) =>{
+                    const receieve = Math.min(160, amount, item.damageValue)
+                    if (item.damageValue > 0 && !sim) {
+                        item.damageValue -= receieve
+                    }
+                    return receieve
+                })
+                .getEnergyStored(be =>{ return (160000 - be.damageValue) })
+                .extractEnergy((item, amount, sim) => {
+                    if(item.damageValue < 160000 && !sim) {
                         item.damageValue += Math.min(160, amount)
                     }
                     return Math.min(160, amount)

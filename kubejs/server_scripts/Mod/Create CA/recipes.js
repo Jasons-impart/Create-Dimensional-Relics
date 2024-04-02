@@ -3,15 +3,100 @@ ServerEvents.recipes(e =>{
     e.remove({id:"createaddition:crafting/capacitor_1"})
     e.remove({id:"createaddition:crafting/capacitor_2"})
     let iner = "createaddition:incompleted_capacitor"
-    e.recipes.create.sequenced_assembly("createaddition:capacitor", "createindustry:aluminum_sheet", [
-        e.recipes.create.pressing(iner, iner),
-        e.recipes.create.deploying(iner, [iner, "minecraft:paper"]),
-        e.recipes.create.deploying(iner, [iner, "createindustry:aluminum_sheet"]),
-        e.recipes.create.pressing(iner, iner)
-    ])
-        .transitionalItem(iner)
-        .loops(1)
-        .id("createaddition:crafting/capacitor")
+    e.custom(
+        {
+            "type": "create:sequenced_assembly",
+            "ingredient": {
+              "tag": "forge:plates/aluminum"
+            },
+            "loops": 1,
+            "results": [
+              {
+                "item": "createaddition:capacitor"
+              }
+            ],
+            "sequence": [
+                {
+                    "type": "vintageimprovements:curving",
+                    "ingredients": [
+                        {
+                          "item": "createaddition:incompleted_capacitor"
+                        }
+                    ],
+                    "results": [
+                        {
+                          "item": "createaddition:incompleted_capacitor"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      },
+                      {
+                        "tag": "forge:wires/all_metal"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      },
+                      {
+                        "item": "minecraft:paper"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients":[
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      },
+                      {
+                        "tag": "forge:plates/aluminum"
+                      }
+                    ],
+                    "results": [
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      }
+                    ]
+                },
+                {
+                    "type": "create:pressing",
+                    "ingredients":[
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      },
+                    ],
+                    "results": [
+                      {
+                        "item": "createaddition:incompleted_capacitor"
+                      }
+                    ]
+                }
+            ],
+            "transitionalItem": {
+              "item": "createaddition:incompleted_capacitor"
+            }
+          }
+    )
+          .id("createaddition:crafting/capacitor")
     e.shaped("createaddition:portable_energy_interface",[
         "AB ",
         "C  ",

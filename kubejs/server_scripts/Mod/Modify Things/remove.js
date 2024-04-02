@@ -4,7 +4,6 @@ ServerEvents.recipes(e => {
         "create_enchantment_industry:experience_rotor",
         "vinery:cherry_boat",
         "beachparty:palm_boat",
-        "createaddition:tesla_coil",
         "createaddition:electrum_amulet",
         "createaddition:spool",
         "createaddition:copper_spool",
@@ -25,7 +24,6 @@ ServerEvents.recipes(e => {
     ])
     remove_recipes_id(e, [
         "create:crafting/materials/rose_quartz",
-        // "minecraft:flint_and_steel",
         "alexsmobs:flint_n_steel_dropbear_claw",
         "neapolitan:banana/banana_bread",
     ])

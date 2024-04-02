@@ -1,4 +1,60 @@
 ServerEvents.recipes(e => {
+    // 煤粉清洗
+    e.recipes.create.mixing(
+        [
+            "createdimensionalrelics:carbon_dust",
+            Fluid.of("mekanism:sulfuric_acid")
+        ],
+        [
+            "mekanism:dust_coal",
+            Fluid.of("mekanism:sulfuric_acid")
+        ]
+    ).id("cdr:mixing/dust_coal")
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "post": [
+              {
+                "type": "drop_item",
+                "item": "createdimensionalrelics:carbon_dust"
+              }
+            ],
+            "item_in": [
+              {
+                "item": "mekanism:dust_coal"
+              }
+            ],
+            "block_in": "mekanism:sulfuric_acid",
+            "time": 5
+        })
+    // 木炭粉清洗
+    e.recipes.create.mixing(
+        [
+            "createdimensionalrelics:carbon_dust",
+            Fluid.of("mekanism:sulfuric_acid")
+        ],
+        [
+            "mekanism:dust_charcoal",
+            Fluid.of("mekanism:sulfuric_acid")
+        ]
+    ).id("cdr:mixing/dust_charcoal")
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "post": [
+              {
+                "type": "drop_item",
+                "item": "createdimensionalrelics:carbon_dust"
+              }
+            ],
+            "item_in": [
+              {
+                "item": "mekanism:dust_charcoal"
+              }
+            ],
+            "block_in": "mekanism:sulfuric_acid",
+            "time": 5
+        })
     // 氢氧化钠溶解
     e.recipes.create.mixing(
         [
@@ -564,7 +620,7 @@ ServerEvents.recipes(e => {
                     "type": "vintageimprovements:curving",
                     "ingredients": [
                         {
-                          "tag": "createdimensionalrelics:incompleted_disposable_batteries"
+                          "item": "createdimensionalrelics:incompleted_disposable_batteries"
                         }
                     ],
                     "results": [
@@ -658,13 +714,15 @@ ServerEvents.recipes(e => {
           }
     )
           .id("createdimensionalrelics:crafting/disposable_batteries")
+    // 干电池回收
     e.recipes.create.crushing(
         [
             Item.of("create:zinc_ingot").withChance(0.2),
-            Item.of("create:zinc_nugget").withChance(0.3)
+            Item.of("create:zinc_nugget").withChance(0.3),
+            Item.of("createdimensionalrelics:carbon_dust").withChance(0.5).withCount(2)
         ],
         [
-            Item.of("createdimensionalrelics:disposable_batteries").withNBT({Damage:32000})
+            Item.of("createdimensionalrelics:disposable_batteries","{Damage:32000}").weakNBT()
         ]
     ).id("createdimensionalrelics:recycle_batteries")
 })
