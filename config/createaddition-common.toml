@@ -80,16 +80,16 @@
 [accumulator]
 	#Accumulator max input in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_input = 5000
+	accumulator_max_input = 1000000
 	#Accumulator max output in FE/t (Energy transfer).
 	#Range: > 0
-	accumulator_max_output = 5000
+	accumulator_max_output = 10000000
 	#Accumulator internal capacity per block in FE.
 	#Range: > 0
-	accumulator_capacity = 2000000
+	accumulator_capacity = 10000000
 	#Accumulator max multiblock height.
 	#Range: 1 ~ 8
-	accumulator_max_height = 5
+	accumulator_max_height = 8
 	#Accumulator max multiblock width.
 	#Range: 1 ~ 8
 	accumulator_max_width = 3

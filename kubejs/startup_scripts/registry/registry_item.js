@@ -259,6 +259,17 @@ StartupEvents.registry("item", e => {
         .tag("forge:plates")
         .tag("forge:plates/carbon")
         .rarity("common")
+    // 注册锰
+    e.create("createdimensionalrelics:manganese")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.manganese")
+        .tag("forge:ingots")
+        .rarity("common")
+    // 注册粉碎锰矿石
+    e.create("createdimensionalrelics:crush_raw_manganese")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.crush_raw_manganese")
+        .rarity("common")
     // 注册未完成的电容
     e.create("createaddition:incompleted_capacitor")
         .maxStackSize(64)
@@ -272,21 +283,32 @@ StartupEvents.registry("item", e => {
         .rarity("common")
     // 注册干电池
     e.create("createdimensionalrelics:disposable_batteries")
-        .maxDamage(32000)
+        .maxDamage(128000)
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.disposable_batteries")
         .rarity("common")
         .attachCapability(
             CapabilityBuilder.ENERGY.customItemStack()
                 .canExtract(() => true)
-                .getEnergyStored(be => { return (32000 - be.damageValue) })
+                .getEnergyStored(be => { return (128000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
-                    if (item.damageValue < 32000 && !sim) {
+                    if (item.damageValue < 128000 && !sim) {
                         item.damageValue += Math.min(160, amount)
                     }
                     return Math.min(160, amount)
                 })
         )
+    // 注册钴
+    e.create("createdimensionalrelics:cobalt")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.cobalt")
+        .tag("forge:ingots")
+        .rarity("rare")
+    // 注册粉碎钴矿石
+    e.create("createdimensionalrelics:crush_raw_cobalt")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.crush_raw_cobalt")
+        .rarity("common")
     // 注册锂
     e.create("createdimensionalrelics:lithium")
         .maxStackSize(64)
@@ -294,7 +316,10 @@ StartupEvents.registry("item", e => {
         .tag("forge:ingots")
         .rarity("rare")
     // 注册粉碎锂矿石
-    e.create("createdimensionalrelics:lithium")
+    e.create("createdimensionalrelics:crush_raw_lithium")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.crush_raw_lithium")
+        .rarity("common")
     // 注册未完成锂电池
     e.create("createdimensionalrelics:incompleted_lithium_battery")
         .maxStackSize(64)
@@ -302,7 +327,7 @@ StartupEvents.registry("item", e => {
         .rarity("common")
     // 注册锂电池
     e.create("createdimensionalrelics:lithium_battery")
-        .maxDamage(160000)
+        .maxDamage(1600000)
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.lithium_battery")
         .rarity("rare")
@@ -310,18 +335,18 @@ StartupEvents.registry("item", e => {
             CapabilityBuilder.ENERGY.customItemStack()
                 .canExtract(() => true)
                 .canReceive(() => true)
-                .getMaxEnergyStored(item => 160000)
+                .getMaxEnergyStored(item => 1600000)
                 .receiveEnergy((item, amount, sim) => {
-                    const receieve = Math.min(400, amount, item.damageValue)
+                    const receieve = Math.min(4000, amount, item.damageValue)
                     if (item.damageValue > 0 && !sim) {
                         item.damageValue -= receieve
                     }
                     return receieve
                 })
-                .getEnergyStored(be => { return (160000 - be.damageValue) })
+                .getEnergyStored(be => { return (1600000 - be.damageValue) })
                 .extractEnergy((item, amount, sim) => {
-                    if (item.damageValue < 160000 && !sim) {
-                        item.damageValue += Math.min(1600, amount)
+                    if (item.damageValue < 1600000 && !sim) {
+                        item.damageValue += Math.min(16000, amount)
                     }
                     return Math.min(1600, amount)
                 })
