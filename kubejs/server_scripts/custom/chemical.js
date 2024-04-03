@@ -1,32 +1,9 @@
 ServerEvents.recipes(e => {
     // 煤粉清洗
-    e.recipes.create.mixing(
-        [
-            "createdimensionalrelics:carbon_dust",
-            Fluid.of("mekanism:sulfuric_acid")
-        ],
-        [
-            "mekanism:dust_coal",
-            Fluid.of("mekanism:sulfuric_acid")
-        ]
-    ).id("cdr:mixing/dust_coal")
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "post": [
-                {
-                    "type": "drop_item",
-                    "item": "createdimensionalrelics:carbon_dust"
-                }
-            ],
-            "item_in": [
-                {
-                    "item": "mekanism:dust_coal"
-                }
-            ],
-            "block_in": "mekanism:sulfuric_acid",
-            "time": 5
-        })
+    washing_recipe(e,
+        "mekanism:dust_coal",
+        "mekanism:sulfuric_acid",
+        "createdimensionalrelics:carbon_dust")
     // 木炭粉清洗
     e.recipes.create.mixing(
         [
@@ -721,7 +698,7 @@ ServerEvents.recipes(e => {
             Item.of("createdimensionalrelics:carbon_dust").withChance(0.5).withCount(2)
         ],
         [
-            Item.of("createdimensionalrelics:disposable_batteries","{Damage:128000}").weakNBT()
+            Item.of("createdimensionalrelics:disposable_batteries", "{Damage:128000}").weakNBT()
         ]
     ).id("createdimensionalrelics:recycle_batteries")
     // 锂电池合成
