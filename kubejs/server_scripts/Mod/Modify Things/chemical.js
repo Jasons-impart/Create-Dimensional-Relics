@@ -840,4 +840,5 @@ ServerEvents.recipes(e => {
               }
         )
               .id("createdimensionalrelics:crafting/lithium_battery")
+            //   太努力了jason，么么叽 （づ￣3￣）づ╭❤～
 })
