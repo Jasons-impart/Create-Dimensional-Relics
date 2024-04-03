@@ -14,15 +14,15 @@ ServerEvents.recipes(e => {
         {
             "type": "lychee:item_inside",
             "post": [
-              {
-                "type": "drop_item",
-                "item": "createdimensionalrelics:carbon_dust"
-              }
+                {
+                    "type": "drop_item",
+                    "item": "createdimensionalrelics:carbon_dust"
+                }
             ],
             "item_in": [
-              {
-                "item": "mekanism:dust_coal"
-              }
+                {
+                    "item": "mekanism:dust_coal"
+                }
             ],
             "block_in": "mekanism:sulfuric_acid",
             "time": 5
@@ -42,15 +42,15 @@ ServerEvents.recipes(e => {
         {
             "type": "lychee:item_inside",
             "post": [
-              {
-                "type": "drop_item",
-                "item": "createdimensionalrelics:carbon_dust"
-              }
+                {
+                    "type": "drop_item",
+                    "item": "createdimensionalrelics:carbon_dust"
+                }
             ],
             "item_in": [
-              {
-                "item": "mekanism:dust_charcoal"
-              }
+                {
+                    "item": "mekanism:dust_charcoal"
+                }
             ],
             "block_in": "mekanism:sulfuric_acid",
             "time": 5
@@ -411,9 +411,9 @@ ServerEvents.recipes(e => {
     // 合成氨
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 0,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "mekanism:hydrogen",
                     "amount": 100
@@ -442,9 +442,9 @@ ServerEvents.recipes(e => {
     // 合成尿素
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 0,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "createdimensionalrelics:ammonia",
                     "amount": 1000
@@ -469,9 +469,9 @@ ServerEvents.recipes(e => {
     // 合成肼
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 2,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "createdimensionalrelics:sodium_hydroxide_fluid",
                     "amount": 2000
@@ -497,7 +497,7 @@ ServerEvents.recipes(e => {
                     "fluid": "createdimensionalrelics:carbon_dioxide",
                     "amount": 1000
                 }
-                
+
             ],
             "processingTime": 2000
         }
@@ -505,9 +505,9 @@ ServerEvents.recipes(e => {
     // 合成偏二甲肼
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
+            "type": "vintageimprovements:pressurizing",
             "secondaryFluidResults": 1,
-            "ingredients": [ 
+            "ingredients": [
                 {
                     "fluid": "createdimensionalrelics:hydrazine",
                     "amount": 500
@@ -532,7 +532,7 @@ ServerEvents.recipes(e => {
                 {
                     "item": "createdimensionalrelics:electrolyzer"
                 }
-                
+
             ],
             "processingTime": 2000
         }
@@ -540,8 +540,8 @@ ServerEvents.recipes(e => {
     // 合成HCl
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
-            "ingredients": [ 
+            "type": "vintageimprovements:pressurizing",
+            "ingredients": [
                 {
                     "fluid": "mekanism:chlorine",
                     "amount": 1000
@@ -563,8 +563,8 @@ ServerEvents.recipes(e => {
     // 合成氯化铵
     e.custom(
         {
-            "type":"vintageimprovements:pressurizing",
-            "ingredients": [ 
+            "type": "vintageimprovements:pressurizing",
+            "ingredients": [
                 {
                     "fluid": "mekanism:hydrogen_chloride",
                     "amount": 1000
@@ -593,10 +593,10 @@ ServerEvents.recipes(e => {
             "minecraft:coal"
         ])
         .id("create:crushing/coal")
-    e.recipes.create.crushing(        [
+    e.recipes.create.crushing([
         "mekanism:dust_charcoal",
         Item.of("mekanism:dust_charcoal").withChance(0.25)
-        ],
+    ],
         [
             "minecraft:charcoal"
         ])
@@ -606,113 +606,113 @@ ServerEvents.recipes(e => {
         {
             "type": "create:sequenced_assembly",
             "ingredient": {
-              "tag": "forge:plates/zinc"
+                "tag": "forge:plates/zinc"
             },
             "loops": 1,
             "results": [
-              {
-                "item": "createdimensionalrelics:disposable_batteries"
-              }
+                {
+                    "item": "createdimensionalrelics:disposable_batteries"
+                }
             ],
             "sequence": [
                 {
                     "type": "vintageimprovements:curving",
                     "ingredients": [
                         {
-                          "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
                         }
                     ],
                     "results": [
                         {
-                          "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
                         }
                     ]
                 },
                 {
                     "type": "create:deploying",
-                    "ingredients":[
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      },
-                      {
-                        "item": "createdimensionalrelics:carbon_dust"
-                      }
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        },
+                        {
+                            "item": "createdimensionalrelics:carbon_dust"
+                        }
                     ],
                     "results": [
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
                     ]
-                  },
+                },
                 {
                     "type": "create:filling",
                     "ingredients": [
-                      {
-                       "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      },
-                      {
-                          "fluid": "createdimensionalrelics:ammonium_chloride",
-                          "amount": 200
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        },
+                        {
+                            "fluid": "createdimensionalrelics:ammonium_chloride",
+                            "amount": 200
+                        }
                     ],
                     "results": [
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "type": "create:deploying",
-                    "ingredients":[
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      },
-                      {
-                        "item": "createdimensionalrelics:carbon_rod"
-                      }
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        },
+                        {
+                            "item": "createdimensionalrelics:carbon_rod"
+                        }
                     ],
                     "results": [
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "type": "create:deploying",
-                    "ingredients":[
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      },
-                      {
-                        "tag": "forge:plates/zinc"
-                      }
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        },
+                        {
+                            "tag": "forge:plates/zinc"
+                        }
                     ],
                     "results": [
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
                     ]
-                  },
-                  {
+                },
+                {
                     "type": "create:pressing",
-                    "ingredients":[
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      },
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        },
                     ],
                     "results": [
-                      {
-                        "item": "createdimensionalrelics:incompleted_disposable_batteries"
-                      }
+                        {
+                            "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                        }
                     ]
-                  }
+                }
             ],
             "transitionalItem": {
-              "item": "createdimensionalrelics:incompleted_disposable_batteries"
+                "item": "createdimensionalrelics:incompleted_disposable_batteries"
             }
-          }
+        }
     )
-          .id("createdimensionalrelics:crafting/disposable_batteries")
+        .id("createdimensionalrelics:crafting/disposable_batteries")
     // 干电池回收
     e.recipes.create.crushing(
         [
@@ -725,119 +725,119 @@ ServerEvents.recipes(e => {
         ]
     ).id("createdimensionalrelics:recycle_batteries")
     // 锂电池合成
-        e.custom(
-            {
-                "type": "create:sequenced_assembly",
-                "ingredient": {
-                  "item": "createdimensionalrelics:super_polymer"
-                },
-                "loops": 1,
-                "results": [
-                  {
+    e.custom(
+        {
+            "type": "create:sequenced_assembly",
+            "ingredient": {
+                "item": "createdimensionalrelics:super_polymer"
+            },
+            "loops": 1,
+            "results": [
+                {
                     "item": "createdimensionalrelics:lithium_battery",
                     "nbt": {
                         "Damage": 1600000
                     }
-                    
-                  }
-                ],
-                "sequence": [
-                    {
-                        "type": "vintageimprovements:curving",
-                        "ingredients": [
-                            {
-                              "item": "createdimensionalrelics:incompleted_lithium_battery"
-                            }
-                        ],
-                        "results": [
-                            {
-                              "item": "createdimensionalrelics:incompleted_lithium_battery"
-                            }
-                        ]
-                    },
-                    {
-                        "type": "create:deploying",
-                        "ingredients":[
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          },
-                          {
-                            "item": "createdimensionalrelics:carbon_dust"
-                          }
-                        ],
-                        "results": [
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "create:deploying",
-                        "ingredients":[
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          },
-                          {
-                            "item": "createdimensionalrelics:polypropylene"
-                          }
-                        ],
-                        "results": [
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          }
-                        ]
-                    },
-                    {
-                        "type": "create:filling",
-                        "ingredients": [
-                          {
-                           "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          },
-                          {
-                              "fluid": "createdimensionalrelics:ammonium_chloride",
-                              "amount": 200
-                          }
-                        ],
-                        "results": [
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "create:deploying",
-                        "ingredients":[
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          },
-                          {
-                            "tag": "forge:plates/aluminum"
-                          }
-                        ],
-                        "results": [
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          }
-                        ]
-                      },
-                      {
-                        "type": "create:pressing",
-                        "ingredients":[
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          },
-                        ],
-                        "results": [
-                          {
-                            "item": "createdimensionalrelics:incompleted_lithium_battery"
-                          }
-                        ]
-                      }
-                ],
-                "transitionalItem": {
-                  "item": "createdimensionalrelics:incompleted_lithium_battery"
+
                 }
-              }
-        )
-              .id("createdimensionalrelics:crafting/lithium_battery")
+            ],
+            "sequence": [
+                {
+                    "type": "vintageimprovements:curving",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                        {
+                            "item": "createdimensionalrelics:carbon_dust"
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                        {
+                            "item": "createdimensionalrelics:polypropylene"
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:filling",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                        {
+                            "fluid": "createdimensionalrelics:ammonium_chloride",
+                            "amount": 200
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                        {
+                            "tag": "forge:plates/aluminum"
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:pressing",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                }
+            ],
+            "transitionalItem": {
+                "item": "createdimensionalrelics:incompleted_lithium_battery"
+            }
+        }
+    ).id("createdimensionalrelics:crafting/lithium_battery")
+    // 太努力了jason，么么叽 （づ￣3￣）づ╭❤～
 })
