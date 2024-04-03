@@ -29,33 +29,23 @@
 				type: "item"
 			}]
 			title: "发射！"
-			x: -5.0d
-			y: -0.5d
+			x: -16.0d
+			y: -4.5d
 		}
 		{
-			id: "7C5821AC664F2AF3"
-			invisible: true
-			size: 5.0d
-			subtitle: "燕子，没有你我可怎么活啊，燕子！"
-			tasks: [{
-				advancement: "ad_astra:rocket_destroyed"
-				criterion: ""
-				id: "5A047A050FB4A6A5"
-				type: "advancement"
-			}]
-			title: "等等我我还没上车啊！！！！"
-			x: 2.5d
-			y: 0.0d
-		}
-		{
+			dependencies: [
+				"6B2078A0499A412B"
+				"6CFC19C8458D0F02"
+			]
 			description: ["&4&l小心霉菌?&l"]
 			id: "6D52848AA0B207E0"
+			subtitle: "此处只需要&f等级：8，输出口：5&r就足够了哦"
 			tasks: [{
 				id: "295F9670BE68FF54"
 				item: "createindustry:crude_oil_fluid_bucket"
 				type: "item"
 			}]
-			x: -8.5d
+			x: -9.5d
 			y: 1.0d
 		}
 		{
@@ -73,8 +63,266 @@
 				type: "item"
 			}]
 			title: "打火石怎么变成钢做的了？"
-			x: -4.0d
+			x: -17.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6D52848AA0B207E0"]
+			id: "30B2A5DFB816DC38"
+			tasks: [{
+				id: "3C495E4AD4E02468"
+				item: "createindustry:kerosene_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6D52848AA0B207E0"]
+			id: "61FB72CFC7E13F02"
+			tasks: [{
+				id: "0CE8A04244925024"
+				item: "createindustry:diesel_bucket"
+				type: "item"
+			}]
+			x: -8.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["6D52848AA0B207E0"]
+			id: "7F01F01618087792"
+			tasks: [{
+				id: "0380D341479CCE83"
+				item: "createindustry:heavy_oil_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"2E7266FCE11094C6"
+				"6D45A72EFCB6BCB7"
+				"623447B3E91E97B5"
+			]
+			id: "6CFC19C8458D0F02"
+			tasks: [{
+				id: "23E6ECDF21F244CB"
+				item: "createindustry:steel_distillation_output"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6D52848AA0B207E0"]
+			id: "6F8CC2C5E2E9536F"
+			tasks: [{
+				id: "3D13DC90E005293D"
+				item: "createindustry:naphtha_bucket"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			id: "4B6BE0964D4FBC0F"
+			tasks: [{
+				id: "7D646C56B52AFA7B"
+				item: "createindustry:heavy_machinery_casing"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 1.0d
+		}
+		{
+			id: "2E7266FCE11094C6"
+			tasks: [{
+				id: "5905E375B43AD868"
+				item: "createindustry:industrial_pipe"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 0.0d
+		}
+		{
+			id: "33ABF9CB3BF90759"
+			tasks: [{
+				id: "4F726A882C6431C2"
+				item: "createindustry:steel_mechanism"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			id: "623447B3E91E97B5"
+			tasks: [{
+				id: "29613D58117353F7"
+				item: "createindustry:heavy_plate"
+				type: "item"
+			}]
+			x: -13.0d
+			y: -2.0d
+		}
+		{
+			id: "49F992B23034354E"
+			tasks: [{
+				id: "1C7BABC3C274D0B4"
+				item: "createindustry:steel_pipe"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 2.0d
+		}
+		{
+			id: "6D45A72EFCB6BCB7"
+			tasks: [{
+				id: "793638C716284E2F"
+				item: "createindustry:steel_fluid_tank"
+				type: "item"
+			}]
+			x: -13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"33ABF9CB3BF90759"
+				"49F992B23034354E"
+				"2E7266FCE11094C6"
+				"623447B3E91E97B5"
+				"4B6BE0964D4FBC0F"
+			]
+			id: "6B2078A0499A412B"
+			tasks: [{
+				id: "2AB5392AC94C9AFB"
+				item: "createindustry:steel_distillation_controller"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.0d
+		}
+		{
+			id: "5AF7578FA526E48D"
+			tasks: [{
+				id: "7E53C6BA3939BA48"
+				item: "createdimensionalrelics:electrolyzer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5AF7578FA526E48D"]
+			id: "449D78E90D6D8C7B"
+			tasks: [{
+				id: "718F360E82EA3205"
+				item: "createdimensionalrelics:electrolyzer_charged"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7F01F01618087792"]
+			id: "1A908AC95867E587"
+			tasks: [{
+				id: "4CEA1E6A2168B665"
+				item: "createindustry:lubrication_oil_bucket"
+				type: "item"
+			}]
+			x: -8.577210884353732d
+			y: 6.042176870748278d
+		}
+		{
+			dependencies: ["7F01F01618087792"]
+			id: "1A29A2BA4FF6EAD2"
+			tasks: [{
+				id: "1FCD7ADB28E79E8C"
+				item: "createindustry:liquid_asphalt_bucket"
+				type: "item"
+			}]
+			x: -7.389455782312922d
+			y: 5.997278911564607d
+		}
+		{
+			id: "189802C3E0128810"
+			tasks: [
+				{
+					id: "29EE162D4F803916"
+					item: "vintageimprovements:vacuum_chamber"
+					type: "item"
+				}
+				{
+					id: "4CD37DDC4ABB4EAA"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "1729422452D21596"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D52848AA0B207E0"]
+			id: "61564FFC263D3C0C"
+			tasks: [{
+				id: "2A938135A2C8DA82"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "&4此处为液化石油气"
+			x: -8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["30B2A5DFB816DC38"]
+			id: "34EFDEC14569729E"
+			tasks: [{
+				id: "7901A6E4882C3260"
+				item: "createindustry:cast_iron_distillation_controller"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["34EFDEC14569729E"]
+			id: "320A701798BB6FBF"
+			tasks: [{
+				id: "430ABF319C9B8877"
+				item: "createindustry:coal_coke"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["34EFDEC14569729E"]
+			id: "35BC431E6F68F2DC"
+			tasks: [{
+				id: "34755C6A173716D8"
+				item: "mekanism:ethene_bucket"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["34EFDEC14569729E"]
+			id: "1EF0DE3F7BAE1E20"
+			tasks: [{
+				id: "5BE600785237142E"
+				item: "minecraft:stone"
+				type: "item"
+			}]
+			title: "&4此处为液化石油气"
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	title: "石油化工"
