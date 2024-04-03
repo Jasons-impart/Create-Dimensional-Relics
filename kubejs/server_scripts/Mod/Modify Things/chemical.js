@@ -721,7 +721,7 @@ ServerEvents.recipes(e => {
             Item.of("createdimensionalrelics:carbon_dust").withChance(0.5).withCount(2)
         ],
         [
-            Item.of("createdimensionalrelics:disposable_batteries","{Damage:32000}").weakNBT()
+            Item.of("createdimensionalrelics:disposable_batteries","{Damage:128000}").weakNBT()
         ]
     ).id("createdimensionalrelics:recycle_batteries")
     // 锂电池合成
@@ -736,7 +736,7 @@ ServerEvents.recipes(e => {
                   {
                     "item": "createdimensionalrelics:lithium_battery",
                     "nbt": {
-                        "Damage": 160000
+                        "Damage": 1600000
                     }
                     
                   }
