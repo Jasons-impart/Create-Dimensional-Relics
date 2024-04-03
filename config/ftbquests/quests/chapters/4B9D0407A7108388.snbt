@@ -33,21 +33,6 @@
 			y: -4.5d
 		}
 		{
-			id: "7C5821AC664F2AF3"
-			invisible: true
-			size: 5.0d
-			subtitle: "燕子，没有你我可怎么活啊，燕子！"
-			tasks: [{
-				advancement: "ad_astra:rocket_destroyed"
-				criterion: ""
-				id: "5A047A050FB4A6A5"
-				type: "advancement"
-			}]
-			title: "等等我我还没上车啊！！！！"
-			x: -17.5d
-			y: -7.5d
-		}
-		{
 			dependencies: [
 				"6B2078A0499A412B"
 				"6CFC19C8458D0F02"
