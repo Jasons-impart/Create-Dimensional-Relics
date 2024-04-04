@@ -593,7 +593,7 @@ ServerEvents.recipes(e => {
             "processingTime": 600
         }
     )
-    // 合成氯化铵
+    // 合成氯化铵（侯氏制碱法）
     e.custom(
         {
             "type": "vintageimprovements:pressurizing",
