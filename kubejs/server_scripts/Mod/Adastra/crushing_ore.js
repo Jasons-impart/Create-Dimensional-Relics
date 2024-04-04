@@ -4,6 +4,8 @@ ServerEvents.recipes(e => {
         "create:crushed_raw_iron",
         Item.of("create:crushed_raw_iron")
             .withChance(0.75),
+        Item.of("create:crushed_raw_aluminum")
+            .withChance(0.3),
         Item.of("create:experience_nugget")
             .withChance(0.75),
         Item.of("ad_astra:moon_cobblestone")
@@ -13,6 +15,8 @@ ServerEvents.recipes(e => {
         "create:crushed_raw_iron",
         Item.of("create:crushed_raw_iron")
             .withChance(0.75),
+        Item.of("create:crushed_raw_aluminum")
+            .withChance(0.3),
         Item.of("create:experience_nugget")
             .withChance(0.75),
         Item.of("ad_astra:glacio_cobblestone")
@@ -22,6 +26,8 @@ ServerEvents.recipes(e => {
         "create:crushed_raw_iron",
         Item.of("create:crushed_raw_iron")
             .withChance(0.75),
+        Item.of("create:crushed_raw_aluminum")
+            .withChance(0.3),
         Item.of("create:experience_nugget")
             .withChance(0.75),
         Item.of("ad_astra:mars_cobblestone")

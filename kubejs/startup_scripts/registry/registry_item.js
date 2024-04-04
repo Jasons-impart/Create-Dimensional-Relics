@@ -279,6 +279,11 @@ StartupEvents.registry("item", e => {
         .tag("forge:raw_materials")
         .tag("forge:raw_materials/manganese")
         .rarity("common")
+    // 注册MnO2
+    e.create("createdimensionalrelics:manganese_dioxide")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.manganese_dioxide")
+        .rarity("rare")
     // 注册未完成的电容
     e.create("createaddition:incompleted_capacitor")
         .maxStackSize(64)

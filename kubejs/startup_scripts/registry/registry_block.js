@@ -26,9 +26,25 @@ StartupEvents.registry("block", e => {
     // 深渊合金块
     registerBlock("abyss_alloy_block", "metal", 15, 1200, "mineable/pickaxe", "forge:needs_netherite_tool", true)
     // 钢燃料储罐
-    registerBlock("steel_tank", "metal", 5, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
+    e.create("createdimensionalrelics:steel_tank")
+        .translationKey("block.createdimensionalrelics.steel_tank")
+        .soundType("metal")
+        .hardness(5)
+        .resistance(15)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("minecraft:need_diamond_tool")
+        .requiresTool(true)
+        .defaultCutout()
     // 钢引擎
-    registerBlock("steel_engine", "metal", 5, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
+    e.create("createdimensionalrelics:steel_engine")
+        .translationKey("block.createdimensionalrelics.steel_engine")
+        .soundType("metal")
+        .hardness(5)
+        .resistance(15)
+        .tagBlock("mineable/pickaxe")
+        .tagBlock("minecraft:need_diamond_tool")
+        .requiresTool(true)
+        .defaultCutout()
     // 一级火箭核心
     registerBlock("rocket_core_tier_1", "metal", 15, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 戴斯燃料储罐

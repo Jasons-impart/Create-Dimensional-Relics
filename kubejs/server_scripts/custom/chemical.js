@@ -1,4 +1,170 @@
 ServerEvents.recipes(e => {
+    // 锰
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_manganese",
+            Item.of("create:crushed_raw_iron")
+                .withChance(0.3),
+            Item.of("create:crushed_raw_aluminum")
+                .withChance(0.1),
+            Item.of("create:experience_nugget")
+                .withChance(0.75)
+        ],
+        [
+            "createdimensionalrelics:raw_manganese"
+        ]
+    ).id("create:crushing/raw_manganses")
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_manganese",
+            Item.of("createdimensionalrelics:crush_raw_manganese")
+                .withChance(0.75),
+            Item.of("create:crushed_raw_iron")
+                .withChance(0.3),
+            Item.of("create:crushed_raw_aluminum")
+                .withChance(0.1),
+            Item.of("create:experience_nugget")
+                .withChance(0.75),
+            Item.of("minecraft:cobblestone")
+                .withChance(0.12)
+        ],
+        [
+            "createdimensionalrelics:manganese_ore"
+        ]
+        )
+        .id("create:crushing/manganses_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:crush_raw_manganese"
+    ).id("minecraft:smelting/manganse")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:crush_raw_manganese"
+    ).id("minecraft:blasting/manganse")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:manganese_ore"
+    ).id("minecraft:smelting/manganese_ore")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:manganese_ore"
+    ).id("minecraft:blasting/manganese_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:raw_manganese"
+    ).id("minecraft:smelting/raw_manganese")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:manganese",
+        "createdimensionalrelics:raw_manganese"
+    ).id("minecraft:blasting/raw_manganese")
+    // 钴
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_cobalt",
+            Item.of("create:crushed_raw_copper")
+                .withChance(0.3),
+            Item.of("create:experience_nugget")
+                .withChance(0.75)
+        ],
+        [
+            "createdimensionalrelics:raw_cobalt"
+        ]
+    ).id("create:crushing/raw_cobalt")
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_cobalt",
+            Item.of("createdimensionalrelics:crush_raw_cobalt")
+                .withChance(0.75),
+            Item.of("create:crushed_raw_copper")
+                .withChance(0.3),
+            Item.of("create:experience_nugget")
+                .withChance(0.75),
+            Item.of("minecraft:cobblestone")
+                .withChance(0.12)
+        ],
+        [
+            "createdimensionalrelics:cobalt_ore"
+        ]
+        )
+        .id("create:crushing/cobalt_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:crush_raw_cobalt"
+    ).id("minecraft:smelting/cobalt")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:crush_raw_cobalt"
+    ).id("minecraft:blasting/cobalt")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:cobalt_ore"
+    ).id("minecraft:smelting/cobalt_ore")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:cobalt_ore"
+    ).id("minecraft:blasting/cobalt_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:raw_cobalt"
+    ).id("minecraft:smelting/raw_cobalt")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:cobalt",
+        "createdimensionalrelics:raw_cobalt"
+    ).id("minecraft:blasting/raw_cobalt")
+    // 锂
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_lithium",
+            Item.of("create:crushed_raw_copper")
+                .withChance(0.3),
+            Item.of("create:experience_nugget")
+                .withChance(0.75)
+        ],
+        [
+            "createdimensionalrelics:raw_lithium"
+        ]
+    ).id("create:crushing/raw_lithium")
+    e.recipes.create.crushing(
+        [
+            "createdimensionalrelics:crush_raw_lithium",
+            Item.of("createdimensionalrelics:crush_raw_lithium")
+                .withChance(0.75),
+            Item.of("create:crushed_raw_copper")
+                .withChance(0.3),
+            Item.of("create:experience_nugget")
+                .withChance(0.75),
+            Item.of("minecraft:cobblestone")
+                .withChance(0.12)
+        ],
+        [
+            "createdimensionalrelics:lithium_ore"
+        ]
+        )
+        .id("create:crushing/lithium_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:crush_raw_lithium"
+    ).id("minecraft:smelting/lithium")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:crush_raw_lithium"
+    ).id("minecraft:blasting/lithium")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:lithium_ore"
+    ).id("minecraft:smelting/lithium_ore")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:lithium_ore"
+    ).id("minecraft:blasting/lithium_ore")
+    e.recipes.minecraft.smelting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:raw_lithium"
+    ).id("minecraft:smelting/raw_lithium")
+    e.recipes.minecraft.blasting(
+        "createdimensionalrelics:lithium",
+        "createdimensionalrelics:raw_lithium"
+    ).id("minecraft:blasting/raw_lithium")
     // 煤粉、木炭粉清洗
     washing_recipe(e,
         "mekanism:dust_coal",
@@ -86,6 +252,53 @@ ServerEvents.recipes(e => {
             ],
             "processingTime": 600
         }).id("createdimensionalrelics:electrolyze/salt")
+    // 锂遇水爆炸生成NaOH
+    e.custom(
+        {
+            "type": "lychee:item_inside",
+            "item_in": {
+                "item": "createdimensionalrelics:lithium"
+            },
+            "block_in": {
+                "blocks": ["water"]
+            },
+            "post": [
+                {
+                    "type": "execute",
+                    "command": "summon minecraft:tnt ~ ~1 ~ {fuse:0,explosionpower:5}"
+                },
+                {
+                    "type": "place",
+                    "block": "createdimensionalrelics:lithium_hydroxide"
+                }
+            ]
+        })
+    // 锂与水缓慢反应生成NaOH
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 1,
+            "ingredients": [
+                {
+                    "fluid": "water",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:lithium"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:lithium_hydroxide",
+                    "amount": 500
+                },
+                {
+                    "fluid": "mekanism:hydrogen",
+                    "amount": 500
+                },
+            ],
+            "processingTime": 300
+        })
     // 钠遇水爆炸生成NaOH
     e.custom(
         {
@@ -421,6 +634,43 @@ ServerEvents.recipes(e => {
             "minecraft:charcoal"
         ])
         .id("create:crushing/charcoal")
+    // MnO2合成
+    e.custom(
+        {
+            "type": "vintageimprovements:vacuumizing",
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "item": "createdimensionalrelics:manganese",
+                },
+                {
+                    "fluid": "ad_astra:oxygen",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:manganese_dioxide"
+                },
+            ],
+            "processingTime": 100
+        })
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "heatRequirement": "heated",
+            "ingredients": [
+                {
+                    "item": "createdimensionalrelics:manganese",
+                },
+            ],
+            "results": [
+                {
+                    "item": "createdimensionalrelics:manganese_dioxide",
+                },
+            ],
+            "processingTime": 600
+        })
     // 干电池合成
     e.custom(
         {
@@ -455,7 +705,7 @@ ServerEvents.recipes(e => {
                             "item": "createdimensionalrelics:incompleted_disposable_batteries"
                         },
                         {
-                            "item": "createdimensionalrelics:carbon_dust"
+                            "item": "createdimensionalrelics:manganese_dioxide"
                         }
                     ],
                     "results": [
@@ -536,9 +786,9 @@ ServerEvents.recipes(e => {
     // 干电池回收
     e.recipes.create.crushing(
         [
-            Item.of("create:zinc_ingot").withChance(0.2),
-            Item.of("create:zinc_nugget").withChance(0.3),
-            Item.of("createdimensionalrelics:carbon_dust").withChance(0.5).withCount(2)
+            Item.of("create:zinc_ingot"),
+            Item.of("create:zinc_nugget").withChance(0.3).withCount(3),
+            Item.of("createdimensionalrelics:carbon_dust").withCount(2)
         ],
         [
             Item.of("createdimensionalrelics:disposable_batteries", "{Damage:128000}").weakNBT()
@@ -660,4 +910,5 @@ ServerEvents.recipes(e => {
         }
     ).id("createdimensionalrelics:crafting/lithium_battery")
     // 太努力了jason，么么叽 （づ￣3￣）づ╭❤～
+    // 收到jbson的(づ￣3￣)づ╭❤～
 })

@@ -1,4 +1,24 @@
 ServerEvents.recipes(e => {
+    // 石灰砂合成
+    e.recipes.create.crushing(
+        [
+            "createindustry:limesand",
+            Item.of("createindustry:limesand")
+                .withChance(0.3)
+        ],
+        "minecraft:flint"
+    )
+        .id("create:crushing/flint")
+    e.recipes.create.milling(
+        'createindustry:limesand',
+        "minecraft:flint"
+    )
+        .id("create:milling/flint")
+    e.recipes.mekanism.crushing(
+        'createindustry:limesand',
+        "minecraft:flint"
+    )
+        .id("mekanism:crushing/flint_to_gunpowder")
     // 碳板合成
     e.recipes.create.compacting("createindustry:coal_sheet", "createdimensionalrelics:carbon_dust")
         .heated()
@@ -84,30 +104,39 @@ ServerEvents.recipes(e => {
     e.recipes.create.crushing("createindustry:limesand", "quark:limestone")
     e.recipes.create.milling("createindustry:limesand", "quark:limestone")
     // 铝土矿作为副矿产生
-    e.recipes.create.crushing([
-        Item.of("create:crushed_raw_aluminum").withChance(0.1)
-    ], [
-        "create:crushed_raw_iron"
-    ])
-    e.recipes.create.crushing([
-        "create:crushed_raw_iron",
-        Item.of("create:crushed_raw_aluminum").withChance(0.3),
-        Item.of("create:experience_nugget").withChance(0.75)
-    ], [
+    e.recipes.create.crushing(
+        [
+            "create:crushed_raw_iron",
+            Item.of("create:crushed_raw_aluminum")
+                .withChance(0.3),
+            Item.of("create:experience_nugget")
+                .withChance(0.75)
+        ],
+        [
         "minecraft:raw_iron"
-    ])
+        ]
+    )
         .id("create:crushing/raw_iron")
-    e.recipes.create.crushing([
-        "9x create:crushed_raw_iron",
-        Item.of("create:crushed_raw_aluminum").withChance(0.3).withCount(9),
-        Item.of("create:experience_nugget").withChance(0.75).withCount(9)
-    ], [
-        "minecraft:raw_iron_block"
-    ])
+    e.recipes.create.crushing(
+        [
+            "9x create:crushed_raw_iron",
+            Item.of("create:crushed_raw_aluminum")
+                .withChance(0.3)
+                .withCount(9),
+            Item.of("create:experience_nugget")
+                .withChance(0.75)
+                .withCount(9)
+        ],
+        [
+            "minecraft:raw_iron_block"
+        ]
+    )
         .id("create:crushing/raw_iron_block")
     // 乙烯合成配方修改
     e.recipes.create.mixing(
-        [Fluid.of("createindustry:liquid_plastic", 500)],
+        [
+            Fluid.of("createindustry:liquid_plastic", 500)
+        ],
         [
             Fluid.of("createindustry:ethylene", 1000),
             Fluid.of("ad_astra:oxygen", 1000)
