@@ -1,210 +1,30 @@
 ServerEvents.recipes(e => {
-    // 煤粉清洗
-    e.recipes.create.mixing(
-        [
-            "createdimensionalrelics:carbon_dust",
-            Fluid.of("mekanism:sulfuric_acid")
-        ],
-        [
-            "mekanism:dust_coal",
-            Fluid.of("mekanism:sulfuric_acid")
-        ]
-    ).id("cdr:mixing/dust_coal")
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "post": [
-                {
-                    "type": "drop_item",
-                    "item": "createdimensionalrelics:carbon_dust"
-                }
-            ],
-            "item_in": [
-                {
-                    "item": "mekanism:dust_coal"
-                }
-            ],
-            "block_in": "mekanism:sulfuric_acid",
-            "time": 5
-        })
-    // 木炭粉清洗
-    e.recipes.create.mixing(
-        [
-            "createdimensionalrelics:carbon_dust",
-            Fluid.of("mekanism:sulfuric_acid")
-        ],
-        [
-            "mekanism:dust_charcoal",
-            Fluid.of("mekanism:sulfuric_acid")
-        ]
-    ).id("cdr:mixing/dust_charcoal")
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "post": [
-                {
-                    "type": "drop_item",
-                    "item": "createdimensionalrelics:carbon_dust"
-                }
-            ],
-            "item_in": [
-                {
-                    "item": "mekanism:dust_charcoal"
-                }
-            ],
-            "block_in": "mekanism:sulfuric_acid",
-            "time": 5
-        })
-    // 氢氧化钠溶解
-    e.recipes.create.mixing(
-        [
-            Fluid.of("createdimensionalrelics:sodium_hydroxide_fluid", 1000)
-        ],
-        [
-            "createdimensionalrelics:sodium_hydroxide",
-            Fluid.of("minecraft:water", 1000)
-        ]
-    )
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "item_in": {
-                "item": "createdimensionalrelics:sodium_hydroxide"
-            },
-            "block_in": {
-                "blocks": ["water"]
-            },
-            "post": [
-                {
-                    "type": "place",
-                    "block": "createdimensionalrelics:sodium_hydroxide_fluid"
-                }
-            ]
-        })
-    // 氢氧化钠提取
-    e.custom(
-        {
-            "type": "vintageimprovements:pressurizing",
-            "secondaryFluidResults": 0,
-            "heatRequirement": "heated",
-            "ingredients": [
-                {
-                    "fluid": "createdimensionalrelics:sodium_hydroxide_fluid",
-                    "amount": 1000
-                },
-            ],
-            "results": [
-                {
-                    "fluid": "water",
-                    "amount": 1000
-                },
-                {
-                    "item": "createdimensionalrelics:sodium_hydroxide",
-                },
-            ],
-            "processingTime": 300
-        }
-    )
-    // 次氯酸钠溶解
-    e.recipes.create.mixing(
-        [
-            Fluid.of("createdimensionalrelics:sodium_hypochlorite_fluid", 1000)
-        ],
-        [
-            "createdimensionalrelics:sodium_hypochlorite",
-            Fluid.of("minecraft:water", 1000)
-        ]
-    )
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "item_in": {
-                "item": "createdimensionalrelics:sodium_hypochlorite"
-            },
-            "block_in": {
-                "blocks": ["water"]
-            },
-            "post": [
-                {
-                    "type": "place",
-                    "block": "createdimensionalrelics:sodium_hypochlorite_fluid"
-                }
-            ]
-        })
-    // 次氯酸钠提取
-    e.custom(
-        {
-            "type": "vintageimprovements:pressurizing",
-            "secondaryFluidResults": 0,
-            "heatRequirement": "heated",
-            "ingredients": [
-                {
-                    "fluid": "createdimensionalrelics:sodium_hypochlorite_fluid",
-                    "amount": 1000
-                },
-            ],
-            "results": [
-                {
-                    "fluid": "water",
-                    "amount": 1000
-                },
-                {
-                    "item": "createdimensionalrelics:sodium_hypochlorite",
-                },
-            ],
-            "processingTime": 300
-        }
-    )
-    // 盐溶解
-    e.recipes.create.mixing(
-        [
-            Fluid.of("mekanism:brine", 1000),
-        ],
-        [
-            Fluid.of("minecraft:water", 1000),
-            "#forge:dusts/salt"
-        ]
-    ).id("cdr:mixing/brine")
-    e.custom(
-        {
-            "type": "lychee:item_inside",
-            "item_in": {
-                "item": "mekanism:salt"
-            },
-            "block_in": {
-                "blocks": ["water"]
-            },
-            "post": [
-                {
-                    "type": "place",
-                    "block": "mekanism:brine"
-                }
-            ]
-        })
-    // 盐提取
-    e.custom(
-        {
-            "type": "vintageimprovements:pressurizing",
-            "secondaryFluidResults": 0,
-            "heatRequirement": "heated",
-            "ingredients": [
-                {
-                    "fluid": "mekanism:brine",
-                    "amount": 1000
-                },
-            ],
-            "results": [
-                {
-                    "fluid": "water",
-                    "amount": 1000
-                },
-                {
-                    "item": "mekanism:salt",
-                },
-            ],
-            "processingTime": 300
-        }
-    )
+    // 煤粉、木炭粉清洗
+    washing_recipe(e,
+        "mekanism:dust_coal",
+        "mekanism:sulfuric_acid",
+        "createdimensionalrelics:carbon_dust")
+    washing_recipe(e,
+        "mekanism:dust_charcoal",
+        "mekanism:sulfuric_acid",
+        "createdimensionalrelics:carbon_dust")
+
+    // 氢氧化钠
+    dissolve_extract_recipe(e,
+        "createdimensionalrelics:sodium_hydroxide",
+        "createdimensionalrelics:sodium_hydroxide_fluid",
+        "minecraft:water")
+    // 次氯酸钠
+    dissolve_extract_recipe(e,
+        "createdimensionalrelics:sodium_hypochlorite",
+        "createdimensionalrelics:sodium_hypochlorite_fluid",
+        "minecraft:water")
+    // 盐
+    dissolve_extract_recipe(e,
+        "#forge:dusts/salt",
+        "mekanism:brine",
+        "minecraft:water")
+
     // 电解食盐水
     e.custom(
         {
@@ -721,7 +541,7 @@ ServerEvents.recipes(e => {
             Item.of("createdimensionalrelics:carbon_dust").withChance(0.5).withCount(2)
         ],
         [
-            Item.of("createdimensionalrelics:disposable_batteries","{Damage:128000}").weakNBT()
+            Item.of("createdimensionalrelics:disposable_batteries", "{Damage:128000}").weakNBT()
         ]
     ).id("createdimensionalrelics:recycle_batteries")
     // 锂电池合成
