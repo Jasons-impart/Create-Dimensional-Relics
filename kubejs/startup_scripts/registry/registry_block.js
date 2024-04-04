@@ -30,7 +30,7 @@ StartupEvents.registry("block", e => {
     // 钢引擎
     registerBlock("steel_engine", "metal", 5, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 一级火箭核心
-    registerBlock("rocket_core_tier_1", "metal" ,15, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
+    registerBlock("rocket_core_tier_1", "metal", 15, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 戴斯燃料储罐
     registerBlock("desh_tank", "metal", 7, 15, "mineable/pickaxe", "minecraft:needs_diamond_tool", true)
     // 戴斯引擎
@@ -72,6 +72,7 @@ StartupEvents.registry("block", e => {
         .tag("forge:ores")
         .tag("forge:ores/manganese")
         .tag("forge:ores_in_ground/stone")
+        .tag("forge:ore_rates/singular")
         .tag("alexsmobs:underminer_ores")
         .requiresTool(true)
         .textureAll("createdimensionalrelics:block/manganese_ore")
