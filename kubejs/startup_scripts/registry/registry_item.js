@@ -422,6 +422,11 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.lithium_oxidocobalt")
         .rarity("rare")
+    // 注册未完成蓄电池
+    e.create("createdimensionalrelics:incompleted_modular_accumulator")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.incompleted_modular_accumulator")
+        .rarity("rare")
     // 开发组人员物品
 
     // 李武的纠缠之缘
