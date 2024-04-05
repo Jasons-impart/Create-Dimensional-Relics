@@ -10,12 +10,12 @@ ServerEvents.recipes(e => {
     )
         .id("create:crushing/flint")
     e.recipes.create.milling(
-        'createindustry:limesand',
+        "createindustry:limesand",
         "minecraft:flint"
     )
         .id("create:milling/flint")
     e.recipes.mekanism.crushing(
-        'createindustry:limesand',
+        "createindustry:limesand",
         "minecraft:flint"
     )
         .id("mekanism:crushing/flint_to_gunpowder")

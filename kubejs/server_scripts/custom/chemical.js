@@ -881,7 +881,7 @@ ServerEvents.recipes(e => {
             "createdimensionalrelics:cobalt"
         ]
     )
-        .superheated()
+        .heated()
     // 钴酸锂合成
     e.recipes.create.mixing(
         [
@@ -894,6 +894,7 @@ ServerEvents.recipes(e => {
             Fluid.of("ad_astra:oxygen", 500)
         ]
     )
+        .superheated()
     // 锂电池合成
     e.custom(
         {
