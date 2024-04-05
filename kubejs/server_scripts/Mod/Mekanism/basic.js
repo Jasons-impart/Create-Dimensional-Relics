@@ -57,7 +57,7 @@ ServerEvents.recipes(e => {
 
     // 序列合成：原子合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_atomic", "mekanism:alloy_reinforced", [
-        e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "createdimensionalrelicscore:space_alloy_sheet"]),
+        e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "createdimensionalrelics:space_alloy_sheet"]),
         e.recipes.create.deploying("mekanism:alloy_atomic", ["mekanism:alloy_atomic", "mekanism:enriched_refined_obsidian"]),
         e.recipes.create.pressing("mekanism:alloy_atomic", "mekanism:alloy_atomic")
     ])

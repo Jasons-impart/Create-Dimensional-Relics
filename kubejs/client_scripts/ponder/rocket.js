@@ -564,6 +564,7 @@ Ponder.registry(e => {
                 [3, 11, 4],
                 [4, 11, 3],
                 [4, 12, 4],
+                [4, 13, 4],
             ]
             for (let block of block_8) {
                 scene.world.showSection(block, Direction.down)
@@ -577,7 +578,7 @@ Ponder.registry(e => {
                 .rightClick()
                 .withItem("create:wrench")
             scene.idle(30)
-            scene.world.setBlocks([1, 1, 1, 7, 12, 7], "minecraft:air")
+            scene.world.setBlocks([1, 1, 1, 7, 13, 7], "minecraft:air")
             scene.world.createEntity("ad_astra:tier_4_rocket", [4.5, 1, 4.5])
             scene.idle(20)
         })
