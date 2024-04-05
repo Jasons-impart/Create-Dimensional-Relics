@@ -397,6 +397,31 @@ StartupEvents.registry("item", e => {
         .tag("forge:rods")
         .tag("forge:rods/carbon")
         .rarity("rare")
+    // 注册碳酸钠
+    e.create("createdimensionalrelics:sodium_carbonate")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.sodium_carbonate")
+        .rarity("rare")
+    // 注册碳酸氢钠
+    e.create("createdimensionalrelics:sodium_bicarbonate")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.sodium_bicarbonate")
+        .rarity("rare")
+    // 注册碳酸锂
+    e.create("createdimensionalrelics:lithium_carbonate")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.lithium_carbonate")
+        .rarity("rare")
+    // 注册四氧化三钴
+    e.create("createdimensionalrelics:cobaltous_oxide")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.cobaltous_oxide")
+        .rarity("rare")
+    // 钴酸锂
+    e.create("createdimensionalrelics:lithium_oxidocobalt")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.lithium_oxidocobalt")
+        .rarity("rare")
     // 开发组人员物品
 
     // 李武的纠缠之缘

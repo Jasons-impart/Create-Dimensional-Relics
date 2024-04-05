@@ -1,3 +1,9 @@
+ServerEvents.tags("fluid", e =>{
+    e.add("forge:carbon_dioxide", [
+        "createindustry:carbon_dioxide",
+        "createdimensionalrelics:carbon_dioxide"
+    ])
+})
 ServerEvents.recipes(e => {
     // 锰
     e.recipes.create.crushing(
@@ -599,8 +605,11 @@ ServerEvents.recipes(e => {
             "type": "vintageimprovements:pressurizing",
             "ingredients": [
                 {
-                    "fluid": "mekanism:hydrogen_chloride",
+                    "fluid":"createdimensionalrelics:carbon_dioxide",
                     "amount": 1000
+                },
+                {
+                    "item": "mekanism:salt"
                 },
                 {
                     "fluid": "createdimensionalrelics:ammonia",
@@ -612,6 +621,47 @@ ServerEvents.recipes(e => {
                     "fluid": "createdimensionalrelics:ammonium_chloride",
                     "amount": 1000
                 },
+                {
+                    "item": "createdimensionalrelics:sodium_bicarbonate"
+                }
+            ],
+            "processingTime": 600
+        }
+    )
+    // 碳酸氢钠加热转变成碳酸钠
+    e.recipes.create.mixing(
+        [
+            "createdimensionalrelics:sodium_carbonate",
+            Fluid.of("water", 1000),
+            Fluid.of("createdimensionalrelics:carbon_dioxide", 1000)
+        ],
+        [
+            "2x createdimensionalrelics:sodium_bicarbonate"
+        ]
+    )
+        .heated()
+    // 碳酸钠加盐酸转变为NaCl
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "ingredients": [
+                {
+                    "fluid": "mekanism:hydrogen_chloride_bucket",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:sodium_carbonate"
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 1000
+                },
+                {
+                    "item": "mekanism:salt"
+                }
             ],
             "processingTime": 600
         }
@@ -794,6 +844,56 @@ ServerEvents.recipes(e => {
             Item.of("createdimensionalrelics:disposable_batteries", "{Damage:128000}").weakNBT()
         ]
     ).id("createdimensionalrelics:recycle_batteries")
+    // CO2+LiOH=Li2CO3
+    e.custom(
+        {
+            "type": "vintageimprovements:pressurizing",
+            "secondaryFluidResults": 0,
+            "ingredients": [
+                {
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
+                    "amount": 1000
+                },
+                {
+                    "fluid": "createdimensionalrelics:lithium_hydroxide",
+                    "amount": 1000
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "minecraft:water",
+                    "amount": 1000
+                },
+                {
+                    "item": "createdimensionalrelics:lithium_carbonate"
+                }
+            ],
+            "processingTime": 600
+        }
+    )
+    // CoO合成
+    e.recipes.create.mixing(
+        [
+            "createdimensionalrelics:cobaltous_oxide"
+        ],
+        [
+            Fluid.of("ad_astra:oxygen", 1000),
+            "createdimensionalrelics:cobalt"
+        ]
+    )
+        .superheated()
+    // 钴酸锂合成
+    e.recipes.create.mixing(
+        [
+            "2x createdimensionalrelics:lithium_oxidocobalt",
+            Fluid.of("createdimensionalrelics:carbon_dioxide", 1000)
+        ],
+        [
+            "createdimensionalrelics:lithium_carbonate",
+            "2x createdimensionalrelics:cobaltous_oxide",
+            Fluid.of("ad_astra:oxygen", 500)
+        ]
+    )
     // 锂电池合成
     e.custom(
         {
@@ -864,8 +964,24 @@ ServerEvents.recipes(e => {
                             "item": "createdimensionalrelics:incompleted_lithium_battery"
                         },
                         {
-                            "fluid": "createdimensionalrelics:ammonium_chloride",
+                            "fluid": "createdimensionalrelics:lithium_hydroxide",
                             "amount": 200
+                        }
+                    ],
+                    "results": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        }
+                    ]
+                },
+                {
+                    "type": "create:deploying",
+                    "ingredients": [
+                        {
+                            "item": "createdimensionalrelics:incompleted_lithium_battery"
+                        },
+                        {
+                            "item": "createdimensionalrelics:lithium_oxidocobalt"
                         }
                     ],
                     "results": [
