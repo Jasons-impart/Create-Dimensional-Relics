@@ -1,10 +1,22 @@
-ServerEvents.tags("fluid", e =>{
-    e.add("forge:carbon_dioxide", [
-        "createindustry:carbon_dioxide",
-        "createdimensionalrelics:carbon_dioxide"
-    ])
-})
 ServerEvents.recipes(e => {
+    // 海带粉及合成盐
+    e.recipes.create.milling(
+        "createdimensionalrelics:kelp_dust",
+        "minecraft:dried_kelp"
+    )
+    e.recipes.create.crushing(
+        "createdimensionalrelics:kelp_dust",
+        "minecraft:dried_kelp"
+    )
+    e.recipes.create.mixing(
+        [
+            Fluid.of("mekanism:brine", 1000)
+        ],
+        [
+            "createdimensionalrelics:kelp_dust",
+            Fluid.of("water", 1000)
+        ]
+    )
     // 锰
     e.recipes.create.crushing(
         [

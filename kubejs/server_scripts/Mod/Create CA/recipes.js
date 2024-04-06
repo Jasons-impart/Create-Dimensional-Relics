@@ -99,7 +99,7 @@ ServerEvents.recipes(e =>{
          }
    )
     .id("createaddition:crafting/capacitor")
-  // 蓄电池合成配方\
+  // 蓄电池合成配方
   let iner_1 = "createdimensionalrelics:incompleted_modular_accumulator"
   e.recipes.create.sequenced_assembly("createaddition:modular_accumulator", "create:brass_sheet", [
     e.recipes.create.pressing(iner_1, iner_1),

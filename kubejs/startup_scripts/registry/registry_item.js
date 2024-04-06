@@ -412,7 +412,7 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.lithium_carbonate")
         .rarity("rare")
-    // 注册四氧化三钴
+    // 注册氧化钴
     e.create("createdimensionalrelics:cobaltous_oxide")
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.cobaltous_oxide")
@@ -427,6 +427,11 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.incompleted_modular_accumulator")
         .rarity("rare")
+    // 注册海带粉
+    e.create("createdimensionalrelics:kelp_dust")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.kelp_dust")
+        .rarity("common")
     // 开发组人员物品
 
     // 李武的纠缠之缘
