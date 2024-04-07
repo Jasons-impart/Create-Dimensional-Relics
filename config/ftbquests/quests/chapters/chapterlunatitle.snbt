@@ -30,7 +30,7 @@
 				type: "item"
 			}]
 			x: -4.5d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["182095AB6BCF39FB"]
@@ -197,15 +197,23 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["090D6C3F666BE947"]
 			hide_dependent_lines: true
 			id: "797E79E8F64B5B92"
-			tasks: [{
-				id: "4393A4B30F7BC8FA"
-				item: "ad_astra:desh_engine"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 0.0d
+			tasks: [
+				{
+					id: "4393A4B30F7BC8FA"
+					item: "ad_astra:desh_engine"
+					type: "item"
+				}
+				{
+					id: "3C645F6B5F4CF91C"
+					item: "createdimensionalrelics:rocket_core_tier_2"
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["797E79E8F64B5B92"]
@@ -222,8 +230,40 @@
 				}
 				type: "item"
 			}]
-			x: -7.0d
+			x: -7.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["090D6C3F666BE947"]
+			description: ["请看下界章节"]
+			id: "777E9721D1762810"
+			rewards: [{
+				command: "/gamephase add @p Nether"
+				id: "21945F9BC90C53F1"
+				type: "command"
+			}]
+			tasks: [
+				{
+					count: 12L
+					id: "3A131C67591AE61A"
+					item: "minecraft:obsidian"
+					type: "item"
+				}
+				{
+					id: "789D6BD0E0F9CEB7"
+					item: {
+						Count: 1b
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "发现下界的踪迹"
+			x: -6.0d
+			y: 0.0d
 		}
 	]
 	title: "{chapter.luna.title}"
