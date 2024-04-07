@@ -1,9 +1,10 @@
-ServerEvents.tags("fluid", e =>{
+ServerEvents.tags("fluid", e => {
     e.add("forge:carbon_dioxide", [
         "createindustry:carbon_dioxide",
         "createdimensionalrelics:carbon_dioxide"
     ])
 })
+
 ServerEvents.recipes(e => {
     // 锰
     e.recipes.create.crushing(
@@ -37,7 +38,7 @@ ServerEvents.recipes(e => {
         [
             "createdimensionalrelics:manganese_ore"
         ]
-        )
+    )
         .id("create:crushing/manganses_ore")
     e.recipes.minecraft.smelting(
         "createdimensionalrelics:manganese",
@@ -91,7 +92,7 @@ ServerEvents.recipes(e => {
         [
             "createdimensionalrelics:cobalt_ore"
         ]
-        )
+    )
         .id("create:crushing/cobalt_ore")
     e.recipes.minecraft.smelting(
         "createdimensionalrelics:cobalt",
@@ -145,7 +146,7 @@ ServerEvents.recipes(e => {
         [
             "createdimensionalrelics:lithium_ore"
         ]
-        )
+    )
         .id("create:crushing/lithium_ore")
     e.recipes.minecraft.smelting(
         "createdimensionalrelics:lithium",
@@ -352,7 +353,7 @@ ServerEvents.recipes(e => {
             ],
             "processingTime": 300
         })
-    // NaOH+Cl
+    // NaOH+Cl2
     e.custom(
         {
             "type": "vintageimprovements:pressurizing",
@@ -605,7 +606,7 @@ ServerEvents.recipes(e => {
             "type": "vintageimprovements:pressurizing",
             "ingredients": [
                 {
-                    "fluid":"createdimensionalrelics:carbon_dioxide",
+                    "fluid": "createdimensionalrelics:carbon_dioxide",
                     "amount": 1000
                 },
                 {
