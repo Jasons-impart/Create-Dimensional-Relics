@@ -1,7 +1,5 @@
 ServerEvents.recipes(e => {
     remove_recipes_mod(e, ["cookingforblockheads"])
-})
-ServerEvents.recipes(e => {
     e.shaped("cookingforblockheads:sink", [
         "AAA",
         "BCB",

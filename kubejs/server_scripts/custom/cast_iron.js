@@ -12,7 +12,7 @@ ServerEvents.recipes(e => {
         .id("create.kjs:raw_steel/2")
         .heated()
     // 序列合成：铸铁
-    let inter = "createdimensionalrelics:hammering_raw_steel_ingot"
+    const inter = "createdimensionalrelics:hammering_raw_steel_ingot"
     e.recipes.create.sequenced_assembly("createbigcannons:cast_iron_ingot", "createdimensionalrelics:raw_steel_ingot", [
         e.recipes.create.filling(inter, [inter, Fluid.lava(10)]),
         e.recipes.create.pressing(inter, inter)

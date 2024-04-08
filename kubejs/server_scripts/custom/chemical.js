@@ -1,10 +1,3 @@
-ServerEvents.tags("fluid", e => {
-    e.add("forge:carbon_dioxide", [
-        "createindustry:carbon_dioxide",
-        "createdimensionalrelics:carbon_dioxide"
-    ])
-})
-
 ServerEvents.recipes(e => {
     // 锰
     e.recipes.create.crushing(
@@ -1027,6 +1020,4 @@ ServerEvents.recipes(e => {
             }
         }
     ).id("createdimensionalrelics:crafting/lithium_battery")
-    // 太努力了jason，么么叽 （づ￣3￣）づ╭❤～
-    // 收到jbson的(づ￣3￣)づ╭❤～
 })
