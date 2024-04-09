@@ -375,12 +375,13 @@ StartupEvents.registry("item", e => {
                     }
                     return receieve
                 })
-                .getEnergyStored(be => { return (1600000 - be.damageValue) })
+                .getEnergyStored(be => 1600000 - be.damageValue)
                 .extractEnergy((item, amount, sim) => {
+                    const extract = Math.min(4000, amount, item.damageValue)
                     if (item.damageValue < 1600000 && !sim) {
-                        item.damageValue += Math.min(16000, amount)
+                        item.damageValue += extract
                     }
-                    return Math.min(1600, amount)
+                    return extract
                 })
         )
     // 注册碳粉

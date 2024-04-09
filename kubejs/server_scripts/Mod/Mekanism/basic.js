@@ -18,23 +18,22 @@ ServerEvents.recipes(e => {
         "mekanism:carbon"
     )
     // 钢制机壳合成
-    e.custom(
-        {
-            "type": "create:item_application",
-            "ingredients": [
-                {
-                    "item": "createindustry:heavy_machinery_casing"
-                },
-                {
-                    "item": "createindustry:steel_mechanism"
-                }
-            ],
-            "results": [
-                {
-                    "item": "mekanism:steel_casing"
-                }
-            ]
-        }).id("mekanism:steel_casing")
+    e.custom({
+        "type": "create:item_application",
+        "ingredients": [
+            {
+                "item": "createindustry:heavy_machinery_casing"
+            },
+            {
+                "item": "createindustry:steel_mechanism"
+            }
+        ],
+        "results": [
+            {
+                "item": "mekanism:steel_casing"
+            }
+        ]
+    }).id("mekanism:steel_casing")
     // 序列合成：灌注合金
     e.recipes.create.sequenced_assembly("mekanism:alloy_infused", "create:iron_sheet", [
         e.recipes.create.deploying("mekanism:alloy_infused", ["mekanism:alloy_infused", "ad_astra:ostrum_plate"]),
@@ -100,7 +99,7 @@ ServerEvents.recipes(e => {
         .transitionalItem("mekanism:ultimate_control_circuit")
         .loops(2)
         .id("mekanism:ultimate_control_circuit")
-    
+
     // alloyed钢锭青铜锭兼容
     e.blasting("createdimensionalrelics:raw_steel_ingot", "mekanism:enriched_iron")
     e.blasting("createindustry:steel_ingot", "mekanism:dust_steel")

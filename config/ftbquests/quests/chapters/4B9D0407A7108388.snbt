@@ -9,7 +9,12 @@
 	quest_links: [ ]
 	quests: [
 		{
-			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了"]
+			dependencies: [
+				"2A9052E6C76BD051"
+				"5C607A9CB62D446D"
+				"6CD23EC6D914BA9E"
+			]
+			description: ["降落前一定记得按住空格！！！不然会&4爆炸！，然后你就回不去了(请前往异星风情章节)"]
 			id: "234903F798E76C58"
 			rewards: [{
 				command: "/gamephase add @p Luna"
@@ -29,8 +34,8 @@
 				type: "item"
 			}]
 			title: "发射！"
-			x: -16.0d
-			y: -4.5d
+			x: -22.0d
+			y: -1.5d
 		}
 		{
 			dependencies: [
@@ -49,6 +54,7 @@
 			y: 0.5d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "1F84419F388C13F9"
 			subtitle: "现在&e打火石&r真难做，唉，&4钢铁&r；唉，&4燧石&r"
 			tasks: [{
@@ -63,8 +69,8 @@
 				type: "item"
 			}]
 			title: "打火石怎么变成钢做的了？"
-			x: -17.0d
-			y: -4.5d
+			x: -19.5d
+			y: 4.0d
 		}
 		{
 			dependencies: ["6D52848AA0B207E0"]
@@ -131,36 +137,42 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "4B6BE0964D4FBC0F"
 			tasks: [{
 				id: "7D646C56B52AFA7B"
 				item: "createindustry:heavy_machinery_casing"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 1.0d
+			x: -12.0d
+			y: 3.5d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "2E7266FCE11094C6"
 			tasks: [{
 				id: "5905E375B43AD868"
 				item: "createindustry:industrial_pipe"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 0.0d
+			x: -11.0d
+			y: 0.5d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "33ABF9CB3BF90759"
 			tasks: [{
 				id: "4F726A882C6431C2"
 				item: "createindustry:steel_mechanism"
 				type: "item"
 			}]
+			x: -11.0d
+			y: 3.5d
 			x: -13.0d
 			y: -1.0d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "623447B3E91E97B5"
 			tasks: [{
 				id: "29613D58117353F7"
@@ -168,9 +180,10 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -2.0d
+			y: -1.0d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "49F992B23034354E"
 			tasks: [{
 				id: "1C7BABC3C274D0B4"
@@ -181,14 +194,15 @@
 			y: 2.0d
 		}
 		{
+			dependencies: ["397C3CA883E15912"]
 			id: "6D45A72EFCB6BCB7"
 			tasks: [{
 				id: "793638C716284E2F"
 				item: "createindustry:steel_fluid_tank"
 				type: "item"
 			}]
-			x: -13.0d
-			y: 3.0d
+			x: -11.0d
+			y: -2.5d
 		}
 		{
 			dependencies: [
@@ -460,6 +474,129 @@
 			}]
 			x: -5.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["397C3CA883E15912"]
+			id: "4A79D97050F1297F"
+			subtitle: "oxygen！人类的慢性毒药，吸过氧气的人在200年内必定死亡！"
+			tasks: [{
+				id: "0B7B429A49956D16"
+				item: "ad_astra:oxygen_loader"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["4A79D97050F1297F"]
+			id: "23237C92178C3BBC"
+			subtitle: "？？？他为什么能倒过来？？？"
+			tasks: [{
+				id: "50C8B7B8962F8777"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["23237C92178C3BBC"]
+			id: "65C8753C15473A60"
+			tasks: [{
+				id: "1FCE2827D495365B"
+				item: {
+					Count: 1b
+					id: "ad_astra:oxygen_tank"
+					tag: {
+						BotariumData: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -17.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["65C8753C15473A60"]
+			icon: {
+				Count: 1b
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2A9052E6C76BD051"
+			tasks: [
+				{
+					id: "55FD0DAD31E95905"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_suit"
+						tag: {
+							BotariumData: { }
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "40B704BC1D9D4855"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F0B4121D540EA22"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_pants"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AE7BFA9031AF3A6"
+					item: {
+						Count: 1b
+						id: "ad_astra:space_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -19.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["397C3CA883E15912"]
+			id: "6CD23EC6D914BA9E"
+			tasks: [{
+				id: "40A0D68ECAC5AA74"
+				item: "createdimensionalrelics:rocket_core_tier_1"
+				type: "item"
+			}]
+			x: -19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["397C3CA883E15912"]
+			id: "5C607A9CB62D446D"
+			tasks: [{
+				id: "0679AEDB60A2B39C"
+				item: "ad_astra:launch_pad"
+				type: "item"
+			}]
+			x: -19.5d
+			y: 0.5d
 		}
 	]
 	title: "石油化工"

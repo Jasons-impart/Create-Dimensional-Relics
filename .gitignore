@@ -50,6 +50,7 @@ PCL.ini
 launcher_profiles.json
 /*.jar
 /*.json
+hmclversion.cfg
 *.zip
 log4j2.xml
 .abnormal

@@ -5,7 +5,7 @@ ServerEvents.recipes(event => {
         .biomeWhitelist("minecraft:is_nether")
         .id("createoreexcavation_kjs:ancient_debris")
         .drill("createoreexcavation:netherite_drill")
-        .fluid("minecraft:lava 1000")
+        .fluid(Fluid.of("minecraft:lava", 1000))
         .stress(1024)
 })
 

@@ -46,87 +46,79 @@ ServerEvents.recipes(e => {
     ])
 
     // 增加空气离心产生氧气及氮气
-    e.custom(
-        {
-            "type": "vintageimprovements:centrifugation",
-            "ingredients": [
-                {
-                    "fluid": "createindustry:air",
-                    "amount": 1000
-                }
-            ],
-            "results": [
-                {
-                    "fluid": "createdimensionalrelics:nitrogen",
-                    "amount": 800
-                },
-                {
-                    "fluid": "ad_astra:oxygen",
-                    "amount": 200
-                }
-            ],
-            "processingTime": 1000
-        }
-    )
+    e.custom({
+        "type": "vintageimprovements:centrifugation",
+        "ingredients": [
+            {
+                "fluid": "createindustry:air",
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "fluid": "createdimensionalrelics:nitrogen",
+                "amount": 800
+            },
+            {
+                "fluid": "ad_astra:oxygen",
+                "amount": 200
+            }
+        ],
+        "processingTime": 1000
+    })
     // LPG离心合成甲烷
-    e.custom(
-        {
-            "type": "vintageimprovements:centrifugation",
-            "ingredients": [
-                {
-                    "fluid": "createindustry:lpg",
-                    "amount": 1000
-                }
-            ],
-            "results": [
-                {
-                    "fluid": "createdimensionalrelics:methane",
-                    "amount": 800
-                },
-                {
-                    "item": "mekanism:dust_sulfur"
-                }
-            ],
-            "processingTime": 1000
-        }
-    )
+    e.custom({
+        "type": "vintageimprovements:centrifugation",
+        "ingredients": [
+            {
+                "fluid": "createindustry:lpg",
+                "amount": 1000
+            }
+        ],
+        "results": [
+            {
+                "fluid": "createdimensionalrelics:methane",
+                "amount": 800
+            },
+            {
+                "item": "mekanism:dust_sulfur"
+            }
+        ],
+        "processingTime": 1000
+    })
     // 木炭粉和煤粉离心出碳粉
-    e.custom(
-        {
-            "type": "vintageimprovements:centrifugation",
-            "ingredients": [
-                {
-                    "item": "mekanism:dust_coal"
-                }
-            ],
-            "results": [
-                {
-                    "item": "createdimensionalrelics:carbon_dust",
-                },
-                {
-                    "item": "mekanism:dust_sulfur"
-                }
-            ],
-            "processingTime": 1000
-        }
-    )
-    e.custom(
-        {
-            "type": "vintageimprovements:centrifugation",
-            "ingredients": [
-                {
-                    "item": "mekanism:dust_charcoal"
-                }
-            ],
-            "results": [
-                {
-                    "item": "createdimensionalrelics:carbon_dust",
-                },
-                {
-                    "item": "mekanism:dust_sulfur"
-                }
-            ],
-            "processingTime": 1000
-        }
-    )
+    e.custom({
+        "type": "vintageimprovements:centrifugation",
+        "ingredients": [
+            {
+                "item": "mekanism:dust_coal"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdimensionalrelics:carbon_dust",
+            },
+            {
+                "item": "mekanism:dust_sulfur"
+            }
+        ],
+        "processingTime": 1000
+    })
+    e.custom({
+        "type": "vintageimprovements:centrifugation",
+        "ingredients": [
+            {
+                "item": "mekanism:dust_charcoal"
+            }
+        ],
+        "results": [
+            {
+                "item": "createdimensionalrelics:carbon_dust",
+            },
+            {
+                "item": "mekanism:dust_sulfur"
+            }
+        ],
+        "processingTime": 1000
+    })
 })
