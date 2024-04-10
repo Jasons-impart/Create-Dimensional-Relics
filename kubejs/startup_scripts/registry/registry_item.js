@@ -433,6 +433,11 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.kelp_dust")
         .rarity("common")
+    // 注册硅晶片
+    e.create("createdimensionalrelics:silicon_plate")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.silicon_plate")
+        .rarity("common")
     // 开发组人员物品
 
     // 李武的纠缠之缘
