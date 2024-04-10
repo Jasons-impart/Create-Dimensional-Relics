@@ -7,6 +7,15 @@ ServerEvents.recipes(event => {
         .drill("createoreexcavation:netherite_drill")
         .fluid("minecraft:lava 1000")
         .stress(1024)
+
+    // 青金石开采
+    event.recipes.createoreexcavation.drilling("minecraft:lapis_ore", "{\"text\":\"青金石\"}", 3, 3000)
+        .veinSize(3, 8.5)
+        .biomeWhitelist("minecraft:is_overworld")
+        .id("createoreexcavation_kjs:lapis_ore")
+        .drill("#createoreexcavation:drills")
+        .fluid("minecraft:lava 1000")
+        .stress(1024)
 })
 
 // biometags添加

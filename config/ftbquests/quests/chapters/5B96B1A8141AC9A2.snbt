@@ -43,7 +43,7 @@
 				type: "item"
 			}]
 			title: "反复捶打！"
-			x: -9.0d
+			x: -9.5d
 			y: 3.0d
 		}
 		{
@@ -497,8 +497,8 @@
 				item: "create:encased_fan"
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -9.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -523,7 +523,7 @@
 				type: "item"
 			}]
 			title: "挖呀挖"
-			x: -15.0d
+			x: -16.5d
 			y: 2.0d
 		}
 		{
@@ -562,7 +562,7 @@
 			}]
 			title: "咯吱咯吱"
 			x: -15.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1693FFC834A77F70"]
@@ -574,8 +574,8 @@
 				type: "item"
 			}]
 			title: "这是个什么东西？"
-			x: -6.5d
-			y: 4.5d
+			x: -7.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["173EAEC8869A01CC"]
@@ -679,8 +679,8 @@
 				}
 			]
 			title: "高炉炼钢?"
-			x: -6.5d
-			y: 3.0d
+			x: -7.5d
+			y: 4.5d
 		}
 		{
 			description: ["&4在主世界的地底下找到"]
@@ -690,8 +690,8 @@
 				item: "createindustry:fireclay_ball"
 				type: "item"
 			}]
-			x: -6.5d
-			y: 1.5d
+			x: -9.5d
+			y: 4.5d
 		}
 		{
 			description: ["&o熔炼的好帮手&o"]
@@ -702,7 +702,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: -1.5d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -717,7 +717,7 @@
 				type: "item"
 			}]
 			x: -13.0d
-			y: 0.0d
+			y: 1.5d
 		}
 		{
 			dependencies: [
@@ -731,8 +731,73 @@
 				item: "createindustry:blasting_mixture"
 				type: "item"
 			}]
-			x: -13.0d
+			x: -10.0d
 			y: 1.5d
+		}
+		{
+			id: "28C18D3B0C6D0157"
+			tasks: [{
+				count: 9L
+				id: "294F93A7A3FE8DCE"
+				item: "createindustry:coke_oven"
+				type: "item"
+			}]
+			title: "煤炭焦化"
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"5D9B248C6F678D85"
+				"28C18D3B0C6D0157"
+			]
+			id: "3A4C39C11ABE65BB"
+			tasks: [{
+				id: "1A69FF37B30E89CE"
+				item: "createindustry:coal_coke_dust"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3A4C39C11ABE65BB"
+				"0E86B85402B24289"
+				"5871B1BE04FB8BBA"
+				"7D6B252A8BC4A033"
+			]
+			id: "397C3CA883E15912"
+			tasks: [{
+				id: "0EA1C4FD3E2AE3C9"
+				item: "createindustry:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["54E9D8443D877CB9"]
+			id: "7D6B252A8BC4A033"
+			tasks: [
+				{
+					id: "29C4507C8FEE383D"
+					item: "createindustry:casting_spout"
+					type: "item"
+				}
+				{
+					id: "3F5D2848AEE92D98"
+					item: "createindustry:ingot_mold"
+					type: "item"
+				}
+				{
+					id: "3E1E33D31E10F56D"
+					item: "createindustry:block_mold"
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: 3.0d
 		}
 	]
 	title: "{chapter.whitering2.title}"
