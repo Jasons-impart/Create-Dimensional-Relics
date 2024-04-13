@@ -307,6 +307,40 @@ ServerEvents.recipes(e => {
             ]
         }
     ).id("createindustry:distillation/kerosene")
+    // 杂酚油裂解
+    e.custom(
+        {
+            "type": "createindustry:distillation",
+            "ingredients": [
+
+                {
+                    "fluid": "createindustry:creosote",
+                    "nbt": {},
+                    "amount": 5
+                }
+            ],
+            "results": [
+                {
+                    "fluid": "createdimensionalrelics:benzene",
+                    "amount": 3
+                },
+                {
+                    "fluid": "createdimensionalrelics:benzene",
+                    "amount": 2
+                },
+                {
+                    "fluid": "createindustry:ethylene",
+                    "amount": 2
+                },
+                {
+                    "item": "minecraft:air"
+                },
+                {
+                    "item": "minecraft:air"
+                }
+            ]
+        }
+    ).id("createindustry:distillation/creosote")
     // 石脑油分馏提纯
     e.custom(
         {

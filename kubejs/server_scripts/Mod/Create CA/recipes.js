@@ -17,7 +17,8 @@ ServerEvents.recipes(e => {
         "loops": 1,
         "results": [
             {
-                "item": "createaddition:capacitor"
+                "item": "createaddition:capacitor",
+                "count": 4
             }
         ],
         "sequence": [
@@ -84,6 +85,19 @@ ServerEvents.recipes(e => {
             },
             {
                 "type": "create:pressing",
+                "ingredients": [
+                    {
+                        "item": "createaddition:incompleted_capacitor"
+                    },
+                ],
+                "results": [
+                    {
+                        "item": "createaddition:incompleted_capacitor"
+                    }
+                ]
+            },
+            {
+                "type": "create:cutting",
                 "ingredients": [
                     {
                         "item": "createaddition:incompleted_capacitor"

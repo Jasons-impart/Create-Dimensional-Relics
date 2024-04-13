@@ -369,19 +369,19 @@ StartupEvents.registry("item", e => {
                 .canReceive(() => true)
                 .getMaxEnergyStored(item => 1600000)
                 .receiveEnergy((item, amount, sim) => {
-                    const receieve = Math.min(4000, amount, item.damageValue)
+                    const receiveEnergy = Math.min(4000, amount, item.damageValue)
                     if (item.damageValue > 0 && !sim) {
-                        item.damageValue -= receieve
+                        item.damageValue -= receiveEnergy
                     }
-                    return receieve
+                    return receiveEnergy
                 })
                 .getEnergyStored(be => 1600000 - be.damageValue)
                 .extractEnergy((item, amount, sim) => {
-                    const extract = Math.min(4000, amount, item.damageValue)
+                    const extractEnergy = Math.min(4000, amount, item.damageValue)
                     if (item.damageValue < 1600000 && !sim) {
-                        item.damageValue += extract
+                        item.damageValue += extractEnergy
                     }
-                    return extract
+                    return extractEnergy
                 })
         )
     // 注册碳粉
@@ -438,6 +438,16 @@ StartupEvents.registry("item", e => {
         .maxStackSize(64)
         .translationKey("item.createdimensionalrelics.silicon_plate")
         .rarity("common")
+    // 注册硅晶圆
+    e.create("createdimensionalrelics:wafer")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.wafer")
+        .rarity("common")
+    // 注册掺杂晶元
+    e.create("createdimensionalrelics:doping_wafer")
+        .maxStackSize(64)
+        .translationKey("item.createdimensionalrelics.doping_wafer")
+        .rarity("rare")
     // 开发组人员物品
 
     // 李武的纠缠之缘
